@@ -1,0 +1,508 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<title>Colour Self-Assessment</title>
+<style>
+  :root{
+    --bg:#eef1f8;--surface:#fff;--surface-2:#f4f6fb;--ink:#1a1a2e;--muted:#6b7280;--line:#e2e6f0;
+    --navy:#1e2761;--navy-2:#161b45;--ice:#cadcfc;
+    --red:#d64550;--yellow:#f2b705;--green:#2e9e5b;--blue:#2e86c1;
+    --radius:16px;--radius-sm:12px;--shadow:0 10px 30px rgba(22,27,69,.10);--shadow-sm:0 4px 14px rgba(22,27,69,.08);
+    --maxw:1120px;--font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media(prefers-color-scheme:dark){
+    :root{--bg:#0e1124;--surface:#171a33;--surface-2:#1d2140;--ink:#eef1fb;--muted:#9aa6d6;--line:#2b3059;--shadow:0 10px 30px rgba(0,0,0,.35);}
+  }
+  *{box-sizing:border-box;}html,body{margin:0;padding:0;}
+  body{font-family:var(--font);background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:20px;}
+  .site-header{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 100%);color:#fff;padding:40px 0 46px;position:relative;overflow:hidden;}
+  .site-header::after{content:"";position:absolute;inset-block-start:-120px;inset-inline-end:-80px;width:320px;height:320px;border-radius:50%;background:rgba(202,220,252,.10);}
+  .site-header .wrap{position:relative;z-index:1;}
+  .eyebrow{letter-spacing:3px;font-size:13px;font-weight:700;color:var(--ice);margin:0 0 10px;}
+  h1{font-size:clamp(28px,4vw,44px);margin:0 0 8px;line-height:1.08;font-weight:800;}
+  .lead{font-size:clamp(15px,1.6vw,19px);color:var(--ice);margin:0;max-width:700px;}
+  .dots{display:flex;gap:10px;margin-block-start:20px;}
+  .dots span{width:16px;height:16px;border-radius:50%;}
+  .notice{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-inline-start:4px solid var(--navy);border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);padding:14px 18px;margin-block:26px;font-size:13.5px;}
+  .notice strong{color:var(--navy);}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:22px 24px;}
+  .namebox{display:flex;flex-wrap:wrap;gap:14px 22px;align-items:center;justify-content:space-between;}
+  .namebox .field{flex:1 1 320px;}
+  .namebox label{display:block;font-size:12px;font-weight:700;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-block-end:6px;}
+  .namebox input{width:100%;font-family:var(--font);font-size:16px;color:var(--ink);background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius-sm);padding:12px 14px;outline:none;transition:border-color .15s,box-shadow .15s;}
+  .namebox input:focus{border-color:var(--navy);box-shadow:0 0 0 3px rgba(30,39,97,.14);}
+  .namebox .hint{flex:1 1 300px;font-size:13.5px;color:var(--muted);}
+  .section-title{display:flex;align-items:baseline;gap:12px;margin:34px 0 4px;flex-wrap:wrap;}
+  .section-title h2{font-size:22px;margin:0;}
+  .section-title span{font-size:13px;color:var(--muted);}
+  #questions{display:grid;grid-template-columns:repeat(auto-fit,minmax(440px,1fr));gap:18px;margin-block:18px;}
+  @media(max-width:520px){#questions{grid-template-columns:1fr;}}
+  .q-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:20px 20px 18px;position:relative;}
+  .q-index{position:absolute;inset-block-start:18px;inset-inline-end:18px;width:28px;height:28px;border-radius:50%;background:var(--surface-2);color:var(--muted);font-size:13px;font-weight:700;display:grid;place-items:center;}
+  .q-aspect{margin:0;font-size:17px;color:var(--navy);padding-inline-end:34px;}
+  .q-prompt{margin:2px 0 16px;font-size:13.5px;color:var(--muted);}
+  .w-opt{margin-block-end:13px;}
+  .w-stmt{font-size:14px;margin-block-end:5px;}
+  .w-ctl{display:grid;grid-template-columns:1fr 40px;align-items:center;gap:12px;}
+  .w-slider{width:100%;height:22px;cursor:pointer;accent-color:var(--navy);}
+  .w-val{text-align:end;font-variant-numeric:tabular-nums;font-weight:700;font-size:13.5px;color:var(--muted);}
+  .t-blend{margin-block-start:14px;}
+  .t-bar{display:flex;height:16px;border-radius:999px;overflow:hidden;background:var(--surface-2);border:1px solid var(--line);}
+  .t-bar .seg{display:flex;align-items:center;justify-content:center;font-size:10px;font-weight:700;color:#fff;border-inline-end:2px solid var(--surface);min-width:0;transition:width .3s ease;}
+  .t-bar .seg:last-child{border-inline-end:none;}
+  .t-bar.empty{align-items:center;justify-content:center;}
+  .t-empty{font-size:11px;color:var(--muted);font-weight:600;}
+  .t-cap{font-size:11px;color:var(--muted);margin-block-start:6px;}
+  .controls{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-block:26px;}
+  .progress{flex:1 1 260px;}
+  .progress .track{height:10px;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;overflow:hidden;}
+  .progress .fill{height:100%;width:0%;background:linear-gradient(90deg,var(--navy),var(--blue));border-radius:999px;transition:width .35s ease;}
+  .progress p{margin:8px 0 0;font-size:13px;color:var(--muted);}
+  .btn{font-family:var(--font);font-size:15px;font-weight:700;cursor:pointer;border:none;border-radius:999px;padding:13px 26px;transition:transform .1s,box-shadow .15s,opacity .15s;}
+  .btn:hover{transform:translateY(-1px);}
+  .btn-primary{background:var(--navy);color:#fff;box-shadow:var(--shadow);}
+  .btn-primary:disabled{opacity:.45;cursor:not-allowed;transform:none;box-shadow:none;}
+  .btn-ghost{background:transparent;color:var(--navy);border:1.5px solid var(--navy);}
+  #results{margin-block:10px 60px;scroll-margin-top:20px;}
+  #results[hidden]{display:none;}
+  .result-head{margin-block-end:20px;}
+  .result-head h2{font-size:clamp(22px,3vw,30px);margin:0 0 4px;}
+  .result-head p{margin:0;color:var(--muted);font-size:15px;}
+  .comp{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:22px 24px;margin-block-end:22px;}
+  .comp h4{margin:0 0 14px;font-size:14px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);}
+  .comp .stack{display:flex;height:34px;border-radius:10px;overflow:hidden;border:1px solid var(--line);margin-block-end:16px;}
+  .comp .stack .seg{display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:13px;min-width:0;}
+  .comp-key{display:flex;flex-wrap:wrap;gap:6px 18px;margin:0 0 18px;font-size:12px;color:var(--muted);}
+  .comp-key span{display:inline-flex;align-items:center;gap:6px;}
+  .comp-key i{width:9px;height:9px;border-radius:50%;display:inline-block;}
+  .comp-rows{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px 22px;}
+  .comp-row{display:flex;align-items:center;gap:12px;}
+  .comp-row .nm{width:74px;flex:0 0 auto;font-weight:700;display:flex;align-items:center;gap:8px;}
+  .comp-row .nm .dot{width:11px;height:11px;border-radius:50%;}
+  .comp-row .mini{flex:1;height:10px;background:var(--surface-2);border-radius:999px;overflow:hidden;}
+  .comp-row .mini i{display:block;height:100%;border-radius:999px;}
+  .comp-row .pc{width:38px;text-align:end;font-weight:700;font-variant-numeric:tabular-nums;}
+  .comp-row .tier{width:78px;flex:0 0 auto;font-size:11.5px;color:var(--muted);text-align:end;}
+  .profile{border-radius:var(--radius);padding:26px 28px;color:#fff;box-shadow:var(--shadow);background:var(--dc,#1e2761);margin-block-end:22px;}
+  .profile.on-light{color:var(--navy);}
+  .profile .tag{letter-spacing:2px;font-size:12px;font-weight:800;opacity:.85;margin:0 0 6px;}
+  .profile h3{font-size:28px;margin:0 0 10px;}
+  .profile .narr{font-size:16px;margin:0 0 12px;max-width:780px;}
+  .profile .blendnote{font-size:14.5px;margin:0;padding-block-start:12px;border-block-start:1px solid rgba(255,255,255,.28);max-width:780px;}
+  .insights{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px;margin-block-end:22px;}
+  .insight-block{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:20px 22px;border-block-start:4px solid var(--dc,#1e2761);}
+  .insight-block h4{margin:0 0 14px;font-size:15px;color:var(--navy);display:flex;align-items:center;gap:8px;}
+  .insight-block .k{width:9px;height:9px;border-radius:50%;background:var(--dc,#1e2761);display:inline-block;}
+  .insight-block ul{margin:0;padding-inline-start:20px;}
+  .insight-block li{margin-block-end:7px;font-size:14px;}
+  .insight-block .q{background:var(--surface-2);border-inline-start:3px solid var(--dc,#1e2761);padding:10px 14px;border-radius:0 6px 6px 0;font-size:14px;font-style:italic;margin-block-start:12px;}
+  .influence-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:16px;}
+  .influence-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:20px 22px;}
+  .influence-card .colour-tag{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:1px;margin-block-end:14px;}
+  .influence-card .colour-tag .dot{width:10px;height:10px;border-radius:50%;}
+  .influence-card h5{margin:0 0 5px;font-size:14px;color:var(--navy);}
+  .influence-card p{margin:0 0 10px;font-size:13.5px;color:var(--muted);}
+  .influence-card .phrase{font-size:14px;font-style:italic;padding:9px 12px;background:var(--surface-2);border-radius:8px;border-inline-start:3px solid var(--dc,#1e2761);}
+  .result-actions{display:flex;flex-wrap:wrap;gap:14px;margin-block-start:26px;}
+  footer.foot{color:var(--muted);font-size:12.5px;text-align:center;padding-block:26px 40px;}
+  @media print{.site-header,.notice,.panel,.section-title,#questions,.controls,.result-actions,footer.foot{display:none !important;}#results{display:block !important;margin:0;}}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="eyebrow">SELF-AWARENESS &amp; EMOTIONAL INTELLIGENCE</p>
+    <h1>Colour Self-Assessment</h1>
+    <p class="lead">Discover your own colour balance — and understand what it means for your self-awareness, emotional regulation, and your biggest adaptation challenges with each other colour.</p>
+    <div class="dots">
+      <span style="background:#d64550"></span>
+      <span style="background:#f2b705"></span>
+      <span style="background:#2e9e5b"></span>
+      <span style="background:#2e86c1"></span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="notice">
+    <div><strong>Rate yourself honestly.</strong> Each statement appears in random order with the colour hidden. Rate how well it describes your natural default — not your best day, and not how you aspire to be. The profile and all recommendations appear only when you reveal.</div>
+  </div>
+
+  <section class="panel namebox">
+    <div class="field">
+      <label for="personName">Your name (optional)</label>
+      <input id="personName" type="text" placeholder="e.g. Alex — for a personalised report" autocomplete="off">
+    </div>
+    <p class="hint">Use the sliders to show how strongly each statement describes you. A score of 0 means it does not describe you at all; 100 means it describes you perfectly.</p>
+  </section>
+
+  <div class="section-title">
+    <h2>Rate the statements</h2>
+    <span>Colours are hidden and options are shuffled — rate what feels true, not what sounds right</span>
+  </div>
+
+  <div id="questions"></div>
+
+  <div class="controls">
+    <div class="progress">
+      <div class="track"><div class="fill" id="progressFill"></div></div>
+      <p id="progressText">0 of 8 aspects rated</p>
+    </div>
+    <button class="btn btn-primary" id="revealBtn" disabled>Reveal my profile</button>
+  </div>
+
+  <section id="results" hidden aria-live="polite">
+    <div class="result-head">
+      <h2 id="resultTitle">Your Colour Profile</h2>
+      <p id="resultSub"></p>
+    </div>
+
+    <div class="comp">
+      <h4>Your colour composition</h4>
+      <div class="stack" id="compStack"></div>
+      <div class="comp-key">
+        <span><i style="background:#d64550"></i>Red · Driver</span>
+        <span><i style="background:#f2b705"></i>Yellow · Inspirer</span>
+        <span><i style="background:#2e9e5b"></i>Green · Supporter</span>
+        <span><i style="background:#2e86c1"></i>Blue · Analyst</span>
+      </div>
+      <div class="comp-rows" id="compRows"></div>
+    </div>
+
+    <div class="profile" id="profileCard"></div>
+
+    <div class="section-title" style="margin-top:0">
+      <h2>Self-Awareness</h2>
+      <span>Your natural strengths, shadow behaviours, and blind spots</span>
+    </div>
+    <div class="insights" id="selfAwareness"></div>
+
+    <div class="section-title">
+      <h2>Emotional Control</h2>
+      <span>Your triggers, early warning signs, and recovery moves</span>
+    </div>
+    <div class="insights" id="emotionalControl"></div>
+
+    <div class="section-title">
+      <h2>Influencing Other Colours</h2>
+      <span>Your biggest challenge and how to adapt for each colour you work with</span>
+    </div>
+    <div class="influence-grid" id="influenceGrid"></div>
+
+    <div class="result-actions">
+      <button class="btn btn-primary" id="resetBtn">Retake assessment</button>
+      <button class="btn btn-ghost" id="printBtn">Print / Save as PDF</button>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">Leadership Readiness Program &middot; Colour Self-Assessment &mdash; a mirror for growth, not a box to put yourself in.</div>
+</footer>
+<script>
+(function(){
+"use strict";
+
+var COLOURS={
+  red:   {name:"Red",   archetype:"The Driver",   hex:"#d64550",onLight:false},
+  yellow:{name:"Yellow",archetype:"The Inspirer", hex:"#f2b705",onLight:true },
+  green: {name:"Green", archetype:"The Supporter",hex:"#2e9e5b",onLight:false},
+  blue:  {name:"Blue",  archetype:"The Analyst",  hex:"#2e86c1",onLight:false}
+};
+var ORDER=["red","yellow","green","blue"];
+function C(c){return COLOURS[c];}
+
+var QUESTIONS=[
+  {id:"work",aspect:"How I work",prompt:"What best describes your natural working style?",options:{
+    red:"I like to take charge, set the pace, and move things forward decisively.",
+    yellow:"I enjoy collaborating, sharing ideas, and energising the people around me.",
+    green:"I prefer working steadily, building trust, and supporting the team.",
+    blue:"I like to plan carefully, ensure quality, and analyse before acting."}},
+  {id:"pressure",aspect:"Under pressure",prompt:"When stress is high, how do you naturally respond?",options:{
+    red:"I become more direct and push harder — results matter most.",
+    yellow:"I look for people to brainstorm with and seek creative solutions.",
+    green:"I go quiet, process internally, and need time before responding.",
+    blue:"I dig deeper into the data and look for more information before deciding."}},
+  {id:"comms",aspect:"Communication",prompt:"How do you naturally express yourself?",options:{
+    red:"I get to the point quickly — direct, brief, and focused on outcomes.",
+    yellow:"I communicate with energy and stories, making it personal and engaging.",
+    green:"I am warm and patient, careful to preserve the relationship in everything I say.",
+    blue:"I am precise and structured, presenting facts and reasoning clearly."}},
+  {id:"decisions",aspect:"Making decisions",prompt:"How do you approach a significant decision?",options:{
+    red:"I decide quickly with the information I have — speed and momentum matter.",
+    yellow:"I consult others and follow my instinct when the energy feels right.",
+    green:"I seek consensus and take time to consider the impact on everyone.",
+    blue:"I gather all available data and think it through methodically before committing."}},
+  {id:"motivation",aspect:"What drives me",prompt:"What genuinely motivates you at work?",options:{
+    red:"Achieving results, winning, and being in control of outcomes.",
+    yellow:"Recognition, connection, variety, and the excitement of new ideas.",
+    green:"Harmony, stability, and knowing the team is supported and valued.",
+    blue:"Accuracy, mastery, structure, and delivering consistently high-quality work."}},
+  {id:"conflict",aspect:"Handling conflict",prompt:"When there is genuine disagreement, how do you typically respond?",options:{
+    red:"I address it directly and say what I think, even if it creates friction.",
+    yellow:"I deflect with humour or energy to keep the mood positive.",
+    green:"I absorb the tension quietly and avoid confrontation to keep the peace.",
+    blue:"I withdraw and analyse the situation before deciding whether and how to engage."}},
+  {id:"feedback",aspect:"Receiving feedback",prompt:"How do you typically respond to critical feedback?",options:{
+    red:"I listen for what is useful, assess it quickly, and move on.",
+    yellow:"I take it personally at first but recover quickly and find the positive angle.",
+    green:"I feel it deeply, may agree even when I disagree, and process it slowly.",
+    blue:"I analyse it carefully for accuracy and fairness before accepting or rejecting it."}},
+  {id:"strength",aspect:"Your greatest contribution",prompt:"What do people most reliably say is your greatest value to a team?",options:{
+    red:"Getting things done — I deliver results even under pressure.",
+    yellow:"Bringing energy and rallying the team around a shared vision.",
+    green:"Being the steady anchor — reliable, calm, and always trustworthy.",
+    blue:"Ensuring rigour — finding the flaw, the gap, or the risk others miss."}}
+];
+
+var SELF={
+  red:{
+    strengths:["Decisive and action-oriented — you create momentum when others hesitate.","Direct communicator — people always know where they stand with you.","High energy and drive — you hold yourself and others to a high standard."],
+    shadow:["Under pressure: you become controlling, blunt, and impatient.","You may overlook the emotional impact of your directness on others.","You can confuse speed with quality — deciding fast is not always deciding well."],
+    blindSpots:["How your directness lands on people with less power or authority than you.","The cost of your impatience on your team's psychological safety.","The decisions you rushed that later proved to need more deliberation."],
+    question:"Am I moving fast because it is genuinely the right pace — or because I am uncomfortable with the uncertainty of waiting?"
+  },
+  yellow:{
+    strengths:["Inspiring and energising — you make people want to be part of what you are doing.","Creative and optimistic — you see possibility where others see problems.","Naturally relational — you build connection and warmth in teams quickly."],
+    shadow:["Under pressure: you become scattered, over-promise, and lose follow-through.","Your enthusiasm can read as unreliable to analytical or results-focused colleagues.","You may avoid hard truths to preserve the positive energy in the room."],
+    blindSpots:["The commitments you have made that quietly dropped off your radar.","How your energy and pace can overwhelm quieter colleagues.","The gap between how inspired you feel and what actually gets delivered."],
+    question:"Am I energised because this is genuinely the right thing — or because I am excited about the idea and avoiding the discipline it requires?"
+  },
+  green:{
+    strengths:["Reliable, loyal, and trustworthy — the person the team counts on.","Patient and genuinely empathic — people feel heard and safe around you.","A stabilising presence under pressure — your calm becomes the whole team's calm."],
+    shadow:["Under pressure: you go silent, avoid conflict, and carry resentment quietly.","You often agree in the room and disagree in private — your silence misleads others.","Your accommodation can rob the team of the honest friction it actually needs."],
+    blindSpots:["How your silence is read as agreement — even when it is not.","The long-term cost of swallowing disagreement and unspoken disappointment.","How your conflict avoidance sometimes protects you more than it protects the relationship."],
+    question:"Am I being patient because this situation genuinely calls for it — or am I avoiding a conversation I know I need to have?"
+  },
+  blue:{
+    strengths:["Analytical and precise — you catch what others miss.","High standards that consistently protect quality across the team.","Structured and reliable — your plans and analyses hold up under scrutiny."],
+    shadow:["Under pressure: you become hyper-critical, withdrawn, and prone to analysis paralysis.","Your emotional reserve can read as indifference or coldness, even when you genuinely care.","Your standards can slow the team — not every decision deserves the same level of rigour."],
+    blindSpots:["How your silence in meetings is misread as disapproval or disengagement.","The emotional dimension of situations you are analysing purely as logical problems.","The pattern of seeking more data as a way to postpone the discomfort of committing."],
+    question:"Am I gathering more information because I genuinely need it — or because I am postponing the discomfort of deciding with what I already have?"
+  }
+};
+
+var EMOTION={
+  red:{
+    triggers:["Incompetence or visible laziness in others","Endless deliberation and indecision","Being questioned or challenged publicly","Inefficiency and wasted effort"],
+    warning:["Voice rises or becomes sharper and clipped","You start completing others sentences","Sarcasm or dismissiveness enters your tone","You physically lean in or take over the conversation space"],
+    recovery:["Physical movement — a short walk interrupts the activation cycle.","Complete one small concrete task to restore a sense of control and momentum.","Name what you are feeling before you respond: this is frustration at the pace, not the person."],
+    practice:"Before responding when triggered: one deliberate breath, then ask: is this urgent — or just uncomfortable for me right now?"
+  },
+  yellow:{
+    triggers:["Being ignored, dismissed, or talked over","Boredom and repetition without variety or novelty","Conflict that feels personal or attacks the relationship","Feeling constrained, micromanaged, or underestimated"],
+    warning:["Talking faster and jumping between topics mid-sentence","Making commitments you have not properly thought through","Using humour or energy to deflect from a serious or difficult point","Energy that reads as performance rather than genuine presence"],
+    recovery:["Social connection — a brief conversation with someone you trust grounds you quickly.","Write down the three things that genuinely matter right now rather than everything.","Deliberately lower the pitch: slow your breathing, reduce your pace, create a pause."],
+    practice:"After every important meeting: write one specific commitment with a concrete date and a named person responsible."
+  },
+  green:{
+    triggers:["Direct conflict or public confrontation","Sudden change without consultation or warning","Being pushed or pressured to decide quickly","Criticism delivered in front of others"],
+    warning:["Going quiet in meetings where you normally contribute","Agreeing out loud while feeling the opposite internally","Becoming passive or gently withdrawing from the conversation","Resentment building slowly under a calm and agreeable surface"],
+    recovery:["Quiet time alone to process — forcing yourself to speak before you are ready rarely leads anywhere productive.","A trusted one-to-one conversation that surfaces what you are actually thinking.","One clear and simple next step to create movement and restore a sense of agency."],
+    practice:"In your next difficult situation: name your honest view out loud — before you name the other person's."
+  },
+  blue:{
+    triggers:["Sloppiness, imprecision, or corners being cut on quality","Being asked to commit before you feel you have enough information","Hype and enthusiasm not backed by evidence","Emotional pressure to agree when the logic does not yet support it"],
+    warning:["Becoming progressively quieter as the meeting progresses","Pointing out more and more risks rather than engaging with solutions","Withdrawing from group discussion into private note-taking or analysis","Tone becomes clipped and purely factual, losing all warmth and connection"],
+    recovery:["Write down the facts you already know — this breaks the spiral of uncertainty and helplessness.","Narrow the question: not what should we do but what is the single decision I need to make right now.","A brief physical break — five minutes away from the screen resets the analysis loop."],
+    practice:"Find one decision this week where you have 70% of the information you want — and make it without waiting for the remaining 30%."
+  }
+};
+
+var INFLUENCE={
+  red:{
+    yellow:{challenge:"Your directness cuts off Yellow's energy and idea flow — they feel shut down rather than included.",adapt:"Lead with enthusiasm and connect the idea to a bigger vision before landing on a decision.",phrase:"I love where this could go — here is the bottom line so you can help shape it."},
+    green:{challenge:"Your pace and bluntness overwhelm Green, who needs time and warmth before they can genuinely engage.",adapt:"Slow down deliberately, build the relationship first, ask before you assert.",phrase:"No rush at all — what is your genuine take on this?"},
+    blue:{challenge:"You want to decide fast; Blue will not commit without being satisfied with the evidence.",adapt:"Bring the data, present your analysis, and give them time to verify before expecting a decision.",phrase:"Here is the evidence I am working from — what questions does it raise for you?"}
+  },
+  yellow:{
+    red:{challenge:"Your enthusiasm and storytelling lose Red quickly — they need the bottom line, not the journey.",adapt:"Lead with the outcome and the decision required; cut the narrative; let them choose.",phrase:"Bottom line: here is what I am proposing, why it wins, and what I need from you."},
+    green:{challenge:"Your high energy and pace can overwhelm Green — they need warmth and genuine space, not intensity.",adapt:"Warm up personally first, match their pace, and check in before you launch into the pitch.",phrase:"Before I share my thinking — I would genuinely love to hear yours first."},
+    blue:{challenge:"Your optimism without evidence loses Blue completely — enthusiasm is not a substitute for data.",adapt:"Come prepared with evidence, acknowledge the risks honestly, and let them analyse before committing.",phrase:"Here is the data behind it — take whatever time you need to review it properly."}
+  },
+  green:{
+    red:{challenge:"Your careful and gentle approach reads as indecision or a lack of conviction to Red — they quickly disengage.",adapt:"Be direct and clear, lead with the bottom line, make a concrete proposal rather than an open suggestion.",phrase:"I want to be direct: here is what I am proposing and why I believe it is right."},
+    yellow:{challenge:"Your measured pace and reserve do not match Yellow's energy — they interpret your calm as disengagement.",adapt:"Match their energy deliberately, connect on the human dimension of the idea, show visible enthusiasm.",phrase:"This genuinely excites me — and here is why it matters for the team."},
+    blue:{challenge:"Your relational focus can feel imprecise or insufficiently rigorous to Blue.",adapt:"Back your position with logic, structure your argument clearly, and bring evidence alongside perspective.",phrase:"I have thought this through carefully — here is the structured case for it."}
+  },
+  blue:{
+    red:{challenge:"Your detail and process lose Red immediately — they stop listening before you reach your point.",adapt:"BLUF: state your conclusion first, have the supporting data ready as backup — never lead with it.",phrase:"Quick summary: the recommendation and the two key reasons — detail available if you need it."},
+    yellow:{challenge:"Your structured analysis feels dry and deflating to Yellow — they disengage before you reach the insight.",adapt:"Open with vision and possibility, bring genuine warmth, use one compelling story before the analysis.",phrase:"This could be something significant — and the data makes a compelling case for it."},
+    green:{challenge:"Your emotional reserve reads as cold or distant, even when your intent is thoughtful and considered.",adapt:"Show genuine interest in their perspective first and acknowledge the relationship before the logic.",phrase:"I really value your take on this before I share what I have found — what is your honest read?"}
+  }
+};
+
+var state={topics:{},order:{},name:"",revealed:false,primary:"red"};
+QUESTIONS.forEach(function(q){state.topics[q.id]={red:0,yellow:0,green:0,blue:0};});
+
+var qWrap=document.getElementById("questions");
+var progressFill=document.getElementById("progressFill");
+var progressText=document.getElementById("progressText");
+var revealBtn=document.getElementById("revealBtn");
+var results=document.getElementById("results");
+var nameInput=document.getElementById("personName");
+
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function sumObj(o){return o.red+o.yellow+o.green+o.blue;}
+
+function shuffle(a){for(var i=a.length-1;i>0;i--){var j=Math.floor(Math.random()*(i+1));var t=a[i];a[i]=a[j];a[j]=t;}return a;}
+
+function roundPercents(fr){
+  var floors={},rem=[],used=0;
+  ORDER.forEach(function(c){var raw=fr[c]*100;var f=Math.floor(raw);floors[c]=f;used+=f;rem.push([c,raw-f]);});
+  var left=100-used;rem.sort(function(a,b){return b[1]-a[1];});
+  for(var i=0;i<left;i++){floors[rem[i%ORDER.length][0]]++;}
+  return floors;
+}
+
+QUESTIONS.forEach(function(q,idx){
+  var opts=ORDER.map(function(c){return{c:c,text:q.options[c]};});
+  shuffle(opts);state.order[q.id]=opts.map(function(o){return o.c;});
+  var rows=opts.map(function(o){
+    return "<div class='w-opt'><div class='w-stmt'>"+esc(o.text)+"</div><div class='w-ctl'>"+
+      "<input type='range' class='w-slider' min='0' max='100' step='5' value='0' data-t='"+q.id+"' data-c='"+o.c+"' aria-label='"+esc(o.text)+"'>"+
+      "<span class='w-val'>0</span></div></div>";
+  }).join("");
+  var card=document.createElement("section");
+  card.className="q-card";
+  card.innerHTML="<div class='q-index'>"+(idx+1)+"</div><h3 class='q-aspect'>"+esc(q.aspect)+"</h3><p class='q-prompt'>"+esc(q.prompt)+"</p>"+rows+
+    "<div class='t-blend'><div class='t-bar empty' id='bar-"+q.id+"'><span class='t-empty'>Not rated yet</span></div>"+
+    "<div class='t-cap'>How your ratings split across this aspect (= 100%)</div></div>";
+  qWrap.appendChild(card);
+});
+
+function renderTopicBar(tid){
+  var wt=state.topics[tid];var s=sumObj(wt);var bar=document.getElementById("bar-"+tid);
+  if(s===0){bar.className="t-bar empty";bar.innerHTML="<span class='t-empty'>Not rated yet</span>";return;}
+  bar.className="t-bar";
+  var fr={};ORDER.forEach(function(c){fr[c]=wt[c]/s;});
+  var pc=roundPercents(fr);var html="";
+  state.order[tid].forEach(function(c){
+    if(pc[c]>0){html+="<span class='seg' style='width:"+pc[c]+"%'>"+(pc[c]>=14?pc[c]+"%":"")+"</span>";}
+  });
+  bar.innerHTML=html;
+}
+
+qWrap.addEventListener("input",function(e){
+  var sl=e.target;if(!sl.classList.contains("w-slider"))return;
+  var tid=sl.getAttribute("data-t"),c=sl.getAttribute("data-c"),v=parseInt(sl.value,10)||0;
+  state.topics[tid][c]=v;
+  sl.closest(".w-ctl").querySelector(".w-val").textContent=v;
+  renderTopicBar(tid);updateProgress();
+  if(state.revealed)renderResults();
+});
+
+function weightedTopics(){return Object.keys(state.topics).filter(function(t){return sumObj(state.topics[t])>0;});}
+function updateProgress(){
+  var n=weightedTopics().length,t=QUESTIONS.length;
+  progressFill.style.width=(n/t*100)+"%";
+  progressText.textContent=n+" of "+t+" aspects rated";
+  revealBtn.disabled=(n===0);
+}
+
+nameInput.addEventListener("input",function(e){state.name=e.target.value.trim();if(state.revealed)renderResults();});
+
+function composition(){
+  var topics=weightedTopics();if(!topics.length)return null;
+  var acc={red:0,yellow:0,green:0,blue:0};
+  topics.forEach(function(tid){
+    var wt=state.topics[tid],s=sumObj(wt);
+    ORDER.forEach(function(c){acc[c]+=wt[c]/s;});
+  });
+  var fr={};ORDER.forEach(function(c){fr[c]=acc[c]/topics.length;});
+  return fr;
+}
+
+function tierLabel(p){if(p>=35)return"Dominant";if(p>=20)return"Secondary";if(p>=10)return"Minor";return"Low";}
+
+function li(items){return"<ul>"+items.map(function(i){return"<li>"+esc(i)+"</li>";}).join("")+"</ul>";}
+
+function renderResults(){
+  var fr=composition();if(!fr)return;
+  var pct=roundPercents(fr);
+  var sorted=ORDER.slice().sort(function(a,b){return pct[b]-pct[a];});
+  var primary=sorted[0],secondary=sorted[1];
+  state.primary=primary;
+  results.style.setProperty("--dc",C(primary).hex);
+
+  var who=state.name?esc(state.name):"You";
+  document.getElementById("resultTitle").textContent=state.name?"Colour Profile — "+state.name:"Your Colour Profile";
+  document.getElementById("resultSub").textContent="Primary colour: "+C(primary).name+" ("+pct[primary]+"%). Your full blend and personalised insights appear below.";
+
+  var stack="";
+  ORDER.forEach(function(c){
+    if(pct[c]>0){stack+="<span class='seg' style='width:"+pct[c]+"%;background:"+C(c).hex+";color:"+(C(c).onLight?"#1e2761":"#fff")+";'>"+(pct[c]>=10?C(c).name+" "+pct[c]+"%":"")+"</span>";}
+  });
+  document.getElementById("compStack").innerHTML=stack;
+
+  var rows="";
+  sorted.forEach(function(c){
+    rows+="<div class='comp-row'><span class='nm'><span class='dot' style='background:"+C(c).hex+"'></span>"+C(c).name+"</span>"+
+      "<span class='mini'><i style='width:"+pct[c]+"%;background:"+C(c).hex+"'></i></span>"+
+      "<span class='pc'>"+pct[c]+"%</span><span class='tier'>"+tierLabel(pct[c])+"</span></div>";
+  });
+  document.getElementById("compRows").innerHTML=rows;
+
+  var p=pct[primary],s=pct[secondary];
+  var narr;
+  if(p>=55)narr=who+" lead strongly with "+C(primary).name+" ("+p+"%) — "+C(primary).archetype+" energy shapes your default style.";
+  else if((p-s)<=8)narr=who+" show an even "+C(primary).name+"/"+C(secondary).name+" blend ("+p+"% / "+s+"%) — you move between both modes depending on context and stakes.";
+  else narr=who+" are primarily "+C(primary).name+" ("+p+"%) with a significant "+C(secondary).name+" secondary ("+s+"%).";
+
+  var prof=document.getElementById("profileCard");
+  prof.style.background=C(primary).hex;
+  prof.classList.toggle("on-light",C(primary).onLight);
+  var ptitle=(p-s)<=8&&s>=20?(C(primary).name+" / "+C(secondary).name+" blend"):(C(primary).name+"-led profile");
+  prof.innerHTML="<p class='tag'>YOUR COLOUR PROFILE &middot; "+C(primary).archetype.toUpperCase()+"</p><h3>"+ptitle+"</h3><p class='narr'>"+narr+"</p>";
+
+  var sa=SELF[primary];
+  document.getElementById("selfAwareness").innerHTML=
+    "<div class='insight-block'><h4><span class='k'></span>Your natural strengths</h4>"+li(sa.strengths)+"</div>"+
+    "<div class='insight-block'><h4><span class='k'></span>Your shadow under stress</h4>"+li(sa.shadow)+"</div>"+
+    "<div class='insight-block'><h4><span class='k'></span>Blind spots to watch</h4>"+li(sa.blindSpots)+"<div class='q'>"+esc(sa.question)+"</div></div>";
+
+  var em=EMOTION[primary];
+  document.getElementById("emotionalControl").innerHTML=
+    "<div class='insight-block'><h4><span class='k'></span>What triggers you</h4>"+li(em.triggers)+"</div>"+
+    "<div class='insight-block'><h4><span class='k'></span>Early warning signs</h4>"+li(em.warning)+"</div>"+
+    "<div class='insight-block'><h4><span class='k'></span>Recovery moves &amp; daily practice</h4>"+li(em.recovery)+"<div class='q'>"+esc(em.practice)+"</div></div>";
+
+  var others=ORDER.filter(function(c){return c!==primary;});
+  var inf=INFLUENCE[primary];
+  document.getElementById("influenceGrid").innerHTML=others.map(function(oc){
+    var d=inf[oc];
+    return "<div class='influence-card'>"+
+      "<div class='colour-tag'><span class='dot' style='background:"+C(oc).hex+"'></span>"+C(oc).name+" &mdash; "+C(oc).archetype+"</div>"+
+      "<h5>The challenge</h5><p>"+esc(d.challenge)+"</p>"+
+      "<h5>How to adapt</h5><p>"+esc(d.adapt)+"</p>"+
+      "<div class='phrase'>"+esc(d.phrase)+"</div></div>";
+  }).join("");
+}
+
+revealBtn.addEventListener("click",function(){
+  if(weightedTopics().length===0)return;
+  state.revealed=true;renderResults();
+  results.hidden=false;results.scrollIntoView({behavior:"smooth",block:"start"});
+});
+
+document.getElementById("resetBtn").addEventListener("click",function(){
+  QUESTIONS.forEach(function(q){state.topics[q.id]={red:0,yellow:0,green:0,blue:0};renderTopicBar(q.id);});
+  state.name="";state.revealed=false;nameInput.value="";
+  qWrap.querySelectorAll(".w-slider").forEach(function(sl){sl.value=0;});
+  qWrap.querySelectorAll(".w-val").forEach(function(v){v.textContent="0";});
+  updateProgress();results.hidden=true;window.scrollTo({top:0,behavior:"smooth"});
+});
+
+document.getElementById("printBtn").addEventListener("click",function(){window.print();});
+updateProgress();
+})();
+</script>
+</body>
+</html>

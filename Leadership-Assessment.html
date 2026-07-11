@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="color-scheme" content="light dark">
+<title>Leadership Skills Assessment</title>
+<style>
+  :root{
+    --bg:#eef1f8;--surface:#fff;--surface-2:#f4f6fb;--ink:#1a1a2e;--muted:#6b7280;--line:#e2e6f0;
+    --navy:#1e2761;--navy-2:#161b45;--ice:#cadcfc;
+    --red:#d64550;--amber:#f2b705;--green:#2e9e5b;--blue:#2e86c1;
+    --radius:16px;--radius-sm:12px;--shadow:0 10px 30px rgba(22,27,69,.10);--shadow-sm:0 4px 14px rgba(22,27,69,.08);
+    --maxw:1120px;--font:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  }
+  @media(prefers-color-scheme:dark){
+    :root{--bg:#0e1124;--surface:#171a33;--surface-2:#1d2140;--ink:#eef1fb;--muted:#9aa6d6;--line:#2b3059;--shadow:0 10px 30px rgba(0,0,0,.35);}
+  }
+  *{box-sizing:border-box;}html,body{margin:0;padding:0;}
+  body{font-family:var(--font);background:var(--bg);color:var(--ink);line-height:1.5;-webkit-font-smoothing:antialiased;}
+  .wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:20px;}
+  .site-header{background:linear-gradient(135deg,var(--navy) 0%,var(--navy-2) 100%);color:#fff;padding:38px 0 44px;position:relative;overflow:hidden;}
+  .site-header::after{content:"";position:absolute;inset-block-start:-120px;inset-inline-end:-80px;width:320px;height:320px;border-radius:50%;background:rgba(202,220,252,.10);}
+  .site-header .wrap{position:relative;z-index:1;}
+  .eyebrow{letter-spacing:3px;font-size:13px;font-weight:700;color:var(--ice);margin:0 0 10px;}
+  h1{font-size:clamp(26px,4vw,42px);margin:0 0 8px;line-height:1.08;font-weight:800;}
+  .lead{font-size:clamp(15px,1.6vw,18px);color:var(--ice);margin:0;max-width:720px;}
+  .dots{display:flex;gap:10px;margin-block-start:20px;}
+  .dots span{width:16px;height:16px;border-radius:50%;}
+  .notice{display:flex;gap:12px;align-items:flex-start;background:var(--surface);border:1px solid var(--line);border-inline-start:4px solid var(--navy);border-radius:var(--radius-sm);box-shadow:var(--shadow-sm);padding:14px 18px;margin-block:26px;font-size:13.5px;}
+  .notice strong{color:var(--navy);}
+  .panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:22px 24px;}
+  .namebox{display:flex;flex-wrap:wrap;gap:14px 22px;align-items:center;justify-content:space-between;}
+  .namebox .field{flex:1 1 320px;}
+  .namebox label{display:block;font-size:12px;font-weight:700;letter-spacing:1px;color:var(--muted);text-transform:uppercase;margin-block-end:6px;}
+  .namebox input{width:100%;font-family:var(--font);font-size:16px;color:var(--ink);background:var(--surface-2);border:1px solid var(--line);border-radius:var(--radius-sm);padding:12px 14px;outline:none;transition:border-color .15s,box-shadow .15s;}
+  .namebox input:focus{border-color:var(--navy);box-shadow:0 0 0 3px rgba(30,39,97,.14);}
+  .namebox .hint{flex:1 1 300px;font-size:13.5px;color:var(--muted);}
+
+  .part-group{margin-block-start:30px;}
+  .part-head{display:flex;align-items:center;gap:12px;margin:0 0 12px;flex-wrap:wrap;}
+  .part-pill{display:inline-flex;align-items:center;gap:8px;background:var(--navy);color:#fff;font-size:12px;font-weight:700;letter-spacing:.5px;padding:6px 14px;border-radius:999px;}
+  .part-head h2{font-size:19px;margin:0;}
+  .part-head .focus{font-size:13px;color:var(--muted);}
+
+  .q-card{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:18px 20px 16px;position:relative;margin-block-end:14px;}
+  .q-top{display:flex;gap:12px;align-items:flex-start;}
+  .q-num{flex:0 0 auto;width:30px;height:30px;border-radius:50%;background:var(--surface-2);color:var(--navy);font-size:13px;font-weight:800;display:grid;place-items:center;}
+  .q-title{margin:2px 0 2px;font-size:16px;color:var(--navy);font-weight:700;}
+  .q-stmt{margin:0 0 14px;font-size:14px;color:var(--ink);}
+  .scale{display:grid;grid-template-columns:repeat(5,1fr);gap:8px;}
+  .scale button{font-family:var(--font);cursor:pointer;border:1.5px solid var(--line);background:var(--surface-2);color:var(--muted);border-radius:10px;padding:10px 4px;font-size:12.5px;font-weight:700;line-height:1.25;transition:all .12s;}
+  .scale button b{display:block;font-size:15px;color:var(--ink);margin-block-end:2px;}
+  .scale button:hover{border-color:var(--navy);}
+  .scale button.sel{background:var(--navy);border-color:var(--navy);color:#fff;box-shadow:var(--shadow-sm);}
+  .scale button.sel b{color:#fff;}
+  @media(max-width:560px){.scale{grid-template-columns:repeat(5,1fr);gap:5px;}.scale button{font-size:0;padding:12px 2px;}.scale button b{font-size:15px;margin:0;}}
+
+  .controls{display:flex;flex-wrap:wrap;align-items:center;gap:18px;margin-block:30px;}
+  .progress{flex:1 1 260px;}
+  .progress .track{height:10px;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;overflow:hidden;}
+  .progress .fill{height:100%;width:0%;background:linear-gradient(90deg,var(--navy),var(--blue));border-radius:999px;transition:width .35s ease;}
+  .progress p{margin:8px 0 0;font-size:13px;color:var(--muted);}
+  .btn{font-family:var(--font);font-size:15px;font-weight:700;cursor:pointer;border:none;border-radius:999px;padding:13px 26px;transition:transform .1s,box-shadow .15s,opacity .15s;}
+  .btn:hover{transform:translateY(-1px);}
+  .btn-primary{background:var(--navy);color:#fff;box-shadow:var(--shadow);}
+  .btn-primary:disabled{opacity:.45;cursor:not-allowed;transform:none;box-shadow:none;}
+  .btn-ghost{background:transparent;color:var(--navy);border:1.5px solid var(--navy);}
+
+  #results{margin-block:10px 60px;scroll-margin-top:20px;}
+  #results[hidden]{display:none;}
+  .result-head{margin-block-end:22px;}
+  .result-head h2{font-size:clamp(22px,3vw,30px);margin:0 0 4px;}
+  .result-head p{margin:0;color:var(--muted);font-size:15px;}
+
+  .score-hero{display:flex;flex-wrap:wrap;gap:22px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:24px;margin-block-end:22px;}
+  .ring{--pct:0;flex:0 0 auto;width:130px;height:130px;border-radius:50%;display:grid;place-items:center;background:conic-gradient(var(--green) calc(var(--pct)*1%),var(--surface-2) 0);}
+  .ring .inner{width:104px;height:104px;border-radius:50%;background:var(--surface);display:grid;place-items:center;text-align:center;}
+  .ring .inner b{font-size:30px;font-weight:800;line-height:1;color:var(--ink);}
+  .ring .inner span{font-size:11px;color:var(--muted);letter-spacing:.5px;}
+  .score-copy{flex:1 1 320px;}
+  .score-copy .band{display:inline-block;font-size:13px;font-weight:800;letter-spacing:.5px;padding:4px 12px;border-radius:999px;color:#fff;margin-block-end:10px;}
+  .score-copy h3{margin:0 0 6px;font-size:20px;}
+  .score-copy p{margin:0;color:var(--muted);font-size:14.5px;}
+
+  .block{background:var(--surface);border:1px solid var(--line);border-radius:var(--radius);box-shadow:var(--shadow-sm);padding:22px 24px;margin-block-end:22px;}
+  .block > h4{margin:0 0 4px;font-size:14px;letter-spacing:1px;text-transform:uppercase;color:var(--muted);}
+  .block > .sub{margin:0 0 16px;font-size:13.5px;color:var(--muted);}
+
+  .part-row{display:grid;grid-template-columns:200px 1fr 52px;gap:14px;align-items:center;margin-block-end:12px;}
+  .part-row .lbl{font-size:13.5px;font-weight:700;}
+  .part-row .lbl small{display:block;font-weight:500;color:var(--muted);font-size:11.5px;}
+  .part-row .bar{height:14px;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;overflow:hidden;}
+  .part-row .bar i{display:block;height:100%;border-radius:999px;transition:width .5s ease;}
+  .part-row .pc{text-align:end;font-weight:800;font-variant-numeric:tabular-nums;font-size:14px;}
+  @media(max-width:560px){.part-row{grid-template-columns:1fr 46px;}.part-row .bar{grid-column:1 / -1;order:3;}}
+
+  .rec{border:1px solid var(--line);border-inline-start:4px solid var(--navy);border-radius:var(--radius-sm);padding:16px 18px;margin-block-end:14px;background:var(--surface-2);}
+  .rec .rec-head{display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin-block-end:8px;}
+  .rec .rank{width:24px;height:24px;border-radius:50%;background:var(--navy);color:#fff;font-size:12px;font-weight:800;display:grid;place-items:center;flex:0 0 auto;}
+  .rec .rec-title{font-size:15.5px;font-weight:800;color:var(--navy);}
+  .rec .tag{font-size:11px;font-weight:700;color:#fff;padding:3px 9px;border-radius:999px;}
+  .rec .chip{font-size:11px;color:var(--muted);border:1px solid var(--line);border-radius:999px;padding:3px 9px;background:var(--surface);}
+  .rec p{margin:0;font-size:14px;color:var(--ink);}
+  .rec p .lead-in{font-weight:700;color:var(--navy);}
+
+  .str{display:flex;gap:12px;align-items:flex-start;padding:12px 0;border-block-end:1px solid var(--line);}
+  .str:last-child{border-block-end:none;}
+  .str .dot{flex:0 0 auto;width:10px;height:10px;border-radius:50%;margin-block-start:6px;background:var(--green);}
+  .str .st-t{font-weight:700;font-size:14.5px;}
+  .str .st-s{font-size:13px;color:var(--muted);}
+
+  .allscores{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:10px 22px;}
+  .as-row{display:grid;grid-template-columns:1fr 90px 26px;gap:10px;align-items:center;}
+  .as-row .as-t{font-size:13px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;}
+  .as-row .as-bar{height:10px;background:var(--surface-2);border:1px solid var(--line);border-radius:999px;overflow:hidden;}
+  .as-row .as-bar i{display:block;height:100%;border-radius:999px;}
+  .as-row .as-v{text-align:end;font-size:12.5px;font-weight:700;font-variant-numeric:tabular-nums;color:var(--muted);}
+
+  .result-actions{display:flex;flex-wrap:wrap;gap:14px;margin-block-start:8px;}
+
+  @media print{
+    body{background:#fff;}
+    .site-header{background:#1e2761 !important;-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+    #assessment,.controls,.result-actions{display:none !important;}
+    .block,.score-hero,.rec{box-shadow:none;}
+    *{-webkit-print-color-adjust:exact;print-color-adjust:exact;}
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="wrap">
+    <p class="eyebrow">LEADERSHIP READINESS PROGRAM</p>
+    <h1>Leadership Skills Assessment</h1>
+    <p class="lead">Rate yourself honestly across the 17 leadership topics from the book. You&rsquo;ll get an overall readiness index, a breakdown by theme, your strengths, and a prioritised action plan of recommendations to improve.</p>
+    <div class="dots" aria-hidden="true">
+      <span style="background:#d64550"></span>
+      <span style="background:#f2b705"></span>
+      <span style="background:#2e9e5b"></span>
+      <span style="background:#2e86c1"></span>
+    </div>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <div class="notice">
+    <div><strong>Answer for how you lead today, not how you aspire to.</strong> There are no right answers &mdash; the areas you rate lowest become the focus of your personalised action plan. Rate all 17 statements to unlock your results.</div>
+  </div>
+
+  <div class="panel namebox">
+    <div class="field">
+      <label for="userName">Your name (optional)</label>
+      <input id="userName" type="text" autocomplete="name" placeholder="Add your name to personalise the report"/>
+    </div>
+    <p class="hint">Nothing is stored or sent. Your answers stay in this browser tab and clear when you close it.</p>
+  </div>
+
+  <div id="assessment"></div>
+
+  <div class="controls">
+    <div class="progress">
+      <div class="track"><div class="fill" id="progressFill"></div></div>
+      <p id="progressText">0 of 17 topics rated</p>
+    </div>
+    <button class="btn btn-primary" id="revealBtn" disabled>Show my recommendations</button>
+  </div>
+
+  <section id="results" hidden aria-live="polite">
+    <div class="result-head">
+      <h2 id="resultTitle">Your Leadership Readiness</h2>
+      <p id="resultSub"></p>
+    </div>
+
+    <div class="score-hero">
+      <div class="ring" id="scoreRing"><div class="inner"><b id="scorePct">0%</b><span id="scoreAvg">0.0 / 5</span></div></div>
+      <div class="score-copy">
+        <span class="band" id="bandPill">&nbsp;</span>
+        <h3 id="bandTitle"></h3>
+        <p id="bandText"></p>
+      </div>
+    </div>
+
+    <div class="block">
+      <h4>Breakdown by theme</h4>
+      <p class="sub">How you scored across the five parts of the leadership arc.</p>
+      <div id="partRows"></div>
+    </div>
+
+    <div class="block">
+      <h4>Your priority actions</h4>
+      <p class="sub">Start here. These are your lowest-scoring topics, ordered by where focused effort will pay off most.</p>
+      <div id="recs"></div>
+    </div>
+
+    <div class="block">
+      <h4>Your strengths</h4>
+      <p class="sub">The topics you already lead well &mdash; protect these and use them to coach others.</p>
+      <div id="strengths"></div>
+    </div>
+
+    <div class="block">
+      <h4>All 17 topics at a glance</h4>
+      <p class="sub">Your full self-rating across every topic.</p>
+      <div class="allscores" id="allScores"></div>
+    </div>
+
+    <div class="result-actions">
+      <button class="btn btn-primary" id="resetBtn">Retake assessment</button>
+      <button class="btn btn-ghost" id="printBtn">Print / Save as PDF</button>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-header" style="padding:22px 0;margin-block-start:20px;">
+  <div class="wrap" style="font-size:13px;color:var(--ice);">Leadership Readiness Program &middot; Leadership Skills Assessment &mdash; a plan for growth, not a verdict.</div>
+</footer>
+
+<script>
+(function(){
+"use strict";
+
+var PARTS={
+  I:  {title:"Know Yourself",        focus:"Self-awareness and the language of colour"},
+  II: {title:"Master Your Emotions", focus:"Emotional intelligence and regulation"},
+  III:{title:"Adapt to Others",      focus:"Communication, influence, and presence"},
+  IV: {title:"Build the Team",       focus:"Trust, safety, rhythm, accountability"},
+  V:  {title:"Decide & Grow",        focus:"Goals, decisions, coaching, culture"}
+};
+var PART_ORDER=["I","II","III","IV","V"];
+
+// One self-rating statement per topic + a concrete recommendation drawn from the chapter's practice.
+var TOPICS=[
+  {n:1, part:"I",  title:"From Expert to Leader",
+   stmt:"I measure my success by what my team achieves, and I actively hand off work I used to own.",
+   rec:"Name the three activities that made you a great individual contributor, then give one of them away this week. Judge yourself by your team's output, not your personal work."},
+  {n:2, part:"I",  title:"The Four Colours",
+   stmt:"I can quickly recognise my own behavioural style and read other people's styles in the moment.",
+   rec:"Place yourself on the outgoing/reserved and task/people axes, name your dominant and secondary colour, and identify the colour diagonally opposite you \u2014 usually the style you find hardest."},
+  {n:3, part:"I",  title:"Leadership Self-Awareness",
+   stmt:"I know my triggers and how I behave under pressure, and I actively seek feedback on my blind spots.",
+   rec:"Review three recent moments you regretted; write down the trigger and the impact. Then ask one trusted person what you tend to do when you're stressed."},
+  {n:4, part:"II", title:"Emotional Intelligence",
+   stmt:"I read the emotional undercurrent of a room and factor it into how I lead.",
+   rec:"After your next hard meeting, name one positive and one negative emotional signal you noticed \u2014 and how you responded. Build the habit of reading the emotional layer, not just the content."},
+  {n:5, part:"II", title:"Self-Regulation",
+   stmt:"I stay composed and choose my response when tension spikes, instead of reacting on impulse.",
+   rec:"Build a composure kit: a pause, a breath, a reframe, and a go-to phrase. Rehearse it in low-stakes moments so it's available when the pressure is real."},
+  {n:6, part:"II", title:"Empathy",
+   stmt:"I listen to understand others' perspectives before I respond, even when I disagree.",
+   rec:"In your next one-to-one, listen to understand rather than to answer. Reflect back what you heard before you try to solve anything."},
+  {n:7, part:"III",title:"Adaptive Leadership",
+   stmt:"I flex my communication style to fit the person in front of me, not my own default.",
+   rec:"Rewrite a real message in the style of one person you need to influence. Then watch for your own conflict signature the next time friction rises."},
+  {n:8, part:"III",title:"Influence Without Authority",
+   stmt:"I get things done through people I don't control, using trust and clarity rather than escalation.",
+   rec:"Sharpen one ask: clarify the outcome, why it matters, and what success looks like from the other person's point of view before you make it."},
+  {n:9, part:"III",title:"Difficult Conversations",
+   stmt:"I address issues early and directly while keeping the relationship intact.",
+   rec:"Prepare one conversation you've been postponing. Write the factual issue (situation and behaviour), its impact, and the one result you want, then have it this week."},
+  {n:10,part:"III",title:"Executive Presence",
+   stmt:"I communicate with clarity and presence so my message lands as intended.",
+   rec:"Land one real message by leading with the point, cutting the filler, and matching your tone and pace to the outcome you want."},
+  {n:11,part:"IV", title:"High-Performance Team",
+   stmt:"I deliberately create the conditions \u2014 purpose, clarity, accountability \u2014 for my team to perform.",
+   rec:"Diagnose your team against the four pillars (shared purpose, clarity, safety, rhythm) and name the single weakest condition right now, then fix that one first."},
+  {n:12,part:"IV", title:"Trust & Psychological Safety",
+   stmt:"People on my team speak up, disagree, and admit mistakes without fear.",
+   rec:"In your next team conversation, actively invite one honest concern, one question, and one disagreement \u2014 and thank people for raising them."},
+  {n:13,part:"IV", title:"Operating Rhythm & Accountability",
+   stmt:"My team runs on a predictable rhythm that keeps work visible without me chasing updates.",
+   rec:"Tune one recurring ritual so it has a clearer purpose, a tighter agenda, or a cleaner decision rule \u2014 or retire it if it only survives because you drive it."},
+  {n:14,part:"V",  title:"Setting Goals That Drive Outcomes",
+   stmt:"I set goals specific enough to own, track, and finish \u2014 focused on outcomes, not activity.",
+   rec:"Rewrite one goal so the outcome, the named owner, and the success measure are all explicit. Replace any 'activity' goal with the result it's meant to produce."},
+  {n:15,part:"V",  title:"Decision Discipline",
+   stmt:"I decide well under ambiguity, matching my speed to whether a decision is reversible.",
+   rec:"Pressure-test one live decision: classify it as a one-way or two-way door, name your assumptions, and run a quick pre-mortem before you commit."},
+  {n:16,part:"V",  title:"Coaching & Mentoring",
+   stmt:"I grow my people by coaching \u2014 drawing out their thinking \u2014 not just giving them answers.",
+   rec:"Before your next development chat, decide whether the person needs mentoring or coaching. If it's coaching, ask two open questions and resist handing over the answer."},
+  {n:17,part:"V",  title:"Leading Across Cultures",
+   stmt:"I calibrate for cultural differences and check for culture before assuming a personal trait.",
+   rec:"Map the two dimensions where your team differs most, set one explicit team norm, and check for a cultural explanation before judging a behaviour as personal."}
+];
+
+var SCALE=[
+  {v:1,b:"1",t:"Rarely"},
+  {v:2,b:"2",t:"Sometimes"},
+  {v:3,b:"3",t:"Often"},
+  {v:4,b:"4",t:"Usually"},
+  {v:5,b:"5",t:"Almost always"}
+];
+
+var BANDS=[
+  {min:0,   max:34.9, name:"Emerging",   color:"#d64550",
+   text:"You're early in building deliberate leadership habits \u2014 which means fast progress is available. Pick one or two priority areas below and work them until they feel natural before adding more."},
+  {min:35,  max:59.9, name:"Developing", color:"#f2b705",
+   text:"Solid instincts with clear room to grow. Your lowest-scoring topics below are where focused effort will move the needle fastest \u2014 turn two of them into concrete habits this quarter."},
+  {min:60,  max:79.9, name:"Strong",     color:"#2e86c1",
+   text:"You lead well across most areas. Sharpen the few remaining gaps, keep leaning into your strengths, and start coaching others in what you do best."},
+  {min:80,  max:100,  name:"Exceptional",color:"#2e9e5b",
+   text:"A broad, consistent leadership range. Keep stretching your lowest-rated topics so you don't plateau, and multiply your impact by developing these skills in the people around you."}
+];
+
+var answers={}; // n -> 1..5
+var $=function(id){return document.getElementById(id);};
+
+function scoreColor(v){ // v in 1..5
+  if(v<=2) return "#d64550";
+  if(v<3)  return "#e07b3e";
+  if(v<3.5)return "#f2b705";
+  if(v<4)  return "#7bb241";
+  return "#2e9e5b";
+}
+function pctColor(p){ // p in 0..100
+  if(p<35) return "#d64550";
+  if(p<60) return "#f2b705";
+  if(p<80) return "#2e86c1";
+  return "#2e9e5b";
+}
+
+function buildAssessment(){
+  var host=$("assessment");
+  var html="";
+  PART_ORDER.forEach(function(pk){
+    var p=PARTS[pk];
+    var items=TOPICS.filter(function(t){return t.part===pk;});
+    html+='<div class="part-group">';
+    html+='<div class="part-head"><span class="part-pill">Part '+pk+' \u00b7 '+p.title+'</span><span class="focus">'+p.focus+'</span></div>';
+    items.forEach(function(t){
+      html+='<div class="q-card" data-n="'+t.n+'">';
+      html+='<div class="q-top"><span class="q-num">'+t.n+'</span><div><p class="q-title">'+t.title+'</p><p class="q-stmt">'+t.stmt+'</p></div></div>';
+      html+='<div class="scale" role="group" aria-label="Rating for '+t.title.replace(/"/g,"")+'">';
+      SCALE.forEach(function(s){
+        html+='<button type="button" data-n="'+t.n+'" data-v="'+s.v+'" aria-pressed="false"><b>'+s.b+'</b>'+s.t+'</button>';
+      });
+      html+='</div></div>';
+    });
+    html+='</div>';
+  });
+  host.innerHTML=html;
+  host.querySelectorAll(".scale button").forEach(function(btn){
+    btn.addEventListener("click",function(){
+      var n=btn.getAttribute("data-n");
+      var v=parseInt(btn.getAttribute("data-v"),10);
+      answers[n]=v;
+      var group=btn.parentElement;
+      group.querySelectorAll("button").forEach(function(b){
+        var sel=b===btn;
+        b.classList.toggle("sel",sel);
+        b.setAttribute("aria-pressed",sel?"true":"false");
+      });
+      updateProgress();
+    });
+  });
+}
+
+function updateProgress(){
+  var done=Object.keys(answers).length;
+  var total=TOPICS.length;
+  var pct=Math.round(done/total*100);
+  $("progressFill").style.width=pct+"%";
+  $("progressText").textContent=done+" of "+total+" topics rated";
+  $("revealBtn").disabled=done<total;
+}
+
+function computeResults(){
+  var vals=TOPICS.map(function(t){return {t:t,v:answers[t.n]};});
+  var avg=vals.reduce(function(s,x){return s+x.v;},0)/vals.length;
+  var pct=Math.round((avg-1)/4*100);
+  // part averages
+  var partAvg={};
+  PART_ORDER.forEach(function(pk){
+    var items=vals.filter(function(x){return x.t.part===pk;});
+    partAvg[pk]=items.reduce(function(s,x){return s+x.v;},0)/items.length;
+  });
+  return {vals:vals,avg:avg,pct:pct,partAvg:partAvg};
+}
+
+function bandFor(pct){
+  for(var i=0;i<BANDS.length;i++){ if(pct>=BANDS[i].min && pct<=BANDS[i].max) return BANDS[i]; }
+  return BANDS[BANDS.length-1];
+}
+
+function render(res){
+  var name=($("userName").value||"").trim();
+  $("resultTitle").textContent=name?(name+"\u2019s Leadership Readiness"):"Your Leadership Readiness";
+  $("resultSub").textContent="Based on your self-rating across all 17 leadership topics.";
+
+  // hero ring
+  var ring=$("scoreRing");
+  ring.style.setProperty("--pct",res.pct);
+  ring.style.background="conic-gradient("+pctColor(res.pct)+" calc(var(--pct)*1%),var(--surface-2) 0)";
+  $("scorePct").textContent=res.pct+"%";
+  $("scoreAvg").textContent=res.avg.toFixed(1)+" / 5";
+  var band=bandFor(res.pct);
+  var pill=$("bandPill");
+  pill.textContent=band.name;
+  pill.style.background=band.color;
+  $("bandTitle").textContent="You're in the \u201c"+band.name+"\u201d range";
+  $("bandText").textContent=band.text;
+
+  // part rows
+  var pr="";
+  PART_ORDER.forEach(function(pk){
+    var a=res.partAvg[pk];
+    var p=(a-1)/4*100;
+    pr+='<div class="part-row">';
+    pr+='<div class="lbl">Part '+pk+' \u00b7 '+PARTS[pk].title+'<small>'+PARTS[pk].focus+'</small></div>';
+    pr+='<div class="bar"><i style="width:'+p+'%;background:'+scoreColor(a)+'"></i></div>';
+    pr+='<div class="pc" style="color:'+scoreColor(a)+'">'+a.toFixed(1)+'</div>';
+    pr+='</div>';
+  });
+  $("partRows").innerHTML=pr;
+
+  // priority recommendations: lowest scores first
+  var sorted=res.vals.slice().sort(function(a,b){
+    if(a.v!==b.v) return a.v-b.v;
+    return a.t.n-b.t.n;
+  });
+  var priorities=sorted.filter(function(x){return x.v<=3;});
+  if(priorities.length<3) priorities=sorted.slice(0,3);
+  if(priorities.length>6) priorities=priorities.slice(0,6);
+  var rc="";
+  priorities.forEach(function(x,i){
+    var col=scoreColor(x.v);
+    rc+='<div class="rec" style="border-inline-start-color:'+col+'">';
+    rc+='<div class="rec-head">';
+    rc+='<span class="rank">'+(i+1)+'</span>';
+    rc+='<span class="rec-title">'+x.t.title+'</span>';
+    rc+='<span class="tag" style="background:'+col+'">You rated '+x.v+'/5</span>';
+    rc+='<span class="chip">Part '+x.t.part+' \u00b7 Chapter '+x.t.n+'</span>';
+    rc+='</div>';
+    rc+='<p><span class="lead-in">Try this:</span> '+x.t.rec+'</p>';
+    rc+='</div>';
+  });
+  $("recs").innerHTML=rc;
+
+  // strengths: highest scores
+  var strong=sorted.slice().reverse().filter(function(x){return x.v>=4;}).slice(0,5);
+  if(strong.length===0){
+    $("strengths").innerHTML='<div class="str"><span class="dot" style="background:var(--muted)"></span><div><div class="st-t">No topic rated 4 or above yet</div><div class="st-s">That\u2019s normal early on \u2014 focus on your priority actions and your strengths will follow.</div></div></div>';
+  } else {
+    var sh="";
+    strong.forEach(function(x){
+      sh+='<div class="str"><span class="dot" style="background:'+scoreColor(x.v)+'"></span><div>';
+      sh+='<div class="st-t">'+x.t.title+' \u00b7 '+x.v+'/5</div>';
+      sh+='<div class="st-s">Part '+x.t.part+' \u2014 '+PARTS[x.t.part].title+'. Keep this sharp and use it to coach others.</div>';
+      sh+='</div></div>';
+    });
+    $("strengths").innerHTML=sh;
+  }
+
+  // all scores (in topic order)
+  var as="";
+  res.vals.forEach(function(x){
+    var p=(x.v-1)/4*100;
+    as+='<div class="as-row" title="'+x.t.title+'">';
+    as+='<div class="as-t">'+x.t.n+'. '+x.t.title+'</div>';
+    as+='<div class="as-bar"><i style="width:'+p+'%;background:'+scoreColor(x.v)+'"></i></div>';
+    as+='<div class="as-v">'+x.v+'/5</div>';
+    as+='</div>';
+  });
+  $("allScores").innerHTML=as;
+
+  $("results").hidden=false;
+  $("results").scrollIntoView({behavior:"smooth",block:"start"});
+}
+
+function reset(){
+  answers={};
+  document.querySelectorAll(".scale button").forEach(function(b){
+    b.classList.remove("sel"); b.setAttribute("aria-pressed","false");
+  });
+  updateProgress();
+  $("results").hidden=true;
+  window.scrollTo({top:0,behavior:"smooth"});
+}
+
+buildAssessment();
+updateProgress();
+$("revealBtn").addEventListener("click",function(){
+  if(Object.keys(answers).length<TOPICS.length) return;
+  render(computeResults());
+});
+$("resetBtn").addEventListener("click",reset);
+$("printBtn").addEventListener("click",function(){window.print();});
+
+})();
+</script>
+</body>
+</html>

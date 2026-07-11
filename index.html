@@ -1,0 +1,205 @@
+﻿<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="color-scheme" content="light dark"/>
+  <title>The Adaptive Leader</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+Arabic:wght@400;600;700&family=Noto+Sans+SC:wght@400;700&family=Noto+Sans+JP:wght@400;700&family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+
+  <header class="topbar">
+    <div class="topbar-inner">
+      <span class="topbar-label" id="topbarLabel">Language</span>
+      <nav class="lang-strip" id="langStrip" aria-label="Language switcher"></nav>
+      <div class="topbar-nav-icons" aria-label="Quick navigation">
+        <button class="topbar-nav-btn" data-jump="#chapters" data-section="chapters" title="Chapters" aria-label="Go to chapters">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>
+          <span>Chapters</span>
+        </button>
+        <button class="topbar-nav-btn" data-jump="#evaluator" data-section="evaluator" title="Comms Evaluator" aria-label="Go to Comms Evaluator">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+          <span>Comms Eval</span>
+        </button>
+        <button class="topbar-nav-btn" data-jump="#self-assessment" data-section="self-assessment" title="Self-Assessment" aria-label="Go to Self-Assessment">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
+          <span>Self-assess</span>
+        </button>
+        <button class="topbar-nav-btn" data-jump="#leadership-assessment" data-section="leadership-assessment" title="Leadership Skills Assessment" aria-label="Go to Leadership Skills Assessment">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          <span id="navLeadership">Assess skills</span>
+        </button>
+        <button class="topbar-nav-btn" data-jump="#appendices" data-section="appendices" title="Appendices" aria-label="Go to Appendices">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+          <span>Appendices</span>
+        </button>
+      </div>
+      <div class="topbar-actions">
+        <button class="topbar-top-btn has-tip" id="btnAbout" type="button" aria-label="About this guide" data-tip="About this guide">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 16v-4"/><path d="M12 8h.01"/></svg>
+        </button>
+        <button class="topbar-top-btn has-tip" id="btnBackToTop" type="button" aria-label="Back to top" data-tip="Back to top">&#8679;</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="shell">
+
+    <aside class="sidebar">
+      <div class="brand">
+        <div>
+          <p id="brandTitle">The Adaptive Leader</p>
+          <span id="brandSub">Book wiki</span>
+        </div>
+      </div>
+      <div class="search-box">
+        <label for="chapterSearch" id="searchLabel">Search chapters</label>
+        <input id="chapterSearch" type="search" autocomplete="off"/>
+      </div>
+      <nav id="sidebarNav" class="sidebar-nav" aria-label="Chapter navigation"></nav>
+    </aside>
+
+    <main class="content">
+
+      <header class="site-header panel">
+        <div class="header-inner">
+          <div class="header-copy">
+            <p class="eyebrow" id="heroEyebrow">EXECUTIVE COMMUNICATION &amp; PRESENCE</p>
+            <h1 id="heroTitle">The Adaptive Leader</h1>
+            <p class="hero-lead" id="heroText"></p>
+            <div class="colour-dots" aria-hidden="true">
+              <span style="background:#d64550"></span>
+              <span style="background:#f2b705"></span>
+              <span style="background:#2e9e5b"></span>
+              <span style="background:#2e86c1"></span>
+            </div>
+            <div class="hero-actions">
+              <button class="btn btn-primary" data-jump="#chapters" data-section="chapters" id="btnExplore">Explore chapters</button>
+              <button class="btn btn-ghost" data-jump="#evaluator" data-section="evaluator" id="btnTool">Comms Evaluator</button>
+              <button class="btn btn-ghost" data-jump="#self-assessment" data-section="self-assessment" id="btnSelfAssess">Self-assess</button>
+              <button class="btn btn-ghost" data-jump="#leadership-assessment" data-section="leadership-assessment" id="btnLeadership">Assess skills</button>
+            </div>
+          </div>
+          <div class="header-aside">
+            <div class="stat-grid" id="statGrid"></div>
+          </div>
+        </div>
+      </header>
+
+      <section id="parts" class="panel section-block">
+        <div class="section-head compact">
+          <div><p class="eyebrow" id="partsEyebrow">Five parts</p><h2 id="partsTitle">The book structure</h2></div>
+        </div>
+        <div id="partGrid" class="part-grid"></div>
+      </section>
+
+      <section id="chapters" class="panel section-block">
+        <div class="section-head compact">
+          <div><p class="eyebrow" id="chaptersEyebrow">Chapter wiki</p><h2 id="chaptersTitle">Deep dive</h2></div>
+        </div>
+        <article id="chapterDetail" class="chapter-detail" aria-live="polite"></article>
+      </section>
+
+      <section id="evaluator" class="panel section-block">
+        <div class="section-head compact">
+          <div><p class="eyebrow" id="evalEyebrow">Interactive tool</p><h2 id="evalTitle">Communication Style Evaluator</h2></div>
+          <p class="section-lede" id="evalLede"></p>
+        </div>
+        <div class="evaluator-notice">
+          <div class="colour-dots" aria-hidden="true">
+            <span style="background:#d64550"></span>
+            <span style="background:#f2b705"></span>
+            <span style="background:#2e9e5b"></span>
+            <span style="background:#2e86c1"></span>
+          </div>
+          <p id="evalNotice"></p>
+        </div>
+        <div class="evaluator-wrap">
+          <iframe class="evaluator-frame"
+            src="Communication-Style-Evaluator.html"
+            title="Communication Style Evaluator" loading="lazy"></iframe>
+        </div>
+      </section>
+
+      <section id="self-assessment" class="panel section-block">
+        <div class="section-head compact">
+          <div><p class="eyebrow" id="saEyebrow">Self-assessment</p><h2 id="saTitle">Colour Self-Assessment</h2></div>
+          <p class="section-lede" id="saLede"></p>
+        </div>
+        <div class="evaluator-notice">
+          <div class="colour-dots" aria-hidden="true">
+            <span style="background:#d64550"></span>
+            <span style="background:#f2b705"></span>
+            <span style="background:#2e9e5b"></span>
+            <span style="background:#2e86c1"></span>
+          </div>
+          <p id="saNotice"></p>
+        </div>
+        <div class="evaluator-wrap">
+          <iframe class="evaluator-frame" src="Self-Assessment.html"
+            title="Colour Self-Assessment" loading="lazy"></iframe>
+        </div>
+      </section>
+
+      <section id="leadership-assessment" class="panel section-block">
+        <div class="section-head compact">
+          <div><p class="eyebrow" id="laEyebrow">Skills assessment</p><h2 id="laTitle">Leadership Skills Assessment</h2></div>
+          <p class="section-lede" id="laLede"></p>
+        </div>
+        <div class="evaluator-notice">
+          <div class="colour-dots" aria-hidden="true">
+            <span style="background:#d64550"></span>
+            <span style="background:#f2b705"></span>
+            <span style="background:#2e9e5b"></span>
+            <span style="background:#2e86c1"></span>
+          </div>
+          <p id="laNotice"></p>
+        </div>
+        <div class="evaluator-wrap">
+          <iframe class="evaluator-frame" src="Leadership-Assessment.html"
+            title="Leadership Skills Assessment" loading="lazy"></iframe>
+        </div>
+      </section>
+
+      <section id="appendices" class="panel section-block">
+        <div class="section-head compact">
+          <div><p class="eyebrow" id="appendicesEyebrow">Reference material</p><h2 id="appendicesTitle">Appendices</h2></div>
+        </div>
+        <div id="appendixGrid" class="appendix-grid"></div>
+      </section>
+
+    </main>
+  </div>
+
+  <div class="modal-overlay" id="aboutOverlay" hidden>
+    <div class="modal about-modal" role="dialog" aria-modal="true" aria-labelledby="aboutTitle">
+      <button class="modal-close" id="aboutClose" type="button" aria-label="Close">&times;</button>
+      <div class="about-dots" aria-hidden="true">
+        <span style="background:#d64550"></span>
+        <span style="background:#f2b705"></span>
+        <span style="background:#2e9e5b"></span>
+        <span style="background:#2e86c1"></span>
+      </div>
+      <h2 id="aboutTitle">About this guide</h2>
+      <p id="aboutBody1"></p>
+      <p id="aboutBody2"></p>
+      <div class="about-credits">
+        <h3 id="aboutCreditsLabel">Credits</h3>
+        <p id="aboutCreditsNames">Maria Olhova &middot; Sunny Pei &middot; Gerardo Merello &middot; Pablo Scherer &middot; Jay Rao &middot; Leandro Frasso</p>
+      </div>
+      <p class="about-powered" id="aboutPowered"></p>
+    </div>
+  </div>
+
+  <footer class="foot"><p id="footerText">Leadership Workshop &middot; The Adaptive Leader</p></footer>
+  <script src="chapters-i18n.js"></script>
+  <script src="chapters-extra.js"></script>
+  <script src="ax-i18n.js"></script>
+  <script src="theory-i18n.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
