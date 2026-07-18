@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "A": {
+      "letter": "A",
+      "title": "Guia rápido de cores",
+      "text": "Uma referência rápida para as quatro cores e os seus comportamentos predefinidos."
+    },
+    "B": {
+      "letter": "B",
+      "title": "Como comunicar com cada cor",
+      "text": "Um guia de comunicação para adaptar tom, ritmo e evidências."
+    },
+    "C": {
+      "letter": "C",
+      "title": "A prática do líder",
+      "text": "Uma secção prática para transformar o modelo em hábitos."
+    },
+    "D": {
+      "letter": "D",
+      "title": "Leitura adicional",
+      "text": "O percurso de investigação por detrás dos modelos usados ao longo do livro."
+    }
+  },
+  "colours": [
+    {
+      "id": "red",
+      "name": "Vermelho — O Motor",
+      "hex": "#d64550",
+      "onLight": false,
+      "traits": [
+        "Decisivo",
+        "Orientado para resultados",
+        "Direto",
+        "Competitivo",
+        "Orientado para a ação"
+      ],
+      "best": "Cria momentum, toma decisões rápidas, impulsiona para os resultados.",
+      "shadow": "Impaciente, controlador, minimiza as emoções sob pressão.",
+      "need": "Vai direto ao ponto e oferece opções claras. Respeita o seu tempo."
+    },
+    {
+      "id": "yellow",
+      "name": "Amarelo — O Inspirador",
+      "hex": "#f2b705",
+      "onLight": true,
+      "traits": [
+        "Entusiasta",
+        "Centrado nas pessoas",
+        "Criativo",
+        "Otimista",
+        "Expressivo"
+      ],
+      "best": "Energiza equipas, constrói ligação, inspira visão e possibilidade.",
+      "shadow": "Disperso, faz promessas excessivas, evita verdades difíceis e detalhes.",
+      "need": "Traz energia e calor. Conecta a um propósito inspirador maior."
+    },
+    {
+      "id": "green",
+      "name": "Verde — O Apoio",
+      "hex": "#2e9e5b",
+      "onLight": false,
+      "traits": [
+        "Paciente",
+        "Leal",
+        "Empático",
+        "Estável",
+        "Busca a harmonia"
+      ],
+      "best": "Estabiliza equipas, constrói confiança profunda, fiável e consistente.",
+      "shadow": "Evita o conflito, fica em silêncio, concorda depois desliga-se.",
+      "need": "Constrói a relação primeiro. Dá tempo. Nunca se apresse ou surpreenda."
+    },
+    {
+      "id": "blue",
+      "name": "Azul — O Analista",
+      "hex": "#2e86c1",
+      "onLight": false,
+      "traits": [
+        "Analítico",
+        "Preciso",
+        "Lógico",
+        "Orientado para a qualidade",
+        "Estruturado"
+      ],
+      "best": "Garante rigor, deteta riscos, entrega qualidade consistentemente alta.",
+      "shadow": "Analisa em excesso, hipercrítico, distante emocionalmente, lento a decidir.",
+      "need": "Traz dados e evidências. Dá tempo para verificar. Nunca exageres ou pressiones."
+    }
+  ],
+  "comms": [
+    {
+      "colour": "Vermelho",
+      "hex": "#d64550",
+      "onLight": false,
+      "open": "\"Aqui está o ponto essencial — três opções. Decides tu.\"",
+      "dos": [
+        "Começa pelo resultado, depois o raciocínio",
+        "Oferece opções claras e deixa escolher",
+        "Mantém-te seguro — sem hesitar",
+        "Respeita o seu tempo; sê breve"
+      ],
+      "donts": [
+        "Não entrerres o ponto no contexto",
+        "Não leves a brusquidão a peito",
+        "Não abras com conversa fiada não solicitada",
+        "Não tragas problemas sem soluções propostas"
+      ]
+    },
+    {
+      "colour": "Amarelo",
+      "hex": "#f2b705",
+      "onLight": true,
+      "open": "\"Tenho algo que acho que vais adorar — vamos construí-lo juntos.\"",
+      "dos": [
+        "Traz energia e sê genuinamente caloroso",
+        "Conecta o pedido a um propósito inspirador maior",
+        "Permite tempo para falar e sentir-se reconhecido",
+        "Celebra a ideia antes de a refinar"
+      ],
+      "donts": [
+        "Não inicies com dados e análises",
+        "Não sejas frio ou puramente transacional",
+        "Não vás imediatamente ao ponto de ação",
+        "Não contes com eles para acompanhar os detalhes"
+      ]
+    },
+    {
+      "colour": "Verde",
+      "hex": "#2e9e5b",
+      "onLight": false,
+      "open": "\"Sem pressa — valorizo a tua opinião honesta antes de decidir qualquer coisa.\"",
+      "dos": [
+        "Constrói a relação antes da agenda",
+        "Explica o como — passo a passo",
+        "Oferece segurança e continuidade",
+        "Dá tempo para processar antes de esperar resposta"
+      ],
+      "donts": [
+        "Não te apresses, pressiones ou empurres para uma resposta imediata",
+        "Não impões mudanças sem consulta",
+        "Não confundas o silêncio com acordo",
+        "Não saltes a ligação pessoal"
+      ]
+    },
+    {
+      "colour": "Azul",
+      "hex": "#2e86c1",
+      "onLight": false,
+      "open": "\"Aqui estão os dados e o raciocínio estruturado — toma o tempo que precisares.\"",
+      "dos": [
+        "Vem preparado com factos, evidências e estrutura",
+        "Dá tempo e espaço para analisar",
+        "Envia follow-up escrito com todos os detalhes",
+        "Reconhece os riscos honestamente"
+      ],
+      "donts": [
+        "Não exageres, inflacione ou faças hype",
+        "Não pressiones para um compromisso rápido",
+        "Não improvises nem sejas vago com os números",
+        "Não pressiones antes de estarem prontos"
+      ]
+    }
+  ],
+  "practice": {
+    "daily": [
+      "Antes de uma conversa chave: \"Que cor é esta pessoa e do que precisa de mim agora?\"",
+      "Depois de uma interação difícil: \"O que me desencadeou — e o que faria diferente?\"",
+      "No fim do dia: \"Liderei hoje, ou apenas reagi?\"",
+      "Ao delegar: \"Estou a desenvolver capacidade, ou apenas a limpar a minha agenda?\"",
+      "Ao resolver um problema: \"É meu para resolver, ou fazê-lo bloqueia o crescimento de outra pessoa?\""
+    ],
+    "weekly": [
+      "Revê os compromissos feitos com a tua equipa. Foram claros? Foram cumpridos?",
+      "Identifica uma conversa que tens estado a evitar. Planeia tê-la esta semana.",
+      "Pergunta a um colaborador direto: \"O que poderia eu fazer que facilitasse o teu trabalho?\"",
+      "Verifica a temperatura emocional da equipa: quem parece desconectado, stressado ou desligado?"
+    ],
+    "monthly": [
+      "O que entregou a tua equipa este mês — e que condições o tornaram possível?",
+      "Quem da equipa cresceu este mês? Quem não cresceu? O que explica a diferença?",
+      "Que hábito de liderança queres fortalecer? Qual é o teu plano concreto?"
+    ]
+  },
+  "books": [
+    {
+      "cat": "Cores e comportamento",
+      "items": [
+        {
+          "title": "Surrounded by Idiots",
+          "author": "Thomas Erikson",
+          "note": "A introdução mais popular ao modelo DISC de quatro cores em linguagem acessível."
+        },
+        {
+          "title": "Emotions of Normal People",
+          "author": "William Moulton Marston",
+          "note": "O original de 1928 que introduziu os quatro quadrantes comportamentais."
+        }
+      ]
+    },
+    {
+      "cat": "Autoconsciência e IE",
+      "items": [
+        {
+          "title": "Emotional Intelligence",
+          "author": "Daniel Goleman",
+          "note": "O argumento fundamental de que a IE prevê o sucesso na liderança mais do que o QI."
+        },
+        {
+          "title": "Insight",
+          "author": "Tasha Eurich",
+          "note": "Porque a autoconsciência é tão rara — e as práticas que a desenvolvem realmente."
+        },
+        {
+          "title": "Coaching for Performance",
+          "author": "John Whitmore",
+          "note": "O modelo GROW e a mentalidade de coaching que todo líder precisa."
+        }
+      ]
+    },
+    {
+      "cat": "Comunicação e influência",
+      "items": [
+        {
+          "title": "Crucial Conversations",
+          "author": "Patterson, Grenny et al.",
+          "note": "O framework prático para conversas de alto risco que geram movimento e preservam a confiança."
+        },
+        {
+          "title": "Influence",
+          "author": "Robert Cialdini",
+          "note": "Os seis princípios da persuasão ética, baseados em décadas de investigação."
+        },
+        {
+          "title": "The Culture Map",
+          "author": "Erin Meyer",
+          "note": "Oito escalas em que as culturas diferem — leitura essencial para liderar equipas globais."
+        }
+      ]
+    },
+    {
+      "cat": "Equipas e desempenho",
+      "items": [
+        {
+          "title": "The Five Dysfunctions of a Team",
+          "author": "Patrick Lencioni",
+          "note": "Um modelo causal de porque os equipas falham e os passos específicos para resolver."
+        },
+        {
+          "title": "Measure What Matters",
+          "author": "John Doerr",
+          "note": "A metodologia OKR para definir objetivos que geram movimento organizacional real."
+        },
+        {
+          "title": "The Fearless Organization",
+          "author": "Amy Edmondson",
+          "note": "A ciência da segurança psicológica — criar equipas onde aprender e dizer a verdade é possível."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,969 @@
+{
+  "app": {
+    "name": "The Adaptive Leader",
+    "tagline": "A practical guide to leading across the four colours."
+  },
+  "nav": {
+    "chapters": "Chapters",
+    "appendices": "Appendices",
+    "self": "Self-Assessment",
+    "leadership": "Leadership Assessment",
+    "evaluator": "Communication Evaluator",
+    "cultural": "Cultural Tips"
+  },
+  "home": {
+    "eyebrow": "Interactive leadership guide",
+    "title": "Lead with awareness. Adapt with intent.",
+    "subtitle": "Explore eighteen chapters, four appendices, and four interactive tools that help you understand yourself and adapt to the people around you.",
+    "browse": "Browse chapters",
+    "takeSelf": "Take the self-assessment",
+    "stats": {
+      "parts": "Parts",
+      "chapters": "Chapters",
+      "appendices": "Appendices",
+      "tools": "Assessments"
+    },
+    "partsTitle": "The five parts",
+    "toolsTitle": "Tools & reference",
+    "tiles": {
+      "chapters": "Eighteen chapters across five parts — theory, the four-colour angle, and a practice for each.",
+      "appendices": "Quick-reference guides: the colour pocket guide, communication cheat-sheet, the leader's practice, and further reading.",
+      "self": "Discover your colour balance and what it means for how you lead and adapt.",
+      "leadership": "Rate yourself across the 17 topics for a readiness index and a prioritised action plan.",
+      "evaluator": "Analyse someone's communication style and get tailored recommendations.",
+      "cultural": "Pick a country and a colour for practical tips on adapting to that person across cultures."
+    }
+  },
+  "common": {
+    "language": "Language",
+    "backToTop": "Back to top"
+  },
+  "about": {
+    "trigger": "About",
+    "title": "About this guide",
+    "body1": "The Adaptive Leader consolidates the crucial topics for the professional development of your leadership skills — from self-awareness and emotional intelligence to communication, team-building, decision-making, coaching, and leading across cultures.",
+    "body2": "It is not intended to replace the book or the deep reading behind it. It is a guide — a fast, structured way to revisit the ideas, assess yourself, and put them into practice.",
+    "creditsLabel": "Credits",
+    "credits": "Maria Olhova · Sunny Pei · Gerardo Merello · Pablo Scherer · Jay Rao · Leandro Frasso",
+    "powered": "This application is powered by <strong>Leandro</strong>."
+  },
+  "leadership": {
+    "meta": {
+      "title": "Leadership Skills Assessment",
+      "description": "Rate yourself across the 17 leadership topics to get an overall readiness index, a breakdown by theme, your strengths, and a prioritised action plan."
+    },
+    "header": {
+      "eyebrow": "LEADERSHIP READINESS PROGRAM",
+      "title": "Leadership Skills Assessment",
+      "lead": "Rate yourself honestly across the 17 leadership topics from the book. You’ll get an overall readiness index, a breakdown by theme, your strengths, and a prioritised action plan of recommendations to improve."
+    },
+    "notice": "<b>Answer for how you lead today, not how you aspire to.</b> There are no right answers — the areas you rate lowest become the focus of your personalised action plan. Rate all 17 statements to unlock your results.",
+    "nameLabel": "Your name (optional)",
+    "namePlaceholder": "Add your name to personalise the report",
+    "nameHint": "Nothing is stored or sent. Your answers stay in this browser tab and clear when you close it.",
+    "partPill": "Part {part} · {title}",
+    "parts": {
+      "I": {
+        "title": "Know Yourself",
+        "focus": "Self-awareness and the language of colour"
+      },
+      "II": {
+        "title": "Master Your Emotions",
+        "focus": "Emotional intelligence and regulation"
+      },
+      "III": {
+        "title": "Adapt to Others",
+        "focus": "Communication, influence, and presence"
+      },
+      "IV": {
+        "title": "Build the Team",
+        "focus": "Trust, safety, rhythm, accountability"
+      },
+      "V": {
+        "title": "Decide & Grow",
+        "focus": "Goals, decisions, coaching, culture"
+      }
+    },
+    "scale": {
+      "1": "Rarely",
+      "2": "Sometimes",
+      "3": "Often",
+      "4": "Usually",
+      "5": "Almost always"
+    },
+    "topics": {
+      "1": {
+        "title": "From Expert to Leader",
+        "stmt": "I measure my success by what my team achieves, and I actively hand off work I used to own.",
+        "rec": "Name the three activities that made you a great individual contributor, then give one of them away this week. Judge yourself by your team’s output, not your personal work."
+      },
+      "2": {
+        "title": "The Four Colours",
+        "stmt": "I can quickly recognise my own behavioural style and read other people’s styles in the moment.",
+        "rec": "Place yourself on the outgoing/reserved and task/people axes, name your dominant and secondary colour, and identify the colour diagonally opposite you — usually the style you find hardest."
+      },
+      "3": {
+        "title": "Leadership Self-Awareness",
+        "stmt": "I know my triggers and how I behave under pressure, and I actively seek feedback on my blind spots.",
+        "rec": "Review three recent moments you regretted; write down the trigger and the impact. Then ask one trusted person what you tend to do when you’re stressed."
+      },
+      "4": {
+        "title": "Emotional Intelligence",
+        "stmt": "I read the emotional undercurrent of a room and factor it into how I lead.",
+        "rec": "After your next hard meeting, name one positive and one negative emotional signal you noticed — and how you responded. Build the habit of reading the emotional layer, not just the content."
+      },
+      "5": {
+        "title": "Self-Regulation",
+        "stmt": "I stay composed and choose my response when tension spikes, instead of reacting on impulse.",
+        "rec": "Build a composure kit: a pause, a breath, a reframe, and a go-to phrase. Rehearse it in low-stakes moments so it’s available when the pressure is real."
+      },
+      "6": {
+        "title": "Empathy",
+        "stmt": "I listen to understand others’ perspectives before I respond, even when I disagree.",
+        "rec": "In your next one-to-one, listen to understand rather than to answer. Reflect back what you heard before you try to solve anything."
+      },
+      "7": {
+        "title": "Adaptive Leadership",
+        "stmt": "I flex my communication style to fit the person in front of me, not my own default.",
+        "rec": "Rewrite a real message in the style of one person you need to influence. Then watch for your own conflict signature the next time friction rises."
+      },
+      "8": {
+        "title": "Influence Without Authority",
+        "stmt": "I get things done through people I don’t control, using trust and clarity rather than escalation.",
+        "rec": "Sharpen one ask: clarify the outcome, why it matters, and what success looks like from the other person’s point of view before you make it."
+      },
+      "9": {
+        "title": "Difficult Conversations",
+        "stmt": "I address issues early and directly while keeping the relationship intact.",
+        "rec": "Prepare one conversation you’ve been postponing. Write the factual issue (situation and behaviour), its impact, and the one result you want, then have it this week."
+      },
+      "10": {
+        "title": "Executive Presence",
+        "stmt": "I communicate with clarity and presence so my message lands as intended.",
+        "rec": "Land one real message by leading with the point, cutting the filler, and matching your tone and pace to the outcome you want."
+      },
+      "11": {
+        "title": "High-Performance Team",
+        "stmt": "I deliberately create the conditions — purpose, clarity, accountability — for my team to perform.",
+        "rec": "Diagnose your team against the four pillars (shared purpose, clarity, safety, rhythm) and name the single weakest condition right now, then fix that one first."
+      },
+      "12": {
+        "title": "Trust & Psychological Safety",
+        "stmt": "People on my team speak up, disagree, and admit mistakes without fear.",
+        "rec": "In your next team conversation, actively invite one honest concern, one question, and one disagreement — and thank people for raising them."
+      },
+      "13": {
+        "title": "Operating Rhythm & Accountability",
+        "stmt": "My team runs on a predictable rhythm that keeps work visible without me chasing updates.",
+        "rec": "Tune one recurring ritual so it has a clearer purpose, a tighter agenda, or a cleaner decision rule — or retire it if it only survives because you drive it."
+      },
+      "14": {
+        "title": "Setting Goals That Drive Outcomes",
+        "stmt": "I set goals specific enough to own, track, and finish — focused on outcomes, not activity.",
+        "rec": "Rewrite one goal so the outcome, the named owner, and the success measure are all explicit. Replace any 'activity' goal with the result it’s meant to produce."
+      },
+      "15": {
+        "title": "Decision Discipline",
+        "stmt": "I decide well under ambiguity, matching my speed to whether a decision is reversible.",
+        "rec": "Pressure-test one live decision: classify it as a one-way or two-way door, name your assumptions, and run a quick pre-mortem before you commit."
+      },
+      "16": {
+        "title": "Coaching & Mentoring",
+        "stmt": "I grow my people by coaching — drawing out their thinking — not just giving them answers.",
+        "rec": "Before your next development chat, decide whether the person needs mentoring or coaching. If it’s coaching, ask two open questions and resist handing over the answer."
+      },
+      "17": {
+        "title": "Leading Across Cultures",
+        "stmt": "I calibrate for cultural differences and check for culture before assuming a personal trait.",
+        "rec": "Map the two dimensions where your team differs most, set one explicit team norm, and check for a cultural explanation before judging a behaviour as personal."
+      }
+    },
+    "bands": {
+      "emerging": {
+        "name": "Emerging",
+        "text": "You’re early in building deliberate leadership habits — which means fast progress is available. Pick one or two priority areas below and work them until they feel natural before adding more."
+      },
+      "developing": {
+        "name": "Developing",
+        "text": "Solid instincts with clear room to grow. Your lowest-scoring topics below are where focused effort will move the needle fastest — turn two of them into concrete habits this quarter."
+      },
+      "strong": {
+        "name": "Strong",
+        "text": "You lead well across most areas. Sharpen the few remaining gaps, keep leaning into your strengths, and start coaching others in what you do best."
+      },
+      "exceptional": {
+        "name": "Exceptional",
+        "text": "A broad, consistent leadership range. Keep stretching your lowest-rated topics so you don’t plateau, and multiply your impact by developing these skills in the people around you."
+      }
+    },
+    "progress": "{done} of {total} topics rated",
+    "reveal": "Show my recommendations",
+    "resultTitle": "Your Leadership Readiness",
+    "resultTitleNamed": "{name}’s Leadership Readiness",
+    "resultSub": "Based on your self-rating across all 17 leadership topics.",
+    "scoreAvg": "{avg} / 5",
+    "bandHeading": "You’re in the “{band}” range",
+    "breakdownTitle": "Breakdown by theme",
+    "breakdownSub": "How you scored across the five parts of the leadership arc.",
+    "priorityTitle": "Your priority actions",
+    "prioritySub": "Start here. These are your lowest-scoring topics, ordered by where focused effort will pay off most.",
+    "strengthsTitle": "Your strengths",
+    "strengthsSub": "The topics you already lead well — protect these and use them to coach others.",
+    "allTitle": "All 17 topics at a glance",
+    "allSub": "Your full self-rating across every topic.",
+    "rated": "You rated {v}/5",
+    "chip": "Part {part} · Chapter {n}",
+    "tryThis": "Try this:",
+    "strengthDesc": "Part {part} — {title}. Keep this sharp and use it to coach others.",
+    "noStrengthTitle": "No topic rated 4 or above yet",
+    "noStrengthDesc": "That’s normal early on — focus on your priority actions and your strengths will follow.",
+    "retake": "Retake assessment",
+    "print": "Print / Save as PDF",
+    "footer": "Leadership Readiness Program · Leadership Skills Assessment — a plan for growth, not a verdict."
+  },
+  "self": {
+    "meta": {
+      "title": "Colour Self-Assessment",
+      "description": "Discover your colour balance and what it means for your self-awareness, emotional regulation, and adaptation to each other colour."
+    },
+    "header": {
+      "eyebrow": "SELF-AWARENESS & EMOTIONAL INTELLIGENCE",
+      "title": "Colour Self-Assessment",
+      "lead": "Discover your own colour balance — and understand what it means for your self-awareness, emotional regulation, and your biggest adaptation challenges with each other colour."
+    },
+    "notice": "<b>Rate yourself honestly.</b> Each statement appears in random order with the colour hidden. Rate how well it describes your natural default — not your best day, and not how you aspire to be. The profile and all recommendations appear only when you reveal.",
+    "nameLabel": "Your name (optional)",
+    "namePlaceholder": "e.g. Alex — for a personalised report",
+    "nameHint": "Use the sliders to show how strongly each statement describes you. A score of 0 means it does not describe you at all; 100 means it describes you perfectly.",
+    "rateTitle": "Rate the statements",
+    "rateSub": "Colours are hidden and options are shuffled — rate what feels true, not what sounds right",
+    "notRated": "Not rated yet",
+    "splitCap": "How your ratings split across this aspect (= 100%)",
+    "progress": "{n} of {total} aspects rated",
+    "reveal": "Reveal my profile",
+    "colours": {
+      "red": {
+        "name": "Red",
+        "archetype": "The Driver"
+      },
+      "yellow": {
+        "name": "Yellow",
+        "archetype": "The Inspirer"
+      },
+      "green": {
+        "name": "Green",
+        "archetype": "The Supporter"
+      },
+      "blue": {
+        "name": "Blue",
+        "archetype": "The Analyst"
+      }
+    },
+    "questions": {
+      "work": {
+        "aspect": "How I work",
+        "prompt": "What best describes your natural working style?",
+        "options": {
+          "red": "I like to take charge, set the pace, and move things forward decisively.",
+          "yellow": "I enjoy collaborating, sharing ideas, and energising the people around me.",
+          "green": "I prefer working steadily, building trust, and supporting the team.",
+          "blue": "I like to plan carefully, ensure quality, and analyse before acting."
+        }
+      },
+      "pressure": {
+        "aspect": "Under pressure",
+        "prompt": "When stress is high, how do you naturally respond?",
+        "options": {
+          "red": "I become more direct and push harder — results matter most.",
+          "yellow": "I look for people to brainstorm with and seek creative solutions.",
+          "green": "I go quiet, process internally, and need time before responding.",
+          "blue": "I dig deeper into the data and look for more information before deciding."
+        }
+      },
+      "comms": {
+        "aspect": "Communication",
+        "prompt": "How do you naturally express yourself?",
+        "options": {
+          "red": "I get to the point quickly — direct, brief, and focused on outcomes.",
+          "yellow": "I communicate with energy and stories, making it personal and engaging.",
+          "green": "I am warm and patient, careful to preserve the relationship in everything I say.",
+          "blue": "I am precise and structured, presenting facts and reasoning clearly."
+        }
+      },
+      "decisions": {
+        "aspect": "Making decisions",
+        "prompt": "How do you approach a significant decision?",
+        "options": {
+          "red": "I decide quickly with the information I have — speed and momentum matter.",
+          "yellow": "I consult others and follow my instinct when the energy feels right.",
+          "green": "I seek consensus and take time to consider the impact on everyone.",
+          "blue": "I gather all available data and think it through methodically before committing."
+        }
+      },
+      "motivation": {
+        "aspect": "What drives me",
+        "prompt": "What genuinely motivates you at work?",
+        "options": {
+          "red": "Achieving results, winning, and being in control of outcomes.",
+          "yellow": "Recognition, connection, variety, and the excitement of new ideas.",
+          "green": "Harmony, stability, and knowing the team is supported and valued.",
+          "blue": "Accuracy, mastery, structure, and delivering consistently high-quality work."
+        }
+      },
+      "conflict": {
+        "aspect": "Handling conflict",
+        "prompt": "When there is genuine disagreement, how do you typically respond?",
+        "options": {
+          "red": "I address it directly and say what I think, even if it creates friction.",
+          "yellow": "I deflect with humour or energy to keep the mood positive.",
+          "green": "I absorb the tension quietly and avoid confrontation to keep the peace.",
+          "blue": "I withdraw and analyse the situation before deciding whether and how to engage."
+        }
+      },
+      "feedback": {
+        "aspect": "Receiving feedback",
+        "prompt": "How do you typically respond to critical feedback?",
+        "options": {
+          "red": "I listen for what is useful, assess it quickly, and move on.",
+          "yellow": "I take it personally at first but recover quickly and find the positive angle.",
+          "green": "I feel it deeply, may agree even when I disagree, and process it slowly.",
+          "blue": "I analyse it carefully for accuracy and fairness before accepting or rejecting it."
+        }
+      },
+      "strength": {
+        "aspect": "Your greatest contribution",
+        "prompt": "What do people most reliably say is your greatest value to a team?",
+        "options": {
+          "red": "Getting things done — I deliver results even under pressure.",
+          "yellow": "Bringing energy and rallying the team around a shared vision.",
+          "green": "Being the steady anchor — reliable, calm, and always trustworthy.",
+          "blue": "Ensuring rigour — finding the flaw, the gap, or the risk others miss."
+        }
+      }
+    },
+    "self": {
+      "red": {
+        "strengths": [
+          "Decisive and action-oriented — you create momentum when others hesitate.",
+          "Direct communicator — people always know where they stand with you.",
+          "High energy and drive — you hold yourself and others to a high standard."
+        ],
+        "shadow": [
+          "Under pressure: you become controlling, blunt, and impatient.",
+          "You may overlook the emotional impact of your directness on others.",
+          "You can confuse speed with quality — deciding fast is not always deciding well."
+        ],
+        "blindSpots": [
+          "How your directness lands on people with less power or authority than you.",
+          "The cost of your impatience on your team's psychological safety.",
+          "The decisions you rushed that later proved to need more deliberation."
+        ],
+        "question": "Am I moving fast because it is genuinely the right pace — or because I am uncomfortable with the uncertainty of waiting?"
+      },
+      "yellow": {
+        "strengths": [
+          "Inspiring and energising — you make people want to be part of what you are doing.",
+          "Creative and optimistic — you see possibility where others see problems.",
+          "Naturally relational — you build connection and warmth in teams quickly."
+        ],
+        "shadow": [
+          "Under pressure: you become scattered, over-promise, and lose follow-through.",
+          "Your enthusiasm can read as unreliable to analytical or results-focused colleagues.",
+          "You may avoid hard truths to preserve the positive energy in the room."
+        ],
+        "blindSpots": [
+          "The commitments you have made that quietly dropped off your radar.",
+          "How your energy and pace can overwhelm quieter colleagues.",
+          "The gap between how inspired you feel and what actually gets delivered."
+        ],
+        "question": "Am I energised because this is genuinely the right thing — or because I am excited about the idea and avoiding the discipline it requires?"
+      },
+      "green": {
+        "strengths": [
+          "Reliable, loyal, and trustworthy — the person the team counts on.",
+          "Patient and genuinely empathic — people feel heard and safe around you.",
+          "A stabilising presence under pressure — your calm becomes the whole team's calm."
+        ],
+        "shadow": [
+          "Under pressure: you go silent, avoid conflict, and carry resentment quietly.",
+          "You often agree in the room and disagree in private — your silence misleads others.",
+          "Your accommodation can rob the team of the honest friction it actually needs."
+        ],
+        "blindSpots": [
+          "How your silence is read as agreement — even when it is not.",
+          "The long-term cost of swallowing disagreement and unspoken disappointment.",
+          "How your conflict avoidance sometimes protects you more than it protects the relationship."
+        ],
+        "question": "Am I being patient because this situation genuinely calls for it — or am I avoiding a conversation I know I need to have?"
+      },
+      "blue": {
+        "strengths": [
+          "Analytical and precise — you catch what others miss.",
+          "High standards that consistently protect quality across the team.",
+          "Structured and reliable — your plans and analyses hold up under scrutiny."
+        ],
+        "shadow": [
+          "Under pressure: you become hyper-critical, withdrawn, and prone to analysis paralysis.",
+          "Your emotional reserve can read as indifference or coldness, even when you genuinely care.",
+          "Your standards can slow the team — not every decision deserves the same level of rigour."
+        ],
+        "blindSpots": [
+          "How your silence in meetings is misread as disapproval or disengagement.",
+          "The emotional dimension of situations you are analysing purely as logical problems.",
+          "The pattern of seeking more data as a way to postpone the discomfort of committing."
+        ],
+        "question": "Am I gathering more information because I genuinely need it — or because I am postponing the discomfort of deciding with what I already have?"
+      }
+    },
+    "emotion": {
+      "red": {
+        "triggers": [
+          "Incompetence or visible laziness in others",
+          "Endless deliberation and indecision",
+          "Being questioned or challenged publicly",
+          "Inefficiency and wasted effort"
+        ],
+        "warning": [
+          "Voice rises or becomes sharper and clipped",
+          "You start completing others sentences",
+          "Sarcasm or dismissiveness enters your tone",
+          "You physically lean in or take over the conversation space"
+        ],
+        "recovery": [
+          "Physical movement — a short walk interrupts the activation cycle.",
+          "Complete one small concrete task to restore a sense of control and momentum.",
+          "Name what you are feeling before you respond: this is frustration at the pace, not the person."
+        ],
+        "practice": "Before responding when triggered: one deliberate breath, then ask: is this urgent — or just uncomfortable for me right now?"
+      },
+      "yellow": {
+        "triggers": [
+          "Being ignored, dismissed, or talked over",
+          "Boredom and repetition without variety or novelty",
+          "Conflict that feels personal or attacks the relationship",
+          "Feeling constrained, micromanaged, or underestimated"
+        ],
+        "warning": [
+          "Talking faster and jumping between topics mid-sentence",
+          "Making commitments you have not properly thought through",
+          "Using humour or energy to deflect from a serious or difficult point",
+          "Energy that reads as performance rather than genuine presence"
+        ],
+        "recovery": [
+          "Social connection — a brief conversation with someone you trust grounds you quickly.",
+          "Write down the three things that genuinely matter right now rather than everything.",
+          "Deliberately lower the pitch: slow your breathing, reduce your pace, create a pause."
+        ],
+        "practice": "After every important meeting: write one specific commitment with a concrete date and a named person responsible."
+      },
+      "green": {
+        "triggers": [
+          "Direct conflict or public confrontation",
+          "Sudden change without consultation or warning",
+          "Being pushed or pressured to decide quickly",
+          "Criticism delivered in front of others"
+        ],
+        "warning": [
+          "Going quiet in meetings where you normally contribute",
+          "Agreeing out loud while feeling the opposite internally",
+          "Becoming passive or gently withdrawing from the conversation",
+          "Resentment building slowly under a calm and agreeable surface"
+        ],
+        "recovery": [
+          "Quiet time alone to process — forcing yourself to speak before you are ready rarely leads anywhere productive.",
+          "A trusted one-to-one conversation that surfaces what you are actually thinking.",
+          "One clear and simple next step to create movement and restore a sense of agency."
+        ],
+        "practice": "In your next difficult situation: name your honest view out loud — before you name the other person's."
+      },
+      "blue": {
+        "triggers": [
+          "Sloppiness, imprecision, or corners being cut on quality",
+          "Being asked to commit before you feel you have enough information",
+          "Hype and enthusiasm not backed by evidence",
+          "Emotional pressure to agree when the logic does not yet support it"
+        ],
+        "warning": [
+          "Becoming progressively quieter as the meeting progresses",
+          "Pointing out more and more risks rather than engaging with solutions",
+          "Withdrawing from group discussion into private note-taking or analysis",
+          "Tone becomes clipped and purely factual, losing all warmth and connection"
+        ],
+        "recovery": [
+          "Write down the facts you already know — this breaks the spiral of uncertainty and helplessness.",
+          "Narrow the question: not what should we do but what is the single decision I need to make right now.",
+          "A brief physical break — five minutes away from the screen resets the analysis loop."
+        ],
+        "practice": "Find one decision this week where you have 70% of the information you want — and make it without waiting for the remaining 30%."
+      }
+    },
+    "influence": {
+      "red": {
+        "yellow": {
+          "challenge": "Your directness cuts off Yellow's energy and idea flow — they feel shut down rather than included.",
+          "adapt": "Lead with enthusiasm and connect the idea to a bigger vision before landing on a decision.",
+          "phrase": "I love where this could go — here is the bottom line so you can help shape it."
+        },
+        "green": {
+          "challenge": "Your pace and bluntness overwhelm Green, who needs time and warmth before they can genuinely engage.",
+          "adapt": "Slow down deliberately, build the relationship first, ask before you assert.",
+          "phrase": "No rush at all — what is your genuine take on this?"
+        },
+        "blue": {
+          "challenge": "You want to decide fast; Blue will not commit without being satisfied with the evidence.",
+          "adapt": "Bring the data, present your analysis, and give them time to verify before expecting a decision.",
+          "phrase": "Here is the evidence I am working from — what questions does it raise for you?"
+        }
+      },
+      "yellow": {
+        "red": {
+          "challenge": "Your enthusiasm and storytelling lose Red quickly — they need the bottom line, not the journey.",
+          "adapt": "Lead with the outcome and the decision required; cut the narrative; let them choose.",
+          "phrase": "Bottom line: here is what I am proposing, why it wins, and what I need from you."
+        },
+        "green": {
+          "challenge": "Your high energy and pace can overwhelm Green — they need warmth and genuine space, not intensity.",
+          "adapt": "Warm up personally first, match their pace, and check in before you launch into the pitch.",
+          "phrase": "Before I share my thinking — I would genuinely love to hear yours first."
+        },
+        "blue": {
+          "challenge": "Your optimism without evidence loses Blue completely — enthusiasm is not a substitute for data.",
+          "adapt": "Come prepared with evidence, acknowledge the risks honestly, and let them analyse before committing.",
+          "phrase": "Here is the data behind it — take whatever time you need to review it properly."
+        }
+      },
+      "green": {
+        "red": {
+          "challenge": "Your careful and gentle approach reads as indecision or a lack of conviction to Red — they quickly disengage.",
+          "adapt": "Be direct and clear, lead with the bottom line, make a concrete proposal rather than an open suggestion.",
+          "phrase": "I want to be direct: here is what I am proposing and why I believe it is right."
+        },
+        "yellow": {
+          "challenge": "Your measured pace and reserve do not match Yellow's energy — they interpret your calm as disengagement.",
+          "adapt": "Match their energy deliberately, connect on the human dimension of the idea, show visible enthusiasm.",
+          "phrase": "This genuinely excites me — and here is why it matters for the team."
+        },
+        "blue": {
+          "challenge": "Your relational focus can feel imprecise or insufficiently rigorous to Blue.",
+          "adapt": "Back your position with logic, structure your argument clearly, and bring evidence alongside perspective.",
+          "phrase": "I have thought this through carefully — here is the structured case for it."
+        }
+      },
+      "blue": {
+        "red": {
+          "challenge": "Your detail and process lose Red immediately — they stop listening before you reach your point.",
+          "adapt": "BLUF: state your conclusion first, have the supporting data ready as backup — never lead with it.",
+          "phrase": "Quick summary: the recommendation and the two key reasons — detail available if you need it."
+        },
+        "yellow": {
+          "challenge": "Your structured analysis feels dry and deflating to Yellow — they disengage before you reach the insight.",
+          "adapt": "Open with vision and possibility, bring genuine warmth, use one compelling story before the analysis.",
+          "phrase": "This could be something significant — and the data makes a compelling case for it."
+        },
+        "green": {
+          "challenge": "Your emotional reserve reads as cold or distant, even when your intent is thoughtful and considered.",
+          "adapt": "Show genuine interest in their perspective first and acknowledge the relationship before the logic.",
+          "phrase": "I really value your take on this before I share what I have found — what is your honest read?"
+        }
+      }
+    },
+    "results": {
+      "title": "Your Colour Profile",
+      "titleNamed": "Colour Profile — {name}",
+      "sub": "Primary colour: {colour} ({pct}%). Your full blend and personalised insights appear below.",
+      "you": "You",
+      "compTitle": "Your colour composition",
+      "profileTag": "YOUR COLOUR PROFILE · {archetype}",
+      "profileTitleBlend": "{primary} / {secondary} blend",
+      "profileTitleLed": "{primary}-led profile",
+      "narrStrong": "{who} lead strongly with {primary} ({p}%) — {archetype} energy shapes your default style.",
+      "narrEven": "{who} show an even {primary}/{secondary} blend ({p}% / {s}%) — you move between both modes depending on context and stakes.",
+      "narrSecondary": "{who} are primarily {primary} ({p}%) with a significant {secondary} secondary ({s}%).",
+      "tiers": {
+        "dominant": "Dominant",
+        "secondary": "Secondary",
+        "minor": "Minor",
+        "low": "Low"
+      },
+      "saTitle": "Self-Awareness",
+      "saSub": "Your natural strengths, shadow behaviours, and blind spots",
+      "saStrengths": "Your natural strengths",
+      "saShadow": "Your shadow under stress",
+      "saBlind": "Blind spots to watch",
+      "ecTitle": "Emotional Control",
+      "ecSub": "Your triggers, early warning signs, and recovery moves",
+      "ecTriggers": "What triggers you",
+      "ecWarning": "Early warning signs",
+      "ecRecovery": "Recovery moves & daily practice",
+      "infTitle": "Influencing Other Colours",
+      "infSub": "Your biggest challenge and how to adapt for each colour you work with",
+      "infChallenge": "The challenge",
+      "infAdapt": "How to adapt",
+      "colourTag": "{name} — {archetype}",
+      "retake": "Retake assessment",
+      "print": "Print / Save as PDF"
+    },
+    "footer": "Leadership Readiness Program · Colour Self-Assessment — a mirror for growth, not a box to put yourself in."
+  },
+  "comm": {
+    "meta": {
+      "title": "Communication Style Evaluator",
+      "description": "Weight eight behaviours to reveal someone's four-colour communication blend and get tailored recommendations for how to work with them."
+    },
+    "header": {
+      "eyebrow": "EXECUTIVE COMMUNICATION & PRESENCE",
+      "title": "Communication Style Evaluator",
+      "lead": "Nobody is just one style. Weight how well each behaviour describes the person — the options are assessed blind and in random order, so nothing sways you. The app reveals the full Colour composition and tailored recommendations only at the end."
+    },
+    "notice": "<b>Assess blind.</b> To avoid bias, the styles behind each option are hidden and their order is shuffled for every aspect. Judge each statement on its own merits — the Colour breakdown appears once you analyse.",
+    "nameLabel": "Who are you evaluating?",
+    "namePlaceholder": "e.g. Alex, or a team / stakeholder — optional",
+    "nameHint": "For each aspect, give more weight to the statements that describe the person better. Those weights form that aspect's blend (100%). Leave an aspect at zero to skip it.",
+    "weightTitle": "Weight the aspects",
+    "weightSub": "Rate how well each statement fits — options are shuffled and unlabelled",
+    "notWeighted": "Not weighted yet",
+    "splitCap": "How your weight is split across this aspect (=100%)",
+    "progress": "{n} of {total} aspects weighted",
+    "reveal": "Analyse the composition",
+    "colours": {
+      "red": {
+        "name": "Red",
+        "archetype": "The Driver",
+        "key": "add a clear bottom line and let them decide"
+      },
+      "yellow": {
+        "name": "Yellow",
+        "archetype": "The Inspirer",
+        "key": "bring energy and paint the big picture"
+      },
+      "green": {
+        "name": "Green",
+        "archetype": "The Supporter",
+        "key": "build trust and give reassurance"
+      },
+      "blue": {
+        "name": "Blue",
+        "archetype": "The Analyst",
+        "key": "back it up with data and detail"
+      }
+    },
+    "questions": {
+      "pace": {
+        "aspect": "Pace & energy",
+        "prompt": "How do they operate day to day?",
+        "options": {
+          "red": "Fast, driven, pushes for results",
+          "yellow": "High-energy and sociable",
+          "green": "Steady, calm, rarely rushed",
+          "blue": "Measured, careful, thinks first"
+        }
+      },
+      "focus": {
+        "aspect": "Primary focus",
+        "prompt": "What matters most to them?",
+        "options": {
+          "red": "The goal and the result",
+          "yellow": "People, ideas, recognition",
+          "green": "Harmony, trust, the team",
+          "blue": "Accuracy, quality, logic"
+        }
+      },
+      "meeting": {
+        "aspect": "In meetings",
+        "prompt": "How do they show up in a meeting?",
+        "options": {
+          "red": "Drives to decisions",
+          "yellow": "Brainstorms and energises",
+          "green": "Listens and supports",
+          "blue": "Questions and analyses"
+        }
+      },
+      "decisions": {
+        "aspect": "Decision-making",
+        "prompt": "How do they decide?",
+        "options": {
+          "red": "Fast and decisive",
+          "yellow": "Quick, gut-led, optimistic",
+          "green": "Slowly, seeks consensus",
+          "blue": "Deliberately, wants data"
+        }
+      },
+      "body": {
+        "aspect": "Body language",
+        "prompt": "What do you notice in how they carry themselves?",
+        "options": {
+          "red": "Firm, direct, leans in",
+          "yellow": "Animated, expressive, smiles",
+          "green": "Relaxed, soft-spoken, warm",
+          "blue": "Reserved, controlled, distant"
+        }
+      },
+      "frustration": {
+        "aspect": "What frustrates them",
+        "prompt": "What pushes their buttons?",
+        "options": {
+          "red": "Wasted time, indecision",
+          "yellow": "Boredom, being ignored, detail",
+          "green": "Conflict, pressure, change",
+          "blue": "Sloppiness, hype, being rushed"
+        }
+      },
+      "style": {
+        "aspect": "Communication style",
+        "prompt": "How do they express themselves?",
+        "options": {
+          "red": "Blunt, brief, to the point",
+          "yellow": "Chatty, persuasive, story-led",
+          "green": "Warm, patient, diplomatic",
+          "blue": "Precise, factual, structured"
+        }
+      },
+      "pressure": {
+        "aspect": "Under pressure",
+        "prompt": "How do they behave when stressed?",
+        "options": {
+          "red": "Controlling or demanding",
+          "yellow": "Scattered or over-optimistic",
+          "green": "Quiet or avoidant",
+          "blue": "Critical or perfectionist"
+        }
+      }
+    },
+    "recs": {
+      "red": {
+        "summary": "direct, decisive and results-driven",
+        "dos": [
+          "Be brief and lead with the result",
+          "Bring clear options and let them choose",
+          "Focus on the what and the when",
+          "Stay confident — no hedging or rambling",
+          "Respect their time and keep it moving"
+        ],
+        "donts": [
+          "Don't bury the point in detail",
+          "Don't take bluntness personally",
+          "Don't waste time on small talk"
+        ],
+        "opening": "Here's the bottom line — then three options, and you decide.",
+        "delivery": [
+          "Match their pace and hold steady eye contact",
+          "Sound decisive; stand your ground",
+          "Cut filler words and get to it"
+        ],
+        "watch": "Too much detail or emotion loses them — give them control of the decision.",
+        "blind": "they may avoid tough calls or move slowly — you may need to drive decisions and deadlines yourself."
+      },
+      "yellow": {
+        "summary": "enthusiastic, social and big-picture",
+        "dos": [
+          "Bring energy and be genuinely friendly",
+          "Allow time to connect before business",
+          "Paint the big-picture vision",
+          "Let them talk and recognise them",
+          "Keep it light on data and fine print"
+        ],
+        "donts": [
+          "Don't drown them in detail or process",
+          "Don't be cold or purely transactional",
+          "Don't rely on them to remember details"
+        ],
+        "opening": "I've got an idea I think you'll love — let's build on it together.",
+        "delivery": [
+          "Smile, be expressive and warm",
+          "Be interactive and make it enjoyable",
+          "Follow up in writing afterwards"
+        ],
+        "watch": "They forget details — always confirm decisions and next steps in writing.",
+        "blind": "they may seem reserved and hard to enthuse — connect through substance, not hype."
+      },
+      "green": {
+        "summary": "calm, reliable and relationship-first",
+        "dos": [
+          "Be patient, warm and sincere",
+          "Build trust before getting to business",
+          "Explain the how, step by step",
+          "Offer reassurance and security",
+          "Give them time to adjust to change"
+        ],
+        "donts": [
+          "Don't rush, push or pressure them",
+          "Don't spring surprises or sudden change",
+          "Don't mistake silence for agreement"
+        ],
+        "opening": "No rush — I'd value your view, and here's how we'd do this together.",
+        "delivery": [
+          "Slow down and soften your tone",
+          "Listen actively; make it feel safe",
+          "Be steady and dependable"
+        ],
+        "watch": "Silence isn't agreement — gently ask for their honest view.",
+        "blind": "they may under-weight harmony and feelings — check the team is really on board."
+      },
+      "blue": {
+        "summary": "precise, logical and quality-driven",
+        "dos": [
+          "Come prepared, factual and structured",
+          "Bring data, detail and evidence",
+          "Give them time to analyse",
+          "Focus on quality and accuracy",
+          "Follow an agenda and put it in writing"
+        ],
+        "donts": [
+          "Don't oversell, hype or exaggerate",
+          "Don't push for a fast yes",
+          "Don't be vague or wing it"
+        ],
+        "opening": "Here's the data and the method — take your time to review it.",
+        "delivery": [
+          "Be calm, measured and structured",
+          "Give them space; avoid the hard sell",
+          "Send written detail to follow up"
+        ],
+        "watch": "Don't pressure a quick decision — let them verify before they commit.",
+        "blind": "they may skip detail and rigour — double-check the facts and the plan hold up."
+      }
+    },
+    "pairs": {
+      "red+yellow": "Fast, bold and people-driven. Bring big ideas with a clear bottom line — be decisive, keep the energy up, and don't get lost in detail.",
+      "blue+red": "They want results and rigour. Lead with the headline, then have the data ready to back it — quick on the what, precise on the how.",
+      "green+red": "Direct but relationship-aware. Be clear and decisive, then frame it around the team and add a little reassurance — don't steamroll the people side.",
+      "blue+yellow": "A creative mind that still wants proof. Bring the vision and the evidence — be enthusiastic, but come ready for detailed questions.",
+      "green+yellow": "Warm, positive and people-first. Be friendly and personal, build trust and keep it upbeat — go easy on cold pressure and hard deadlines.",
+      "blue+green": "Calm, careful and thorough. Give them time, detail and reassurance — be patient and precise, and never rush or oversell."
+    },
+    "results": {
+      "title": "Communication profile",
+      "titleNamed": "Communication profile — {name}",
+      "sub": "Primary style: {colour} ({pct}%). Read the full blend below — the recommendations are tuned to it.",
+      "thisPerson": "This person",
+      "them": "them",
+      "compTitle": "Overall composition",
+      "profileTag": "COMMUNICATION PROFILE",
+      "profileTitleBlend": "{primary} / {secondary} blend",
+      "profileTitleLed": "{primary}-led profile",
+      "narrStrong": "{who} is strongly {primary} ({p}%) — {summary}.",
+      "narrEven": "{who} is an even {primary}/{secondary} blend ({p}% / {s}%) — lead with {primary}, but be ready to flex to {secondary}.",
+      "narrSecondaryStrong": "{who} is primarily {primary} ({p}%) with a strong {secondary} side ({s}%) — {summary}, tempered by a {summarySecondary} streak.",
+      "narrSecondaryLight": "{who} is primarily {primary} ({p}%) — {summary} — with some {secondary} ({s}%).",
+      "blendLabel": "Blending both:",
+      "tiers": {
+        "dominant": "Dominant",
+        "secondary": "Secondary",
+        "minor": "Minor",
+        "low": "Low"
+      },
+      "dosTitle": "How to communicate with {who}",
+      "avoidTitle": "What to avoid",
+      "matchTitle": "Match their style",
+      "blendTitle": "Also adapt for their blend",
+      "openingTitle": "Try opening with",
+      "watchTitle": "Watch out",
+      "adaptFallback": "A fairly {primary}-dominant profile — the guidance here will carry most situations.",
+      "blindSpot": "Blind spot ({colour} {pct}%): With little {colour}, {blind}",
+      "retake": "Evaluate another person",
+      "print": "Print / Save as PDF"
+    },
+    "footer": "Leadership Readiness Program · Executive Communication & Presence — a guide, not a label. Use the blend to adapt, not to box people in."
+  },
+  "chapters": {
+    "meta": {
+      "title": "Chapters",
+      "description": "Eighteen chapters across five parts — the core ideas of adaptive leadership, each paired with the theory behind it, the four-colour angle, a leader-in-action story, and a practice to try."
+    },
+    "header": {
+      "eyebrow": "THE ADAPTIVE LEADER",
+      "title": "The chapters",
+      "lead": "Eighteen chapters across five parts — from the shift into leadership to reading culture. Each pairs the core idea with the theory behind it, the four-colour angle, a leader-in-action story, and a practice to try."
+    },
+    "partChip": "Part {part} · Chapter {n}",
+    "partLabel": "Part {part}",
+    "chapterLabel": "Chapter {n}",
+    "focusThisPart": "Focus this part",
+    "outcomeLabel": "What you'll take away",
+    "chaptersInPart": "{count, plural, one {# chapter} other {# chapters}}",
+    "readChapter": "Read chapter",
+    "allChapters": "All chapters",
+    "searchLabel": "Search chapters",
+    "searchPlaceholder": "Try: empathy, goals, culture",
+    "clearFilters": "Clear filters",
+    "noMatches": "Use the search box or part filters to bring chapters into view.",
+    "whyItMatters": "Why it matters",
+    "theoryDeepDive": "Theory deep-dive",
+    "keyModels": "Key frameworks",
+    "colourAngle": "The four colours",
+    "leaderInAction": "Leader in action",
+    "putIntoPractice": "Put it into practice",
+    "watchOut": "Watch out for",
+    "chapterTakeaways": "Chapter takeaways",
+    "previous": "Previous",
+    "next": "Next",
+    "seeAppendices": "See appendices",
+    "coreSynthesis": "Core synthesis",
+    "colours": {
+      "red": "Red",
+      "yellow": "Yellow",
+      "green": "Green",
+      "blue": "Blue"
+    }
+  },
+  "appendices": {
+    "meta": {
+      "title": "Appendices",
+      "description": "Four quick-reference companions — the colour pocket guide, how to communicate with each colour, the leader's daily practice, and a further-reading list."
+    },
+    "header": {
+      "eyebrow": "Reference material",
+      "title": "Appendices",
+      "lead": "Four quick-reference companions to the guide: the colour pocket guide, a communication cheat-sheet, the leader's practice, and where to read more."
+    },
+    "tag": "Appendix {letter}",
+    "atBest": "At their best:",
+    "underStress": "Under stress:",
+    "toInfluence": "To influence:",
+    "do": "Do",
+    "avoid": "Avoid",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "monthly": "Monthly"
+  },
+  "cultural": {
+    "meta": {
+      "title": "Cultural Tips",
+      "description": "Pick a country and a colour to get practical tips on how that behavioural style tends to show up in that culture — in normal situations and under stress — and how to adapt."
+    },
+    "header": {
+      "eyebrow": "LEADING ACROSS CULTURES",
+      "title": "Cultural Tips",
+      "lead": "Choose a country or region and the person's colour. You'll get the cultural baseline, how that style behaves normally and under stress, and where it fits or needs to adapt."
+    },
+    "notice": "<b>Culture sets the baseline; colour describes the individual against it.</b> These are general tendencies from cross-cultural research — starting points, not predictions about any person.",
+    "selectCountry": "1 · Select a country or region",
+    "selectColour": "2 · Select the person's colour",
+    "snapshotTitle": "Cultural snapshot",
+    "profileHeading": "{name} · {archetype}",
+    "normalTitle": "In normal situations",
+    "stressTitle": "Under stress",
+    "considerTitle": "How to work with them",
+    "fitsTitle": "Where this style fits",
+    "adaptTitle": "Where to adapt",
+    "noTips": "On the dimensions we track, this style sits fairly neutrally in this culture — lead with the universal tips above.",
+    "disclaimer": "General cultural tendencies (drawn from Erin Meyer's Culture Map and related research), not predictions about any individual. Always read the actual person in front of you.",
+    "footer": "Leading Across Cultures · Cultural Tips — a guide to adapt, not a box to place people in."
+  },
+  "splash": {
+    "subtitle": "Preparing your interactive leadership guide",
+    "loading": "Loading modules",
+    "chooseTheme": "Choose your theme",
+    "chooseLanguage": "Choose your language",
+    "enter": "Enter the guide",
+    "themes": {
+      "default": "Default",
+      "retro": "Retro",
+      "darkModern": "Dark & Modern"
+    },
+    "modules": {
+      "themes": "Themes & styling",
+      "i18n": "Translations"
+    }
+  }
+}

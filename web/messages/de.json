@@ -1,0 +1,319 @@
+{
+  "nav": {
+    "chapters": "Kapitel",
+    "appendices": "Anhänge",
+    "self": "Farben-Selbsteinschätzung",
+    "leadership": "Leadership-Kompetenz-Check",
+    "evaluator": "Kommunikationsstil-Evaluator",
+    "cultural": "Kulturtipps"
+  },
+  "home": {
+    "eyebrow": "Interaktiver Leadership-Leitfaden",
+    "title": "Führe mit Bewusstsein. Passe dich mit Absicht an.",
+    "subtitle": "Entdecke achtzehn Kapitel, vier Anhänge und vier interaktive Werkzeuge, die dir helfen, dich selbst zu verstehen und dich an die Menschen um dich herum anzupassen.",
+    "browse": "Kapitel durchsehen",
+    "takeSelf": "Selbsteinschätzung starten",
+    "stats": {
+      "parts": "Teile",
+      "chapters": "Kapitel",
+      "appendices": "Anhänge",
+      "tools": "Tools"
+    },
+    "partsTitle": "Die fünf Teile",
+    "toolsTitle": "Werkzeuge und Referenz",
+    "tiles": {
+      "chapters": "Achtzehn Kapitel in fünf Teilen: Theorie, die Vier-Farben-Perspektive und je eine Übung.",
+      "appendices": "Schnellreferenzen: der Farb-Taschenführer, der Kommunikations-Spickzettel, die Praxis der Führungskraft und weiterführende Lektüre.",
+      "self": "Entdecke deine Farbbalance und was sie für dein Führen und Anpassen bedeutet.",
+      "leadership": "Bewerte dich in den 17 Themen für einen Reifegrad-Index und einen priorisierten Aktionsplan.",
+      "evaluator": "Analysiere den Kommunikationsstil einer Person und erhalte maßgeschneiderte Empfehlungen.",
+      "cultural": "Wähle ein Land und eine Farbe für praktische Tipps, um dich kulturübergreifend an diese Person anzupassen."
+    }
+  },
+  "common": {
+    "language": "Sprache"
+  },
+  "chapters": {
+    "partLabel": "Teil {part}",
+    "focusThisPart": "Diesen Teil fokussieren",
+    "whyItMatters": "Warum es wichtig ist",
+    "theoryDeepDive": "Theoretischer Hintergrund",
+    "keyModels": "Wichtige Modelle",
+    "colourAngle": "Die vier Farben",
+    "leaderInAction": "Führungskraft in der Praxis",
+    "putIntoPractice": "In die Praxis umsetzen",
+    "watchOut": "Achtung",
+    "chapterTakeaways": "Kernaussagen des Kapitels",
+    "previous": "Zurück",
+    "next": "Weiter",
+    "seeAppendices": "Anhänge ansehen",
+    "coreSynthesis": "Kernsynthese",
+    "meta": {
+      "title": "Kapitel",
+      "description": "Achtzehn Kapitel in fünf Teilen: die Kernideen adaptiver Führung, jeweils mit der zugrunde liegenden Theorie, der Vier-Farben-Perspektive, einer Führung-in-Aktion-Geschichte und einer Übung."
+    },
+    "header": {
+      "eyebrow": "DIE ADAPTIVE FÜHRUNGSKRAFT",
+      "title": "Die Kapitel",
+      "lead": "Achtzehn Kapitel in fünf Teilen, vom Schritt in die Führung bis zum Lesen von Kultur. Jedes verbindet die Kernidee mit der zugrunde liegenden Theorie, der Vier-Farben-Perspektive, einer Führung-in-Aktion-Geschichte und einer Übung."
+    },
+    "partChip": "Teil {part} · Kapitel {n}",
+    "chapterLabel": "Kapitel {n}",
+    "outcomeLabel": "Was du mitnimmst",
+    "chaptersInPart": "{count, plural, one {# Kapitel} other {# Kapitel}}",
+    "readChapter": "Kapitel lesen",
+    "allChapters": "Alle Kapitel",
+    "colours": {
+      "red": "Rot",
+      "yellow": "Gelb",
+      "green": "Grün",
+      "blue": "Blau"
+    },
+    "searchLabel": "Kapitel suchen",
+    "searchPlaceholder": "z. B. Empathie, Ziele, Kultur",
+    "clearFilters": "Filter zurücksetzen",
+    "noMatches": "Nutze die Suche oder Teilfilter, um Kapitel anzuzeigen."
+  },
+  "appendices": {
+    "header": {
+      "eyebrow": "Referenzmaterial",
+      "title": "Anhänge",
+      "lead": "Vier Schnellreferenz-Begleiter zum Leitfaden: der Farb-Taschenführer, ein Kommunikations-Spickzettel, die Praxis der Führungskraft und wo man mehr liest."
+    },
+    "atBest": "Auf der Höhe:",
+    "underStress": "Unter Druck:",
+    "toInfluence": "Um zu beeinflussen:",
+    "do": "Tun",
+    "avoid": "Vermeiden",
+    "daily": "Täglich",
+    "weekly": "Wöchentlich",
+    "monthly": "Monatlich",
+    "meta": {
+      "title": "Anhänge",
+      "description": "Vier Schnellreferenz-Begleiter: der Farb-Taschenführer, wie man mit jeder Farbe kommuniziert, die tägliche Praxis der Führungskraft und eine Leseliste."
+    },
+    "tag": "Anhang {letter}"
+  },
+  "cultural": {
+    "meta": {
+      "title": "Kulturtipps",
+      "description": "Wähle ein Land und eine Farbe für praktische Tipps, wie sich dieser Verhaltensstil in jener Kultur zeigt — im Normalfall und unter Druck — und wie du dich anpasst."
+    },
+    "header": {
+      "eyebrow": "KULTURÜBERGREIFEND FÜHREN",
+      "title": "Kulturtipps",
+      "lead": "Wähle ein Land oder eine Region und die Farbe der Person. Du erhältst die kulturelle Grundlinie, wie sich dieser Stil normal und unter Druck verhält, und wo er passt oder sich anpassen muss."
+    },
+    "notice": "<b>Kultur setzt die Grundlinie; die Farbe beschreibt den Menschen dagegen.</b> Dies sind allgemeine Tendenzen aus der interkulturellen Forschung — Ausgangspunkte, keine Vorhersagen über eine Person.",
+    "selectCountry": "1 · Wähle ein Land oder eine Region",
+    "selectColour": "2 · Wähle die Farbe der Person",
+    "snapshotTitle": "Kulturelles Profil",
+    "normalTitle": "Im Normalfall",
+    "stressTitle": "Unter Druck",
+    "considerTitle": "Wie man mit ihnen arbeitet",
+    "fitsTitle": "Wo dieser Stil passt",
+    "adaptTitle": "Wo anpassen",
+    "noTips": "Auf den betrachteten Dimensionen liegt dieser Stil in dieser Kultur ziemlich neutral — orientiere dich an den allgemeinen Tipps oben.",
+    "disclaimer": "Allgemeine kulturelle Tendenzen (aus Erin Meyers Culture Map und verwandter Forschung), keine Vorhersagen über einen Menschen. Lies immer die reale Person vor dir.",
+    "footer": "Kulturübergreifend führen · Kulturtipps — eine Anleitung zum Anpassen, keine Schublade für Menschen."
+  },
+  "splash": {
+    "subtitle": "Ihr interaktiver Leadership-Guide wird vorbereitet",
+    "loading": "Module werden geladen",
+    "chooseTheme": "Wähle dein Design",
+    "chooseLanguage": "Wähle deine Sprache",
+    "enter": "Zum Guide",
+    "themes": {
+      "default": "Standard",
+      "retro": "Retro",
+      "darkModern": "Dunkel & Modern"
+    },
+    "modules": {
+      "themes": "Designs & Stil",
+      "i18n": "Übersetzungen"
+    }
+  },
+  "leadership": {
+    "meta": {
+      "title": "Bewertung der Führungskompetenzen",
+      "description": "Bewerten Sie sich in den 17 Führungsthemen, um einen Gesamtindex der Bereitschaft, eine Aufschlüsselung nach Thema, Ihre Stärken und einen priorisierten Aktionsplan zu erhalten."
+    },
+    "header": {
+      "eyebrow": "PROGRAMM ZUR FÜHRUNGSBEREITSCHAFT",
+      "title": "Bewertung der Führungskompetenzen",
+      "lead": "Bewerten Sie sich ehrlich in den 17 Führungsthemen aus dem Buch. Sie erhalten einen Gesamtindex der Bereitschaft, eine Aufschlüsselung nach Thema, Ihre Stärken und einen priorisierten Aktionsplan mit Empfehlungen zur Verbesserung."
+    },
+    "notice": "<b>Antworten Sie danach, wie Sie heute führen, nicht wie Sie es anstreben.</b> Es gibt keine richtigen Antworten – die Bereiche, die Sie am niedrigsten bewerten, werden zum Schwerpunkt Ihres persönlichen Aktionsplans. Bewerten Sie alle 17 Aussagen, um Ihre Ergebnisse freizuschalten.",
+    "nameLabel": "Ihr Name (optional)",
+    "namePlaceholder": "Fügen Sie Ihren Namen hinzu, um den Bericht zu personalisieren",
+    "nameHint": "Nichts wird gespeichert oder gesendet. Ihre Antworten bleiben in diesem Browser-Tab und werden beim Schließen gelöscht.",
+    "partPill": "Teil {part} · {title}",
+    "parts": {
+      "I": {
+        "title": "Kenne dich selbst",
+        "focus": "Selbstwahrnehmung und die Sprache der Farben"
+      },
+      "II": {
+        "title": "Meistere deine Emotionen",
+        "focus": "Emotionale Intelligenz und Selbstregulation"
+      },
+      "III": {
+        "title": "Passe dich an andere an",
+        "focus": "Kommunikation, Einfluss und Präsenz"
+      },
+      "IV": {
+        "title": "Baue das Team auf",
+        "focus": "Vertrauen, Sicherheit, Rhythmus, Verantwortung"
+      },
+      "V": {
+        "title": "Entscheide und wachse",
+        "focus": "Ziele, Entscheidungen, Coaching, Kultur"
+      }
+    },
+    "scale": {
+      "1": "Selten",
+      "2": "Manchmal",
+      "3": "Oft",
+      "4": "Meistens",
+      "5": "Fast immer"
+    },
+    "topics": {
+      "1": {
+        "title": "Vom Experten zur Führungskraft",
+        "stmt": "Ich messe meinen Erfolg an dem, was mein Team erreicht, und gebe aktiv Aufgaben ab, die früher mir gehörten.",
+        "rec": "Nennen Sie die drei Tätigkeiten, die Sie zu einem großartigen Einzelbeitragenden gemacht haben, und geben Sie eine davon diese Woche ab. Beurteilen Sie sich am Ergebnis Ihres Teams, nicht an Ihrer persönlichen Arbeit."
+      },
+      "2": {
+        "title": "Die vier Farben",
+        "stmt": "Ich erkenne schnell meinen eigenen Verhaltensstil und lese den Stil anderer im Moment.",
+        "rec": "Ordnen Sie sich auf den Achsen extrovertiert/zurückhaltend und Aufgabe/Mensch ein, benennen Sie Ihre dominante und sekundäre Farbe und bestimmen Sie die diagonal gegenüberliegende Farbe – meist der Stil, der Ihnen am schwersten fällt."
+      },
+      "3": {
+        "title": "Selbstwahrnehmung der Führungskraft",
+        "stmt": "Ich kenne meine Auslöser und mein Verhalten unter Druck und suche aktiv Feedback zu meinen blinden Flecken.",
+        "rec": "Betrachten Sie drei jüngste Momente, die Sie bereuen; notieren Sie Auslöser und Wirkung. Fragen Sie dann eine vertraute Person, was Sie unter Stress zu tun pflegen."
+      },
+      "4": {
+        "title": "Emotionale Intelligenz",
+        "stmt": "Ich lese die emotionale Unterströmung eines Raumes und beziehe sie in meine Führung ein.",
+        "rec": "Nennen Sie nach Ihrem nächsten schwierigen Meeting ein positives und ein negatives emotionales Signal, das Sie bemerkt haben – und wie Sie reagiert haben. Bauen Sie die Gewohnheit auf, die emotionale Ebene zu lesen, nicht nur den Inhalt."
+      },
+      "5": {
+        "title": "Selbstregulation",
+        "stmt": "Ich bleibe gefasst und wähle meine Reaktion, wenn die Spannung steigt, statt impulsiv zu reagieren.",
+        "rec": "Bauen Sie ein Fassungs-Kit: eine Pause, ein Atemzug, eine Neubewertung und ein Standardsatz. Üben Sie es in Momenten mit geringem Einsatz, damit es verfügbar ist, wenn der Druck echt ist."
+      },
+      "6": {
+        "title": "Empathie",
+        "stmt": "Ich höre zu, um die Sichtweisen anderer zu verstehen, bevor ich antworte, auch wenn ich anderer Meinung bin.",
+        "rec": "Hören Sie in Ihrem nächsten Einzelgespräch zu, um zu verstehen, statt um zu antworten. Spiegeln Sie das Gehörte wider, bevor Sie versuchen, etwas zu lösen."
+      },
+      "7": {
+        "title": "Adaptive Führung",
+        "stmt": "Ich passe meinen Kommunikationsstil an die Person vor mir an, nicht an meinen eigenen Standard.",
+        "rec": "Schreiben Sie eine echte Nachricht im Stil einer Person, die Sie beeinflussen müssen. Achten Sie dann beim nächsten aufkommenden Reibungspunkt auf Ihre eigene Konfliktsignatur."
+      },
+      "8": {
+        "title": "Einfluss ohne Autorität",
+        "stmt": "Ich bringe Dinge über Menschen voran, die ich nicht kontrolliere, mit Vertrauen und Klarheit statt Eskalation.",
+        "rec": "Schärfen Sie eine Bitte: klären Sie das Ergebnis, warum es wichtig ist und wie Erfolg aus Sicht der anderen Person aussieht, bevor Sie sie äußern."
+      },
+      "9": {
+        "title": "Schwierige Gespräche",
+        "stmt": "Ich spreche Probleme früh und direkt an und halte dabei die Beziehung intakt.",
+        "rec": "Bereiten Sie ein Gespräch vor, das Sie aufgeschoben haben. Schreiben Sie das sachliche Problem (Situation und Verhalten), seine Wirkung und das eine gewünschte Ergebnis auf – und führen Sie es diese Woche."
+      },
+      "10": {
+        "title": "Führungspräsenz",
+        "stmt": "Ich kommuniziere mit Klarheit und Präsenz, damit meine Botschaft wie beabsichtigt ankommt.",
+        "rec": "Bringen Sie eine echte Botschaft an, indem Sie mit dem Kern beginnen, Füllwörter streichen und Ton und Tempo an das gewünschte Ergebnis anpassen."
+      },
+      "11": {
+        "title": "Hochleistungsteam",
+        "stmt": "Ich schaffe bewusst die Bedingungen – Sinn, Klarheit, Verantwortung –, damit mein Team leistet.",
+        "rec": "Diagnostizieren Sie Ihr Team anhand der vier Säulen (gemeinsamer Sinn, Klarheit, Sicherheit, Rhythmus) und benennen Sie die aktuell schwächste Bedingung, dann beheben Sie zuerst diese."
+      },
+      "12": {
+        "title": "Vertrauen und psychologische Sicherheit",
+        "stmt": "Menschen in meinem Team sprechen offen an, widersprechen und geben Fehler ohne Angst zu.",
+        "rec": "Laden Sie in Ihrem nächsten Teamgespräch aktiv eine ehrliche Sorge, eine Frage und einen Widerspruch ein – und danken Sie den Menschen dafür, dass sie sie ansprechen."
+      },
+      "13": {
+        "title": "Betriebsrhythmus und Verantwortung",
+        "stmt": "Mein Team läuft in einem vorhersehbaren Rhythmus, der die Arbeit sichtbar hält, ohne dass ich Updates hinterherjage.",
+        "rec": "Justieren Sie ein wiederkehrendes Ritual, damit es einen klareren Zweck, eine straffere Agenda oder eine sauberere Entscheidungsregel hat – oder schaffen Sie es ab, wenn es nur überlebt, weil Sie es antreiben."
+      },
+      "14": {
+        "title": "Ziele setzen, die Ergebnisse liefern",
+        "stmt": "Ich setze Ziele, die spezifisch genug sind, um sie zu übernehmen, zu verfolgen und abzuschließen – auf Ergebnisse ausgerichtet, nicht auf Aktivität.",
+        "rec": "Schreiben Sie ein Ziel so um, dass Ergebnis, benannter Verantwortlicher und Erfolgsmaßstab alle explizit sind. Ersetzen Sie jedes «Aktivitäts»-Ziel durch das Ergebnis, das es erzeugen soll."
+      },
+      "15": {
+        "title": "Entscheidungsdisziplin",
+        "stmt": "Ich entscheide gut in Unklarheit und passe mein Tempo daran an, ob eine Entscheidung umkehrbar ist.",
+        "rec": "Prüfen Sie eine laufende Entscheidung: klassifizieren Sie sie als Einweg- oder Zweiwegtür, benennen Sie Ihre Annahmen und führen Sie ein kurzes Pre-Mortem durch, bevor Sie sich festlegen."
+      },
+      "16": {
+        "title": "Coaching und Mentoring",
+        "stmt": "Ich entwickle meine Leute durch Coaching – indem ich ihr Denken hervorlocke – nicht nur, indem ich Antworten gebe.",
+        "rec": "Entscheiden Sie vor Ihrem nächsten Entwicklungsgespräch, ob die Person Mentoring oder Coaching braucht. Wenn es Coaching ist, stellen Sie zwei offene Fragen und widerstehen Sie dem Drang, die Antwort zu liefern."
+      },
+      "17": {
+        "title": "Über Kulturen hinweg führen",
+        "stmt": "Ich berücksichtige kulturelle Unterschiede und prüfe die Kultur, bevor ich ein persönliches Merkmal annehme.",
+        "rec": "Kartieren Sie die zwei Dimensionen, in denen sich Ihr Team am stärksten unterscheidet, legen Sie eine explizite Teamnorm fest und suchen Sie eine kulturelle Erklärung, bevor Sie ein Verhalten als persönlich beurteilen."
+      }
+    },
+    "bands": {
+      "emerging": {
+        "name": "Aufkommend",
+        "text": "Sie stehen am Anfang des Aufbaus bewusster Führungsgewohnheiten – was bedeutet, dass schnelle Fortschritte möglich sind. Wählen Sie ein oder zwei Prioritätsbereiche unten und arbeiten Sie daran, bis sie sich natürlich anfühlen, bevor Sie mehr hinzufügen."
+      },
+      "developing": {
+        "name": "In Entwicklung",
+        "text": "Solide Instinkte mit klarem Wachstumsspielraum. Ihre am niedrigsten bewerteten Themen unten sind dort, wo gezielter Einsatz am schnellsten etwas bewegt – machen Sie zwei davon in diesem Quartal zu konkreten Gewohnheiten."
+      },
+      "strong": {
+        "name": "Stark",
+        "text": "Sie führen in den meisten Bereichen gut. Schärfen Sie die wenigen verbleibenden Lücken, setzen Sie weiter auf Ihre Stärken und beginnen Sie, andere in dem zu coachen, was Sie am besten können."
+      },
+      "exceptional": {
+        "name": "Außergewöhnlich",
+        "text": "Eine breite, konstante Führungsspanne. Fordern Sie Ihre am niedrigsten bewerteten Themen weiter heraus, um nicht zu stagnieren, und vervielfachen Sie Ihre Wirkung, indem Sie diese Fähigkeiten bei den Menschen um Sie herum entwickeln."
+      }
+    },
+    "progress": "{done} von {total} Themen bewertet",
+    "reveal": "Meine Empfehlungen anzeigen",
+    "resultTitle": "Ihre Führungsbereitschaft",
+    "resultTitleNamed": "Führungsbereitschaft von {name}",
+    "resultSub": "Basierend auf Ihrer Selbsteinschätzung über alle 17 Führungsthemen.",
+    "scoreAvg": "{avg} / 5",
+    "bandHeading": "Sie sind im Bereich „{band}“",
+    "breakdownTitle": "Aufschlüsselung nach Thema",
+    "breakdownSub": "Wie Sie in den fünf Teilen des Führungsbogens abgeschnitten haben.",
+    "priorityTitle": "Ihre vorrangigen Maßnahmen",
+    "prioritySub": "Beginnen Sie hier. Dies sind Ihre am niedrigsten bewerteten Themen, geordnet danach, wo gezielter Einsatz sich am meisten auszahlt.",
+    "strengthsTitle": "Ihre Stärken",
+    "strengthsSub": "Die Themen, in denen Sie bereits gut führen – schützen Sie diese und nutzen Sie sie, um andere zu coachen.",
+    "allTitle": "Alle 17 Themen auf einen Blick",
+    "allSub": "Ihre vollständige Selbsteinschätzung über jedes Thema.",
+    "rated": "Sie haben {v}/5 bewertet",
+    "chip": "Teil {part} · Kapitel {n}",
+    "tryThis": "Versuchen Sie das:",
+    "strengthDesc": "Teil {part} — {title}. Halten Sie das scharf und nutzen Sie es, um andere zu coachen.",
+    "noStrengthTitle": "Noch kein Thema mit 4 oder höher bewertet",
+    "noStrengthDesc": "Das ist am Anfang normal – konzentrieren Sie sich auf Ihre vorrangigen Maßnahmen, und Ihre Stärken folgen.",
+    "retake": "Bewertung wiederholen",
+    "print": "Drucken / Als PDF speichern",
+    "footer": "Programm zur Führungsbereitschaft · Bewertung der Führungskompetenzen – ein Plan für Wachstum, kein Urteil."
+  },
+  "about": {
+    "trigger": "Über",
+    "title": "Über diesen Leitfaden",
+    "body1": "Der Adaptive Leader bündelt die entscheidenden Themen für die berufliche Entwicklung Ihrer Führungskompetenzen — von Selbstwahrnehmung und emotionaler Intelligenz über Kommunikation, Teamaufbau, Entscheidungsfindung und Coaching bis zur Führung über Kulturen hinweg.",
+    "body2": "Er soll weder das Buch noch die vertiefte Lektüre dahinter ersetzen. Er ist ein Leitfaden — ein schneller, strukturierter Weg, die Ideen erneut aufzugreifen, sich selbst einzuschätzen und sie in die Praxis umzusetzen.",
+    "creditsLabel": "Mitwirkende",
+    "credits": "Maria Olhova · Sunny Pei · Gerardo Merello · Pablo Scherer · Jay Rao · Leandro Frasso",
+    "powered": "Diese Anwendung wird von <strong>Leandro</strong> betrieben."
+  }
+}

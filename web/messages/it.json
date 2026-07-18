@@ -1,0 +1,703 @@
+{
+  "nav": {
+    "appendices": "Appendici",
+    "self": "Autovalutazione dei Colori",
+    "leadership": "Valutazione delle Competenze di Leadership",
+    "evaluator": "Valutatore di Stile Comunicativo",
+    "chapters": "Capitoli",
+    "cultural": "Consigli culturali"
+  },
+  "common": {
+    "language": "Lingua"
+  },
+  "home": {
+    "stats": {
+      "parts": "parti",
+      "chapters": "capitoli",
+      "appendices": "appendici",
+      "tools": "strumenti"
+    },
+    "eyebrow": "Guida interattiva alla leadership",
+    "title": "Guida con consapevolezza. Adàttati con intenzione.",
+    "subtitle": "Esplora diciotto capitoli, quattro appendici e quattro strumenti interattivi che ti aiutano a capirti e ad adattarti alle persone attorno a te.",
+    "browse": "Esplora i capitoli",
+    "takeSelf": "Fai l'autovalutazione",
+    "partsTitle": "Le cinque parti",
+    "toolsTitle": "Strumenti e riferimenti",
+    "tiles": {
+      "chapters": "Diciotto capitoli in cinque parti: teoria, la prospettiva dei quattro colori e una pratica per ciascuno.",
+      "appendices": "Guide di riferimento rapido: la guida tascabile dei colori, il prontuario di comunicazione, la pratica del leader e letture di approfondimento.",
+      "self": "Scopri il tuo equilibrio di colori e cosa significa per come guidi e ti adatti.",
+      "leadership": "Valutati sui 17 temi per ottenere un indice di prontezza e un piano d'azione prioritizzato.",
+      "evaluator": "Analizza lo stile comunicativo di qualcuno e ricevi consigli su misura.",
+      "cultural": "Scegli un paese e un colore per consigli pratici su come adattarti a quella persona tra culture diverse."
+    }
+  },
+  "chapters": {
+    "partLabel": "Parte {part}",
+    "focusThisPart": "Concentrati su questa parte",
+    "whyItMatters": "Perché è importante",
+    "theoryDeepDive": "Approfondimento teorico",
+    "keyModels": "Framework chiave",
+    "colourAngle": "I quattro colori",
+    "leaderInAction": "Leader in azione",
+    "putIntoPractice": "Mettilo in pratica",
+    "watchOut": "Attenzione a",
+    "chapterTakeaways": "Punti chiave",
+    "previous": "Precedente",
+    "next": "Successivo",
+    "seeAppendices": "Vedi appendici",
+    "coreSynthesis": "Sintesi centrale",
+    "meta": {
+      "title": "Capitoli",
+      "description": "Diciotto capitoli in cinque parti: le idee centrali della leadership adattiva, ciascuna con la teoria che la sostiene, la prospettiva dei quattro colori, una storia di leadership in azione e una pratica da provare."
+    },
+    "header": {
+      "eyebrow": "IL LEADER ADATTIVO",
+      "title": "I capitoli",
+      "lead": "Diciotto capitoli in cinque parti, dal passaggio alla leadership alla lettura della cultura. Ognuno unisce l'idea centrale alla teoria che la sostiene, alla prospettiva dei quattro colori, a una storia di leadership in azione e a una pratica da provare."
+    },
+    "partChip": "Parte {part} · Capitolo {n}",
+    "chapterLabel": "Capitolo {n}",
+    "outcomeLabel": "Cosa porterai con te",
+    "chaptersInPart": "{count, plural, one {# capitolo} other {# capitoli}}",
+    "readChapter": "Leggi il capitolo",
+    "allChapters": "Tutti i capitoli",
+    "colours": {
+      "red": "Rosso",
+      "yellow": "Giallo",
+      "green": "Verde",
+      "blue": "Blu"
+    },
+    "searchLabel": "Cerca capitoli",
+    "searchPlaceholder": "Es: empatia, obiettivi, cultura",
+    "clearFilters": "Cancella filtri",
+    "noMatches": "Usa la ricerca o i filtri per parte per visualizzare i capitoli."
+  },
+  "appendices": {
+    "header": {
+      "eyebrow": "Materiale di riferimento",
+      "title": "Appendici",
+      "lead": "Quattro compagni di riferimento rapido alla guida: la guida tascabile dei colori, un prontuario di comunicazione, la pratica del leader e dove approfondire."
+    },
+    "atBest": "Nel loro meglio:",
+    "underStress": "Sotto pressione:",
+    "toInfluence": "Per influenzare:",
+    "do": "Fare",
+    "avoid": "Evitare",
+    "daily": "Quotidiano",
+    "weekly": "Settimanale",
+    "monthly": "Mensile",
+    "meta": {
+      "title": "Appendici",
+      "description": "Quattro compagni di riferimento rapido: la guida tascabile dei colori, come comunicare con ogni colore, la pratica quotidiana del leader e una lista di letture."
+    },
+    "tag": "Appendice {letter}"
+  },
+  "cultural": {
+    "meta": {
+      "title": "Consigli culturali",
+      "description": "Scegli un paese e un colore per consigli pratici su come tende a manifestarsi quello stile comportamentale in quella cultura — in situazioni normali e sotto pressione — e su come adattarti."
+    },
+    "header": {
+      "eyebrow": "GUIDARE TRA LE CULTURE",
+      "title": "Consigli culturali",
+      "lead": "Scegli un paese o una regione e il colore della persona. Otterrai la base culturale, come si comporta quello stile normalmente e sotto pressione, e dove si adatta o deve adattarsi."
+    },
+    "notice": "<b>La cultura fissa la base; il colore descrive l'individuo rispetto ad essa.</b> Sono tendenze generali della ricerca interculturale: punti di partenza, non previsioni su nessuna persona.",
+    "selectCountry": "1 · Scegli un paese o una regione",
+    "selectColour": "2 · Scegli il colore della persona",
+    "snapshotTitle": "Ritratto culturale",
+    "normalTitle": "In situazioni normali",
+    "stressTitle": "Sotto pressione",
+    "considerTitle": "Come lavorare con loro",
+    "fitsTitle": "Dove questo stile si adatta",
+    "adaptTitle": "Dove adattarsi",
+    "noTips": "Sulle dimensioni che consideriamo, questo stile è piuttosto neutro in questa cultura: fai riferimento ai consigli generali qui sopra.",
+    "disclaimer": "Tendenze culturali generali (tratte dalla Culture Map di Erin Meyer e da ricerche affini), non previsioni su un individuo. Leggi sempre la persona reale che hai davanti.",
+    "footer": "Guidare tra le culture · Consigli culturali: una guida per adattarsi, non una casella in cui rinchiudere le persone."
+  },
+  "splash": {
+    "subtitle": "Preparazione della tua guida interattiva alla leadership",
+    "loading": "Caricamento dei moduli",
+    "chooseTheme": "Scegli il tema",
+    "chooseLanguage": "Scegli la lingua",
+    "enter": "Entra nella guida",
+    "themes": {
+      "default": "Predefinito",
+      "retro": "Retrò",
+      "darkModern": "Scuro e moderno"
+    },
+    "modules": {
+      "themes": "Temi e stile",
+      "i18n": "Traduzioni"
+    }
+  },
+  "leadership": {
+    "meta": {
+      "title": "Valutazione delle competenze di leadership",
+      "description": "Valutati sui 17 temi di leadership per ottenere un indice di preparazione complessivo, una suddivisione per tema, i tuoi punti di forza e un piano d'azione prioritizzato."
+    },
+    "header": {
+      "eyebrow": "PROGRAMMA DI PREPARAZIONE ALLA LEADERSHIP",
+      "title": "Valutazione delle competenze di leadership",
+      "lead": "Valutati con onestà sui 17 temi di leadership del libro. Otterrai un indice di preparazione complessivo, una suddivisione per tema, i tuoi punti di forza e un piano d'azione prioritizzato di raccomandazioni per migliorare."
+    },
+    "notice": "<b>Rispondi in base a come guidi oggi, non a come aspiri a fare.</b> Non ci sono risposte giuste: le aree che valuti più basse diventano il fulcro del tuo piano d'azione personalizzato. Valuta tutte le 17 affermazioni per sbloccare i risultati.",
+    "nameLabel": "Il tuo nome (facoltativo)",
+    "namePlaceholder": "Aggiungi il tuo nome per personalizzare il report",
+    "nameHint": "Nulla viene salvato o inviato. Le tue risposte restano in questa scheda del browser e si cancellano quando la chiudi.",
+    "partPill": "Parte {part} · {title}",
+    "parts": {
+      "I": {
+        "title": "Conosci te stesso",
+        "focus": "Consapevolezza di sé e il linguaggio dei colori"
+      },
+      "II": {
+        "title": "Padroneggia le emozioni",
+        "focus": "Intelligenza emotiva e autoregolazione"
+      },
+      "III": {
+        "title": "Adattati agli altri",
+        "focus": "Comunicazione, influenza e presenza"
+      },
+      "IV": {
+        "title": "Costruisci la squadra",
+        "focus": "Fiducia, sicurezza, ritmo, responsabilità"
+      },
+      "V": {
+        "title": "Decidi e cresci",
+        "focus": "Obiettivi, decisioni, coaching, cultura"
+      }
+    },
+    "scale": {
+      "1": "Raramente",
+      "2": "A volte",
+      "3": "Spesso",
+      "4": "Di solito",
+      "5": "Quasi sempre"
+    },
+    "topics": {
+      "1": {
+        "title": "Da esperto a leader",
+        "stmt": "Misuro il mio successo in base a ciò che ottiene la squadra e delego attivamente il lavoro che prima era mio.",
+        "rec": "Nomina le tre attività che ti hanno reso un ottimo contributore individuale, poi cedine una questa settimana. Giudicati in base ai risultati della squadra, non al tuo lavoro personale."
+      },
+      "2": {
+        "title": "I quattro colori",
+        "stmt": "Riconosco rapidamente il mio stile comportamentale e leggo lo stile degli altri sul momento.",
+        "rec": "Collocati sugli assi estroverso/riservato e compiti/persone, nomina il tuo colore dominante e secondario e individua il colore diagonalmente opposto: di solito lo stile che trovi più difficile."
+      },
+      "3": {
+        "title": "Consapevolezza di sé del leader",
+        "stmt": "Conosco i miei fattori scatenanti e come mi comporto sotto pressione, e cerco attivamente feedback sui miei punti ciechi.",
+        "rec": "Rivedi tre momenti recenti di cui ti sei pentito; annota il fattore scatenante e l'impatto. Poi chiedi a una persona di fiducia cosa tendi a fare quando sei sotto stress."
+      },
+      "4": {
+        "title": "Intelligenza emotiva",
+        "stmt": "Colgo la corrente emotiva di una stanza e la considero nel modo in cui guido.",
+        "rec": "Dopo la tua prossima riunione difficile, nomina un segnale emotivo positivo e uno negativo che hai notato, e come hai risposto. Costruisci l'abitudine di leggere lo strato emotivo, non solo il contenuto."
+      },
+      "5": {
+        "title": "Autoregolazione",
+        "stmt": "Resto composto e scelgo la mia risposta quando la tensione sale, invece di reagire d'impulso.",
+        "rec": "Costruisci un kit di compostezza: una pausa, un respiro, una riformulazione e una frase di riferimento. Provalo in momenti a bassa posta in gioco così è disponibile quando la pressione è reale."
+      },
+      "6": {
+        "title": "Empatia",
+        "stmt": "Ascolto per comprendere le prospettive degli altri prima di rispondere, anche quando non sono d'accordo.",
+        "rec": "Nel tuo prossimo colloquio individuale, ascolta per comprendere anziché per rispondere. Rispecchia ciò che hai sentito prima di provare a risolvere qualcosa."
+      },
+      "7": {
+        "title": "Leadership adattiva",
+        "stmt": "Adatto il mio stile di comunicazione alla persona che ho davanti, non al mio stile predefinito.",
+        "rec": "Riscrivi un messaggio reale nello stile di una persona che devi influenzare. Poi osserva la tua firma di conflitto la prossima volta che sale l'attrito."
+      },
+      "8": {
+        "title": "Influenzare senza autorità",
+        "stmt": "Faccio accadere le cose tramite persone che non controllo, usando fiducia e chiarezza anziché l'escalation.",
+        "rec": "Affina una richiesta: chiarisci il risultato, perché conta e come appare il successo dal punto di vista dell'altra persona prima di formularla."
+      },
+      "9": {
+        "title": "Conversazioni difficili",
+        "stmt": "Affronto i problemi presto e in modo diretto mantenendo intatta la relazione.",
+        "rec": "Prepara una conversazione che stai rimandando. Scrivi il problema fattuale (situazione e comportamento), il suo impatto e l'unico risultato che vuoi, poi affrontala questa settimana."
+      },
+      "10": {
+        "title": "Presenza da leader",
+        "stmt": "Comunico con chiarezza e presenza così che il mio messaggio arrivi come previsto.",
+        "rec": "Fai arrivare un messaggio reale partendo dal punto, tagliando il superfluo e adattando tono e ritmo al risultato che vuoi."
+      },
+      "11": {
+        "title": "Squadra ad alte prestazioni",
+        "stmt": "Creo deliberatamente le condizioni —scopo, chiarezza, responsabilità— perché la mia squadra renda.",
+        "rec": "Diagnostica la tua squadra rispetto ai quattro pilastri (scopo condiviso, chiarezza, sicurezza, ritmo) e nomina la singola condizione più debole in questo momento, poi sistema prima quella."
+      },
+      "12": {
+        "title": "Fiducia e sicurezza psicologica",
+        "stmt": "Le persone della mia squadra parlano, dissentono e ammettono errori senza paura.",
+        "rec": "Nella tua prossima conversazione di squadra, invita attivamente una preoccupazione onesta, una domanda e un dissenso, e ringrazia le persone per averli sollevati."
+      },
+      "13": {
+        "title": "Ritmo operativo e responsabilità",
+        "stmt": "La mia squadra procede con un ritmo prevedibile che mantiene il lavoro visibile senza che io rincorra gli aggiornamenti.",
+        "rec": "Regola un rituale ricorrente perché abbia uno scopo più chiaro, un'agenda più stretta o una regola decisionale più pulita, oppure ritiralo se sopravvive solo perché lo guidi tu."
+      },
+      "14": {
+        "title": "Fissare obiettivi che guidano i risultati",
+        "stmt": "Fisso obiettivi abbastanza specifici da assumere, monitorare e completare, focalizzati sui risultati, non sull'attività.",
+        "rec": "Riscrivi un obiettivo così che il risultato, il responsabile nominato e la misura di successo siano tutti espliciti. Sostituisci ogni obiettivo di «attività» con il risultato che deve produrre."
+      },
+      "15": {
+        "title": "Disciplina decisionale",
+        "stmt": "Decido bene nell'ambiguità, adattando la mia velocità al fatto che una decisione sia reversibile.",
+        "rec": "Metti alla prova una decisione in corso: classificala come porta a senso unico o a doppio senso, nomina le tue ipotesi e fai un rapido pre-mortem prima di impegnarti."
+      },
+      "16": {
+        "title": "Coaching e mentoring",
+        "stmt": "Faccio crescere le mie persone con il coaching —tirando fuori il loro pensiero— non solo dando risposte.",
+        "rec": "Prima del tuo prossimo colloquio di sviluppo, decidi se la persona ha bisogno di mentoring o coaching. Se è coaching, poni due domande aperte e resisti alla tentazione di dare la risposta."
+      },
+      "17": {
+        "title": "Guidare tra culture",
+        "stmt": "Calibro le differenze culturali e verifico la cultura prima di presumere un tratto personale.",
+        "rec": "Mappa le due dimensioni in cui la tua squadra differisce di più, stabilisci una norma di squadra esplicita e cerca una spiegazione culturale prima di giudicare un comportamento come personale."
+      }
+    },
+    "bands": {
+      "emerging": {
+        "name": "Emergente",
+        "text": "Sei agli inizi nel costruire abitudini di leadership deliberate, il che significa che è disponibile un progresso rapido. Scegli una o due aree prioritarie qui sotto e lavoraci finché non risultano naturali prima di aggiungerne altre."
+      },
+      "developing": {
+        "name": "In sviluppo",
+        "text": "Buoni istinti con chiaro margine di crescita. I tuoi temi con punteggio più basso qui sotto sono dove l'impegno mirato sposterà l'ago più velocemente: trasformane due in abitudini concrete questo trimestre."
+      },
+      "strong": {
+        "name": "Solido",
+        "text": "Guidi bene nella maggior parte delle aree. Affina le poche lacune rimaste, continua a puntare sui tuoi punti di forza e inizia a fare coaching agli altri in ciò che riesce meglio."
+      },
+      "exceptional": {
+        "name": "Eccezionale",
+        "text": "Una gamma di leadership ampia e costante. Continua a spingere sui temi con punteggio più basso per non stagnare, e moltiplica il tuo impatto sviluppando queste competenze nelle persone intorno a te."
+      }
+    },
+    "progress": "{done} di {total} temi valutati",
+    "reveal": "Mostra le mie raccomandazioni",
+    "resultTitle": "La tua preparazione alla leadership",
+    "resultTitleNamed": "Preparazione alla leadership di {name}",
+    "resultSub": "In base alla tua autovalutazione su tutti i 17 temi di leadership.",
+    "scoreAvg": "{avg} / 5",
+    "bandHeading": "Sei nella fascia «{band}»",
+    "breakdownTitle": "Suddivisione per tema",
+    "breakdownSub": "Come hai ottenuto i punteggi nelle cinque parti dell'arco di leadership.",
+    "priorityTitle": "Le tue azioni prioritarie",
+    "prioritySub": "Inizia da qui. Questi sono i tuoi temi con punteggio più basso, ordinati in base a dove l'impegno mirato renderà di più.",
+    "strengthsTitle": "I tuoi punti di forza",
+    "strengthsSub": "I temi in cui già guidi bene: proteggili e usali per fare coaching agli altri.",
+    "allTitle": "Tutti i 17 temi a colpo d'occhio",
+    "allSub": "La tua autovalutazione completa su ogni tema.",
+    "rated": "Hai valutato {v}/5",
+    "chip": "Parte {part} · Capitolo {n}",
+    "tryThis": "Prova questo:",
+    "strengthDesc": "Parte {part} — {title}. Mantienilo affilato e usalo per fare coaching agli altri.",
+    "noStrengthTitle": "Ancora nessun tema valutato 4 o più",
+    "noStrengthDesc": "È normale all'inizio: concentrati sulle tue azioni prioritarie e i tuoi punti di forza seguiranno.",
+    "retake": "Ripeti la valutazione",
+    "print": "Stampa / Salva come PDF",
+    "footer": "Programma di preparazione alla leadership · Valutazione delle competenze di leadership: un piano per crescere, non un verdetto."
+  },
+  "self": {
+    "meta": {
+      "title": "Autovalutazione dei colori",
+      "description": "Scopri il tuo equilibrio di colori e cosa significa per la tua consapevolezza di sé, la regolazione emotiva e l'adattamento a ciascun altro colore."
+    },
+    "header": {
+      "eyebrow": "CONSAPEVOLEZZA DI SÉ E INTELLIGENZA EMOTIVA",
+      "title": "Autovalutazione dei colori",
+      "lead": "Scopri il tuo equilibrio di colori e comprendi cosa significa per la tua consapevolezza di sé, la tua regolazione emotiva e le tue maggiori sfide di adattamento con ciascun altro colore."
+    },
+    "notice": "<b>Valutati con onestà.</b> Ogni affermazione appare in ordine casuale con il colore nascosto. Valuta quanto descrive la tua tendenza naturale, non la tua giornata migliore né come aspiri a essere. Il profilo e tutte le raccomandazioni appaiono solo quando riveli.",
+    "nameLabel": "Il tuo nome (facoltativo)",
+    "namePlaceholder": "es. Alex, per un report personalizzato",
+    "nameHint": "Usa i cursori per mostrare quanto fortemente ogni affermazione ti descrive. Un punteggio di 0 significa che non ti descrive affatto; 100 significa che ti descrive perfettamente.",
+    "rateTitle": "Valuta le affermazioni",
+    "rateSub": "I colori sono nascosti e le opzioni sono mescolate: valuta ciò che senti vero, non ciò che suona giusto",
+    "notRated": "Non ancora valutato",
+    "splitCap": "Come si ripartiscono le tue valutazioni su questo aspetto (= 100%)",
+    "progress": "{n} di {total} aspetti valutati",
+    "reveal": "Rivela il mio profilo",
+    "colours": {
+      "red": {
+        "name": "Rosso",
+        "archetype": "Il Trascinatore"
+      },
+      "yellow": {
+        "name": "Giallo",
+        "archetype": "L'Ispiratore"
+      },
+      "green": {
+        "name": "Verde",
+        "archetype": "Il Sostenitore"
+      },
+      "blue": {
+        "name": "Blu",
+        "archetype": "L'Analista"
+      }
+    },
+    "questions": {
+      "work": {
+        "aspect": "Come lavoro",
+        "prompt": "Cosa descrive meglio il tuo stile di lavoro naturale?",
+        "options": {
+          "red": "Mi piace prendere in mano la situazione, dettare il ritmo e far procedere le cose con decisione.",
+          "yellow": "Mi piace collaborare, condividere idee e dare energia alle persone intorno a me.",
+          "green": "Preferisco lavorare in modo costante, costruire fiducia e sostenere la squadra.",
+          "blue": "Mi piace pianificare con cura, garantire la qualità e analizzare prima di agire."
+        }
+      },
+      "pressure": {
+        "aspect": "Sotto pressione",
+        "prompt": "Quando lo stress è alto, come rispondi naturalmente?",
+        "options": {
+          "red": "Divento più diretto e spingo di più: contano soprattutto i risultati.",
+          "yellow": "Cerco persone con cui fare brainstorming e cerco soluzioni creative.",
+          "green": "Divento silenzioso, elaboro dentro di me e ho bisogno di tempo prima di rispondere.",
+          "blue": "Scavo più a fondo nei dati e cerco più informazioni prima di decidere."
+        }
+      },
+      "comms": {
+        "aspect": "Comunicazione",
+        "prompt": "Come ti esprimi naturalmente?",
+        "options": {
+          "red": "Vado dritto al punto: diretto, breve e concentrato sui risultati.",
+          "yellow": "Comunico con energia e storie, rendendolo personale e coinvolgente.",
+          "green": "Sono caloroso e paziente, attento a preservare la relazione in tutto ciò che dico.",
+          "blue": "Sono preciso e strutturato, presentando fatti e ragionamenti con chiarezza."
+        }
+      },
+      "decisions": {
+        "aspect": "Prendere decisioni",
+        "prompt": "Come affronti una decisione importante?",
+        "options": {
+          "red": "Decido in fretta con le informazioni che ho: contano velocità e slancio.",
+          "yellow": "Consulto gli altri e seguo l'istinto quando l'energia è quella giusta.",
+          "green": "Cerco il consenso e mi prendo il tempo per considerare l'impatto su tutti.",
+          "blue": "Raccolgo tutti i dati disponibili e ci ragiono con metodo prima di impegnarmi."
+        }
+      },
+      "motivation": {
+        "aspect": "Cosa mi spinge",
+        "prompt": "Cosa ti motiva davvero al lavoro?",
+        "options": {
+          "red": "Raggiungere risultati, vincere ed avere il controllo degli esiti.",
+          "yellow": "Il riconoscimento, la connessione, la varietà e l'entusiasmo delle nuove idee.",
+          "green": "L'armonia, la stabilità e sapere che la squadra è sostenuta e valorizzata.",
+          "blue": "L'accuratezza, la padronanza, la struttura e consegnare un lavoro costantemente di alta qualità."
+        }
+      },
+      "conflict": {
+        "aspect": "Gestire il conflitto",
+        "prompt": "Quando c'è un disaccordo autentico, come rispondi di solito?",
+        "options": {
+          "red": "Lo affronto direttamente e dico ciò che penso, anche se crea attrito.",
+          "yellow": "Lo devio con umorismo o energia per mantenere l'umore positivo.",
+          "green": "Assorbo la tensione in silenzio ed evito il confronto per mantenere la pace.",
+          "blue": "Mi ritiro e analizzo la situazione prima di decidere se e come intervenire."
+        }
+      },
+      "feedback": {
+        "aspect": "Ricevere feedback",
+        "prompt": "Come rispondi di solito a un feedback critico?",
+        "options": {
+          "red": "Ascolto ciò che è utile, lo valuto in fretta e vado avanti.",
+          "yellow": "All'inizio la prendo sul personale ma mi riprendo in fretta e trovo il lato positivo.",
+          "green": "Lo sento profondamente, posso essere d'accordo anche quando dissento, e lo elaboro lentamente.",
+          "blue": "Lo analizzo con cura per accuratezza ed equità prima di accettarlo o rifiutarlo."
+        }
+      },
+      "strength": {
+        "aspect": "Il tuo contributo più grande",
+        "prompt": "Cosa dicono di te in modo più affidabile come il tuo maggior valore per una squadra?",
+        "options": {
+          "red": "Portare a termine le cose: consegno risultati anche sotto pressione.",
+          "yellow": "Portare energia e radunare la squadra attorno a una visione condivisa.",
+          "green": "Essere l'ancora stabile: affidabile, calmo e sempre degno di fiducia.",
+          "blue": "Garantire il rigore: trovare il difetto, la lacuna o il rischio che gli altri non vedono."
+        }
+      }
+    },
+    "self": {
+      "red": {
+        "strengths": [
+          "Deciso e orientato all'azione: crei slancio quando gli altri esitano.",
+          "Comunicatore diretto: le persone sanno sempre a che punto sono con te.",
+          "Grande energia e spinta: pretendi standard alti da te e dagli altri."
+        ],
+        "shadow": [
+          "Sotto pressione: diventi controllante, brusco e impaziente.",
+          "Puoi trascurare l'impatto emotivo della tua schiettezza sugli altri.",
+          "Puoi confondere velocità e qualità: decidere in fretta non è sempre decidere bene."
+        ],
+        "blindSpots": [
+          "Come cade la tua schiettezza su persone con meno potere o autorità di te.",
+          "Il costo della tua impazienza sulla sicurezza psicologica della squadra.",
+          "Le decisioni che hai affrettato e che poi si sono rivelate bisognose di più riflessione."
+        ],
+        "question": "Vado veloce perché è davvero il ritmo giusto, o perché sono a disagio con l'incertezza dell'attesa?"
+      },
+      "yellow": {
+        "strengths": [
+          "Ispiratore ed entusiasmante: fai venire voglia alle persone di far parte di ciò che fai.",
+          "Creativo e ottimista: vedi possibilità dove gli altri vedono problemi.",
+          "Relazionale per natura: costruisci connessione e calore nelle squadre in fretta."
+        ],
+        "shadow": [
+          "Sotto pressione: ti disperdi, prometti troppo e perdi il seguito.",
+          "Il tuo entusiasmo può sembrare inaffidabile a colleghi analitici o orientati ai risultati.",
+          "Puoi evitare verità difficili per preservare l'energia positiva nella stanza."
+        ],
+        "blindSpots": [
+          "Gli impegni che hai preso e che silenziosamente sono usciti dal tuo radar.",
+          "Come la tua energia e il tuo ritmo possono travolgere i colleghi più silenziosi.",
+          "Il divario tra quanto ti senti ispirato e ciò che viene davvero consegnato."
+        ],
+        "question": "Sono entusiasta perché è davvero la cosa giusta, o perché mi eccita l'idea ed evito la disciplina che richiede?"
+      },
+      "green": {
+        "strengths": [
+          "Affidabile, leale e degno di fiducia: la persona su cui la squadra conta.",
+          "Paziente e genuinamente empatico: le persone si sentono ascoltate e al sicuro con te.",
+          "Una presenza stabilizzante sotto pressione: la tua calma diventa la calma di tutta la squadra."
+        ],
+        "shadow": [
+          "Sotto pressione: taci, eviti il conflitto e covi risentimento in silenzio.",
+          "Spesso sei d'accordo nella stanza e dissenti in privato: il tuo silenzio inganna gli altri.",
+          "La tua arrendevolezza può privare la squadra dell'attrito onesto di cui ha davvero bisogno."
+        ],
+        "blindSpots": [
+          "Come il tuo silenzio viene letto come consenso, anche quando non lo è.",
+          "Il costo a lungo termine dell'ingoiare il dissenso e la delusione non detta.",
+          "Come la tua evitazione del conflitto a volte protegge te più della relazione."
+        ],
+        "question": "Sono paziente perché la situazione lo richiede davvero, o sto evitando una conversazione che so di dover avere?"
+      },
+      "blue": {
+        "strengths": [
+          "Analitico e preciso: cogli ciò che gli altri non vedono.",
+          "Standard alti che proteggono in modo costante la qualità di tutta la squadra.",
+          "Strutturato e affidabile: i tuoi piani e le tue analisi reggono all'esame."
+        ],
+        "shadow": [
+          "Sotto pressione: diventi ipercritico, ti ritiri e sei incline alla paralisi da analisi.",
+          "La tua riservatezza emotiva può sembrare indifferenza o freddezza, anche quando ci tieni davvero.",
+          "I tuoi standard possono rallentare la squadra: non ogni decisione merita lo stesso rigore."
+        ],
+        "blindSpots": [
+          "Come il tuo silenzio nelle riunioni viene frainteso come disapprovazione o disimpegno.",
+          "La dimensione emotiva di situazioni che analizzi come puri problemi logici.",
+          "Lo schema di cercare più dati come modo per rimandare il disagio di impegnarti."
+        ],
+        "question": "Sto raccogliendo più informazioni perché ne ho davvero bisogno, o perché sto rimandando il disagio di decidere con ciò che ho già?"
+      }
+    },
+    "emotion": {
+      "red": {
+        "triggers": [
+          "L'incompetenza o la pigrizia visibile negli altri",
+          "La deliberazione infinita e l'indecisione",
+          "Essere messo in discussione o sfidato in pubblico",
+          "L'inefficienza e lo sforzo sprecato"
+        ],
+        "warning": [
+          "La voce si alza o diventa più tagliente e secca",
+          "Inizi a completare le frasi degli altri",
+          "Il sarcasmo o il tono sprezzante entra nella tua voce",
+          "Ti sporgi fisicamente o ti impossessi dello spazio della conversazione"
+        ],
+        "recovery": [
+          "Movimento fisico: una breve camminata interrompe il ciclo di attivazione.",
+          "Completa un piccolo compito concreto per ripristinare il senso di controllo e slancio.",
+          "Nomina ciò che provi prima di rispondere: è frustrazione per il ritmo, non per la persona."
+        ],
+        "practice": "Prima di rispondere quando sei attivato: un respiro deliberato, poi chiediti: è urgente, o solo scomodo per me in questo momento?"
+      },
+      "yellow": {
+        "triggers": [
+          "Essere ignorato, liquidato o interrotto mentre parli",
+          "La noia e la ripetizione senza varietà né novità",
+          "Il conflitto che sembra personale o che attacca la relazione",
+          "Sentirti costretto, microgestito o sottovalutato"
+        ],
+        "warning": [
+          "Parlare più in fretta e saltare tra i temi a metà frase",
+          "Prendere impegni che non hai pensato bene",
+          "Usare umorismo o energia per sviare un punto serio o difficile",
+          "Un'energia che si legge come una performance più che presenza autentica"
+        ],
+        "recovery": [
+          "Connessione sociale: una breve conversazione con qualcuno di cui ti fidi ti ancora in fretta.",
+          "Scrivi le tre cose che contano davvero adesso invece di tutto.",
+          "Abbassa deliberatamente il tono: rallenta il respiro, riduci il ritmo, crea una pausa."
+        ],
+        "practice": "Dopo ogni riunione importante: scrivi un impegno concreto con una data precisa e una persona responsabile con nome e cognome."
+      },
+      "green": {
+        "triggers": [
+          "Il conflitto diretto o il confronto pubblico",
+          "Il cambiamento improvviso senza consultazione né preavviso",
+          "Essere spinto o messo sotto pressione a decidere in fretta",
+          "La critica fatta davanti agli altri"
+        ],
+        "warning": [
+          "Restare in silenzio in riunioni in cui di solito contribuisci",
+          "Essere d'accordo ad alta voce mentre dentro senti il contrario",
+          "Diventare passivo o ritirarti dolcemente dalla conversazione",
+          "Il risentimento che cresce lentamente sotto una superficie calma e accomodante"
+        ],
+        "recovery": [
+          "Tempo tranquillo da solo per elaborare: costringerti a parlare prima di essere pronto raramente porta a qualcosa di produttivo.",
+          "Una conversazione individuale di fiducia che faccia emergere ciò che pensi davvero.",
+          "Un passo successivo chiaro e semplice per creare movimento e ripristinare il senso di iniziativa."
+        ],
+        "practice": "Nella tua prossima situazione difficile: nomina il tuo punto di vista onesto ad alta voce, prima di nominare quello dell'altra persona."
+      },
+      "blue": {
+        "triggers": [
+          "La sciatteria, l'imprecisione o le scorciatoie sulla qualità",
+          "Che ti chiedano di impegnarti prima di sentirti con abbastanza informazioni",
+          "L'entusiasmo e la propaganda non sostenuti da prove",
+          "La pressione emotiva a essere d'accordo quando la logica non lo sostiene ancora"
+        ],
+        "warning": [
+          "Diventare progressivamente più silenzioso col procedere della riunione",
+          "Segnalare sempre più rischi invece di impegnarti nelle soluzioni",
+          "Ritirarti dalla discussione di gruppo verso appunti o analisi private",
+          "Il tono diventa secco e puramente fattuale, perdendo ogni calore e connessione"
+        ],
+        "recovery": [
+          "Scrivi i fatti che già conosci: questo spezza la spirale di incertezza e impotenza.",
+          "Restringi la domanda: non cosa dovremmo fare, ma qual è l'unica decisione che devo prendere adesso.",
+          "Una breve pausa fisica: cinque minuti lontano dallo schermo resettano il ciclo di analisi."
+        ],
+        "practice": "Trova una decisione questa settimana in cui hai il 70% delle informazioni che vuoi, e prendila senza aspettare il restante 30%."
+      }
+    },
+    "influence": {
+      "red": {
+        "yellow": {
+          "challenge": "La tua schiettezza taglia l'energia e il flusso di idee del Giallo: si sente zittito invece che incluso.",
+          "adapt": "Inizia con entusiasmo e collega l'idea a una visione più ampia prima di arrivare a una decisione.",
+          "phrase": "Adoro dove potrebbe arrivare: ecco il punto essenziale così puoi aiutarmi a darle forma."
+        },
+        "green": {
+          "challenge": "Il tuo ritmo e la tua schiettezza travolgono il Verde, che ha bisogno di tempo e calore prima di potersi impegnare davvero.",
+          "adapt": "Rallenta deliberatamente, costruisci prima la relazione, chiedi prima di affermare.",
+          "phrase": "Nessuna fretta: qual è la tua opinione sincera su questo?"
+        },
+        "blue": {
+          "challenge": "Tu vuoi decidere in fretta; il Blu non si impegnerà senza essere soddisfatto delle prove.",
+          "adapt": "Porta i dati, presenta la tua analisi e dagli tempo di verificare prima di aspettarti una decisione.",
+          "phrase": "Ecco le prove da cui parto: quali domande ti suscitano?"
+        }
+      },
+      "yellow": {
+        "red": {
+          "challenge": "Il tuo entusiasmo e le tue storie perdono in fretta il Rosso: gli serve il punto essenziale, non il viaggio.",
+          "adapt": "Inizia con l'esito e la decisione richiesta; taglia la narrazione; lascialo scegliere.",
+          "phrase": "In sintesi: ecco cosa propongo, perché vince e cosa mi serve da te."
+        },
+        "green": {
+          "challenge": "La tua grande energia e il tuo ritmo possono travolgere il Verde: gli serve calore e spazio autentico, non intensità.",
+          "adapt": "Scaldati prima sul piano personale, adegua il suo ritmo e verifica prima di lanciarti nella proposta.",
+          "phrase": "Prima di condividere il mio pensiero, mi piacerebbe davvero ascoltare il tuo per primo."
+        },
+        "blue": {
+          "challenge": "Il tuo ottimismo senza prove perde del tutto il Blu: l'entusiasmo non sostituisce i dati.",
+          "adapt": "Vieni preparato con le prove, riconosci onestamente i rischi e lascialo analizzare prima di impegnarsi.",
+          "phrase": "Ecco i dati che lo sostengono: prenditi tutto il tempo che ti serve per esaminarli bene."
+        }
+      },
+      "green": {
+        "red": {
+          "challenge": "Il tuo approccio attento e delicato si legge come indecisione o mancanza di convinzione per il Rosso: si disimpegna in fretta.",
+          "adapt": "Sii diretto e chiaro, inizia dal punto essenziale, fai una proposta concreta invece di un suggerimento aperto.",
+          "phrase": "Voglio essere diretto: ecco cosa propongo e perché credo sia giusto."
+        },
+        "yellow": {
+          "challenge": "Il tuo ritmo misurato e la tua riservatezza non corrispondono all'energia del Giallo: interpreta la tua calma come disimpegno.",
+          "adapt": "Adegua deliberatamente la sua energia, connettiti sulla dimensione umana dell'idea, mostra entusiasmo visibile.",
+          "phrase": "Questo mi entusiasma davvero, ed ecco perché conta per la squadra."
+        },
+        "blue": {
+          "challenge": "Il tuo focus relazionale può sembrare impreciso o poco rigoroso per il Blu.",
+          "adapt": "Sostieni la tua posizione con la logica, struttura il tuo ragionamento con chiarezza e porta prove accanto alla prospettiva.",
+          "phrase": "Ci ho pensato con attenzione: ecco l'argomentazione strutturata a favore."
+        }
+      },
+      "blue": {
+        "red": {
+          "challenge": "Il tuo dettaglio e il tuo processo perdono subito il Rosso: smette di ascoltare prima che tu arrivi al punto.",
+          "adapt": "Conclusione prima: enuncia la tua conclusione all'inizio, tieni i dati di supporto pronti come riserva, non partire mai da quelli.",
+          "phrase": "Sintesi rapida: la raccomandazione e le due ragioni chiave; il dettaglio è disponibile se ti serve."
+        },
+        "yellow": {
+          "challenge": "La tua analisi strutturata sembra arida e demoralizzante per il Giallo: si disimpegna prima che tu arrivi all'intuizione.",
+          "adapt": "Apri con visione e possibilità, porta calore autentico, usa una storia convincente prima dell'analisi.",
+          "phrase": "Questa potrebbe essere una cosa importante, e i dati ne fanno un caso convincente."
+        },
+        "green": {
+          "challenge": "La tua riservatezza emotiva si legge come fredda o distante, anche quando la tua intenzione è riflessiva e attenta.",
+          "adapt": "Mostra prima un interesse autentico per la sua prospettiva e riconosci la relazione prima della logica.",
+          "phrase": "Tengo davvero alla tua opinione su questo prima di condividere ciò che ho trovato: qual è la tua lettura sincera?"
+        }
+      }
+    },
+    "results": {
+      "title": "Il tuo profilo di colori",
+      "titleNamed": "Profilo di colori — {name}",
+      "sub": "Colore primario: {colour} ({pct}%). La tua miscela completa e gli spunti personalizzati appaiono sotto.",
+      "you": "Tu",
+      "compTitle": "La tua composizione di colori",
+      "profileTag": "IL TUO PROFILO DI COLORI · {archetype}",
+      "profileTitleBlend": "Miscela {primary} / {secondary}",
+      "profileTitleLed": "Profilo guidato dal {primary}",
+      "narrStrong": "{who} guidi con forza col {primary} ({p}%): l'energia di {archetype} plasma il tuo stile predefinito.",
+      "narrEven": "{who} mostri una miscela equilibrata {primary}/{secondary} ({p}% / {s}%): ti muovi tra le due modalità a seconda del contesto e della posta in gioco.",
+      "narrSecondary": "{who} sei principalmente {primary} ({p}%) con un {secondary} secondario significativo ({s}%).",
+      "tiers": {
+        "dominant": "Dominante",
+        "secondary": "Secondario",
+        "minor": "Minore",
+        "low": "Basso"
+      },
+      "saTitle": "Consapevolezza di sé",
+      "saSub": "I tuoi punti di forza naturali, i comportamenti ombra e i punti ciechi",
+      "saStrengths": "I tuoi punti di forza naturali",
+      "saShadow": "La tua ombra sotto stress",
+      "saBlind": "Punti ciechi da sorvegliare",
+      "ecTitle": "Controllo emotivo",
+      "ecSub": "I tuoi fattori scatenanti, i segnali d'allarme precoci e le mosse di recupero",
+      "ecTriggers": "Cosa ti fa scattare",
+      "ecWarning": "Segnali d'allarme precoci",
+      "ecRecovery": "Mosse di recupero e pratica quotidiana",
+      "infTitle": "Influenzare gli altri colori",
+      "infSub": "La tua sfida più grande e come adattarti per ogni colore con cui lavori",
+      "infChallenge": "La sfida",
+      "infAdapt": "Come adattarti",
+      "colourTag": "{name} — {archetype}",
+      "retake": "Ripeti la valutazione",
+      "print": "Stampa / Salva come PDF"
+    },
+    "footer": "Programma di preparazione alla leadership · Autovalutazione dei colori: uno specchio per crescere, non una scatola in cui rinchiuderti."
+  },
+  "about": {
+    "trigger": "Informazioni",
+    "title": "Informazioni su questa guida",
+    "body1": "Il Leader Adattivo consolida i temi cruciali per lo sviluppo professionale delle tue competenze di leadership — dalla consapevolezza di sé e dall intelligenza emotiva alla comunicazione, alla costruzione del team, alle decisioni, al coaching e alla guida tra culture.",
+    "body2": "Non intende sostituire il libro né la lettura approfondita che lo sostiene. È una guida: un modo rapido e strutturato per rivedere le idee, valutarti e metterle in pratica.",
+    "creditsLabel": "Crediti",
+    "credits": "Maria Olhova · Sunny Pei · Gerardo Merello · Pablo Scherer · Jay Rao · Leandro Frasso",
+    "powered": "Questa applicazione è resa possibile da <strong>Leandro</strong>."
+  }
+}

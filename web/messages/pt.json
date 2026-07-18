@@ -1,0 +1,319 @@
+{
+  "nav": {
+    "appendices": "Apêndices",
+    "self": "Autoavaliação de Cores",
+    "leadership": "Avaliação de Competências de Liderança",
+    "evaluator": "Avaliador de Estilo de Comunicação",
+    "chapters": "Capítulos",
+    "cultural": "Dicas culturais"
+  },
+  "common": {
+    "language": "Idioma"
+  },
+  "home": {
+    "stats": {
+      "parts": "partes",
+      "chapters": "capítulos",
+      "appendices": "apêndices",
+      "tools": "ferramentas"
+    },
+    "eyebrow": "Guia interativo de liderança",
+    "title": "Lidera com consciência. Adapta-te com intenção.",
+    "subtitle": "Explora dezoito capítulos, quatro apêndices e quatro ferramentas interativas que te ajudam a compreender-te e a adaptares-te às pessoas à tua volta.",
+    "browse": "Explorar capítulos",
+    "takeSelf": "Fazer a autoavaliação",
+    "partsTitle": "As cinco partes",
+    "toolsTitle": "Ferramentas e referência",
+    "tiles": {
+      "chapters": "Dezoito capítulos em cinco partes: teoria, a perspetiva das quatro cores e uma prática para cada um.",
+      "appendices": "Guias de referência rápida: o guia de bolso das cores, o resumo de comunicação, a prática do líder e leituras adicionais.",
+      "self": "Descobre o teu equilíbrio de cores e o que significa para a forma como lideras e te adaptas.",
+      "leadership": "Avalia-te nos 17 temas para obteres um índice de preparação e um plano de ação priorizado.",
+      "evaluator": "Analisa o estilo de comunicação de alguém e recebe recomendações à medida.",
+      "cultural": "Escolhe um país e uma cor para dicas práticas sobre como te adaptares a essa pessoa entre culturas."
+    }
+  },
+  "chapters": {
+    "partLabel": "Parte {part}",
+    "focusThisPart": "Focar nesta parte",
+    "whyItMatters": "Porque é importante",
+    "theoryDeepDive": "Fundamento teórico",
+    "keyModels": "Modelos-chave",
+    "colourAngle": "As quatro cores",
+    "leaderInAction": "Líder em ação",
+    "putIntoPractice": "Põe em prática",
+    "watchOut": "Atenção a",
+    "chapterTakeaways": "Ideias-chave",
+    "previous": "Anterior",
+    "next": "Seguinte",
+    "seeAppendices": "Ver apêndices",
+    "coreSynthesis": "Síntese central",
+    "meta": {
+      "title": "Capítulos",
+      "description": "Dezoito capítulos em cinco partes: as ideias centrais da liderança adaptativa, cada uma com a teoria que a sustenta, a perspetiva das quatro cores, uma história de liderança em ação e uma prática para experimentar."
+    },
+    "header": {
+      "eyebrow": "O LÍDER ADAPTATIVO",
+      "title": "Os capítulos",
+      "lead": "Dezoito capítulos em cinco partes, da passagem à liderança à leitura da cultura. Cada um une a ideia central à teoria que a sustenta, à perspetiva das quatro cores, a uma história de liderança em ação e a uma prática para experimentar."
+    },
+    "partChip": "Parte {part} · Capítulo {n}",
+    "chapterLabel": "Capítulo {n}",
+    "outcomeLabel": "O que vais levar contigo",
+    "chaptersInPart": "{count, plural, one {# capítulo} other {# capítulos}}",
+    "readChapter": "Ler capítulo",
+    "allChapters": "Todos os capítulos",
+    "colours": {
+      "red": "Vermelho",
+      "yellow": "Amarelo",
+      "green": "Verde",
+      "blue": "Azul"
+    },
+    "searchLabel": "Pesquisar capítulos",
+    "searchPlaceholder": "Ex: empatia, objetivos, cultura",
+    "clearFilters": "Limpar filtros",
+    "noMatches": "Usa a pesquisa ou os filtros por parte para mostrar capítulos."
+  },
+  "appendices": {
+    "header": {
+      "eyebrow": "Material de referência",
+      "title": "Apêndices",
+      "lead": "Quatro companheiros de referência rápida do guia: o guia de bolso das cores, um resumo de comunicação, a prática do líder e onde ler mais."
+    },
+    "atBest": "No seu melhor:",
+    "underStress": "Sob pressão:",
+    "toInfluence": "Para influenciar:",
+    "do": "Fazer",
+    "avoid": "Evitar",
+    "daily": "Diário",
+    "weekly": "Semanal",
+    "monthly": "Mensal",
+    "meta": {
+      "title": "Apêndices",
+      "description": "Quatro companheiros de referência rápida: o guia de bolso das cores, como comunicar com cada cor, a prática diária do líder e uma lista de leituras."
+    },
+    "tag": "Apêndice {letter}"
+  },
+  "cultural": {
+    "meta": {
+      "title": "Dicas culturais",
+      "description": "Escolhe um país e uma cor para dicas práticas sobre como esse estilo de comportamento tende a manifestar-se nessa cultura — em situações normais e sob pressão — e como te adaptares."
+    },
+    "header": {
+      "eyebrow": "LIDERAR ENTRE CULTURAS",
+      "title": "Dicas culturais",
+      "lead": "Escolhe um país ou região e a cor da pessoa. Vais obter a base cultural, como esse estilo se comporta normalmente e sob pressão, e onde encaixa ou precisa de se adaptar."
+    },
+    "notice": "<b>A cultura define a base; a cor descreve o indivíduo em relação a ela.</b> São tendências gerais da investigação intercultural — pontos de partida, não previsões sobre qualquer pessoa.",
+    "selectCountry": "1 · Escolhe um país ou região",
+    "selectColour": "2 · Escolhe a cor da pessoa",
+    "snapshotTitle": "Retrato cultural",
+    "normalTitle": "Em situações normais",
+    "stressTitle": "Sob pressão",
+    "considerTitle": "Como trabalhar com eles",
+    "fitsTitle": "Onde este estilo encaixa",
+    "adaptTitle": "Onde adaptar",
+    "noTips": "Nas dimensões que acompanhamos, este estilo situa-se de forma bastante neutra nesta cultura — orienta-te pelas dicas gerais acima.",
+    "disclaimer": "Tendências culturais gerais (baseadas no Culture Map de Erin Meyer e em investigação afim), não previsões sobre qualquer indivíduo. Lê sempre a pessoa real à tua frente.",
+    "footer": "Liderar entre culturas · Dicas culturais: um guia para adaptar, não uma caixa onde encaixar as pessoas."
+  },
+  "splash": {
+    "subtitle": "Preparando o seu guia interativo de liderança",
+    "loading": "Carregando módulos",
+    "chooseTheme": "Escolha o seu tema",
+    "chooseLanguage": "Escolha o seu idioma",
+    "enter": "Entrar no guia",
+    "themes": {
+      "default": "Padrão",
+      "retro": "Retrô",
+      "darkModern": "Escuro e moderno"
+    },
+    "modules": {
+      "themes": "Temas e estilo",
+      "i18n": "Traduções"
+    }
+  },
+  "leadership": {
+    "meta": {
+      "title": "Avaliação de competências de liderança",
+      "description": "Avalie-se nos 17 temas de liderança para obter um índice geral de preparação, uma análise por tema, os seus pontos fortes e um plano de ação priorizado."
+    },
+    "header": {
+      "eyebrow": "PROGRAMA DE PREPARAÇÃO PARA A LIDERANÇA",
+      "title": "Avaliação de competências de liderança",
+      "lead": "Avalie-se com honestidade nos 17 temas de liderança do livro. Vai obter um índice geral de preparação, uma análise por tema, os seus pontos fortes e um plano de ação priorizado de recomendações para melhorar."
+    },
+    "notice": "<b>Responda de acordo com a forma como lidera hoje, não como aspira liderar.</b> Não há respostas certas: as áreas que pontuar mais baixo tornam-se o foco do seu plano de ação personalizado. Pontue as 17 afirmações para desbloquear os seus resultados.",
+    "nameLabel": "O seu nome (opcional)",
+    "namePlaceholder": "Adicione o seu nome para personalizar o relatório",
+    "nameHint": "Nada é guardado ou enviado. As suas respostas ficam neste separador do navegador e apagam-se ao fechá-lo.",
+    "partPill": "Parte {part} · {title}",
+    "parts": {
+      "I": {
+        "title": "Conhece-te a ti mesmo",
+        "focus": "Autoconhecimento e a linguagem das cores"
+      },
+      "II": {
+        "title": "Domina as tuas emoções",
+        "focus": "Inteligência emocional e autorregulação"
+      },
+      "III": {
+        "title": "Adapta-te aos outros",
+        "focus": "Comunicação, influência e presença"
+      },
+      "IV": {
+        "title": "Constrói a equipa",
+        "focus": "Confiança, segurança, ritmo, responsabilização"
+      },
+      "V": {
+        "title": "Decide e cresce",
+        "focus": "Metas, decisões, coaching, cultura"
+      }
+    },
+    "scale": {
+      "1": "Raramente",
+      "2": "Às vezes",
+      "3": "Muitas vezes",
+      "4": "Normalmente",
+      "5": "Quase sempre"
+    },
+    "topics": {
+      "1": {
+        "title": "De especialista a líder",
+        "stmt": "Meço o meu sucesso pelo que a minha equipa alcança e delego ativamente o trabalho que antes era meu.",
+        "rec": "Nomeie as três atividades que fizeram de si um excelente contribuidor individual e ceda uma delas esta semana. Avalie-se pelos resultados da sua equipa, não pelo seu trabalho pessoal."
+      },
+      "2": {
+        "title": "As quatro cores",
+        "stmt": "Reconheço rapidamente o meu próprio estilo comportamental e leio o estilo dos outros no momento.",
+        "rec": "Posicione-se nos eixos extrovertido/reservado e tarefas/pessoas, nomeie a sua cor dominante e secundária e identifique a cor diagonalmente oposta: normalmente o estilo que lhe é mais difícil."
+      },
+      "3": {
+        "title": "Autoconhecimento do líder",
+        "stmt": "Conheço os meus gatilhos e como me comporto sob pressão, e procuro ativamente feedback sobre os meus pontos cegos.",
+        "rec": "Reveja três momentos recentes de que se arrependeu; anote o gatilho e o impacto. Depois pergunte a uma pessoa de confiança o que costuma fazer quando está sob stress."
+      },
+      "4": {
+        "title": "Inteligência emocional",
+        "stmt": "Percebo a corrente emocional de uma sala e tenho-a em conta na forma como lidero.",
+        "rec": "Após a sua próxima reunião difícil, nomeie um sinal emocional positivo e um negativo que tenha notado, e como reagiu. Crie o hábito de ler a camada emocional, não apenas o conteúdo."
+      },
+      "5": {
+        "title": "Autorregulação",
+        "stmt": "Mantenho a compostura e escolho a minha resposta quando a tensão aumenta, em vez de reagir por impulso.",
+        "rec": "Crie um kit de compostura: uma pausa, uma respiração, um reenquadramento e uma frase de referência. Ensaie-o em momentos de baixo risco para o ter disponível quando a pressão for real."
+      },
+      "6": {
+        "title": "Empatia",
+        "stmt": "Escuto para compreender as perspetivas dos outros antes de responder, mesmo quando discordo.",
+        "rec": "Na sua próxima reunião individual, escute para compreender em vez de para responder. Reflita o que ouviu antes de tentar resolver o que quer que seja."
+      },
+      "7": {
+        "title": "Liderança adaptativa",
+        "stmt": "Ajusto o meu estilo de comunicação à pessoa à minha frente, não ao meu estilo padrão.",
+        "rec": "Reescreva uma mensagem real no estilo de uma pessoa que precisa de influenciar. Depois observe a sua própria assinatura de conflito na próxima vez que surgir atrito."
+      },
+      "8": {
+        "title": "Influenciar sem autoridade",
+        "stmt": "Faço as coisas acontecerem através de pessoas que não controlo, usando confiança e clareza em vez de escalar.",
+        "rec": "Afine um pedido: clarifique o resultado, porque importa e como é o sucesso do ponto de vista da outra pessoa antes de o fazer."
+      },
+      "9": {
+        "title": "Conversas difíceis",
+        "stmt": "Abordo os problemas cedo e de forma direta mantendo a relação intacta.",
+        "rec": "Prepare uma conversa que tem vindo a adiar. Escreva o problema factual (situação e comportamento), o seu impacto e o único resultado que quer, e depois tenha-a esta semana."
+      },
+      "10": {
+        "title": "Presença executiva",
+        "stmt": "Comunico com clareza e presença para que a minha mensagem chegue como pretendo.",
+        "rec": "Faça uma mensagem real acertar liderando com a ideia principal, cortando o excesso e ajustando o tom e o ritmo ao resultado que procura."
+      },
+      "11": {
+        "title": "Equipa de alto desempenho",
+        "stmt": "Crio deliberadamente as condições —propósito, clareza, responsabilização— para a minha equipa render.",
+        "rec": "Diagnostique a sua equipa face aos quatro pilares (propósito partilhado, clareza, segurança, ritmo) e nomeie a condição mais fraca neste momento, depois corrija essa primeiro."
+      },
+      "12": {
+        "title": "Confiança e segurança psicológica",
+        "stmt": "As pessoas da minha equipa falam, discordam e admitem erros sem medo.",
+        "rec": "Na sua próxima conversa de equipa, convide ativamente uma preocupação honesta, uma pergunta e uma discordância, e agradeça às pessoas por as levantarem."
+      },
+      "13": {
+        "title": "Ritmo operacional e responsabilização",
+        "stmt": "A minha equipa funciona num ritmo previsível que mantém o trabalho visível sem que eu persiga atualizações.",
+        "rec": "Ajuste um ritual recorrente para que tenha um propósito mais claro, uma agenda mais apertada ou uma regra de decisão mais limpa, ou retire-o se só sobrevive porque é você que o impulsiona."
+      },
+      "14": {
+        "title": "Definir metas que impulsionam resultados",
+        "stmt": "Defino metas suficientemente específicas para assumir, acompanhar e concluir, focadas em resultados, não em atividade.",
+        "rec": "Reescreva uma meta para que o resultado, o responsável nomeado e a medida de sucesso sejam todos explícitos. Substitua qualquer meta de «atividade» pelo resultado que ela deve produzir."
+      },
+      "15": {
+        "title": "Disciplina de decisão",
+        "stmt": "Decido bem na ambiguidade, ajustando a minha velocidade a se uma decisão é reversível.",
+        "rec": "Ponha à prova uma decisão em curso: classifique-a como porta de sentido único ou de duplo sentido, nomeie os seus pressupostos e faça um pré-mortem rápido antes de se comprometer."
+      },
+      "16": {
+        "title": "Coaching e mentoria",
+        "stmt": "Faço crescer as minhas pessoas através do coaching —extraindo o seu pensamento— não apenas dando respostas.",
+        "rec": "Antes da sua próxima conversa de desenvolvimento, decida se a pessoa precisa de mentoria ou coaching. Se for coaching, faça duas perguntas abertas e resista a entregar a resposta."
+      },
+      "17": {
+        "title": "Liderar entre culturas",
+        "stmt": "Calibro as diferenças culturais e verifico a cultura antes de assumir um traço pessoal.",
+        "rec": "Mapeie as duas dimensões em que a sua equipa mais difere, defina uma norma de equipa explícita e procure uma explicação cultural antes de julgar um comportamento como pessoal."
+      }
+    },
+    "bands": {
+      "emerging": {
+        "name": "Emergente",
+        "text": "Está no início da construção de hábitos de liderança deliberados, o que significa que há progresso rápido disponível. Escolha uma ou duas áreas prioritárias abaixo e trabalhe-as até parecerem naturais antes de acrescentar mais."
+      },
+      "developing": {
+        "name": "Em desenvolvimento",
+        "text": "Bons instintos com claro espaço para crescer. Os seus temas com pontuação mais baixa abaixo são onde o esforço focado moverá o ponteiro mais depressa: transforme dois deles em hábitos concretos este trimestre."
+      },
+      "strong": {
+        "name": "Sólido",
+        "text": "Lidera bem na maioria das áreas. Afine as poucas lacunas restantes, continue a apostar nos seus pontos fortes e comece a orientar os outros naquilo que faz melhor."
+      },
+      "exceptional": {
+        "name": "Excecional",
+        "text": "Um leque de liderança amplo e consistente. Continue a esticar os seus temas com pontuação mais baixa para não estagnar, e multiplique o seu impacto desenvolvendo estas competências nas pessoas à sua volta."
+      }
+    },
+    "progress": "{done} de {total} temas pontuados",
+    "reveal": "Mostrar as minhas recomendações",
+    "resultTitle": "A sua preparação para a liderança",
+    "resultTitleNamed": "Preparação para a liderança de {name}",
+    "resultSub": "Com base na sua autoavaliação nos 17 temas de liderança.",
+    "scoreAvg": "{avg} / 5",
+    "bandHeading": "Está no intervalo «{band}»",
+    "breakdownTitle": "Análise por tema",
+    "breakdownSub": "Como pontuou nas cinco partes do arco de liderança.",
+    "priorityTitle": "As suas ações prioritárias",
+    "prioritySub": "Comece aqui. Estes são os seus temas com pontuação mais baixa, ordenados por onde o esforço focado renderá mais.",
+    "strengthsTitle": "Os seus pontos fortes",
+    "strengthsSub": "Os temas em que já lidera bem: proteja-os e use-os para orientar os outros.",
+    "allTitle": "Os 17 temas num relance",
+    "allSub": "A sua autoavaliação completa em cada tema.",
+    "rated": "Pontuou {v}/5",
+    "chip": "Parte {part} · Capítulo {n}",
+    "tryThis": "Experimente isto:",
+    "strengthDesc": "Parte {part} — {title}. Mantenha-o afiado e use-o para orientar os outros.",
+    "noStrengthTitle": "Ainda nenhum tema pontuado com 4 ou mais",
+    "noStrengthDesc": "É normal no início: concentre-se nas suas ações prioritárias e os seus pontos fortes seguirão.",
+    "retake": "Repetir a avaliação",
+    "print": "Imprimir / Guardar como PDF",
+    "footer": "Programa de preparação para a liderança · Avaliação de competências de liderança: um plano para crescer, não um veredicto."
+  },
+  "about": {
+    "trigger": "Sobre",
+    "title": "Sobre este guia",
+    "body1": "O Líder Adaptativo consolida os temas cruciais para o desenvolvimento profissional das tuas competências de liderança — da autoconsciência e inteligência emocional à comunicação, construção de equipa, tomada de decisão, coaching e liderança entre culturas.",
+    "body2": "Não pretende substituir o livro nem a leitura aprofundada que o sustenta. É um guia — uma forma rápida e estruturada de rever as ideias, avaliares-te e pô-las em prática.",
+    "creditsLabel": "Créditos",
+    "credits": "Maria Olhova · Sunny Pei · Gerardo Merello · Pablo Scherer · Jay Rao · Leandro Frasso",
+    "powered": "Esta aplicação é desenvolvida por <strong>Leandro</strong>."
+  }
+}

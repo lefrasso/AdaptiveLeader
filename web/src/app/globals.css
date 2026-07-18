@@ -1,0 +1,279 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@400..700&family=Noto+Sans+JP:wght@400..700&family=Noto+Sans+KR:wght@400..700&family=Noto+Sans+SC:wght@400..700&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-serif: var(--font-serif);
+  --font-heading: var(--font-serif);
+
+  /* AdaptiveLeader brand accents (available as bg-navy, text-red, etc.) */
+  --color-navy: var(--navy);
+  --color-navy-2: var(--navy-2);
+  --color-ice: var(--ice);
+  --color-red: var(--red);
+  --color-yellow: var(--yellow);
+  --color-green: var(--green);
+  --color-blue: var(--blue);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+}
+
+:root,
+.theme-default {
+  --background: #eef1f8;
+  --foreground: #1a1a2e;
+  --card: #ffffff;
+  --card-foreground: #1a1a2e;
+  --popover: #ffffff;
+  --popover-foreground: #1a1a2e;
+  --primary: #1e2761;
+  --primary-foreground: #ffffff;
+  --secondary: #f4f6fb;
+  --secondary-foreground: #1a1a2e;
+  --muted: #f4f6fb;
+  --muted-foreground: #6b7280;
+  --accent: #f4f6fb;
+  --accent-foreground: #1e2761;
+  --destructive: #d64550;
+  --border: #e2e6f0;
+  --input: #e2e6f0;
+  --ring: #1e2761;
+  --chart-1: #d64550;
+  --chart-2: #f2b705;
+  --chart-3: #2e9e5b;
+  --chart-4: #2e86c1;
+  --chart-5: #1e2761;
+  --radius: 1.25rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #1a1a2e;
+  --sidebar-primary: #1e2761;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f4f6fb;
+  --sidebar-accent-foreground: #1e2761;
+  --sidebar-border: #e2e6f0;
+  --sidebar-ring: #1e2761;
+
+  /* Brand accents (stable across light/dark) */
+  --navy: #1e2761;
+  --navy-2: #161b45;
+  --ice: #cadcfc;
+  --red: #d64550;
+  --yellow: #f2b705;
+  --green: #2e9e5b;
+  --blue: #2e86c1;
+}
+
+/* ── Theme: Retro (warm vintage, light) ────────────────── */
+.theme-retro {
+  --background: #f3e7cf;
+  --foreground: #3d2f24;
+  --card: #fbf1dc;
+  --card-foreground: #3d2f24;
+  --popover: #fbf1dc;
+  --popover-foreground: #3d2f24;
+  --primary: #c0532b;
+  --primary-foreground: #fbf1dc;
+  --secondary: #e7d6b3;
+  --secondary-foreground: #3d2f24;
+  --muted: #e7d6b3;
+  --muted-foreground: #806a4f;
+  --accent: #e7d6b3;
+  --accent-foreground: #a5431f;
+  --destructive: #b23a2e;
+  --border: #d8c096;
+  --input: #d8c096;
+  --ring: #c0532b;
+  --chart-1: #c0532b;
+  --chart-2: #d99a2b;
+  --chart-3: #6b8e4e;
+  --chart-4: #2a7f7a;
+  --chart-5: #8a5a3b;
+  --sidebar: #fbf1dc;
+  --sidebar-foreground: #3d2f24;
+  --sidebar-primary: #c0532b;
+  --sidebar-primary-foreground: #fbf1dc;
+  --sidebar-accent: #e7d6b3;
+  --sidebar-accent-foreground: #a5431f;
+  --sidebar-border: #d8c096;
+  --sidebar-ring: #c0532b;
+  /* Brand accents (retro tones) */
+  --navy: #1f5f5b;
+  --navy-2: #16403d;
+  --ice: #fbf1dc;
+  --red: #b23a2e;
+  --yellow: #d99a2b;
+  --green: #6b8e4e;
+  --blue: #2a7f7a;
+}
+
+/* ── Theme: Dark & Modern (sleek dark, violet accent) ─────────── */
+.dark {
+  --background: #0b0b12;
+  --foreground: #ecedf4;
+  --card: #14141f;
+  --card-foreground: #ecedf4;
+  --popover: #14141f;
+  --popover-foreground: #ecedf4;
+  --primary: #8b7bff;
+  --primary-foreground: #0b0b12;
+  --secondary: #1b1b29;
+  --secondary-foreground: #ecedf4;
+  --muted: #1b1b29;
+  --muted-foreground: #9a9db3;
+  --accent: #1b1b29;
+  --accent-foreground: #cdd2ff;
+  --destructive: #f2555a;
+  --border: #262637;
+  --input: #262637;
+  --ring: #8b7bff;
+  --chart-1: #ff5d6c;
+  --chart-2: #ffcf4d;
+  --chart-3: #34d399;
+  --chart-4: #38bdf8;
+  --chart-5: #8b7bff;
+  --sidebar: #14141f;
+  --sidebar-foreground: #ecedf4;
+  --sidebar-primary: #8b7bff;
+  --sidebar-primary-foreground: #0b0b12;
+  --sidebar-accent: #1b1b29;
+  --sidebar-accent-foreground: #cdd2ff;
+  --sidebar-border: #262637;
+  --sidebar-ring: #8b7bff;
+  /* Brand accents (modern violet) */
+  --navy: #4b3fb0;
+  --navy-2: #362c8a;
+  --ice: #cdd2ff;
+  --red: #ff5d6c;
+  --yellow: #ffcf4d;
+  --green: #34d399;
+  --blue: #38bdf8;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+    scroll-behavior: smooth;
+  }
+}
+
+/* Locale-specific typefaces (loaded via Google Fonts above). */
+:lang(ar) {
+  font-family: "Noto Sans Arabic", var(--font-sans), sans-serif;
+}
+:lang(zh) {
+  font-family: "Noto Sans SC", var(--font-sans), sans-serif;
+}
+:lang(ja) {
+  font-family: "Noto Sans JP", var(--font-sans), sans-serif;
+}
+:lang(ko) {
+  font-family: "Noto Sans KR", var(--font-sans), sans-serif;
+}
+
+@media print {
+  .no-print {
+    display: none !important;
+  }
+  /* Print brand backgrounds (hero gradients, score rings, colour chips). */
+  *,
+  *::before,
+  *::after {
+    -webkit-print-color-adjust: exact !important;
+    print-color-adjust: exact !important;
+  }
+  @page {
+    margin: 14mm;
+  }
+  /* Keep result cards from splitting awkwardly across pages. */
+  [data-slot="card"],
+  .rounded-2xl {
+    break-inside: avoid;
+  }
+}
+
+/* Rich theory deep-dives (trusted HTML authored in-repo, rendered on the
+   chapter detail pages). Scoped so it only affects that content. */
+.theory {
+  line-height: 1.75;
+  color: var(--foreground);
+}
+.theory > * + * {
+  margin-top: 0.85rem;
+}
+.theory :is(ul, ol) {
+  padding-inline-start: 1.35rem;
+}
+.theory ul {
+  list-style: disc;
+}
+.theory ol {
+  list-style: decimal;
+}
+.theory li + li {
+  margin-top: 0.4rem;
+}
+.theory li::marker {
+  color: var(--muted-foreground);
+}
+.theory strong {
+  font-weight: 600;
+  color: var(--navy);
+}
+.dark .theory strong {
+  color: var(--ice);
+}
+.theory em {
+  font-style: italic;
+}
+.theory :is(h3, h4) {
+  font-family: var(--font-serif);
+  font-weight: 600;
+  margin-top: 1.25rem;
+}

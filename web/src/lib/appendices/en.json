@@ -1,0 +1,261 @@
+{
+  "meta": {
+    "A": {
+      "letter": "A",
+      "title": "The Colour Pocket Guide",
+      "text": "A quick-reference companion for the four colours and their defaults."
+    },
+    "B": {
+      "letter": "B",
+      "title": "How to Communicate With Each Colour",
+      "text": "A communication cheat sheet for adapting tone, pace, and evidence."
+    },
+    "C": {
+      "letter": "C",
+      "title": "The Leader's Practice",
+      "text": "A practice-oriented section for turning the framework into habits."
+    },
+    "D": {
+      "letter": "D",
+      "title": "Further Reading",
+      "text": "The research trail behind the models used throughout the book."
+    }
+  },
+  "colours": [
+    {
+      "id": "red",
+      "name": "Red — The Driver",
+      "hex": "#d64550",
+      "onLight": false,
+      "traits": [
+        "Decisive",
+        "Results-focused",
+        "Direct",
+        "Competitive",
+        "Action-oriented"
+      ],
+      "best": "Creates momentum, makes fast decisions, drives for outcomes.",
+      "shadow": "Impatient, controlling, dismissive of emotion under pressure.",
+      "need": "Give the bottom line and a clear choice. Respect their time."
+    },
+    {
+      "id": "yellow",
+      "name": "Yellow — The Inspirer",
+      "hex": "#f2b705",
+      "onLight": true,
+      "traits": [
+        "Enthusiastic",
+        "People-focused",
+        "Creative",
+        "Optimistic",
+        "Expressive"
+      ],
+      "best": "Energises teams, builds connection, inspires vision and possibility.",
+      "shadow": "Scattered, over-promises, avoids hard truths and detail.",
+      "need": "Bring energy and warmth. Connect to a bigger inspiring purpose."
+    },
+    {
+      "id": "green",
+      "name": "Green — The Supporter",
+      "hex": "#2e9e5b",
+      "onLight": false,
+      "traits": [
+        "Patient",
+        "Loyal",
+        "Empathic",
+        "Steady",
+        "Harmony-seeking"
+      ],
+      "best": "Stabilises teams, builds deep trust, reliable and consistent.",
+      "shadow": "Avoids conflict, goes silent, agrees then disengages later.",
+      "need": "Build relationship first. Give time. Never rush or spring surprises."
+    },
+    {
+      "id": "blue",
+      "name": "Blue — The Analyst",
+      "hex": "#2e86c1",
+      "onLight": false,
+      "traits": [
+        "Analytical",
+        "Precise",
+        "Logical",
+        "Quality-focused",
+        "Structured"
+      ],
+      "best": "Ensures rigour, catches risks, delivers consistently high quality.",
+      "shadow": "Over-analyses, hyper-critical, emotionally distant, slow to decide.",
+      "need": "Bring data and evidence. Give time to verify. Never oversell or rush."
+    }
+  ],
+  "comms": [
+    {
+      "colour": "Red",
+      "hex": "#d64550",
+      "onLight": false,
+      "open": "\"Here's the bottom line — three options. You decide.\"",
+      "dos": [
+        "Lead with the result, then the reasoning",
+        "Bring clear options and let them choose",
+        "Stay confident — no hedging or filler",
+        "Respect their time; keep it short"
+      ],
+      "donts": [
+        "Don't bury the point in background",
+        "Don't take bluntness personally",
+        "Don't open with unrequested small talk",
+        "Don't raise problems without proposed solutions"
+      ]
+    },
+    {
+      "colour": "Yellow",
+      "hex": "#f2b705",
+      "onLight": true,
+      "open": "\"I've got something I think you'll love — let's shape it together.\"",
+      "dos": [
+        "Bring energy and be genuinely warm",
+        "Connect the ask to a bigger inspiring purpose",
+        "Allow time to talk and feel recognised",
+        "Celebrate the idea before refining it"
+      ],
+      "donts": [
+        "Don't lead with data and analysis",
+        "Don't be cold or purely transactional",
+        "Don't rush to the action point immediately",
+        "Don't rely on them to track the detail"
+      ]
+    },
+    {
+      "colour": "Green",
+      "hex": "#2e9e5b",
+      "onLight": false,
+      "open": "\"No rush at all — I'd value your honest view before we decide anything.\"",
+      "dos": [
+        "Build the relationship before the agenda",
+        "Explain the how — step by step",
+        "Offer reassurance and continuity",
+        "Give time to process before expecting a response"
+      ],
+      "donts": [
+        "Don't rush, pressure, or push for immediacy",
+        "Don't spring change without consultation",
+        "Don't mistake silence for agreement",
+        "Don't skip the personal connection"
+      ]
+    },
+    {
+      "colour": "Blue",
+      "hex": "#2e86c1",
+      "onLight": false,
+      "open": "\"Here's the data and the structured case — take whatever time you need.\"",
+      "dos": [
+        "Come prepared with facts, evidence and structure",
+        "Give time and space to analyse",
+        "Send written follow-up with full detail",
+        "Acknowledge the risks honestly"
+      ],
+      "donts": [
+        "Don't oversell, hype, or exaggerate",
+        "Don't push for a fast commitment",
+        "Don't wing it or be vague on numbers",
+        "Don't pressure before they feel ready"
+      ]
+    }
+  ],
+  "practice": {
+    "daily": [
+      "Before a key conversation: \"What colour is this person, and what do they need right now?\"",
+      "After a difficult interaction: \"What triggered me — and what would I do differently?\"",
+      "At day's end: \"Did I lead today, or did I just react?\"",
+      "When delegating: \"Am I building capability, or just clearing my plate?\"",
+      "When solving a problem: \"Is this mine to solve, or does solving it block someone else's growth?\""
+    ],
+    "weekly": [
+      "Review commitments made to your team. Were they clear? Were they kept?",
+      "Identify one conversation you have been avoiding. Plan to have it this week.",
+      "Ask one direct report: \"What is one thing I could do that would make your work easier?\"",
+      "Check your team's emotional temperature: who seems disengaged, stressed, or disconnected?"
+    ],
+    "monthly": [
+      "What did your team deliver this month — and what conditions made that possible?",
+      "Who on your team grew this month? Who did not? What explains the difference?",
+      "What is one leadership habit you want to strengthen? What is your concrete plan?"
+    ]
+  },
+  "books": [
+    {
+      "cat": "Colour & Behaviour",
+      "items": [
+        {
+          "title": "Surrounded by Idiots",
+          "author": "Thomas Erikson",
+          "note": "The bestselling plain-language introduction to the four-colour DISC model."
+        },
+        {
+          "title": "Emotions of Normal People",
+          "author": "William Moulton Marston",
+          "note": "The 1928 original that introduced the four behavioural quadrants underlying DISC."
+        }
+      ]
+    },
+    {
+      "cat": "Self-Awareness & EQ",
+      "items": [
+        {
+          "title": "Emotional Intelligence",
+          "author": "Daniel Goleman",
+          "note": "The foundational argument that EQ predicts leadership effectiveness more than IQ."
+        },
+        {
+          "title": "Insight",
+          "author": "Tasha Eurich",
+          "note": "Why self-awareness is rare — and the research-based practices that actually build it."
+        },
+        {
+          "title": "Coaching for Performance",
+          "author": "John Whitmore",
+          "note": "The foundational GROW model and the coaching mindset every leader needs."
+        }
+      ]
+    },
+    {
+      "cat": "Communication & Influence",
+      "items": [
+        {
+          "title": "Crucial Conversations",
+          "author": "Patterson, Grenny et al.",
+          "note": "The practical framework for high-stakes conversations that produce movement and preserve trust."
+        },
+        {
+          "title": "Influence",
+          "author": "Robert Cialdini",
+          "note": "The six principles of ethical persuasion, grounded in decades of social psychology research."
+        },
+        {
+          "title": "The Culture Map",
+          "author": "Erin Meyer",
+          "note": "Eight scales on which cultures differ — essential reading for leading across borders."
+        }
+      ]
+    },
+    {
+      "cat": "Teams & Performance",
+      "items": [
+        {
+          "title": "The Five Dysfunctions of a Team",
+          "author": "Patrick Lencioni",
+          "note": "A causal model of why teams fail and the specific steps to address each dysfunction."
+        },
+        {
+          "title": "Measure What Matters",
+          "author": "John Doerr",
+          "note": "The OKR framework for setting and tracking goals that drive real organisational movement."
+        },
+        {
+          "title": "The Fearless Organization",
+          "author": "Amy Edmondson",
+          "note": "The science of psychological safety — creating teams where learning and truth-telling thrive."
+        }
+      ]
+    }
+  ]
+}
