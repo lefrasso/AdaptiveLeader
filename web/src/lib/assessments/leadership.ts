@@ -7,26 +7,26 @@ export type PartKey = "I" | "II" | "III" | "IV" | "V";
 
 export const PART_ORDER: PartKey[] = ["I", "II", "III", "IV", "V"];
 
-export type Topic = { n: number; part: PartKey };
+export type Topic = { n: number; part: PartKey; chapter: number };
 
 export const TOPICS: Topic[] = [
-  { n: 1, part: "I" },
-  { n: 2, part: "I" },
-  { n: 3, part: "I" },
-  { n: 4, part: "II" },
-  { n: 5, part: "II" },
-  { n: 6, part: "II" },
-  { n: 7, part: "III" },
-  { n: 8, part: "III" },
-  { n: 9, part: "III" },
-  { n: 10, part: "III" },
-  { n: 11, part: "IV" },
-  { n: 12, part: "IV" },
-  { n: 13, part: "IV" },
-  { n: 14, part: "V" },
-  { n: 15, part: "V" },
-  { n: 16, part: "V" },
-  { n: 17, part: "V" },
+  { n: 1, part: "I", chapter: 1 },
+  { n: 2, part: "I", chapter: 2 },
+  { n: 3, part: "I", chapter: 3 },
+  { n: 4, part: "II", chapter: 4 },
+  { n: 5, part: "II", chapter: 5 },
+  { n: 6, part: "II", chapter: 6 },
+  { n: 7, part: "III", chapter: 7 },
+  { n: 8, part: "III", chapter: 8 },
+  { n: 9, part: "III", chapter: 9 },
+  { n: 10, part: "III", chapter: 10 },
+  { n: 11, part: "IV", chapter: 12 },
+  { n: 12, part: "IV", chapter: 13 },
+  { n: 13, part: "IV", chapter: 14 },
+  { n: 14, part: "V", chapter: 17 },
+  { n: 15, part: "V", chapter: 18 },
+  { n: 16, part: "V", chapter: 19 },
+  { n: 17, part: "V", chapter: 20 },
 ];
 
 export const SCALE_VALUES = [1, 2, 3, 4, 5] as const;

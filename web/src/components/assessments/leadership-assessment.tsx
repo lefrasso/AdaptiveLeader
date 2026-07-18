@@ -346,7 +346,7 @@ function Results({
                   {t("rated", { v: x.v })}
                 </span>
                 <span className="rounded-full border border-border bg-card px-2.5 py-0.5 text-[11px] text-muted-foreground">
-                  {t("chip", { part: x.topic.part, n: x.topic.n })}
+                  {t("chip", { part: x.topic.part, n: x.topic.chapter })}
                 </span>
               </div>
               <p className="text-sm">
@@ -356,7 +356,7 @@ function Results({
                 {t(`topics.${x.topic.n}.rec`)}
               </p>
               <Link
-                href={`/chapters/${x.topic.n}`}
+                href={`/chapters/${x.topic.chapter}`}
                 className="mt-2 inline-block text-sm font-semibold text-navy hover:underline dark:text-ice"
               >
                 {t("learnThis")}

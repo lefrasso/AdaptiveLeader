@@ -1,49 +1,66 @@
 # The Adaptive Leader
 
-An elegant, minimalist, fully multilingual leadership guide and self-development
-web app built with **vanilla HTML, CSS, and JavaScript** — no frameworks, no
-build step. It consolidates the crucial topics for developing leadership skills
-into an interactive, scannable reference paired with three hands-on tools.
+An interactive, fully multilingual leadership guide and self-development app —
+**twenty-two chapters**, four appendices, and four hands-on assessment tools,
+wrapped in a growth-mindset **learning loop** that helps you not just read about
+leading but actually build the skill.
 
 > It is not intended to replace the book or the deep reading behind it — it is a
 > guide: a fast, structured way to revisit the ideas, assess yourself, and put
 > them into practice.
 
-> **ARC design philosophy** — **A**nchor the reader, build **R**hythm, and
-> deliver **C**larity. A persistent navigation, repeated card patterns, and a
-> calm navy/ice palette keep the whole experience easy to orient.
+The project exists in two forms:
+
+- **[`web/`](web/) — the current app (recommended):** a modern **Next.js 16**
+  build (React 19, TypeScript, Tailwind v4, next-intl) exported as a fully
+  static site. All active development happens here — see
+  [`web/README.md`](web/README.md).
+- **Root (`index.html`, `script.js`, …) — the original:** the first version,
+  built with plain **HTML/CSS/JavaScript** and no build step. Kept for reference.
 
 ---
 
 ## ✨ Features
 
-- **17 chapters across 5 parts** — a complete leadership curriculum, from
-  *Expert to Leader* through *Leading Across Cultures*.
-- **Rich, expanded theory deep-dives** — every chapter includes an
-  evidence-based theory section (Leadership Pipeline, Johari Window, Goleman's
-  EI, SBI, Project Aristotle, OKRs, GROW, the Culture Map, and more) plus a
-  concrete *case in point*, a *put it to work* practical angle, supporting
-  research, and *common pitfalls* to avoid.
-- **The Four Colours model** — Red, Yellow, Green, Blue behavioural language
-  woven through every chapter (colour angles, leader-in-action stories,
-  watch-outs).
-- **4 appendices** — colour quick guide, communication cheat-sheet, the
-  leader's daily/weekly/monthly practice, and a further-reading list.
-- **Three interactive tools**
-  - 🎯 **Communication Style Evaluator** — analyse a communication style and get
-    tailored recommendations.
-  - 🌈 **Colour Self-Assessment** — reveal your own colour composition and
-    profile.
-  - 📊 **Leadership Skills Assessment** — rate yourself across all 17 topics and
-    get a prioritised action plan of recommendations to improve.
-- **About dialog** — a pop-up describing the guide's intent and crediting its
-  contributors.
-- **10 languages, 100% translated** — every heading, body, appendix, and theory
-  deep-dive is fully localised (not just the labels).
-- **Right-to-left support** — full RTL layout for Arabic.
-- **Light & dark mode** — respects the system `color-scheme`.
-- **Zero dependencies** — loads instantly, works offline once cached, and can be
-  hosted anywhere static files are served.
+### Content
+- **22 chapters across 5 parts** — from *Expert to Leader* to *The Growth
+  Mindset* (Satya Nadella's *Hit Refresh* + Carol Dweck).
+- **Deep theory dives** — each chapter pairs the core idea with an evidence-based
+  deep-dive (Leadership Pipeline, Johari Window, Goleman's EI, Situational
+  Leadership, Cialdini, Lencioni, Edmondson's psychological safety, Kahneman,
+  OKRs, GROW, the Culture Map, Ericsson's deliberate practice, and more), the
+  four-colour angle, a leader-in-action story, a practice, and common pitfalls.
+- **The Four Colours model** — Red / Yellow / Green / Blue behavioural language
+  woven through every chapter.
+- **4 appendices** — colour pocket guide, communication cheat-sheet, the
+  leader's daily/weekly/monthly practice, and further reading.
+
+### Interactive tools
+- 🌈 **Colour Self-Assessment** — your colour composition and profile, plus a
+  *stretch colour* to deliberately develop.
+- 📊 **Leadership Skills Assessment** — rate yourself across 17 topics for a
+  readiness index, a prioritised action plan with chapter pathways, and a
+  **growth trajectory** that tracks improvement over time.
+- 🎯 **Communication Style Evaluator** — analyse someone's style and get tailored
+  recommendations.
+- 🌍 **Cultural Tips** — pick a country and a colour for practical adaptation
+  advice.
+
+### The learning loop (growth mindset)
+- **End-of-chapter quizzes** — scenario retrieval with growth-oriented feedback.
+- **Practice upgrade** — a self-check rubric, a "what good looks like" exemplar,
+  and a *tried / happened / change* reflection you can save.
+- **Spaced review + growth dashboard** — streaks, activity, your leadership
+  trajectory, and chapters due for review — stored locally, on your device.
+
+### Experience
+- **10 languages, RTL** — full localisation; right-to-left for Arabic.
+- **4 themes** — Default, Retro, Dark & Modern, and **Copilot** (Microsoft 365 /
+  Fluent palette).
+- **Privacy-first** — a consent banner and a Privacy & data panel; learning
+  progress is opt-in, stored only in your browser, and exportable or erasable at
+  any time.
+- **Tasteful motion** — reveal-on-scroll that respects reduced-motion and print.
 
 ---
 
@@ -63,38 +80,37 @@ The selected language is remembered in `localStorage` between visits.
 
 ## 🚀 Getting started
 
-Because it's a pure static site, you only need a browser.
-
-### Option 1 — Open directly
-
-Double-click `index.html`, or open it in your browser.
-
-### Option 2 — Serve locally (recommended)
-
-Some browsers restrict `iframe` and `fetch` behaviour on the `file://`
-protocol. Serving over `http://` avoids that:
+The current app lives in [`web/`](web/) and uses **pnpm**:
 
 ```bash
-# Python 3
-python -m http.server 8000
-
-# or Node.js
-npx serve .
+cd web
+pnpm install
+pnpm dev          # http://localhost:3000  (the root redirects to /en)
 ```
 
-Then visit <http://localhost:8000>.
+Build a static export, run the tests, or lint:
+
+```bash
+pnpm build        # static export to web/out
+pnpm test         # vitest
+pnpm lint         # eslint
+```
+
+> Prefer the original zero-build version? Open `index.html` in a browser, or
+> serve the repo root with `python -m http.server 8000`.
 
 ---
 
 ## 🌐 Deploy to GitHub Pages
 
-1. Push this folder to a GitHub repository.
-2. In the repository, go to **Settings → Pages**.
-3. Under **Build and deployment**, set **Source** to *Deploy from a branch*.
-4. Choose the `main` branch and the `/ (root)` folder, then **Save**.
-5. Your site will be live at `https://<username>.github.io/<repository>/`.
+Deployment is automated by **GitHub Actions**
+([`.github/workflows/deploy.yml`](.github/workflows/deploy.yml)): every push to
+`main` lints, tests, builds the static export
+(`NEXT_PUBLIC_BASE_PATH=/AdaptiveLeader`), and publishes `web/out` to Pages. A
+postbuild step writes the root redirect to the visitor's locale.
 
-No build configuration is required — GitHub Pages serves the files as-is.
+Enable it once via **Settings → Pages → Source → GitHub Actions**. The site then
+lives at `https://<username>.github.io/AdaptiveLeader/`.
 
 ---
 
@@ -102,29 +118,19 @@ No build configuration is required — GitHub Pages serves the files as-is.
 
 ```
 .
-├── index.html                        # Main app shell
-├── styles.css                        # All styling (design system, RTL, dark mode)
-├── script.js                         # App logic, i18n engine, rendering
+├── web/                     # ← the current Next.js app (see web/README.md)
+│   ├── src/app/[locale]/    # routes: home, chapters, appendices, assessments…
+│   ├── src/components/      # UI, assessments, learning loop, motion
+│   ├── src/lib/             # chapters, appendices, assessments, prefs, progress
+│   ├── messages/            # per-locale UI strings (next-intl)
+│   └── scripts/             # content pipeline (extract / expand / translate)
 │
-├── chapters-i18n.js                  # Chapter body translations (all languages)
-├── chapters-extra.js                 # Extended English chapter content
-├── theory-i18n.js                    # Rich HTML theory deep-dives (all languages)
-├── ax-i18n.js                        # Appendix content translations
-│
-├── Communication-Style-Evaluator.html # Embedded tool #1
-├── Self-Assessment.html              # Embedded tool #2
-└── Leadership-Assessment.html        # Embedded tool #3
+├── index.html               # the original vanilla app (shell)
+├── script.js                # original app logic + i18n engine
+├── styles.css               # original styling
+├── *-i18n.js                # original per-language content
+└── .github/workflows/       # CI + Pages deploy
 ```
-
-### How the internationalisation works
-
-- `script.js` holds the `UI` object (interface strings) and a `t()` helper.
-- `getBook(locale)` merges the base content with per-language overrides from
-  `chapters-i18n.js`, `theory-i18n.js`, and `ax-i18n.js`.
-- Extended English-only annotations live in `chapters-extra.js` and are skipped
-  for other locales so translated content always takes precedence.
-- All data files load **before** `script.js`, which then renders the active
-  language.
 
 ---
 
@@ -133,20 +139,23 @@ No build configuration is required — GitHub Pages serves the files as-is.
 - **Typography** — [Fraunces](https://fonts.google.com/specimen/Fraunces)
   (display serif) + [Manrope](https://fonts.google.com/specimen/Manrope) (sans),
   with Noto Sans Arabic / SC / JP / KR for full script coverage.
-- **Palette** — deep navy `#1e2761`, ice blue `#cadcfc`, soft background
-  `#eef1f8`.
-- **Responsive** — adapts from wide desktop to mobile with a sticky top bar and
-  collapsible sidebar navigation.
+- **Theming** — four palettes: Default (navy/ice), Retro (warm), Dark & Modern,
+  and Copilot (Microsoft 365 / Fluent). Hero gradients re-theme automatically.
+- **Responsive** — adapts from wide desktop to mobile, with print-friendly
+  styling and reduced-motion support.
 
 ---
 
 ## 🤝 Contributing
 
-Issues and pull requests are welcome. Because there's no build step, changes are
-easy to test — just edit a file and refresh the browser.
+Issues and pull requests are welcome. For the current app, work in `web/`
+(`pnpm dev`, `pnpm test`, `pnpm lint`).
 
-To add or refine a translation, update the relevant `*-i18n.js` file and the
-`UI` object in `script.js`.
+Content is **English-first**: new chapters, theory, and UI are authored in
+English, and other locales fall back to English until translated. Long-form
+content lives in `web/src/lib/**/<locale>.json`, UI strings in
+`web/messages/<locale>.json`; both are produced by the scripts in
+`web/scripts/`.
 
 ---
 
