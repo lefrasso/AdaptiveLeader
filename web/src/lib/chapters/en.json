@@ -921,6 +921,92 @@
         "The same behaviour can read as respectful in one culture and rude in another.",
         "Naming the scale turns invisible friction into a difference you can discuss and fix."
       ]
+    },
+    {
+      "number": 19,
+      "part": "V",
+      "title": "The Growth Mindset: Becoming a Learn-It-All",
+      "summary": "Satya Nadella rebuilt Microsoft on a single idea from Carol Dweck — that ability is grown, not fixed — turning a company of know-it-alls into learn-it-alls. That shift is the engine under every skill in this book.",
+      "theme": "Talent sets your starting point; mindset sets your trajectory.",
+      "theory": "Carol Dweck's research separates a fixed mindset (ability is innate and static) from a growth mindset (ability grows with effort, strategy, and feedback). Satya Nadella made it Microsoft's operating philosophy — learn-it-all beats know-it-all — with curiosity and empathy as the drivers of learning.",
+      "theoryHtml": "<p><strong>Carol Dweck</strong>'s <em>Mindset</em> (2006) draws a line between two beliefs about ability. In a <strong>fixed mindset</strong>, talent is a fixed quantity you either have or lack — so you protect your image: you avoid hard challenges, hide mistakes, dismiss feedback, and feel threatened when others succeed. In a <strong>growth mindset</strong>, ability is something you <em>develop</em> through effort, better strategy, and feedback — so you seek challenge, treat failure as information, learn from criticism, and are inspired rather than diminished by others' success.</p><ul><li><strong>The power of 'yet':</strong> \"I can't do this\" becomes \"I can't do this <em>yet</em>\" — one word that reframes a verdict as a stage.</li><li><strong>Process over person:</strong> praise the strategy, effort, and progress (\"you found a smarter approach\"), not the trait (\"you're so clever\"). Praising talent quietly teaches people to fear the challenge that might expose its limit.</li><li><strong>Failure as data:</strong> the growth-minded leader runs experiments and reads setbacks for what they teach, not as a scoreboard of who is good enough.</li><li><strong>Mindset is contagious:</strong> a leader sets the mindset of the whole room by how they respond to bad news.</li><li data-more=\"1\"><strong>The 'false' growth mindset (Dweck's warning):</strong> claiming the mindset while behaving fixed — rewarding effort that goes nowhere, or using 'growth mindset' as a slogan. Real growth mindset means trying new strategies and asking for help, not just trying harder at the same thing.</li></ul><p>When <strong>Satya Nadella</strong> became Microsoft's CEO in 2014, he made this the heart of the company's renewal. In <em>Hit Refresh</em> (2017) he set the ambition in Dweck's own language: move from a culture of <strong>know-it-alls to a culture of learn-it-alls</strong>. The point was not to erase the past but to refresh it — curiosity over cleverness, learning from customers over defending old certainties. He paired it with <strong>empathy</strong>, which he treats not as a soft nicety but as a source of insight and innovation: you cannot meet a need you cannot feel. Culture, in his telling, is not a poster on the wall — it is what leaders model in the small moments, above all how they react when something breaks.</p><p><strong>Case in point.</strong> A team ships a feature that fails badly. Under a fixed-mindset leader the meeting hunts for someone to blame, and people quietly learn to hide risk next time. Under a learn-it-all leader the same meeting asks \"what did this teach us, and what will we try differently?\" — the failure is expensive, but it buys a lesson the team actually keeps. Same event, opposite trajectory, decided by the mindset in the chair.</p>",
+      "keyModels": [
+        {
+          "name": "Fixed vs. Growth Mindset (Carol Dweck, 2006)",
+          "desc": "A fixed mindset treats ability as innate and static, so people avoid challenge, hide failure, and feel threatened by others' success. A growth mindset treats ability as developable through effort, strategy, and feedback, so people seek challenge, learn from setbacks, and grow. The belief is self-fulfilling — it drives the behaviours that then appear to confirm it."
+        },
+        {
+          "name": "Learn-It-All, not Know-It-All (Satya Nadella, Hit Refresh, 2017)",
+          "desc": "As CEO, Nadella made Dweck's growth mindset the core of Microsoft's cultural renewal — replacing a culture of proving how smart you are with one of curiosity and learning. Applied at three levels — individual, team, and whole organisation — and modelled from the top rather than mandated by memo."
+        },
+        {
+          "name": "The Power of Yet",
+          "desc": "Reframing 'I can't' as 'I can't yet' converts a fixed verdict into a point on a learning curve. The same move turns an assessment score or a failed attempt from a label into a starting line — which is why growth-minded feedback tracks progress over time, not just the level today."
+        },
+        {
+          "name": "Empathy as an innovation engine (Nadella)",
+          "desc": "Nadella treats empathy as a practical capability rather than a soft one: understanding what people actually feel and need is where insight and innovation begin. It also makes a growth culture safe, because people take the risks that learning requires only when they trust the room."
+        }
+      ],
+      "colourAngle": {
+        "red": "Reds bring the drive and appetite for challenge a growth mindset needs — but their instinct to win and be right can tip fixed, treating a setback as a loss to bury rather than a lesson to mine. Their growth edge is to be seen learning out loud, especially from a mistake.",
+        "yellow": "Yellows love the new and rebound fast, which is growth fuel — but their optimism can skip the honest post-mortem, celebrating effort without extracting the lesson. Their edge is to pair enthusiasm with a specific 'what would I do differently'.",
+        "green": "Greens create the safety in which people dare to be learners — but their dislike of discomfort can rescue a struggling person out of the productive struggle that actually grows them. Their edge is to let people sit in 'not yet' rather than smoothing it away.",
+        "blue": "Blues value mastery and feedback, which suits deliberate practice — but their fear of being wrong can harden into perfectionism, avoiding the visible, imperfect attempts where learning happens. Their edge is to ship the rough draft and treat the correction as the point, not the failure."
+      },
+      "leaderInAction": "A new team lead inherits a group that has learned to look infallible — problems surface late and dressed up, because the previous manager punished mistakes. In her first month she does one thing on repeat: when something breaks she asks \"what did we learn?\" before \"who did it?\", and she narrates her own misses out loud (\"I misjudged that estimate — here is what I will change\"). She swaps praise for cleverness with praise for smart strategies and honest updates. Within a quarter, risks arrive early while they are still cheap to fix, and the team starts proposing experiments instead of defending positions. Nothing about their talent changed — only what the room believed about ability, and therefore what it felt safe to try.",
+      "practice": "Catch one fixed-mindset reflex in yourself this week — a moment you dodged a challenge, hid a mistake, or felt threatened by a peer's success. Name it, add the word 'yet', and choose the specific learning move you will make instead.",
+      "watchOut": [
+        "The false growth mindset — flying the flag while behaving fixed: rewarding effort that goes nowhere, or saying 'growth mindset' without changing how you treat failure.",
+        "Praising effort instead of learning — effort only counts paired with new strategies, feedback, and asking for help; grinding harder at the same wrong approach is not growth.",
+        "Turning it into another fixed label — 'I'm just not a growth-mindset person' is the fixed mindset wearing the growth mindset's clothes."
+      ],
+      "takeaways": [
+        "Ability is grown, not fixed — and believing that changes what you dare to attempt.",
+        "Leaders set the room's mindset by how they respond to failure: blame breeds hiding, curiosity breeds learning.",
+        "Learn-it-all beats know-it-all — curiosity and empathy, practised daily, are the engine under every other skill in this book."
+      ],
+      "checks": [
+        {
+          "q": "A project fails publicly. Which response best models a learn-it-all culture?",
+          "options": [
+            "Identify who was responsible so it does not happen again",
+            "Ask what the team learned and what they will try differently, before assigning blame",
+            "Move on quickly without dwelling on it",
+            "Remind everyone of the standards they missed"
+          ],
+          "correct": 1,
+          "why": "Leaders set the room's mindset by how they handle failure — 'what did we learn?' turns an expensive setback into a lesson the team keeps, while blame teaches people to hide risk next time."
+        },
+        {
+          "q": "A report says, 'I'm just not a numbers person.' What is the most growth-minded reframe?",
+          "options": [
+            "Agree, and reassign the numerical work to someone else",
+            "Add 'yet' — 'not a numbers person yet' — and name a concrete first step to build it",
+            "Tell them anyone can do anything if they try hard enough",
+            "Reassure them that their other strengths make up for it"
+          ],
+          "correct": 1,
+          "why": "The power of 'yet' converts a fixed label into a stage on a learning curve; pairing it with a concrete strategy — not just 'try harder' — is what makes it real rather than a slogan."
+        },
+        {
+          "q": "Which is an example of Dweck's 'false growth mindset'?",
+          "options": [
+            "Praising the smarter strategy someone used",
+            "Rewarding effort that keeps repeating the same failing approach, and calling it growth mindset",
+            "Asking a struggling colleague what help they need",
+            "Sharing your own mistake and what you changed"
+          ],
+          "correct": 1,
+          "why": "Real growth mindset means new strategies, feedback, and asking for help — not effort alone. Rewarding effort that goes nowhere while flying the 'growth mindset' flag is exactly the false version Dweck warns about."
+        }
+      ],
+      "practiceRubric": [
+        "You named a specific fixed-mindset reflex in yourself — a real moment, not a general 'I should learn more'.",
+        "You added 'yet' and chose a concrete learning move (a new strategy, feedback, or asking for help) — not just 'try harder'.",
+        "You focused on your own behaviour, not on diagnosing other people's mindsets."
+      ],
+      "practiceExemplar": "In the review I dodged presenting a metric I did not fully understand (fixed reflex: hiding to look competent). Reframed: I do not understand that metric yet. My learning move — I will ask the data lead to walk me through it before the next review, then present it myself, mistakes and all."
     }
   ]
 }

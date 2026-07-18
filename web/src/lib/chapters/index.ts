@@ -113,16 +113,28 @@ export function getPart(locale: string, key: PartKey): Part | undefined {
   return getBook(locale).parts.find((p) => p.key === key);
 }
 
+/** Chapters for a locale, appending any English-only chapters the locale does
+ *  not yet have (so newly-added, English-first chapters appear everywhere until
+ *  they are translated). */
+function chaptersFor(locale: string): Chapter[] {
+  const own = getBook(locale).chapters;
+  if (own.length >= fallback.chapters.length) return own;
+  const have = new Set(own.map((c) => c.number));
+  const merged = [...own];
+  for (const c of fallback.chapters) if (!have.has(c.number)) merged.push(c);
+  return merged.sort((a, b) => a.number - b.number);
+}
+
 export function getChapters(locale: string): Chapter[] {
-  return getBook(locale).chapters;
+  return chaptersFor(locale);
 }
 
 export function getChaptersByPart(locale: string, key: PartKey): Chapter[] {
-  return getBook(locale).chapters.filter((c) => c.part === key);
+  return chaptersFor(locale).filter((c) => c.part === key);
 }
 
 export function getChapter(locale: string, n: number): Chapter | undefined {
-  return getBook(locale).chapters.find((c) => c.number === n);
+  return chaptersFor(locale).find((c) => c.number === n);
 }
 
 /** Scenario-retrieval checks for a chapter, falling back to English. */

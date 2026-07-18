@@ -14,7 +14,7 @@
   "home": {
     "eyebrow": "Interactive leadership guide",
     "title": "Lead with awareness. Adapt with intent.",
-    "subtitle": "Explore eighteen chapters, four appendices, and four interactive tools that help you understand yourself and adapt to the people around you.",
+    "subtitle": "Explore nineteen chapters, four appendices, and four interactive tools that help you understand yourself and adapt to the people around you.",
     "browse": "Browse chapters",
     "takeSelf": "Take the self-assessment",
     "stats": {
@@ -26,7 +26,7 @@
     "partsTitle": "The five parts",
     "toolsTitle": "Tools & reference",
     "tiles": {
-      "chapters": "Eighteen chapters across five parts — theory, the four-colour angle, and a practice for each.",
+      "chapters": "Nineteen chapters across five parts — theory, the four-colour angle, and a practice for each.",
       "appendices": "Quick-reference guides: the colour pocket guide, communication cheat-sheet, the leader's practice, and further reading.",
       "self": "Discover your colour balance and what it means for how you lead and adapt.",
       "leadership": "Rate yourself across the 17 topics for a readiness index and a prioritised action plan.",
@@ -931,12 +931,12 @@
   "chapters": {
     "meta": {
       "title": "Chapters",
-      "description": "Eighteen chapters across five parts — the core ideas of adaptive leadership, each paired with the theory behind it, the four-colour angle, a leader-in-action story, and a practice to try."
+      "description": "Nineteen chapters across five parts — the core ideas of adaptive leadership, each paired with the theory behind it, the four-colour angle, a leader-in-action story, and a practice to try."
     },
     "header": {
       "eyebrow": "THE ADAPTIVE LEADER",
       "title": "The chapters",
-      "lead": "Eighteen chapters across five parts — from the shift into leadership to reading culture. Each pairs the core idea with the theory behind it, the four-colour angle, a leader-in-action story, and a practice to try."
+      "lead": "Nineteen chapters across five parts — from the shift into leadership to the growth mindset that powers it all. Each pairs the core idea with the theory behind it, the four-colour angle, a leader-in-action story, and a practice to try."
     },
     "partChip": "Part {part} · Chapter {n}",
     "partLabel": "Part {part}",
