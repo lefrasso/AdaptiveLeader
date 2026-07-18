@@ -23,6 +23,18 @@ export type ColourKey = "red" | "yellow" | "green" | "blue";
 
 export type ColourAngle = Record<ColourKey, string>;
 
+/** A single scenario-retrieval check for the end-of-chapter quiz. */
+export type QuizCheck = {
+  /** The scenario / question stem. */
+  q: string;
+  /** Answer options. */
+  options: string[];
+  /** Index into `options` of the best answer. */
+  correct: number;
+  /** Why the best answer is best — shown as feedback after answering. */
+  why: string;
+};
+
 export type Chapter = {
   number: number;
   part: PartKey;
@@ -39,6 +51,12 @@ export type Chapter = {
   practice: string;
   watchOut: string[];
   takeaways: string[];
+  /** Scenario retrieval checks (authored per chapter, English-first; optional). */
+  checks?: QuizCheck[];
+  /** Self-check criteria for the chapter practice (optional). */
+  practiceRubric?: string[];
+  /** A short "what good looks like" exemplar for the practice (optional). */
+  practiceExemplar?: string;
 };
 
 export type Part = {
@@ -105,6 +123,11 @@ export function getChaptersByPart(locale: string, key: PartKey): Chapter[] {
 
 export function getChapter(locale: string, n: number): Chapter | undefined {
   return getBook(locale).chapters.find((c) => c.number === n);
+}
+
+/** Scenario-retrieval checks for a chapter, falling back to English. */
+export function getChecks(locale: string, n: number): QuizCheck[] {
+  return getChapter(locale, n)?.checks ?? getChapter("en", n)?.checks ?? [];
 }
 
 export function getConclusion(locale: string): Conclusion {

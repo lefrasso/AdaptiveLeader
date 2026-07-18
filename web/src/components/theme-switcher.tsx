@@ -2,12 +2,18 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useTheme } from "next-themes";
+import { setPreferences } from "@/lib/prefs/store";
 import { cn } from "@/lib/utils";
 
 const THEMES = [
   { id: "default", label: "Default", swatch: "#1e2761" },
   { id: "retro", label: "Retro", swatch: "#c0532b" },
   { id: "dark-modern", label: "Dark & Modern", swatch: "#8b7bff" },
+  {
+    id: "copilot",
+    label: "Copilot",
+    swatch: "linear-gradient(135deg,#0078d4,#8661c5)",
+  },
 ] as const;
 
 export function ThemeSwitcher() {
@@ -38,6 +44,9 @@ export function ThemeSwitcher() {
   }, []);
 
   const current = THEMES.find((t) => t.id === theme) ?? THEMES[0];
+  // The persisted theme isn't known during SSR, so show the default swatch and
+  // label until mounted to avoid a hydration mismatch.
+  const shown = mounted ? current : THEMES[0];
 
   return (
     <div ref={ref} className="relative">
@@ -51,11 +60,11 @@ export function ThemeSwitcher() {
       >
         <span
           className="size-3.5 rounded-full ring-1 ring-foreground/15"
-          style={{ background: current.swatch }}
+          style={{ background: shown.swatch }}
           aria-hidden
         />
         <span className="hidden sm:inline">
-          {mounted ? current.label : THEMES[0].label}
+          {shown.label}
         </span>
         <svg
           viewBox="0 0 12 12"
@@ -88,6 +97,7 @@ export function ThemeSwitcher() {
                 aria-checked={active}
                 onClick={() => {
                   setTheme(t.id);
+                  setPreferences({ theme: t.id });
                   setOpen(false);
                 }}
                 className={cn(

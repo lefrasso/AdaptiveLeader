@@ -47,6 +47,60 @@
     "credits": "Maria Olhova · Sunny Pei · Gerardo Merello · Pablo Scherer · Jay Rao · Leandro Frasso",
     "powered": "This application is powered by <strong>Leandro</strong>."
   },
+  "consent": {
+    "title": "Your choices stay on this device",
+    "body": "We keep your theme, language, and — if you allow it — your learning progress in this browser only. Nothing is ever sent to a server.",
+    "acceptAll": "Accept all",
+    "essential": "Essentials only"
+  },
+  "privacy": {
+    "trigger": "Privacy",
+    "title": "Privacy & data",
+    "intro": "Everything is stored only in this browser. Nothing is sent to a server, and you can export or erase it at any time.",
+    "reduceMotion": "Reduce motion",
+    "reduceMotionHint": "Minimise animations and transitions across the app.",
+    "saveProgress": "Save my learning progress",
+    "saveProgressHint": "Store quiz results, reflections, and streaks on this device so you can pick up where you left off.",
+    "export": "Export my data",
+    "clear": "Clear my data"
+  },
+  "growth": {
+    "quizTitle": "Quick check",
+    "quizIntro": "A few scenarios to test recall. There's no score to fear — retrieval is the practice.",
+    "question": "Question {n} of {total}",
+    "checkAnswer": "Check answer",
+    "correct": "Nice — {reason}",
+    "incorrect": "Not yet — {reason}",
+    "next": "Next",
+    "result": "You got {score} of {total} — every attempt strengthens recall.",
+    "retry": "Try again",
+    "practiceRubricTitle": "How to know you've done it well",
+    "exemplarTitle": "What good looks like",
+    "reflectTitle": "Log what you tried",
+    "reflectIntro": "Turning one idea into a real attempt is where the learning lands.",
+    "reflectTried": "What you tried",
+    "reflectHappened": "What happened",
+    "reflectChange": "What you'd do differently",
+    "saveReflection": "Save reflection",
+    "savedLocally": "Saved on this device",
+    "enableSaving": "Turn on saving in Privacy to keep your progress."
+  },
+  "dashboard": {
+    "title": "Your growth",
+    "subtitle": "Your progress lives on this device — keep the streak alive.",
+    "streakLabel": "Day streak",
+    "streakBest": "Best {days}",
+    "chapters": "Chapters explored",
+    "quizzes": "Quiz attempts",
+    "reflections": "Reflections",
+    "readiness": "Leadership readiness",
+    "trajUp": "up {delta}",
+    "trajDown": "down {delta}",
+    "trajSteady": "steady",
+    "reviewTitle": "Due for review",
+    "reviewLede": "Spaced practice is what makes it stick — revisit these:",
+    "reviewChapter": "Chapter {n}"
+  },
   "leadership": {
     "meta": {
       "title": "Leadership Skills Assessment",
@@ -60,7 +114,7 @@
     "notice": "<b>Answer for how you lead today, not how you aspire to.</b> There are no right answers — the areas you rate lowest become the focus of your personalised action plan. Rate all 17 statements to unlock your results.",
     "nameLabel": "Your name (optional)",
     "namePlaceholder": "Add your name to personalise the report",
-    "nameHint": "Nothing is stored or sent. Your answers stay in this browser tab and clear when you close it.",
+    "nameHint": "Your answers stay on this device — nothing is sent to a server. Turn on saving in Privacy to keep your history and track your trajectory over time.",
     "partPill": "Part {part} · {title}",
     "parts": {
       "I": {
@@ -219,6 +273,12 @@
     "noStrengthDesc": "That’s normal early on — focus on your priority actions and your strengths will follow.",
     "retake": "Retake assessment",
     "print": "Print / Save as PDF",
+    "learnThis": "Read the chapter →",
+    "trajLabel": "Your trajectory",
+    "trajUp": "Up {delta} points since your last check — growth compounds.",
+    "trajDown": "Down {delta} points since your last check — the priorities below are where to focus next.",
+    "trajSteady": "Level with your last check — pick one priority and move it this week.",
+    "trajFirst": "Your first check. Retake in a few weeks to watch your trajectory.",
     "footer": "Leadership Readiness Program · Leadership Skills Assessment — a plan for growth, not a verdict."
   },
   "self": {
@@ -573,6 +633,9 @@
       "sub": "Primary colour: {colour} ({pct}%). Your full blend and personalised insights appear below.",
       "you": "You",
       "compTitle": "Your colour composition",
+      "stretchTitle": "Your stretch colour",
+      "stretchLede": "{colour} is your least-used style at {pct}%. Your colours are a range you can widen, not a fixed type — deliberately borrowing from {colour} is where your next growth lives.",
+      "stretchCta": "See how to flex to each colour →",
       "profileTag": "YOUR COLOUR PROFILE · {archetype}",
       "profileTitleBlend": "{primary} / {secondary} blend",
       "profileTitleLed": "{primary}-led profile",
@@ -959,7 +1022,8 @@
     "themes": {
       "default": "Default",
       "retro": "Retro",
-      "darkModern": "Dark & Modern"
+      "darkModern": "Dark & Modern",
+      "copilot": "Copilot"
     },
     "modules": {
       "themes": "Themes & styling",

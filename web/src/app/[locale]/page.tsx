@@ -1,6 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { AppControls } from "@/components/app-controls";
+import { GrowthDashboard } from "@/components/learning/growth-dashboard";
 import { getParts, getChapters } from "@/lib/chapters";
 
 type Props = { params: Promise<{ locale: string }> };
@@ -91,6 +92,8 @@ export default async function HomePage({ params }: Props) {
           </div>
         ))}
       </section>
+
+      <GrowthDashboard />
 
       <section className="mt-16">
         <h2 className="font-serif text-2xl font-bold text-navy dark:text-ice">

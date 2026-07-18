@@ -16,6 +16,10 @@ import {
   getPriorities,
   getStrengths,
 } from "@/lib/assessments/leadership";
+import { trajectoryOf } from "@/lib/assessments/trajectory";
+import { Link } from "@/i18n/navigation";
+import { useProgress, setProgress } from "@/lib/progress/store";
+import { recordLeadership } from "@/lib/progress/progress";
 import { ScoreRing } from "@/components/assessments/score-ring";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -43,7 +47,19 @@ export function LeadershipAssessment() {
 
   function reveal() {
     if (!complete) return;
-    setResults(computeResults(answers));
+    const r = computeResults(answers);
+    const firstReveal = results === null;
+    setResults(r);
+    if (firstReveal) {
+      setProgress((p) =>
+        recordLeadership(p, {
+          at: Date.now(),
+          pct: r.pct,
+          band: bandFor(r.pct).id,
+          partAvg: r.partAvg,
+        }),
+      );
+    }
     requestAnimationFrame(() =>
       resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }),
     );
@@ -215,6 +231,8 @@ function Results({
   const band = bandFor(results.pct);
   const priorities = getPriorities(results.vals);
   const strengths = getStrengths(results.vals);
+  const progress = useProgress();
+  const traj = trajectoryOf(progress.assessments.leadership);
 
   return (
     <section ref={ref} aria-live="polite" className="mb-16 mt-2 scroll-mt-5">
@@ -247,6 +265,27 @@ function Results({
           </h3>
           <p className="text-[15px] text-muted-foreground">
             {t(`bands.${band.id}.text`)}
+          </p>
+          <p
+            className={cn(
+              "mt-2.5 text-sm font-semibold",
+              traj.trend === "up"
+                ? "text-green"
+                : traj.trend === "down"
+                  ? "text-red"
+                  : "text-navy dark:text-ice",
+            )}
+          >
+            <span className="text-xs font-bold uppercase tracking-wide text-muted-foreground">
+              {t("trajLabel")}:
+            </span>{" "}
+            {traj.trend === "up"
+              ? t("trajUp", { delta: Math.abs(traj.delta) })
+              : traj.trend === "down"
+                ? t("trajDown", { delta: Math.abs(traj.delta) })
+                : traj.trend === "steady"
+                  ? t("trajSteady")
+                  : t("trajFirst")}
           </p>
         </div>
       </div>
@@ -316,6 +355,12 @@ function Results({
                 </span>{" "}
                 {t(`topics.${x.topic.n}.rec`)}
               </p>
+              <Link
+                href={`/chapters/${x.topic.n}`}
+                className="mt-2 inline-block text-sm font-semibold text-navy hover:underline dark:text-ice"
+              >
+                {t("learnThis")}
+              </Link>
             </div>
           );
         })}

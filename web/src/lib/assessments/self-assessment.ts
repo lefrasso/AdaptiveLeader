@@ -122,6 +122,11 @@ export function isBlendTitle(pPrimary: number, pSecondary: number): boolean {
   return pPrimary - pSecondary <= 8 && pSecondary >= 20;
 }
 
+/** The least-developed colour in a composition — the one to deliberately grow. */
+export function pickStretchColour(comp: Composition): ColourKey {
+  return comp.sorted[comp.sorted.length - 1];
+}
+
 /** Fisher–Yates shuffle (returns a new array). Used client-side to hide colours. */
 export function shuffle<T>(input: T[]): T[] {
   const a = [...input];

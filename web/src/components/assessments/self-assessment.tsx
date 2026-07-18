@@ -16,8 +16,12 @@ import {
   tierLabel,
   pickNarrative,
   isBlendTitle,
+  pickStretchColour,
 } from "@/lib/assessments/self-assessment";
 import { useShuffledOrder } from "@/lib/assessments/use-shuffled-order";
+import { Link } from "@/i18n/navigation";
+import { setProgress } from "@/lib/progress/store";
+import { recordSelf } from "@/lib/progress/progress";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Label } from "@/components/ui/label";
@@ -46,7 +50,13 @@ export function SelfAssessment() {
 
   function reveal() {
     if (rated === 0) return;
+    const first = !revealed;
     setRevealed(true);
+    if (first && comp) {
+      setProgress((p) =>
+        recordSelf(p, { at: Date.now(), composition: comp.pct }),
+      );
+    }
     requestAnimationFrame(() =>
       resultsRef.current?.scrollIntoView({ behavior: "smooth", block: "start" }),
     );
@@ -274,6 +284,8 @@ function ResultsView({
 
   const primaryHex = COLOURS[primary].hex;
   const onLight = COLOURS[primary].onLight;
+  const stretch = pickStretchColour(comp);
+  const stretchHex = COLOURS[stretch].hex;
 
   const self = t.raw(`self.${primary}`) as {
     strengths: string[];
@@ -358,6 +370,38 @@ function ResultsView({
             </div>
           ))}
         </div>
+      </div>
+
+      {/* Stretch colour — colours are a developable range, not a fixed type */}
+      <div
+        className={cn(CARD, "mb-5.5 border-s-4 px-6 py-5")}
+        style={{ borderInlineStartColor: stretchHex }}
+      >
+        <h4 className="text-sm font-medium uppercase tracking-wider text-muted-foreground">
+          {t("results.stretchTitle")}
+        </h4>
+        <div className="mt-2 flex items-center gap-2.5">
+          <span
+            className="size-3 rounded-full"
+            style={{ background: stretchHex }}
+            aria-hidden
+          />
+          <span className="font-bold">
+            {colourName(stretch)} · {archetype(stretch)}
+          </span>
+        </div>
+        <p className="mt-2 text-[15px] text-foreground/90">
+          {t("results.stretchLede", {
+            colour: colourName(stretch),
+            pct: pct[stretch],
+          })}
+        </p>
+        <Link
+          href="/appendices"
+          className="mt-3 inline-block text-sm font-semibold text-navy hover:underline dark:text-ice"
+        >
+          {t("results.stretchCta")}
+        </Link>
       </div>
 
       {/* Profile card */}

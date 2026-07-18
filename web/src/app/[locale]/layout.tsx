@@ -5,6 +5,8 @@ import { getMessages, setRequestLocale } from "next-intl/server";
 import { routing, localeMeta, type Locale } from "@/i18n/routing";
 import { manrope, fraunces } from "@/lib/fonts";
 import { ThemeProvider } from "@/components/theme-provider";
+import { PreferencesProvider } from "@/components/preferences-provider";
+import { ConsentBanner } from "@/components/consent-banner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { LoadingSplash } from "@/components/loading-splash";
 import { cn } from "@/lib/utils";
@@ -49,17 +51,21 @@ export default async function LocaleLayout({ children, params }: Props) {
           attribute="class"
           defaultTheme="default"
           enableSystem={false}
-          themes={["default", "retro", "dark-modern"]}
+          themes={["default", "retro", "dark-modern", "copilot"]}
           value={{
             default: "theme-default",
             retro: "theme-retro",
             "dark-modern": "dark",
+            copilot: "theme-copilot",
           }}
           disableTransitionOnChange
         >
           <NextIntlClientProvider messages={messages}>
-            <TooltipProvider>{children}</TooltipProvider>
-            <LoadingSplash />
+            <PreferencesProvider>
+              <TooltipProvider>{children}</TooltipProvider>
+              <ConsentBanner />
+              <LoadingSplash />
+            </PreferencesProvider>
           </NextIntlClientProvider>
         </ThemeProvider>
       </body>

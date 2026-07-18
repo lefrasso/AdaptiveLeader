@@ -108,7 +108,48 @@
         "Your output becomes your team's output, not your personal work.",
         "The instincts that made you excellent can become liabilities when scaled across a team.",
         "Leadership requires clarity, influence, composure, operational discipline, and presence."
-      ]
+      ],
+      "checks": [
+        {
+          "q": "A newly promoted team lead reviews every pull request personally and becomes a bottleneck within weeks. What's the core shift required?",
+          "options": [
+            "Work longer hours so reviews don't pile up",
+            "Define the quality standard, coach the team to meet it, and inspect the outcome",
+            "Stop reviewing anything and hope quality holds",
+            "Escalate to their manager for more headcount"
+          ],
+          "correct": 1,
+          "why": "Leadership means getting the work done through others — set the standard and coach to it, rather than doing every step yourself or abandoning it."
+        },
+        {
+          "q": "In the Leadership Pipeline, where do most new leaders derail?",
+          "options": [
+            "Taking on profit-and-loss for a business",
+            "The first passage — managing self to managing others",
+            "Becoming an enterprise leader",
+            "Moving from managing managers to running a function"
+          ],
+          "correct": 1,
+          "why": "The very skills that earned the promotion work against the new role, so the managing-self-to-managing-others passage is where most people struggle."
+        },
+        {
+          "q": "How should a leader now measure their own success?",
+          "options": [
+            "By how much they personally produce",
+            "By how full their calendar is",
+            "By what their team achieves without them doing the work",
+            "By how many decisions they personally make"
+          ],
+          "correct": 2,
+          "why": "Your output becomes your team's output — success is what the team delivers, not your personal production or busyness."
+        }
+      ],
+      "practiceRubric": [
+        "You named the specific individual-contributor activities you still cling to — not vague categories.",
+        "You picked one concrete task to hand off this week, with a person's name attached.",
+        "You defined what 'done well' looks like so you can inspect the outcome, not every step."
+      ],
+      "practiceExemplar": "I still write the trickiest data migrations myself. This week I'll hand the next one to Priya — I'll agree the acceptance criteria (zero downtime, rollback tested) up front and review the result, not every commit."
     },
     {
       "number": 2,
@@ -149,7 +190,48 @@
         "Two simple axes place almost anyone into one of four styles.",
         "Each colour has a strength and a shadow under stress.",
         "High-performing teams need all four preferences."
-      ]
+      ],
+      "checks": [
+        {
+          "q": "You're briefing a strongly Blue (analytical) CFO who tends to withdraw under pressure. What lands best?",
+          "options": [
+            "Open with high energy and a bold vision",
+            "Lead with the evidence and structure, then your conclusion, and leave silence to think",
+            "Keep it to one line and push for a decision now",
+            "Spend the first ten minutes on small talk to build rapport"
+          ],
+          "correct": 1,
+          "why": "Blues want data, detail, and time — evidence-first with room to think lands, whereas enthusiasm without evidence raises their scepticism."
+        },
+        {
+          "q": "A colleague says, 'He's just a Green — no point pushing back.' What's the risk?",
+          "options": [
+            "None, it's an efficient read of the person",
+            "It turns the model into a fixed label that ends curiosity instead of a hypothesis to adapt to",
+            "Greens genuinely can't take feedback",
+            "It over-weights data over relationships"
+          ],
+          "correct": 1,
+          "why": "The colours are a lens, not a box — 'he's just a Green' stops your curiosity exactly where adaptation should begin."
+        },
+        {
+          "q": "Which colour-to-DISC mapping is correct?",
+          "options": [
+            "Red = Steadiness",
+            "Yellow = Conscientiousness",
+            "Green = Steadiness",
+            "Blue = Influence"
+          ],
+          "correct": 2,
+          "why": "Red = Dominance, Yellow = Influence, Green = Steadiness, Blue = Conscientiousness."
+        }
+      ],
+      "practiceRubric": [
+        "You placed yourself on both axes (outgoing/reserved and task/people), not just picked a favourite colour.",
+        "You named a dominant AND a secondary colour — most people lead with a blend.",
+        "You identified your diagonal opposite, the style you find hardest to read."
+      ],
+      "practiceExemplar": "I'm outgoing and task-focused, so I lead Red with a strong Yellow second. My diagonal opposite is Green — I under-read people who need time and reassurance, so I'll deliberately slow down and check in with them."
     },
     {
       "number": 3,
@@ -223,7 +305,48 @@
         "Emotion is a core part of leadership, not a soft extra.",
         "Leaders must read the emotional layer of the room.",
         "Trust and hard decisions depend on emotional skill."
-      ]
+      ],
+      "checks": [
+        {
+          "q": "At 10 pm an angry client threatens to escalate. Your fingers are already on the keyboard. What's the emotionally intelligent move?",
+          "options": [
+            "Reply immediately while the details are fresh",
+            "Name what you're feeling, put the phone down, and respond in the morning to the substance",
+            "Forward it to your manager to handle",
+            "Match their intensity so they know you take it seriously"
+          ],
+          "correct": 1,
+          "why": "Naming the emotion re-engages judgement after an amygdala hijack; the measured reply protects the relationship the reactive one would have damaged."
+        },
+        {
+          "q": "Which best captures Goleman's finding about emotional intelligence?",
+          "options": [
+            "It's a fixed trait you're born with",
+            "It's a set of learnable capabilities whose ceiling rises with deliberate practice",
+            "It matters less than IQ at senior levels",
+            "It's just another word for suppressing your emotions"
+          ],
+          "correct": 1,
+          "why": "EI is trainable — it reframes development from 'this is just who I am' to 'this is a skill I can grow', unlike IQ which plateaus early."
+        },
+        {
+          "q": "What's the difference between emotional suppression and self-regulation?",
+          "options": [
+            "They're the same thing viewed differently",
+            "Suppression stores the pressure; regulation processes and releases it",
+            "Suppression is the healthier habit for leaders",
+            "Regulation means hiding what you feel from the team"
+          ],
+          "correct": 1,
+          "why": "They can look identical from outside, but suppression accumulates pressure while regulation lets you choose your response — very different outcomes over time."
+        }
+      ],
+      "practiceRubric": [
+        "You named one positive and one negative signal — specific emotions, not just 'it went fine'.",
+        "You described your actual response honestly before deciding what better looks like.",
+        "You wrote what you'd do differently as a concrete behaviour you can repeat."
+      ],
+      "practiceExemplar": "In our roadmap review I saw relief when I acknowledged the delay (positive) and defensiveness when I questioned the estimate (negative). I pushed harder on the estimate. Next time I'll name the tension out loud — 'I can see this feels like second-guessing' — before I probe."
     },
     {
       "number": 5,

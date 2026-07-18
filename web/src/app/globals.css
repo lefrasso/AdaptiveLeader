@@ -190,6 +190,49 @@
   --blue: #38bdf8;
 }
 
+/* ── Theme: Copilot (Microsoft 365 / Fluent palette, light) ────── */
+.theme-copilot {
+  --background: #f3f3fb;
+  --foreground: #242424;
+  --card: #ffffff;
+  --card-foreground: #242424;
+  --popover: #ffffff;
+  --popover-foreground: #242424;
+  --primary: #5b5fc7;
+  --primary-foreground: #ffffff;
+  --secondary: #ececf9;
+  --secondary-foreground: #242424;
+  --muted: #ececf9;
+  --muted-foreground: #5f5e6e;
+  --accent: #ececf9;
+  --accent-foreground: #4a4db3;
+  --destructive: #c50f1f;
+  --border: #e2e2f2;
+  --input: #e2e2f2;
+  --ring: #5b5fc7;
+  --chart-1: #d13438;
+  --chart-2: #eaa300;
+  --chart-3: #107c10;
+  --chart-4: #0078d4;
+  --chart-5: #5b5fc7;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #242424;
+  --sidebar-primary: #5b5fc7;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #ececf9;
+  --sidebar-accent-foreground: #4a4db3;
+  --sidebar-border: #e2e2f2;
+  --sidebar-ring: #5b5fc7;
+  /* Brand accents (Microsoft 365 / Copilot) */
+  --navy: #5b5fc7;
+  --navy-2: #8661c5;
+  --ice: #e0e3ff;
+  --red: #d13438;
+  --yellow: #eaa300;
+  --green: #107c10;
+  --blue: #0078d4;
+}
+
 @layer base {
   * {
     @apply border-border outline-ring/50;
@@ -215,6 +258,34 @@
 }
 :lang(ko) {
   font-family: "Noto Sans KR", var(--font-sans), sans-serif;
+}
+
+/* ── Motion: reveal-on-scroll ──────────────────────────────────────
+   Elements render visible by default (no-JS / crawler / print safe).
+   The Reveal client component adds `.motion-reveal` when the element
+   scrolls into view, replaying a subtle entrance. Gated on the OS
+   reduced-motion setting and the in-app data-reduce-motion flag. */
+@media (prefers-reduced-motion: no-preference) {
+  html:not([data-reduce-motion="true"]) .motion-reveal {
+    animation: motion-reveal 0.55s cubic-bezier(0.16, 1, 0.3, 1) both;
+  }
+}
+
+@keyframes motion-reveal {
+  from {
+    opacity: 0;
+    transform: translateY(16px);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media print {
+  .motion-reveal {
+    animation: none !important;
+  }
 }
 
 @media print {

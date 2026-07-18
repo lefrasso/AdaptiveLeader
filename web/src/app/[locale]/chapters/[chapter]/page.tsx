@@ -3,6 +3,9 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { AppControls } from "@/components/app-controls";
+import { ChapterQuiz } from "@/components/learning/chapter-quiz";
+import { ChapterPractice } from "@/components/learning/chapter-practice";
+import { Reveal } from "@/components/motion/reveal";
 import {
   CHAPTER_NUMBERS,
   COLOUR_HEX,
@@ -36,12 +39,14 @@ function Section({
   children: React.ReactNode;
 }) {
   return (
-    <section className="rounded-2xl bg-card p-6 shadow-sm ring-1 ring-foreground/5 dark:ring-foreground/10">
-      <h2 className="text-xs font-bold uppercase tracking-[2px] text-muted-foreground">
-        {title}
-      </h2>
-      <div className="mt-3">{children}</div>
-    </section>
+    <Reveal>
+      <section className="rounded-2xl bg-card p-6 shadow-sm ring-1 ring-foreground/5 dark:ring-foreground/10">
+        <h2 className="text-xs font-bold uppercase tracking-[2px] text-muted-foreground">
+          {title}
+        </h2>
+        <div className="mt-3">{children}</div>
+      </section>
+    </Reveal>
   );
 }
 
@@ -55,6 +60,7 @@ export default async function ChapterDetailPage({ params }: Props) {
 
   const part = getPart(locale, ch.part);
   const t = await getTranslations("chapters");
+  const tg = await getTranslations("growth");
   const prev = getChapter(locale, n - 1);
   const next = getChapter(locale, n + 1);
 
@@ -150,7 +156,12 @@ export default async function ChapterDetailPage({ params }: Props) {
           )}
 
           <Section title={t("putIntoPractice")}>
-            <p className="text-foreground/90">{ch.practice}</p>
+            <ChapterPractice
+              chapter={ch.number}
+              practice={ch.practice}
+              rubric={ch.practiceRubric}
+              exemplar={ch.practiceExemplar}
+            />
           </Section>
 
           {ch.watchOut.length > 0 && (
@@ -176,6 +187,15 @@ export default async function ChapterDetailPage({ params }: Props) {
                   </li>
                 ))}
               </ul>
+            </Section>
+          )}
+
+          {ch.checks && ch.checks.length > 0 && (
+            <Section title={tg("quizTitle")}>
+              <p className="mb-4 text-sm text-muted-foreground">
+                {tg("quizIntro")}
+              </p>
+              <ChapterQuiz chapter={ch.number} checks={ch.checks} />
             </Section>
           )}
 

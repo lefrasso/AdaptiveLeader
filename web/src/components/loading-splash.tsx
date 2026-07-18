@@ -5,6 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { useTheme } from "next-themes";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing, localeMeta } from "@/i18n/routing";
+import { setPreferences } from "@/lib/prefs/store";
 import { cn } from "@/lib/utils";
 
 /** Theme options shown in the splash (mirrors the header theme switcher). */
@@ -12,6 +13,11 @@ const THEMES = [
   { id: "default", labelKey: "default", swatch: "var(--navy)" },
   { id: "retro", labelKey: "retro", swatch: "var(--red)" },
   { id: "dark-modern", labelKey: "darkModern", swatch: "var(--blue)" },
+  {
+    id: "copilot",
+    labelKey: "copilot",
+    swatch: "linear-gradient(135deg,#0078d4,#8661c5)",
+  },
 ] as const;
 
 /**
@@ -109,6 +115,7 @@ export function LoadingSplash() {
     } catch {
       // ignore
     }
+    setPreferences({ locale: pendingLocale });
     setClosing(true);
     window.setTimeout(() => {
       setVisible(false);
@@ -252,14 +259,17 @@ export function LoadingSplash() {
               <p className="mb-2 text-xs font-semibold uppercase tracking-wide text-muted-foreground">
                 {t("splash.chooseTheme")}
               </p>
-              <div className="grid grid-cols-3 gap-2">
+              <div className="grid grid-cols-2 gap-2">
                 {THEMES.map((th) => {
                   const active = activeTheme === th.id;
                   return (
                     <button
                       key={th.id}
                       type="button"
-                      onClick={() => setTheme(th.id)}
+                      onClick={() => {
+                        setTheme(th.id);
+                        setPreferences({ theme: th.id });
+                      }}
                       aria-pressed={active}
                       className={cn(
                         "flex flex-col items-center gap-2 rounded-xl border p-3 transition",

@@ -3,6 +3,7 @@
 import { useLocale } from "next-intl";
 import { usePathname, useRouter } from "@/i18n/navigation";
 import { routing, localeMeta } from "@/i18n/routing";
+import { setPreferences } from "@/lib/prefs/store";
 import { cn } from "@/lib/utils";
 
 export function LocaleSwitcher() {
@@ -16,6 +17,7 @@ export function LocaleSwitcher() {
     } catch {
       // ignore storage errors (private mode, etc.)
     }
+    setPreferences({ locale: next });
     router.replace(pathname, { locale: next });
   }
 
