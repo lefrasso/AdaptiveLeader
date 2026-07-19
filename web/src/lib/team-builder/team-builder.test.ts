@@ -129,3 +129,66 @@ describe("analyseTeam", () => {
     expect(a.recommendations.length).toBeGreaterThan(0);
   });
 });
+
+describe("analyseTeam with a leader", () => {
+  it("omits leader fit when no leader is supplied", () => {
+    const a = analyseTeam([member("red", "us")])!;
+    expect(a.leader).toBeUndefined();
+  });
+
+  it("builds a playbook entry for each colour present on the team", () => {
+    const a = analyseTeam(
+      [member("red", "us"), member("green", "us"), member("blue", "us")],
+      { colour: "yellow", countryId: "us" },
+    )!;
+    expect(a.leader).toBeDefined();
+    const colours = a.leader!.playbook.map((p) => p.colour);
+    expect(colours).toEqual(["red", "green", "blue"]);
+    for (const play of a.leader!.playbook) {
+      expect(play.tip.length).toBeGreaterThan(0);
+      expect(play.count).toBeGreaterThan(0);
+    }
+  });
+
+  it("flags a leader who brings a colour the team lacks", () => {
+    const a = analyseTeam([member("red", "us"), member("red", "us")], {
+      colour: "blue",
+      countryId: "us",
+    })!;
+    expect(a.leader!.colourInsights.some((i) => i.kind === "strength")).toBe(true);
+  });
+
+  it("flags a leader who mirrors the team's dominant style", () => {
+    const a = analyseTeam(
+      [member("red", "us"), member("red", "us"), member("red", "us")],
+      { colour: "red", countryId: "us" },
+    )!;
+    expect(
+      a.leader!.colourInsights.some((i) => i.title === "You mirror the team's dominant style"),
+    ).toBe(true);
+  });
+
+  it("flags a leader whose culture sits far from the team's centre", () => {
+    // A very explicit/direct leader (US) over a high-context team (Japan).
+    const a = analyseTeam([member("green", "jp"), member("blue", "jp")], {
+      colour: "red",
+      countryId: "us",
+    })!;
+    expect(a.leader!.cultureInsights.length).toBeGreaterThan(0);
+    expect(a.leader!.cultureInsights.every((i) => i.kind === "watch")).toBe(true);
+  });
+
+  it("has no culture-gap insights when leader shares the team's culture", () => {
+    const a = analyseTeam([member("green", "us"), member("blue", "us")], {
+      colour: "red",
+      countryId: "us",
+    })!;
+    expect(a.leader!.cultureInsights).toHaveLength(0);
+  });
+
+  it("opens the recommendations with a leader-specific move", () => {
+    const a = analyseTeam([member("green", "jp")], { colour: "red", countryId: "us" })!;
+    expect(a.recommendations[0].title).toBe("Lead against your Red grain");
+    expect(a.recommendations[1].title).toBe("Set the foundations first");
+  });
+});

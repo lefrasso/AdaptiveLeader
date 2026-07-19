@@ -3,6 +3,16 @@
 All notable changes to The Adaptive Leader are documented here. Releases use
 [Semantic Versioning](https://semver.org/).
 
+## [1.2.0] - 2026-07-19
+
+### Added
+
+- Team Builder now models the leader: set your own colour and country to get a
+  tailored plan — how your style fits the team, where your cultural defaults
+  diverge from the team's centre, and a specific move for leading each colour.
+- The plan is generated on submit and re-runs on demand, with a prompt to
+  regenerate when inputs change.
+
 ## [1.1.0] - 2026-07-19
 
 ### Added
@@ -23,5 +33,6 @@ All notable changes to The Adaptive Leader are documented here. Releases use
 - Four assessment tools, four themes, privacy controls, and static deployment.
 - In-app version display and automated SemVer validation.
 
+[1.2.0]: https://github.com/lefrasso/AdaptiveLeader/releases/tag/v1.2.0
 [1.1.0]: https://github.com/lefrasso/AdaptiveLeader/releases/tag/v1.1.0
 [1.0.0]: https://github.com/lefrasso/AdaptiveLeader/releases/tag/v1.0.0

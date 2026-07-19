@@ -41,6 +41,12 @@ export type Member = {
   countryId: string;
 };
 
+/** The person leading the team — their own colour and cultural baseline. */
+export type Leader = {
+  colour: ColourKey;
+  countryId: string;
+};
+
 export type InsightKind = "strength" | "gap" | "watch";
 export type Insight = {
   kind: InsightKind;
@@ -50,6 +56,25 @@ export type Insight = {
   ref?: string;
 };
 export type Recommendation = { title: string; text: string; ref?: string };
+
+/** How the leader should lead one colour that's present on the team. */
+export type ColourPlay = {
+  colour: ColourKey;
+  count: number;
+  tip: string;
+};
+
+/** The leader-specific half of the plan. */
+export type LeaderFit = {
+  colour: ColourKey;
+  country: Country | null;
+  /** How the leader's colour sits against the team's colour mix. */
+  colourInsights: Insight[];
+  /** Where the leader's cultural defaults diverge from the team's centre. */
+  cultureInsights: Insight[];
+  /** A tailored move for leading each colour on the team. */
+  playbook: ColourPlay[];
+};
 
 export type Composition = {
   counts: Record<ColourKey, number>;
@@ -72,6 +97,8 @@ export type TeamAnalysis = {
   spread: Record<ScaleKey, ScaleSpread>;
   countries: Country[];
   regions: string[];
+  /** Present only when a leader was supplied. */
+  leader?: LeaderFit;
   colourInsights: Insight[];
   culturalInsights: Insight[];
   recommendations: Recommendation[];
@@ -89,6 +116,8 @@ const WIDE_SPREAD = 40;
 const ALIGNED_MAX_SPREAD = 20;
 /** Coordination cost climbs past this size (ch 11 · two-pizza teams). */
 const LARGE_TEAM = 9;
+/** How far the leader must sit from the team's average to flag an adaptation. */
+const LEADER_CULTURE_GAP_MIN = 25;
 
 // ---- colour maths -----------------------------------------------------------
 
@@ -287,9 +316,108 @@ const ALIGNED: Insight = {
   ref: "Ch 18 · Culture Map",
 };
 
+// ---- leader guidance copy ---------------------------------------------------
+
+/** A tailored move for a {leader colour} leading a {member colour}. */
+const LEADER_PAIR: Record<ColourKey, Record<ColourKey, string>> = {
+  red: {
+    red: "Two drivers can clash over control. Agree who owns which decisions up front and aim the competitive energy at the problem, not each other.",
+    yellow: "Your pace can steamroll their need to be heard. Give them airtime and recognition before you push to the bottom line.",
+    green: "Your directness can shut them down. Slow down, invite their view explicitly, and don't read their quiet as agreement.",
+    blue: "Your urgency collides with their need for evidence. Give them the data and the time to analyse before you ask for a decision.",
+  },
+  yellow: {
+    red: "Your enthusiasm can read as lightweight to a driver. Lead with outcomes and specifics to earn their respect.",
+    yellow: "Lots of energy, little follow-through. Between you, decide explicitly who owns the detail and the deadlines.",
+    green: "Your optimism can overwhelm their caution. Pair the vision with steady reassurance and a concrete plan.",
+    blue: "Your big-picture talk needs structure for them. Back the ideas with data and written detail.",
+  },
+  green: {
+    red: "Your patience can frustrate their urgency. Be direct about what you need and set a clear pace.",
+    yellow: "You give them the warmth they thrive on. Add gentle structure so their ideas turn into delivery.",
+    green: "Harmony is easy; hard truths are not. Make it safe to raise problems so issues don't stay buried.",
+    blue: "You both value care and quality. Make sure decisions still get made and don't stall in caution.",
+  },
+  blue: {
+    red: "Your analysis can feel slow to them. Lead with the headline and the recommendation, then offer the detail.",
+    yellow: "Your precision can deflate their energy. Acknowledge the idea before you critique the plan.",
+    green: "You both prefer to avoid conflict. Surface disagreements explicitly so they get resolved, not avoided.",
+    blue: "Two analysts can over-engineer and stall. Time-box the analysis and commit to a decision date.",
+  },
+};
+
+/** How a leader should adapt when their cultural default sits far from the
+ *  team's centre. `lower` = leader toward the scale's low label, `higher` =
+ *  toward the high label. */
+const LEADER_CULTURE_GAP: Record<ScaleKey, { lower: string; higher: string }> = {
+  communicating: {
+    lower:
+      "You communicate more explicitly than your team, who lean on context and subtext. Slow down, read what's implied, and confirm understanding rather than assuming your directness landed.",
+    higher:
+      "You rely on context more than your team, who expect things spelled out. Be more explicit — put decisions in writing and say the quiet part out loud.",
+  },
+  evaluating: {
+    lower:
+      "You give feedback more bluntly than your team is used to. Soften the delivery and criticise privately so the message is heard, not resented.",
+    higher:
+      "You cushion feedback more than your team expects, so your point can get lost. Be clearer and more specific about what needs to change.",
+  },
+  leading: {
+    lower:
+      "You run flatter than your team expects; some will wait to be invited. Make it explicit that challenge and initiative are welcome.",
+    higher:
+      "You lean on hierarchy more than your team is comfortable with. Invite challenge and share decisions, or you'll lose their input.",
+  },
+  trusting: {
+    lower:
+      "You build trust through delivery, but parts of your team build it through relationship. Invest real time in personal connection, not just results.",
+    higher:
+      "You lead with relationship, but some of your team just want the task clear. Balance the warmth with crisp objectives and follow-through.",
+  },
+  disagreeing: {
+    lower:
+      "You're more comfortable with open disagreement than your team. Create safer, structured ways to dissent so quieter members aren't steamrolled.",
+    higher:
+      "You avoid confrontation more than your team does. Don't let real issues go unspoken to keep the peace — name them early.",
+  },
+  scheduling: {
+    lower:
+      "You run to the clock more than your team. Hold the key deadlines but flex where rigidity would strain the relationship.",
+    higher:
+      "You treat time more fluidly than your team expects. Tighten up on commitments and timekeeping so it doesn't read as unreliable.",
+  },
+};
+
+/** The opening, personalised recommendation for each leader colour. */
+const LEADER_SELF_REC: Record<ColourKey, Recommendation> = {
+  red: {
+    title: "Lead against your Red grain",
+    text: "Your instinct is to drive for results and decide fast. On this team, slow down enough to hear dissent and build buy-in — momentum you create alone rarely sticks.",
+    ref: "Ch 7 · Adapting your style",
+  },
+  yellow: {
+    title: "Lead against your Yellow grain",
+    text: "Your instinct is to inspire and improvise. On this team, add the structure, detail, and follow-through that turn energy into delivery.",
+    ref: "Ch 7 · Adapting your style",
+  },
+  green: {
+    title: "Lead against your Green grain",
+    text: "Your instinct is to protect harmony and support. On this team, make it safe to surface hard truths and don't let the search for consensus stall necessary decisions.",
+    ref: "Ch 7 · Adapting your style",
+  },
+  blue: {
+    title: "Lead against your Blue grain",
+    text: "Your instinct is to analyse and perfect. On this team, decide on 'good enough' evidence and protect momentum against over-caution.",
+    ref: "Ch 7 · Adapting your style",
+  },
+};
+
 // ---- analysis ---------------------------------------------------------------
 
-export function analyseTeam(members: Member[]): TeamAnalysis | null {
+export function analyseTeam(
+  members: Member[],
+  leader?: Leader | null,
+): TeamAnalysis | null {
   if (!members.length) return null;
 
   const composition = colourComposition(members);
@@ -328,16 +456,91 @@ export function analyseTeam(members: Member[]): TeamAnalysis | null {
     }
   }
 
+  const leaderFit = leader
+    ? analyseLeader(leader, members, composition, spread)
+    : undefined;
+
   return {
     size: members.length,
     composition,
     spread,
     countries,
     regions,
+    leader: leaderFit,
     colourInsights,
     culturalInsights,
-    recommendations: buildRecommendations(members, composition, spread, countries, regions),
+    recommendations: buildRecommendations(
+      members,
+      composition,
+      spread,
+      countries,
+      regions,
+      leader ?? null,
+    ),
   };
+}
+
+function analyseLeader(
+  leader: Leader,
+  members: Member[],
+  composition: Composition,
+  spread: Record<ScaleKey, ScaleSpread>,
+): LeaderFit {
+  const country = getCountry(leader.countryId) ?? null;
+  const lc = leader.colour;
+  const dominant = composition.dominant;
+  const colourInsights: Insight[] = [];
+  const cultureInsights: Insight[] = [];
+
+  // How the leader's colour sits against the team.
+  if (composition.counts[lc] === 0) {
+    colourInsights.push({
+      kind: "strength",
+      title: `You bring ${COLOURS[lc].name} the team lacks`,
+      text: `No one on the team leads with ${COLOURS[lc].name}, so you are its only source of ${COLOUR_CONTRIBUTION[lc]}. That's leverage — but also a single point of failure. Use it, and grow it in others so it doesn't rest on you alone.`,
+      ref: "Ch 11 · Cognitive diversity",
+    });
+  }
+  if (dominant && dominant === lc && composition.pct[lc] >= DOMINANT_PCT) {
+    colourInsights.push({
+      kind: "watch",
+      title: "You mirror the team's dominant style",
+      text: `You lead with ${COLOURS[lc].name} and so does most of the team (${composition.pct[lc]}%). It's comfortable, but it's an echo chamber — you will all under-weight the same things. Deliberately seek out the perspectives you collectively lack.`,
+      ref: "Ch 11 · Hiring clones",
+    });
+  } else if (dominant && dominant !== lc && composition.pct[dominant] >= DOMINANT_PCT) {
+    colourInsights.push({
+      kind: "watch",
+      title: `The team pulls ${COLOURS[dominant].name}; you lead ${COLOURS[lc].name}`,
+      text: `Most of the team leads with ${COLOURS[dominant].name} (${composition.pct[dominant]}%) while you lead ${COLOURS[lc].name}. Flex toward their style to connect and be heard, while holding on to the ${COLOUR_CONTRIBUTION[lc]} you bring.`,
+      ref: "Ch 7 · Adapting your style",
+    });
+  }
+
+  // Where the leader's cultural defaults diverge from the team's centre.
+  if (country) {
+    for (const s of SCALES) {
+      const gap = country.scales[s.key] - spread[s.key].avg;
+      if (Math.abs(gap) >= LEADER_CULTURE_GAP_MIN) {
+        cultureInsights.push({
+          kind: "watch",
+          title: `${s.name}: you sit apart from your team`,
+          text: LEADER_CULTURE_GAP[s.key][gap < 0 ? "lower" : "higher"],
+          ref: "Ch 18 · Culture Map",
+        });
+      }
+    }
+  }
+
+  // A tailored move for leading each colour present on the team.
+  const playbook: ColourPlay[] = [];
+  for (const c of COLOUR_ORDER) {
+    if (composition.counts[c] > 0) {
+      playbook.push({ colour: c, count: composition.counts[c], tip: LEADER_PAIR[lc][c] });
+    }
+  }
+
+  return { colour: lc, country, colourInsights, cultureInsights, playbook };
 }
 
 function uniqueCountries(members: Member[]): Country[] {
@@ -360,10 +563,14 @@ function buildRecommendations(
   spread: Record<ScaleKey, ScaleSpread>,
   countries: Country[],
   regions: string[],
+  leader: Leader | null,
 ): Recommendation[] {
   const recs: Recommendation[] = [];
 
-  // Foundations always come first — composition sets the ceiling, foundations
+  // A leader-specific opener personalises the whole plan.
+  if (leader) recs.push(LEADER_SELF_REC[leader.colour]);
+
+  // Foundations come first — composition sets the ceiling, foundations
   // decide whether you reach it (ch 11).
   recs.push({
     title: "Set the foundations first",
