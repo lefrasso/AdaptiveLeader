@@ -2,7 +2,7 @@
 
 The modern, statically-exported **Next.js** build of *The Adaptive Leader*: an
 interactive, multilingual leadership guide with twenty-two chapters, four
-appendices, four assessment tools, and a growth-mindset learning loop (quizzes,
+appendices, five assessment tools, and a growth-mindset learning loop (quizzes,
 reflections, spaced review, and a progress dashboard).
 
 ## Stack

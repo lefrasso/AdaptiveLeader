@@ -226,6 +226,90 @@ export const COUNTRIES: Country[] = [
       "High-context and strongly hierarchical — age and rank shape interaction. Reading the room ('nunchi') matters; criticism is indirect to protect harmony and seniority. Relationship-based, with fast-paced execution.",
     scales: { communicating: 80, evaluating: 75, leading: 82, trusting: 72, disagreeing: 80, scheduling: 30 },
   },
+  {
+    id: "in",
+    name: "India",
+    flag: "🇮🇳",
+    region: "Asia-Pacific",
+    summary:
+      "High-context and strongly relationship- and hierarchy-driven — rank and personal connection shape everything. Criticism is softened to protect harmony and status, open disagreement is avoided, and time is fluid. Invest in the relationship and read the subtext.",
+    scales: { communicating: 75, evaluating: 70, leading: 80, trusting: 72, disagreeing: 72, scheduling: 75 },
+  },
+  {
+    id: "my",
+    name: "Malaysia",
+    flag: "🇲🇾",
+    region: "Asia-Pacific",
+    summary:
+      "Very high-context and strongly hierarchical — 'face' and harmony are protected at all costs. Feedback is indirect, open confrontation is avoided, and trust is personal. Respect rank and never criticise anyone publicly.",
+    scales: { communicating: 80, evaluating: 78, leading: 85, trusting: 78, disagreeing: 82, scheduling: 55 },
+  },
+  {
+    id: "ph",
+    name: "Philippines",
+    flag: "🇵🇭",
+    region: "Asia-Pacific",
+    summary:
+      "Warm, relationship-first and high-context — personal rapport and harmony come before the task. Feedback is gentle and indirect to preserve 'face' (pakikisama), hierarchy is respected, and time is flexible.",
+    scales: { communicating: 72, evaluating: 75, leading: 80, trusting: 75, disagreeing: 78, scheduling: 60 },
+  },
+  {
+    id: "eg",
+    name: "Egypt",
+    flag: "🇪🇬",
+    region: "Middle East",
+    locale: "ar",
+    summary:
+      "Deeply relationship- and honour-based; trust and personal connection precede business. Communication is high-context and indirect, hierarchy is strong, criticism is never public, and time is fluid. Patience and respect open every door.",
+    scales: { communicating: 78, evaluating: 72, leading: 80, trusting: 80, disagreeing: 72, scheduling: 75 },
+  },
+  {
+    id: "dz",
+    name: "Algeria",
+    flag: "🇩🇿",
+    region: "Middle East",
+    locale: "ar",
+    summary:
+      "Relationship- and honour-based with a French administrative streak. High-context and indirect, hierarchical, and trust is built personally over time. Feedback is diplomatic and confrontation is softened; invest in the relationship first.",
+    scales: { communicating: 74, evaluating: 66, leading: 78, trusting: 78, disagreeing: 66, scheduling: 70 },
+  },
+  {
+    id: "ca",
+    name: "Canada",
+    flag: "🇨🇦",
+    region: "Americas",
+    locale: "en",
+    summary:
+      "Explicit and low-context, but more understated and polite than the US — feedback is direct yet diplomatic. Egalitarian and consensus-minded; punctual and task-oriented, with confrontation softened by courtesy.",
+    scales: { communicating: 18, evaluating: 48, leading: 25, trusting: 25, disagreeing: 50, scheduling: 20 },
+  },
+  {
+    id: "cz",
+    name: "Czech Republic",
+    flag: "🇨🇿",
+    region: "Europe",
+    summary:
+      "Fairly explicit and low-context, with reasonably direct feedback delivered soberly. Moderately hierarchical and increasingly task-based; punctual and structured, with a pragmatic tolerance for debate on the merits.",
+    scales: { communicating: 32, evaluating: 38, leading: 48, trusting: 45, disagreeing: 45, scheduling: 25 },
+  },
+  {
+    id: "bg",
+    name: "Bulgaria",
+    flag: "🇧🇬",
+    region: "Europe",
+    summary:
+      "Moderate-context and relationship-aware, with hierarchy respected and trust built personally. Feedback is fairly candid among trusted colleagues but softened in public; time and pace are moderately flexible.",
+    scales: { communicating: 45, evaluating: 42, leading: 60, trusting: 55, disagreeing: 55, scheduling: 45 },
+  },
+  {
+    id: "ro",
+    name: "Romania",
+    flag: "🇷🇴",
+    region: "Europe",
+    summary:
+      "Relationship-oriented and moderately high-context; hierarchy and personal trust matter. Feedback is indirect and diplomatic, open confrontation is avoided, and time is flexible. Build rapport before pushing the task.",
+    scales: { communicating: 52, evaluating: 55, leading: 65, trusting: 60, disagreeing: 60, scheduling: 50 },
+  },
 ];
 
 export type Colour = {

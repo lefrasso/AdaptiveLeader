@@ -8,8 +8,8 @@ import {
 } from "./index";
 
 describe("cultural data", () => {
-  it("covers all 10 app locales plus the extra countries (15 total)", () => {
-    expect(COUNTRIES).toHaveLength(15);
+  it("covers all 10 app locales plus the extra countries (24 total)", () => {
+    expect(COUNTRIES).toHaveLength(24);
     const locales = new Set(
       COUNTRIES.map((c) => c.locale).filter(Boolean) as string[],
     );
@@ -20,6 +20,14 @@ describe("cultural data", () => {
     for (const extra of ["uk", "us", "br", "mx", "ar", "au"]) {
       expect(ids).toContain(extra);
     }
+    for (const added of ["in", "my", "ph", "eg", "dz", "ca", "cz", "bg", "ro"]) {
+      expect(ids).toContain(added);
+    }
+  });
+
+  it("has unique country ids", () => {
+    const ids = COUNTRIES.map((c) => c.id);
+    expect(new Set(ids).size).toBe(ids.length);
   });
 
   it("gives every country a value on every scale", () => {

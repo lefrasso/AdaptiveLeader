@@ -18,7 +18,7 @@ export default async function HomePage({ params }: Props) {
     { n: parts.length, label: t("home.stats.parts") },
     { n: getChapters(locale).length, label: t("home.stats.chapters") },
     { n: 4, label: t("home.stats.appendices") },
-    { n: 4, label: t("home.stats.tools") },
+    { n: 5, label: t("home.stats.tools") },
   ];
 
   const tools = [
@@ -41,6 +41,11 @@ export default async function HomePage({ params }: Props) {
       href: "/cultural-tips",
       title: t("nav.cultural"),
       desc: t("home.tiles.cultural"),
+    },
+    {
+      href: "/team-builder",
+      title: t("nav.team"),
+      desc: t("home.tiles.team"),
     },
     {
       href: "/appendices",

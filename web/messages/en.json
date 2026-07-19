@@ -9,7 +9,8 @@
     "self": "Self-Assessment",
     "leadership": "Leadership Assessment",
     "evaluator": "Communication Evaluator",
-    "cultural": "Cultural Tips"
+    "cultural": "Cultural Tips",
+    "team": "Team Builder"
   },
   "home": {
     "eyebrow": "Interactive leadership guide",
@@ -31,7 +32,8 @@
       "self": "Discover your colour balance and what it means for how you lead and adapt.",
       "leadership": "Rate yourself across the 17 topics for a readiness index and a prioritised action plan.",
       "evaluator": "Analyse someone's communication style and get tailored recommendations.",
-      "cultural": "Pick a country and a colour for practical tips on adapting to that person across cultures."
+      "cultural": "Pick a country and a colour for practical tips on adapting to that person across cultures.",
+      "team": "Compose a team by colour and country, and get grounded guidance on its strengths, gaps, and how to build it."
     }
   },
   "common": {
@@ -1012,6 +1014,40 @@
     "noTips": "On the dimensions we track, this style sits fairly neutrally in this culture — lead with the universal tips above.",
     "disclaimer": "General cultural tendencies (drawn from Erin Meyer's Culture Map and related research), not predictions about any individual. Always read the actual person in front of you.",
     "footer": "Leading Across Cultures · Cultural Tips — a guide to adapt, not a box to place people in."
+  },
+  "team": {
+    "meta": {
+      "title": "Team Builder",
+      "description": "Compose a team by each member's colour and country, then get grounded guidance on its colour balance, cultural spread, strengths, gaps, and concrete steps to build it — synthesised from the whole guide."
+    },
+    "header": {
+      "eyebrow": "BUILD YOUR TEAM",
+      "title": "Team Builder",
+      "lead": "Add your team members with a colour and a country. You'll get a read on the team's colour balance and cultural spread, where it's strong and where the gaps are, and a prioritised plan to build it — drawing on the whole guide."
+    },
+    "notice": "<b>Composition sets a team's ceiling.</b> This tool reads two things the app already models — the four-colour mix and the cultural spread — to surface strengths, gaps, and practical next steps. They're starting points for a conversation, not verdicts about people.",
+    "membersTitle": "1 · Your team",
+    "sizeLabel": "{n} members",
+    "memberName": "Name",
+    "memberNamePlaceholder": "Name (optional)",
+    "memberColour": "Colour",
+    "memberCountry": "Country",
+    "remove": "Remove",
+    "addMember": "Add member",
+    "empty": "Add at least one team member to see guidance.",
+    "compositionTitle": "Colour composition",
+    "culturalTitle": "Cultural spread",
+    "spreadHint": "The band shows the range across your team on each cultural dimension; the dot is the team average. A wide band means norms differ and are worth aligning.",
+    "colourReadTitle": "What your colour mix means",
+    "colourReadEmpty": "This mix sits fairly evenly — lead with the recommendations below.",
+    "culturalReadTitle": "What your cultural mix means",
+    "culturalReadEmpty": "Your members sit close together culturally — low friction on the dimensions we track.",
+    "recommendationsTitle": "How to build this team",
+    "strengthTag": "Strength",
+    "gapTag": "Gap",
+    "watchTag": "Watch",
+    "disclaimer": "Guidance is generated from the four-colour model and cross-cultural dimensions in this guide (see chapters 11, 16, and 18). It's a structured starting point, not a substitute for knowing the real people on your team.",
+    "footer": "Build the Team · Team Builder — compose for the ceiling, then lead for the result."
   },
   "splash": {
     "subtitle": "Preparing your interactive leadership guide",

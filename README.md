@@ -1,7 +1,7 @@
 # The Adaptive Leader
 
 An interactive, fully multilingual leadership guide and self-development app —
-**twenty-two chapters**, four appendices, and four hands-on assessment tools,
+**twenty-two chapters**, four appendices, and five hands-on assessment tools,
 wrapped in a growth-mindset **learning loop** that helps you not just read about
 leading but actually build the skill.
 
@@ -44,7 +44,9 @@ The project exists in two forms:
 - 🎯 **Communication Style Evaluator** — analyse someone's style and get tailored
   recommendations.
 - 🌍 **Cultural Tips** — pick a country and a colour for practical adaptation
-  advice.
+  advice, across 24 countries and regions.
+- 🧩 **Team Builder** — compose a team by colour and country and get grounded
+  guidance on its balance, cultural spread, gaps, and how to build it.
 
 ### The learning loop (growth mindset)
 - **End-of-chapter quizzes** — scenario retrieval with growth-oriented feedback.
