@@ -27,7 +27,12 @@ Other scripts:
 pnpm build        # static export to ./out  (postbuild writes the root redirect)
 pnpm test         # vitest run
 pnpm lint         # eslint
+pnpm version:check # validate package.json as SemVer
 ```
+
+The version in `package.json` is injected into the static build and displayed
+in the About dialog. Releases use a matching `vX.Y.Z` Git tag; see the root
+`CHANGELOG.md` for release notes.
 
 ## Project structure
 

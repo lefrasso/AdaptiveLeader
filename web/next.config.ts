@@ -1,6 +1,11 @@
+import { readFileSync } from "node:fs";
 import type { NextConfig } from "next";
 import { PHASE_DEVELOPMENT_SERVER } from "next/constants";
 import createNextIntlPlugin from "next-intl/plugin";
+
+const { version: appVersion } = JSON.parse(
+  readFileSync(new URL("./package.json", import.meta.url), "utf8"),
+) as { version: string };
 
 // Set NEXT_PUBLIC_BASE_PATH="/AdaptiveLeader" in CI for GitHub Pages project sites.
 // Leave empty for local dev or when using a custom domain.
@@ -13,7 +18,10 @@ const nextConfig: NextConfig = {
   images: { unoptimized: true },
   basePath: basePath || undefined,
   // Ensure client bundles resolve assets under the base path.
-  env: { NEXT_PUBLIC_BASE_PATH: basePath },
+  env: {
+    NEXT_PUBLIC_APP_VERSION: appVersion,
+    NEXT_PUBLIC_BASE_PATH: basePath,
+  },
 };
 
 const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");

@@ -10,6 +10,7 @@ import {
   DialogTitle,
   DialogTrigger,
 } from "@/components/ui/dialog";
+import { APP_VERSION } from "@/lib/version";
 
 const DOTS = ["#d64550", "#f2b705", "#2e9e5b", "#2e86c1"];
 
@@ -59,15 +60,20 @@ export function AboutDialog() {
             </h3>
             <p className="mt-1.5 text-sm text-foreground/90">{t("credits")}</p>
           </div>
-          <p className="text-sm text-muted-foreground">
-            {t.rich("powered", {
-              strong: (chunks) => (
-                <strong className="font-semibold text-foreground">
-                  {chunks}
-                </strong>
-              ),
-            })}
-          </p>
+          <div className="flex items-baseline justify-between gap-4 text-sm text-muted-foreground">
+            <p>
+              {t.rich("powered", {
+                strong: (chunks) => (
+                  <strong className="font-semibold text-foreground">
+                    {chunks}
+                  </strong>
+                ),
+              })}
+            </p>
+            <span className="shrink-0 font-mono text-xs tabular-nums">
+              v{APP_VERSION}
+            </span>
+          </div>
         </div>
       </DialogContent>
     </Dialog>

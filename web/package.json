@@ -1,6 +1,6 @@
 {
   "name": "web",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -8,7 +8,8 @@
     "postbuild": "node scripts/root-redirect.mjs",
     "start": "next start",
     "lint": "eslint",
-    "test": "vitest run"
+    "test": "vitest run",
+    "version:check": "node scripts/validate-version.mjs"
   },
   "dependencies": {
     "class-variance-authority": "^0.7.1",

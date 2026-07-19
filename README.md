@@ -94,10 +94,23 @@ Build a static export, run the tests, or lint:
 pnpm build        # static export to web/out
 pnpm test         # vitest
 pnpm lint         # eslint
+pnpm version:check # validate the SemVer release version
 ```
 
 > Prefer the original zero-build version? Open `index.html` in a browser, or
 > serve the repo root with `python -m http.server 8000`.
+
+---
+
+## 🏷️ Versioning
+
+Releases follow [Semantic Versioning](https://semver.org/). The version in
+[`web/package.json`](web/package.json) is the single source of truth and is
+shown in the app's About dialog. Release tags use the matching `vX.Y.Z` form.
+
+For a release, update `web/package.json` and [`CHANGELOG.md`](CHANGELOG.md), run
+`pnpm version:check` from `web/`, commit the changes, and create the matching
+annotated Git tag. The first complete release is **v1.0.0**.
 
 ---
 
