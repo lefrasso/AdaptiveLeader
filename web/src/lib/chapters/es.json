@@ -51,11 +51,13 @@
   ],
   "conclusion": {
     "title": "El Líder Adaptativo",
-    "summary": "El liderazgo no es una identidad fija sino un rango practicado: léete a ti mismo, lee a la persona frente a ti y adapta cómo te presentas para que tu intención llegue.",
+    "summary": "El liderazgo no es una identidad fija sino un rango que se practica, y esta guía está hecha para ayudarte a desarrollarlo, no solo a leer sobre él. Veintidós capítulos en cinco partes te llevan de gestionarte a ti mismo a hacer crecer a los demás, emparejando cada idea central con la investigación que la respalda, el lenguaje de los cuatro colores para aplicarla, una historia de liderazgo en acción y una práctica para probar.",
     "synthesis": [
-      "La autoconciencia te da el mapa de tus valores predeterminados y disparadores.",
-      "La inteligencia emocional te permite regularte y relacionarte bien con los demás.",
-      "La adaptación, los sistemas de equipo, las decisiones, el coaching y la cultura extienden ese rango al trabajo real de liderar personas."
+      "Conócete a ti mismo: mapea tu estilo por defecto, tus detonantes y cómo cambias bajo presión.",
+      "Domina tus emociones: lee la sala y regúlate cuando lo que está en juego es mayor.",
+      "Adáptate a los demás: flexibiliza tu estilo para influir, manejar el conflicto y hacer que tu mensaje cale.",
+      "Construye el equipo: fija la composición, la confianza, la seguridad, el ritmo y la responsabilidad en los que la gente rinde de forma fiable.",
+      "Decide y crece: elige bien en la ambigüedad, haz coaching a tu gente, lidera entre culturas y sigue mejorando con una mentalidad de aprendelotodo."
     ]
   },
   "chapters": [
@@ -340,6 +342,96 @@
       ]
     },
     {
+      "number": 11,
+      "part": "IV",
+      "title": "Composición y cimientos",
+      "summary": "El techo de un equipo se fija antes de que empiece el trabajo: por qué existe, quién lo forma, quién decide qué, y cómo se componen sus habilidades y perspectivas.",
+      "theme": "No puedes liderar para salir de un equipo mal compuesto.",
+      "theory": "Un acta de equipo define su propósito y su responsabilidad; unos roles y derechos de decisión claros (RACI) eliminan la ambigüedad que atasca el trabajo; un mapa de capacidades revela lagunas de habilidades y puntos únicos de fallo; y contratar por adaptabilidad y diversidad cognitiva construye un equipo capaz de aprender y cambiar.",
+      "theoryHtml": "<p>La mayoría de los problemas de equipo que parecen problemas de rendimiento o de personalidad son en realidad problemas de <strong>composición</strong>, decididos mucho antes de la primera reunión. Cuatro cimientos fijan el techo.</p><ul><li><strong>Propósito y acta de equipo:</strong> un acta breve nombra por qué existe el equipo, de qué es responsable, cómo se mide el éxito y qué queda fuera de su alcance. Sin ella, los equipos derivan hacia lo que más grita; con ella, las prioridades y las concesiones tienen un punto de referencia que todos comparten.</li><li><strong>Claridad de roles y derechos de decisión:</strong> la mayoría de los atascos se remontan a «pensaba que eso lo llevabas tú». Un <strong>RACI</strong> (Responsable, Aprobador, Consultado, Informado) o un mapa de niveles de delegación hace explícita la titularidad —una única persona Aprobadora por decisión, no un comité— para que el trabajo avance sin pedir permiso ni chocar.</li><li><strong>Mapa de capacidades:</strong> una simple matriz de habilidades (personas × habilidades, nivel actual) expone dos riesgos a la vez: las <em>lagunas</em> que el equipo aún no cubre y los <em>puntos únicos de fallo</em>, el «factor bus» de uno, donde una habilidad crítica reside en una sola cabeza. No puedes planificar en torno a un riesgo que no has mapeado.</li><li><strong>Contratar por adaptabilidad y potencial:</strong> la habilidad actual es lo más fácil de ver y lo que antes caduca. La agilidad de aprendizaje —la rapidez con que alguien da sentido a lo nuevo y se ajusta— predice la contribución a largo plazo mejor que el pedigrí, sobre todo en trabajos que cambian rápido.</li><li data-more=\"1\"><strong>Diversidad cognitiva y de experiencia:</strong> el trabajo de Scott Page muestra que un grupo diverso de solucionadores de problemas puede superar a otro de gente uniformemente «capaz», porque una variedad de modelos mentales cubre más del problema. Pero la diversidad solo rinde con <em>inclusión</em>: la seguridad psicológica para expresar la opinión distinta. La diferencia sin inclusión es solo tensión.</li></ul><p><strong>Un caso concreto.</strong> Una líder hereda un equipo que está ocupado pero da palos de ciego. Antes de cambiar a nadie, redacta un acta de una página, mapea un RACI y construye una matriz de habilidades, y ve de inmediato el problema real: dos personas poseen en silencio todos los sistemas críticos (factor bus de uno) y tres decisiones no tienen dueño claro. Arreglar la composición, no el esfuerzo, libera al equipo.</p><p data-depth=\"2\"><strong>La mayor parte de la eficacia de un equipo se decide antes de que empiece.</strong> La investigación de Richard Hackman sobre la eficacia de los equipos halló que las condiciones habilitadoras que un líder establece de entrada —un equipo <em>real</em> con membresía estable, una dirección convincente, una estructura habilitadora y un contexto de apoyo— importan mucho más que cualquier cosa que el líder haga sobre la marcha. Su regla aproximada «60-30-10» lo resume: alrededor del 60% de la variación en el rendimiento de un equipo lo fija cómo se <em>diseña</em> el equipo, el 30% cómo se <em>lanza</em>, y solo el 10% el liderazgo cotidiano y directo. La composición es palanca precisamente porque está aguas arriba de todo lo demás.</p><ul><li><strong>Roles, no solo habilidades (Belbin):</strong> los nueve roles de equipo de Belbin —desde el Cerebro (ideas) y el Impulsor (empuje) hasta el Finalizador y el Coordinador— muestran que una mezcla equilibrada de roles supera a una plantilla de estrellas parecidas. Un equipo de cinco Impulsores pelea; un equipo sin Finalizador nunca entrega. Mapea los roles que tienes y los que te faltan, no solo las habilidades.</li><li><strong>Tamaño y coste de coordinación:</strong> la heurística del «equipo de dos pizzas» de Amazon y el hallazgo clásico de Ringelmann sobre la holgazanería social apuntan a lo mismo: a medida que un equipo crece, el esfuerzo por persona tiende a caer y el coste de coordinación sube, porque el número de vínculos de comunicación crece como n(n-1)/2. Los equipos pequeños con titularidad clara se mueven más rápido que los grandes con responsabilidad difusa.</li><li><strong>Lanza con intención:</strong> como buena parte de la eficacia depende del lanzamiento, un arranque real —alinear el acta, los roles y los acuerdos de trabajo en los primeros días— se paga muchas veces. Los equipos que «simplemente empiezan» pasan el trimestre siguiente renegociando lo que debería haberse fijado la primera semana.</li></ul><p>El cambio práctico es tratar la construcción del equipo como un acto de <em>diseño</em> hecho pronto y revisado en cada cambio de membresía, no como la esperanza de que la buena gente se organice sola una vez empezado el trabajo.</p>",
+      "keyModels": [
+        {
+          "name": "Acta de equipo",
+          "desc": "Un enunciado breve y compartido de propósito, responsabilidad, medidas de éxito y alcance. Convierte a un grupo de personas en un equipo apuntando en la misma dirección, y da a cada concesión posterior un punto de referencia."
+        },
+        {
+          "name": "RACI / derechos de decisión",
+          "desc": "Responsable, Aprobador, Consultado, Informado: un único Aprobador por decisión. La titularidad ambigua, no la dificultad, es lo que atasca la mayor parte del trabajo; hacer explícitos los derechos es la aceleración más barata disponible."
+        },
+        {
+          "name": "Matriz de habilidades y factor bus",
+          "desc": "Una cuadrícula de personas por habilidades que revela lagunas de capacidad y puntos únicos de fallo. Un «factor bus de uno» —una habilidad crítica en manos de una sola persona— es un riesgo que solo puedes gestionar cuando lo ves."
+        },
+        {
+          "name": "Contratar por agilidad de aprendizaje (Lombardo y Eichinger)",
+          "desc": "El potencial y la adaptabilidad predicen el rendimiento a largo plazo mejor que la habilidad actual o el pedigrí, sobre todo donde el trabajo cambia. Contrata por la pendiente, no solo por el punto de partida."
+        },
+        {
+          "name": "Diversidad cognitiva (Scott Page)",
+          "desc": "Una diversidad de modelos mentales puede batir a la capacidad uniforme en problemas complejos, pero solo cuando se combina con inclusión. Sin la seguridad para expresar la opinión distinta, la diversidad añade fricción en lugar de perspectiva."
+        }
+      ],
+      "colourAngle": {
+        "red": "Los rojos componen para la velocidad y los resultados y definirán los derechos de decisión con nitidez, pero pueden contratar a su propia imagen rápida y directa e infravalorar los perfiles más pausados o analíticos que evitan que un equipo se despeñe.",
+        "yellow": "Los amarillos construyen equipos cálidos y enérgicos y defienden la diversidad de personas, pero pueden desatender los cimientos poco vistosos (acta, RACI, matriz de habilidades), dejando al equipo inspirado pero sin claridad sobre quién posee qué.",
+        "green": "Los verdes atienden a la pertenencia y el encaje, lo que crea cohesión, pero su comodidad con la armonía puede llevar a contratar por semejanza y a evitar la auditoría honesta de capacidades que saca a la luz a un compañero que flaquea o que es un punto único de fallo.",
+        "blue": "Los azules aman la matriz de habilidades y los roles claros y los mapearán con rigor, pero pueden sobreponderar la competencia demostrada y las credenciales, descartando a la persona adaptable de alto potencial que aún no marca todas las casillas."
+      },
+      "leaderInAction": "Una líder recién nombrada resiste el impulso de reorganizar a la gente en la primera semana. En su lugar ejecuta tres artefactos: un acta de una página (propósito, de qué somos responsables, de qué no), un RACI para las diez decisiones recurrentes principales y una matriz de habilidades. La matriz revela un factor bus de uno en el sistema de pagos y una laguna enorme en habilidades de datos; el RACI revela dos decisiones que todos suponían que llevaba otro. Sus primeros movimientos —formar a un segundo ingeniero de pagos, contratar para datos, asignar dueños claros— salen directamente del mapa, no de conjeturas.",
+      "practice": "Redacta un acta de una página para tu equipo (propósito, responsabilidades, medidas de éxito, fuera de alcance) y un RACI para tus cinco decisiones recurrentes más disputadas. Luego construye una matriz de habilidades rápida y rodea cada «factor bus de uno».",
+      "watchOut": [
+        "Contratar clones: componer un equipo de personas que piensan como tú resulta cómodo y limita en silencio el rango de problemas que el equipo puede resolver.",
+        "Derechos de decisión ambiguos: «decidimos juntos» suele significar que nadie es responsable y las decisiones derivan; nombra a un único Aprobador incluso para el trabajo compartido.",
+        "Diversidad sin inclusión: reunir perspectivas distintas y luego dirigir el equipo de modo que solo se oiga a los más ruidosos desperdicia justo la diferencia que contrataste."
+      ],
+      "takeaways": [
+        "El techo de un equipo se fija en la composición —propósito, roles, habilidades y mezcla— antes de que ocurra liderazgo alguno.",
+        "Haz explícita la titularidad (RACI) y mapea tus habilidades; los derechos ambiguos y los puntos únicos de fallo son asesinos silenciosos.",
+        "Contrata por adaptabilidad y diversidad cognitiva, y luego construye la inclusión que hace que esa diversidad de verdad rinda."
+      ],
+      "checks": [
+        {
+          "q": "Dos decisiones de tu equipo se atascan una y otra vez porque «cada cual pensaba que la llevaba otro». ¿Qué lo arregla más rápido?",
+          "options": [
+            "Añadir más gente a cada decisión para que no se escape nada",
+            "Asignar un único Aprobador por decisión (un RACI), aun cuando el trabajo sea compartido",
+            "Escalar ambas decisiones a tu jefe",
+            "Esperar a que el equipo genere más confianza"
+          ],
+          "correct": 1,
+          "why": "La titularidad ambigua, no la dificultad, atasca la mayor parte del trabajo; nombrar a un único Aprobador por decisión es la aceleración más barata, y un RACI lo hace explícito."
+        },
+        {
+          "q": "Un sistema crítico solo lo entiende un ingeniero. En términos de equipo, ¿qué es esto?",
+          "options": [
+            "Una señal de un buen especialista al que proteger",
+            "Un «factor bus de uno»: un punto único de fallo que hay que mitigar con formación cruzada",
+            "Un uso eficiente de la experiencia",
+            "Un problema de contratación a resolver más adelante"
+          ],
+          "correct": 1,
+          "why": "Una habilidad en manos de una sola persona es un punto único de fallo («factor bus de uno»); una matriz de habilidades lo revela para que puedas formar de forma cruzada y reducir el riesgo antes de que muerda."
+        },
+        {
+          "q": "Quieres los beneficios de un equipo cognitivamente diverso. ¿Qué tiene que acompañar a la diversidad?",
+          "options": [
+            "Un consenso más rápido para que los debates no te frenen",
+            "Inclusión: la seguridad psicológica para que las opiniones distintas se expresen de verdad",
+            "Un único estilo de pensamiento dominante que alinee a todos",
+            "Más antigüedad en el equipo"
+          ],
+          "correct": 1,
+          "why": "Los modelos mentales diversos solo rinden cuando la gente se siente segura para expresar la opinión distinta; la diversidad sin inclusión añade fricción, no perspectiva."
+        }
+      ],
+      "practiceRubric": [
+        "Tu acta nombra responsabilidades y lo que queda fuera de alcance, no solo una frase de misión inspiradora.",
+        "Cada decisión disputada en tu RACI tiene exactamente un Aprobador.",
+        "Tu matriz de habilidades señala puntos únicos de fallo reales, con un movimiento de formación cruzada asignado al menos a uno."
+      ],
+      "practiceExemplar": "Acta: «Somos responsables de la fiabilidad y la conversión del checkout; no respondemos del catálogo». El RACI reveló que «cambios de precios» no tenía dueño: asignado a Dana. La matriz de habilidades mostró que solo Sam conoce el motor de fraude (factor bus de 1): Priya empieza a emparejarse con él este sprint."
+    },
+    {
       "number": 12,
       "part": "IV",
       "title": "Los cuatro pilares de un equipo de alto rendimiento",
@@ -422,6 +514,186 @@
         "El mal ritmo se convierte en sobrecarga de reuniones.",
         "La responsabilidad necesita cadencia, no solo intención."
       ]
+    },
+    {
+      "number": 15,
+      "part": "IV",
+      "title": "Crecimiento e incorporación",
+      "summary": "Un equipo es tan fuerte como la rapidez con que sus nuevos miembros se vuelven eficaces y la deliberación con que los actuales siguen creciendo.",
+      "theme": "El desarrollo no es un extra; es cómo un equipo se capitaliza.",
+      "theory": "Una incorporación estructurada acorta el tiempo hasta la productividad; ajustar un estilo de coaching o de dirección a la disposición de cada persona (liderazgo situacional) la hace crecer sin sobre- ni subapoyarla; los planes de desarrollo individuales y los itinerarios profesionales retienen y estiran a la gente; y la formación cruzada crea resiliencia y cobertura.",
+      "theoryHtml": "<p>Los equipos no siguen siendo fuertes por accidente: se capitalizan cuando la gente se incorpora rápido y crece a propósito. Cuatro disciplinas lo hacen posible.</p><ul><li><strong>Incorporación estructurada:</strong> la diferencia entre una puesta al día de dos semanas y una de dos meses rara vez es el talento: es el diseño. Un <strong>plan de 30/60/90 días</strong>, un compañero o mentor asignado, acceso temprano y primeras victorias, y claridad sobre «cómo es un buen resultado» convierten a un recién llegado nervioso en un contribuyente mientras el entusiasmo aún está alto.</li><li><strong>Coaching frente a dirección (liderazgo situacional):</strong> el modelo de Hersey y Blanchard ajusta tu estilo a la <em>competencia y el compromiso de la persona en la tarea concreta</em>: dirigir a quien es nuevo e inseguro, hacer coaching y apoyar mientras crece, delegar cuando ya es capaz y está dispuesto. El error es un único estilo por defecto: dirigir a un experto lo insulta; delegar en un novato lo abandona.</li><li><strong>Desarrollo e itinerario profesional:</strong> crecer es retener talento. Los planes de desarrollo individuales, las conversaciones honestas de crecimiento y los itinerarios visibles mantienen a la gente estirándose en su sitio en lugar de irse para crecer. La regla aproximada <strong>70-20-10</strong> —la mayor parte del desarrollo viene de la experiencia desafiante, algo de los demás, y poco de la formación formal— te apunta hacia las asignaciones que estiran, no solo a los cursos.</li><li><strong>Mentoría y patrocinio:</strong> los mentores dan consejo; los <em>patrocinadores</em> gastan su propia credibilidad para abrir puertas. Ambos importan, y los líderes suelen ofrecer de sobra el primero y de menos el segundo.</li><li data-more=\"1\"><strong>Formación cruzada para la resiliencia:</strong> las personas <strong>en forma de T</strong> —profundas en un área, capaces en varias— dan al equipo cobertura cuando alguien falta y flexibilidad cuando cambian las prioridades, a la vez que reducen el riesgo de factor bus. La contrapartida es la profundidad, así que forma de manera cruzada con intención, no en todo.</li></ul><p><strong>Un caso concreto.</strong> Dos responsables contratan a graduados idénticos. Uno entrega un portátil y una lista de tareas; el otro ejecuta un plan de 30/60/90 con un compañero, tres primeras victorias acotadas y coaching semanal que se va convirtiendo en delegación a medida que crece la competencia. A los tres meses, el segundo graduado es autónomo y el primero sigue pidiendo permiso con timidez: la diferencia es el diseño de la incorporación, no la capacidad.</p><p data-depth=\"2\"><strong>Una buena incorporación cubre cuatro cosas; la mayoría de las organizaciones solo hacen la primera.</strong> La investigación de Talya Bauer enmarca la incorporación en las «cuatro C»: <em>Cumplimiento</em> (normas y papeleo), <em>Clarificación</em> (qué exige de verdad el puesto y cómo es un buen resultado), <em>Cultura</em> (las normas y el lenguaje no escritos del equipo) y <em>Conexión</em> (las relaciones y redes que una persona necesita para lograr cosas). La mayoría de las incorporaciones se detienen en las dos primeras y dejan al azar las dos que mejor predicen la retención: Cultura y Conexión.</p><ul><li><strong>Hacer crecer a la gente en el límite (Vygotski):</strong> la <em>zona de desarrollo próximo</em> es la franja justo más allá de lo que alguien puede hacer solo pero alcanza con apoyo. El desarrollo eficaz vive en el centro del modelo comodidad-estiramiento-pánico: encargos lo bastante difíciles para crecer pero lo bastante andamiados para no abrumar, retirando el andamiaje a medida que sube la competencia, exactamente el arco de dirigir a delegar.</li><li><strong>La experiencia solo enseña con reflexión (Kolb):</strong> el ciclo de aprendizaje de Kolb —experiencia concreta, observación reflexiva, conceptualización abstracta, experimentación activa— explica por qué el «70» del 70-20-10 tan a menudo no entrega. La experiencia sin reflexión estructurada es solo repetición; un breve hábito de retrospectiva es lo que convierte las horas en habilidad.</li><li><strong>Dale al crecimiento adónde ir:</strong> quien no ve un camino se va. Los marcos de doble escalera —vías paralelas técnica y de gestión— te dejan hacer crecer y retener a expertos profundos sin obligar a todos a pasar por la gestión para progresar, y hacen concretas las conversaciones de desarrollo en lugar de vagas promesas.</li></ul><p>Incorporación y desarrollo son la misma disciplina en dos escalas de tiempo: un diseño deliberado que lleva a una persona de la dependencia a la autonomía, y la sigue moviendo mucho después de la primera semana.</p>",
+      "keyModels": [
+        {
+          "name": "Liderazgo situacional (Hersey y Blanchard)",
+          "desc": "Ajusta tu estilo —dirigir, hacer coaching, apoyar, delegar— a la competencia y el compromiso de la persona en la tarea concreta. Ningún estilo único vale para todos; diagnosticar la disposición precede a elegir cómo liderar."
+        },
+        {
+          "name": "El plan de 30/60/90 días",
+          "desc": "Una rampa de incorporación por etapas —aprender, contribuir, poseer— con un compañero, primeras victorias y una imagen explícita de «cómo es un buen resultado». El tiempo hasta la productividad es una elección de diseño, no un rasgo de personalidad."
+        },
+        {
+          "name": "Desarrollo 70-20-10",
+          "desc": "Aproximadamente el 70% del crecimiento viene de la experiencia desafiante, el 20% de otras personas y el 10% de la formación formal. Orienta a los líderes hacia las asignaciones que estiran y el coaching antes que a mandar a la gente a cursos."
+        },
+        {
+          "name": "Mentoría frente a patrocinio (Ibarra/Hewlett)",
+          "desc": "Los mentores aconsejan; los patrocinadores abogan, gastando su propia credibilidad para crear oportunidad. El desarrollo se estanca cuando un líder mentoriza con generosidad pero nunca patrocina."
+        },
+        {
+          "name": "Habilidades en T / formación cruzada",
+          "desc": "Profundidad en un área más amplitud en otras da al equipo cobertura, flexibilidad y un factor bus menor. Sacrifica profundidad de forma deliberada en lugar de formar a todos en todo."
+        }
+      ],
+      "colourAngle": {
+        "red": "Los rojos ponen a la gente al día rápido y delegan pronto: un regalo para los recién llegados capaces, un precipicio para los inseguros. Su reto de crecimiento es la paciencia: hacer coaching y apoyar antes de delegar, y ver el desarrollo como palanca en lugar de como un impuesto sobre la entrega.",
+        "yellow": "Los amarillos son incorporadores naturales y animosos que hacen que la gente se sienta bienvenida, pero pueden saltarse la estructura (planes, «cómo es un buen resultado», feedback honesto), dejando a los recién llegados cálidos pero sin rumbo y las conversaciones de estiramiento imprecisas.",
+        "green": "Los verdes son desarrolladores pacientes y atentos que construyen pertenencia real, pero su cuidado puede volverse sobreapoyo, haciendo por la gente la parte difícil y delegando demasiado tarde, lo que limita en silencio el crecimiento que más desean nutrir.",
+        "blue": "Los azules construyen planes de incorporación minuciosos y escaleras de competencias claras, pero pueden formalizar en exceso el desarrollo en listas de verificación y cursos, infravalorando el 70% que viene de la experiencia real, desordenada y que estira."
+      },
+      "leaderInAction": "Un responsable nota que los nuevos tardan tres meses en contribuir y que los ingenieros senior están calladamente aburridos. Construye una plantilla de 30/60/90 con un compañero y primeras victorias acotadas, y empieza a ajustar su estilo a la disposición: dirigir a la graduada en sus primeros tickets, luego hacer coaching, luego apartarse, mientras entrega al senior aburrido un proyecto que estira con patrocinio hacia un foro entre equipos. El tiempo de puesta al día se reduce a la mitad, y la senior, de nuevo desafiada, deja de actualizar su currículum.",
+      "practice": "Elige a un incorporado nuevo o reciente y a una persona que se haya estancado. Para el incorporado, redacta un plan de 30/60/90 con un compañero y una primera victoria; para la persona estancada, nombra una experiencia que estire (70-20-10) y si necesita un mentor o un patrocinador.",
+      "watchOut": [
+        "Un único estilo de liderazgo para todos: dirigir a un experto o delegar en un novato fracasan ambos; diagnostica primero la disposición.",
+        "Incorporación por ósmosis: «ya lo pillará» convierte una rampa de dos semanas en una de dos meses y quema el impulso inicial del recién llegado.",
+        "Confundir mentoría con patrocinio: mucho consejo y ninguna defensa deja a gente capaz atascada y buscando en silencio en otra parte."
+      ],
+      "takeaways": [
+        "El tiempo hasta la productividad se diseña, no es innato: una rampa estructurada con un compañero y primeras victorias rinde durante meses.",
+        "Ajusta coaching frente a dirección a la disposición de cada persona en la tarea; la trampa del estilo por defecto sub- o sobreapoya.",
+        "Haz crecer a la gente con experiencia que estira y con patrocinio, y forma de manera cruzada para la resiliencia: el desarrollo es cómo un equipo se capitaliza."
+      ],
+      "checks": [
+        {
+          "q": "Un experto capaz con 10 años de experiencia se une a tu equipo. ¿Qué estilo de liderazgo encaja (liderazgo situacional)?",
+          "options": [
+            "Dirigir: dar instrucciones detalladas paso a paso",
+            "Delegar (o apoyar): fija el resultado y quítate de en medio",
+            "El mismo estilo que usas con todos, por coherencia",
+            "Totalmente al margen, sin ningún seguimiento"
+          ],
+          "correct": 1,
+          "why": "El estilo debe ajustarse a la competencia y el compromiso en la tarea; un experto de alta competencia necesita delegación/apoyo, no dirección: sobredirigir a un experto es desmotivador."
+        },
+        {
+          "q": "Según la regla 70-20-10, ¿de dónde viene la mayor parte del desarrollo real?",
+          "options": [
+            "De la formación y los cursos formales",
+            "De la experiencia desafiante en el puesto y las asignaciones que estiran",
+            "De la lectura y el autoestudio",
+            "De las evaluaciones de desempeño anuales"
+          ],
+          "correct": 1,
+          "why": "Aproximadamente el 70% del crecimiento viene de la experiencia desafiante, el 20% de los demás y solo el 10% de la formación formal, así que los líderes deberían recurrir a las asignaciones que estiran antes que a los cursos."
+        },
+        {
+          "q": "¿Cuál es la diferencia entre mentoría y patrocinio?",
+          "options": [
+            "Son dos palabras para lo mismo",
+            "Un mentor aconseja; un patrocinador gasta su propia credibilidad para abrir puertas",
+            "La mentoría es formal; el patrocinio es informal",
+            "El patrocinio es solo para gente senior"
+          ],
+          "correct": 1,
+          "why": "Los mentores dan orientación; los patrocinadores abogan y crean oportunidad. El desarrollo se estanca cuando un líder mentoriza con generosidad pero nunca patrocina."
+        }
+      ],
+      "practiceRubric": [
+        "El plan de 30/60/90 del incorporado tiene un compañero asignado, una primera victoria concreta y un «cómo es un buen resultado» explícito.",
+        "Tu estilo para el incorporado se ajusta a su disposición en cada tarea, no a un único estilo por defecto.",
+        "El plan de la persona estancada se apoya en una experiencia que estira (no solo un curso), con mentor frente a patrocinador hecho explícito."
+      ],
+      "practiceExemplar": "Incorporada (Aria): día 30 = entregar dos correcciones pequeñas con Ben como compañero; día 60 = poseer el servicio de notificaciones; día 90 = liderar una pequeña funcionalidad. La dirigiré, luego coaching, luego delegaré según se ponga al día. Estancado (Marco): estiramiento = liderar la migración (experiencia 70-20-10); necesita un patrocinador, así que propondré su nombre para el gremio de arquitectura."
+    },
+    {
+      "number": 16,
+      "part": "IV",
+      "title": "Equipos distribuidos e híbridos",
+      "summary": "Cuando un equipo se reparte entre ubicaciones, husos horarios y tipos de contrato, la confianza, la claridad y el ritmo dejan de ser automáticos: hay que diseñarlos.",
+      "theme": "La distancia castiga lo que ya era frágil y premia lo que haces explícito.",
+      "theory": "La confianza y la pertenencia remotas hay que construirlas a propósito; la comunicación asíncrona por defecto y el contexto escrito sustituyen a la ósmosis de pasillo; a los proveedores y colaboradores externos se los integra como miembros de pleno derecho en lugar de como segunda categoría; la inteligencia cultural te lleva a través de las fronteras; y un ritmo sostenible, protegido deliberadamente, evita el desgaste que la distancia acelera en silencio.",
+      "theoryHtml": "<p>La colocación en un mismo lugar esconde mucho proceso débil tras las conversaciones de pasillo y el lenguaje corporal compartido. La distancia retira ese colchón, así que un equipo distribuido o híbrido tiene que <em>diseñar</em> lo que un equipo presencial recibe gratis.</p><ul><li><strong>Confianza y pertenencia, construidas a propósito:</strong> los equipos remotos funcionan con <em>confianza rápida</em>, concedida de entrada y luego confirmada por la entrega fiable. La construyes sobrecomunicando el contexto, honrando los compromisos de forma visible y creando conexión intencionada, porque la máquina de café no lo hará por ti. La <em>equidad</em> de husos horarios también importa: rota el dolor de las reuniones en lugar de gravar siempre a la misma región.</li><li><strong>Asíncrono primero y escrito por defecto:</strong> cuando la gente no puede estar en línea a la vez, la decisión documentada, la demo grabada y el encargo escrito y claro se convierten en el sistema nervioso del equipo. El asíncrono primero amplía quién puede contribuir (incluidos los callados y los no nativos) e impide que el avance dependa de horas solapadas.</li><li><strong>Integra a proveedores y colaboradores externos como miembros de pleno derecho:</strong> los equipos de dos niveles —«nosotros» y «los externos»— pierden confianza y contexto. Da a los socios la misión, el acceso y la inclusión de cualquiera que haga el trabajo; negárselos garantiza la desconexión que luego les reprochas.</li><li><strong>Inteligencia cultural a través de las fronteras:</strong> distribuido suele significar multicultural. La <strong>IC</strong> —el impulso, el conocimiento, la estrategia y la acción para trabajar entre culturas— y las escalas culturales de Meyer convierten «son difíciles» en «estamos lejos en feedback y jerarquía», algo que sí puedes diseñar alrededor.</li><li data-more=\"1\"><strong>Ritmo sostenible y prevención del desgaste:</strong> Christina Maslach enmarca el desgaste (burnout) como agotamiento, cinismo y sensación de ineficacia, impulsado por desajustes crónicos en carga de trabajo, control, recompensa, comunidad, equidad y valores. El trabajo remoto erosiona la frontera entre conectado y desconectado, así que los líderes deben protegerla: predicar con el ejemplo desconectándose, respetar los husos y vigilar al «renunciante silencioso» siempre disponible antes de que se rompa.</li></ul><p><strong>Un caso concreto.</strong> Un equipo repartido en tres continentes sigue fallando en las transferencias y guarda un resentimiento callado hacia la región que siempre coge la llamada de las 6 de la mañana. La responsable pasa a asíncrono primero (decisiones escritas, demos grabadas), rota las horas de reunión para que el dolor se comparta, incorpora a los dos colaboradores externos de pleno derecho a la planificación y fija una norma explícita: no se esperan respuestas fuera de tu horario. En un mes, las transferencias son fiables, los externos proponen ideas y el riesgo de desgaste en Manila ha cedido visiblemente.</p><p data-depth=\"2\"><strong>La distancia cambia lo que la comunicación puede transportar.</strong> La teoría de la riqueza de los medios (Daft y Lengel) ordena los canales por cuánto transmiten: la presencia física y el vídeo son «ricos» (tono, expresión, feedback inmediato), mientras que el chat y los documentos son «pobres». La disciplina es el encaje: usa canales ricos para mensajes ambiguos, emocionales o de alto riesgo (feedback, conflicto, decisiones que necesitan adhesión) y canales pobres y asíncronos para lo simple y factual. Dar una mala noticia por texto, o debatir un hecho ya zanjado en una reunión en directo, es un desajuste de canal que cuesta confianza y tiempo en silencio.</p><ul><li><strong>El problema del terreno común (Cramton):</strong> los equipos distribuidos fracasan menos por mala intención que por el <em>problema del conocimiento mutuo</em>: los miembros suponen un contexto compartido que no existe, y luego malinterpretan el silencio o la demora de un colega como actitud en lugar de circunstancia (un error de atribución fundamental amplificado por la distancia). La solución es sobrecompartir el contexto y explicitar la situación: «aquí es festivo», «estoy bloqueado en X».</li><li><strong>Sesgo de proximidad en lo híbrido (la trampa de los dos niveles):</strong> cuando unos están juntos y otros en remoto, los que están en la sala tienden a acaparar más voz, visibilidad y —lo confirma la investigación de forma consistente— más ascensos, con independencia de lo producido. Los líderes deben igualar activamente: conducir las reuniones híbridas como si todos estuvieran en remoto, decidir por escrito y juzgar la contribución por los resultados, no por la presencia.</li><li><strong>Provoca los encuentros (la curva de Allen):</strong> Thomas Allen halló que la probabilidad de que dos personas se comuniquen cae con fuerza según la distancia entre ellas; el trabajo remoto pone esa distancia en infinito, así que el encuentro espontáneo de pasillo hay que rediseñarlo deliberadamente, mediante actualizaciones escritas, rituales de «máquina de café» virtual y encuentros presenciales periódicos.</li></ul><p>Liderar a distancia no es el liderazgo presencial hecho por vídeo; es un oficio distinto en el que el contexto, la equidad y la conexión hay que construirlos a propósito, porque la proximidad ya no los construirá por ti.</p>",
+      "keyModels": [
+        {
+          "name": "Confianza rápida",
+          "desc": "Los equipos temporales y remotos no pueden esperar a que la confianza se acumule despacio, así que los miembros la extienden de entrada y luego la confirman con la entrega fiable. Sobrecomunicar el contexto y honrar los compromisos es cómo la conservas."
+        },
+        {
+          "name": "Asíncrono primero / documentación",
+          "desc": "Las decisiones escritas, las demos grabadas y los encargos claros dejan que un equipo avance sin horas solapadas, y amplían quién puede contribuir, incluidos los miembros más callados y los no nativos."
+        },
+        {
+          "name": "Inteligencia cultural (IC — Earley y Ang)",
+          "desc": "La capacidad de trabajar entre culturas: el impulso para implicarse, el conocimiento de cómo difieren las culturas, la estrategia para planificar y verificar tus lecturas, y la acción para flexibilizar. Junto con las escalas culturales de Meyer, convierte la fricción en una brecha ajustable."
+        },
+        {
+          "name": "Modelo de desgaste de Maslach",
+          "desc": "El desgaste es agotamiento, cinismo y menor eficacia, impulsado por desajustes en carga de trabajo, control, recompensa, comunidad, equidad y valores. Nombra qué arreglar en lugar de decirle a la gente que sea más resiliente."
+        },
+        {
+          "name": "Equidad de husos horarios",
+          "desc": "Rota el coste de las reuniones inoportunas y opta por defecto por lo asíncrono para que ninguna región pague siempre el impuesto de la madrugada o la noche. La equidad en cuándo trabaja la gente es parte de la confianza remota."
+        }
+      ],
+      "colourAngle": {
+        "red": "Los rojos mantienen los equipos distribuidos decididos y rápidos, pero su sesgo por la llamada síncrona veloz puede gravar a los husos lejanos y saltarse el registro escrito, dejando fuera a los miembros asíncronos y a los externos de la decisión que luego se les pide ejecutar.",
+        "yellow": "Los amarillos trabajan duro en la conexión y la pertenencia remotas, que la distancia necesita mucho, pero su energía está hecha para la sala; pueden documentar de menos y dejar que las voces más calladas, sin cámara o no nativas se apaguen en una cuadrícula de vídeo.",
+        "green": "Los verdes están atentos a la inclusión y a quién está sobrecargado, lo que protege frente al desgaste, pero su reticencia a imponer puede dejar las normas (tiempos de respuesta, rotación de reuniones, límites fuera de horario) sin decir, así que la equidad que quieren nunca se diseña.",
+        "blue": "Los azules destacan en la documentación y el proceso claro que exige el asíncrono primero, pero pueden apoyarse en exceso en los sistemas escritos e invertir de menos en la conexión humana y la lectura cultural que hacen de un equipo distribuido un equipo, y no un conjunto de tickets."
+      },
+      "leaderInAction": "Una líder al frente de un equipo APAC-EMEA-Américas nota que las transferencias fallan y que el equipo de Manila está calladamente resentido por coger siempre la llamada tardía. Pasa el equipo a asíncrono primero —cada decisión escrita, cada demo grabada—, rota la única reunión compartida por los tres husos, incorpora de pleno derecho a los dos colaboradores externos de largo plazo a la planificación y los canales, y publica una norma explícita: no se esperan respuestas fuera de tu propio horario. En un mes, las transferencias son fiables, los externos proponen ideas y el riesgo de desgaste en Manila ha cedido visiblemente.",
+      "practice": "Audita tu equipo distribuido en cuatro frentes: (1) ¿se rota con justicia el dolor de la hora de reunión?, (2) ¿las decisiones están escritas y son localizables?, (3) ¿se trata a los externos como miembros de pleno derecho? y (4) ¿hay un límite claro fuera de horario? Arregla el más débil esta semana.",
+      "watchOut": [
+        "Recurrir por defecto a lo síncrono: dirigir un equipo distribuido como uno colocalizado grava a los husos lejanos y excluye en silencio de las decisiones reales a los miembros asíncronos y sin cámara.",
+        "Equipos de dos niveles: tratar a proveedores y externos como ajenos les niega el contexto y la pertenencia que los harían implicarse, para luego reprocharles que se desentiendan.",
+        "La trampa del siempre disponible: el trabajo remoto erosiona el límite conectado/desconectado, así que el silencio puede esconder desgaste; vigila la carga y la comunidad, y predica con el ejemplo desconectándote."
+      ],
+      "takeaways": [
+        "La distancia retira el colchón de la colocalización, así que la confianza, la claridad y la pertenencia hay que diseñarlas, no darlas por supuestas.",
+        "Ve a asíncrono primero y pon las cosas por escrito; rota el dolor de husos horarios e incorpora de pleno derecho a los externos.",
+        "Protege un ritmo sostenible: el desgaste es un problema de carga y de límites que hay que diseñar para evitarlo, no un fallo de resiliencia personal."
+      ],
+      "checks": [
+        {
+          "q": "Tu equipo abarca tres continentes y una región coge siempre la llamada inoportuna. ¿Cuál es el arreglo más justo y duradero?",
+          "options": [
+            "Mantener el horario: el equipo debería adaptarse al huso del líder",
+            "Ir a asíncrono primero y rotar la hora de la reunión compartida para que el dolor se comparta",
+            "Cancelar todas las reuniones",
+            "Pedir a la región cansada que simplemente aguante"
+          ],
+          "correct": 1,
+          "why": "La equidad de husos horarios —rotar el dolor de las reuniones y optar por defecto por lo asíncrono— reparte el coste con justicia y mantiene a los miembros lejanos en las decisiones, que es parte de la confianza remota."
+        },
+        {
+          "q": "¿Cómo deberían integrarse los colaboradores externos y proveedores de largo plazo en un equipo distribuido?",
+          "options": [
+            "Mantenidos a distancia, con acceso solo a lo imprescindible",
+            "Con la misión, el acceso y la inclusión de cualquier otro miembro que haga el trabajo",
+            "Gestionados por completo a través de su agencia, nunca de forma directa",
+            "Excluidos de la planificación para proteger la confidencialidad"
+          ],
+          "correct": 1,
+          "why": "Los equipos de dos niveles «nosotros frente a los externos» pierden confianza y contexto; dar a los socios contexto y pertenencia reales es lo que los convierte en contribuyentes implicados."
+        },
+        {
+          "q": "Un colaborador en remoto se ha quedado callado y su producción baja. Bajo la lente del desgaste (Maslach), ¿cuál es el primer movimiento sabio?",
+          "options": [
+            "Decirle que desarrolle más resiliencia",
+            "Mirar la carga de trabajo, el control y los límites —y comprobar la línea dentro/fuera de horario— en lugar de suponer un problema de motivación",
+            "Añadir más reuniones de estado para tenerlo vigilado",
+            "Esperar a ver si se resuelve solo"
+          ],
+          "correct": 1,
+          "why": "El desgaste lo impulsan los desajustes en carga de trabajo, control, recompensa, comunidad, equidad y valores, no la resiliencia débil; el trabajo remoto erosiona los límites, así que compruébalos primero."
+        }
+      ],
+      "practiceRubric": [
+        "Juzgaste la justicia de la hora de reunión por si el dolor rota, no por lo que te conviene a ti.",
+        "Las decisiones de tu equipo están escritas y son localizables, así que el avance no depende de horas solapadas.",
+        "Los externos y el límite fuera de horario se abordan de forma explícita, no se dejan a la suposición."
+      ],
+      "practiceExemplar": "Auditoría: el dolor de las reuniones recaía por entero en Manila (falla). Arreglo esta semana: rotar la sincronización semanal por los tres husos y pasar las actualizaciones de estado a un hilo escrito. Los externos están en un canal aparte (dos niveles); los fundiré en los canales principales del equipo y en la planificación. Fuera de horario: publicaré una norma de «no se esperan respuestas fuera de tu horario» y dejaré yo mismo de enviar mensajes a altas horas."
     },
     {
       "number": 17,
@@ -562,6 +834,92 @@
         "El mismo comportamiento puede leerse como respetuoso en una cultura y grosero en otra.",
         "Nombrar la escala convierte la fricción invisible en una diferencia que puedes discutir y resolver."
       ]
+    },
+    {
+      "number": 22,
+      "part": "V",
+      "title": "La mentalidad de crecimiento: convertirse en un aprendelotodo",
+      "summary": "Satya Nadella reconstruyó Microsoft sobre una sola idea de Carol Dweck —que la capacidad se cultiva, no es fija— convirtiendo una empresa de sabelotodos en una de aprendelotodos. Ese cambio es el motor bajo cada habilidad de este libro.",
+      "theme": "El talento fija tu punto de partida; la mentalidad fija tu trayectoria.",
+      "theory": "La investigación de Carol Dweck separa una mentalidad fija (la capacidad es innata y estática) de una mentalidad de crecimiento (la capacidad crece con esfuerzo, estrategia y feedback). Satya Nadella la convirtió en la filosofía operativa de Microsoft —el aprendelotodo gana al sabelotodo— con la curiosidad y la empatía como motores del aprendizaje.",
+      "theoryHtml": "<p><strong>Carol Dweck</strong> traza en <em>Mindset</em> (2006) una línea entre dos creencias sobre la capacidad. En una <strong>mentalidad fija</strong>, el talento es una cantidad fija que tienes o no tienes, así que proteges tu imagen: evitas los retos difíciles, escondes los errores, desdeñas el feedback y te sientes amenazado cuando otros triunfan. En una <strong>mentalidad de crecimiento</strong>, la capacidad es algo que <em>desarrollas</em> con esfuerzo, mejor estrategia y feedback, así que buscas el reto, tratas el fracaso como información, aprendes de la crítica y te inspiras en lugar de menguar ante el éxito ajeno.</p><ul><li><strong>El poder del «todavía»:</strong> «no sé hacer esto» se convierte en «no sé hacer esto <em>todavía</em>»: una palabra que replantea un veredicto como una etapa.</li><li><strong>El proceso por encima de la persona:</strong> elogia la estrategia, el esfuerzo y el progreso («encontraste un enfoque más inteligente»), no el rasgo («qué listo eres»). Elogiar el talento enseña en silencio a la gente a temer el reto que podría exponer su límite.</li><li><strong>El fracaso como dato:</strong> el líder con mentalidad de crecimiento hace experimentos y lee los reveses por lo que enseñan, no como un marcador de quién es lo bastante bueno.</li><li><strong>La mentalidad es contagiosa:</strong> un líder fija la mentalidad de toda la sala por cómo responde a las malas noticias.</li><li data-more=\"1\"><strong>La «falsa» mentalidad de crecimiento (la advertencia de Dweck):</strong> proclamar la mentalidad mientras te comportas de forma fija: premiar el esfuerzo que no lleva a ninguna parte, o usar «mentalidad de crecimiento» como eslogan. La mentalidad de crecimiento real significa probar nuevas estrategias y pedir ayuda, no solo esforzarse más en lo mismo.</li></ul><p>Cuando <strong>Satya Nadella</strong> se convirtió en CEO de Microsoft en 2014, hizo de esto el corazón de la renovación de la empresa. En <em>Hit Refresh</em> (2017) fijó la ambición en el propio lenguaje de Dweck: pasar de una cultura de <strong>sabelotodos a una cultura de aprendelotodos</strong>. El objetivo no era borrar el pasado, sino refrescarlo: curiosidad por encima de listeza, aprender de los clientes por encima de defender viejas certezas. Lo emparejó con la <strong>empatía</strong>, que trata no como una amabilidad blanda sino como fuente de perspicacia e innovación: no puedes atender una necesidad que no eres capaz de sentir. La cultura, en su relato, no es un póster en la pared: es lo que los líderes encarnan en los pequeños momentos, sobre todo cómo reaccionan cuando algo se rompe.</p><p><strong>Un caso concreto.</strong> Un equipo lanza una funcionalidad que fracasa estrepitosamente. Bajo un líder de mentalidad fija, la reunión busca a alguien a quien culpar, y la gente aprende en silencio a esconder el riesgo la próxima vez. Bajo un líder aprendelotodo, la misma reunión pregunta «¿qué nos ha enseñado esto y qué probaremos distinto?»: el fracaso es caro, pero compra una lección que el equipo de verdad conserva. Mismo suceso, trayectoria opuesta, decidida por la mentalidad en la silla.</p><p data-depth=\"2\"><strong>Lo que hace crecer de verdad la capacidad es un mecanismo, no un estado de ánimo.</strong> La investigación de Anders Ericsson sobre la pericia muestra que el motor es la <em>práctica deliberada</em>: trabajar en el límite de tu capacidad actual, con metas claras, feedback inmediato y refinamiento repetido; no horas acumuladas, sino repeticiones enfocadas, esforzadas y ricas en feedback. Una mentalidad de crecimiento es la creencia que hace que valga la pena empezar la práctica deliberada; la práctica deliberada es lo que convierte la creencia en resultados.</p><ul><li><strong>Esfuerzo más estrategia más ayuda:</strong> el trabajo posterior de Dweck subraya que una mentalidad de crecimiento real no es «esfuérzate más» sino «prueba distinto»: nuevas estrategias, buscar feedback y pedir ayuda. Elogiar el esfuerzo que sigue fracasando es la «falsa mentalidad de crecimiento» con una insignia.</li><li><strong>Fracaso inteligente (Amy Edmondson):</strong> no todo fracaso es igual. El fracaso culpable (negligencia) difiere de los <em>fracasos inteligentes</em> de los experimentos bien diseñados en la frontera, los que una cultura de aprendizaje debe celebrar, porque son el precio del descubrimiento.</li><li><strong>La organización que aprende (Senge):</strong> Nadella escaló la mentalidad de la persona a la empresa —individuo, equipo y organización—, haciéndose eco de la idea de Senge de que la única ventaja duradera es aprender más rápido que la competencia. La curiosidad, hecha sistémica, se convierte en estrategia.</li></ul>",
+      "keyModels": [
+        {
+          "name": "Mentalidad fija frente a mentalidad de crecimiento (Carol Dweck, 2006)",
+          "desc": "Una mentalidad fija trata la capacidad como innata y estática, así que la gente evita el reto, esconde el fracaso y se siente amenazada por el éxito ajeno. Una mentalidad de crecimiento trata la capacidad como desarrollable mediante esfuerzo, estrategia y feedback, así que la gente busca el reto, aprende de los reveses y crece. La creencia se autocumple: impulsa las conductas que luego parecen confirmarla."
+        },
+        {
+          "name": "Aprendelotodo, no sabelotodo (Satya Nadella, Hit Refresh, 2017)",
+          "desc": "Como CEO, Nadella hizo de la mentalidad de crecimiento de Dweck el núcleo de la renovación cultural de Microsoft, sustituyendo una cultura de demostrar lo listo que eres por una de curiosidad y aprendizaje. Aplicada en tres niveles —individuo, equipo y organización entera— y encarnada desde arriba en lugar de mandada por circular."
+        },
+        {
+          "name": "El poder del «todavía»",
+          "desc": "Replantear «no puedo» como «no puedo todavía» convierte un veredicto fijo en un punto de la curva de aprendizaje. El mismo movimiento transforma una puntuación de evaluación o un intento fallido de una etiqueta en una línea de salida, y por eso el feedback con mentalidad de crecimiento sigue el progreso en el tiempo, no solo el nivel de hoy."
+        },
+        {
+          "name": "La empatía como motor de innovación (Nadella)",
+          "desc": "Nadella trata la empatía como una capacidad práctica más que blanda: entender lo que la gente siente y necesita de verdad es donde empiezan la perspicacia y la innovación. También hace segura una cultura de crecimiento, porque la gente asume los riesgos que exige aprender solo cuando confía en la sala."
+        }
+      ],
+      "colourAngle": {
+        "red": "Los rojos aportan el empuje y el apetito por el reto que necesita una mentalidad de crecimiento, pero su instinto de ganar y tener razón puede volverse fijo, tratando un revés como una derrota que enterrar en lugar de una lección que extraer. Su reto de crecimiento es dejarse ver aprendiendo en voz alta, sobre todo de un error.",
+        "yellow": "Los amarillos aman lo nuevo y se recuperan rápido, lo que es combustible de crecimiento, pero su optimismo puede saltarse la autopsia honesta, celebrando el esfuerzo sin extraer la lección. Su reto es emparejar el entusiasmo con un «qué haría distinto» concreto.",
+        "green": "Los verdes crean la seguridad en la que la gente se atreve a ser aprendiz, pero su rechazo a la incomodidad puede rescatar a una persona que lucha de la lucha productiva que en realidad la hace crecer. Su reto es dejar que la gente permanezca en el «todavía» en lugar de allanarlo.",
+        "blue": "Los azules valoran la maestría y el feedback, lo que encaja con la práctica deliberada, pero su miedo a equivocarse puede endurecerse en perfeccionismo, evitando los intentos visibles e imperfectos donde ocurre el aprendizaje. Su reto es entregar el borrador tosco y tratar la corrección como el objetivo, no como el fracaso."
+      },
+      "leaderInAction": "Una nueva responsable de equipo hereda un grupo que ha aprendido a parecer infalible: los problemas afloran tarde y disfrazados, porque el gerente anterior castigaba los errores. En su primer mes hace una cosa sin parar: cuando algo se rompe pregunta «¿qué hemos aprendido?» antes que «¿quién lo hizo?», y narra sus propios fallos en voz alta («calculé mal esa estimación; esto es lo que cambiaré»). Cambia el elogio a la listeza por el elogio a las estrategias inteligentes y las actualizaciones honestas. En un trimestre, los riesgos llegan pronto, cuando aún son baratos de arreglar, y el equipo empieza a proponer experimentos en lugar de defender posiciones. Nada cambió en su talento, solo lo que la sala creía sobre la capacidad y, por tanto, lo que se sentía seguro intentar.",
+      "practice": "Pilla en ti mismo un reflejo de mentalidad fija esta semana: un momento en que esquivaste un reto, escondiste un error o te sentiste amenazado por el éxito de un colega. Nómbralo, añade la palabra «todavía» y elige el movimiento de aprendizaje concreto que harás en su lugar.",
+      "watchOut": [
+        "La falsa mentalidad de crecimiento: ondear la bandera mientras te comportas de forma fija, premiando el esfuerzo que no lleva a ninguna parte o diciendo «mentalidad de crecimiento» sin cambiar cómo tratas el fracaso.",
+        "Elogiar el esfuerzo en lugar del aprendizaje: el esfuerzo solo cuenta emparejado con nuevas estrategias, feedback y pedir ayuda; machacar más fuerte en el mismo enfoque equivocado no es crecimiento.",
+        "Convertirlo en otra etiqueta fija: «es que yo no soy de mentalidad de crecimiento» es la mentalidad fija vestida con la ropa de la de crecimiento."
+      ],
+      "takeaways": [
+        "La capacidad se cultiva, no es fija, y creer eso cambia lo que te atreves a intentar.",
+        "Los líderes fijan la mentalidad de la sala por cómo responden al fracaso: la culpa engendra ocultación, la curiosidad engendra aprendizaje.",
+        "El aprendelotodo gana al sabelotodo: la curiosidad y la empatía, practicadas a diario, son el motor bajo cada otra habilidad de este libro."
+      ],
+      "checks": [
+        {
+          "q": "Un proyecto fracasa en público. ¿Qué respuesta modela mejor una cultura de aprendelotodos?",
+          "options": [
+            "Identificar quién fue responsable para que no vuelva a pasar",
+            "Preguntar qué aprendió el equipo y qué probará distinto, antes de asignar culpas",
+            "Pasar página rápido sin detenerse en ello",
+            "Recordar a todos los estándares que no cumplieron"
+          ],
+          "correct": 1,
+          "why": "Los líderes fijan la mentalidad de la sala por cómo manejan el fracaso: «¿qué hemos aprendido?» convierte un revés caro en una lección que el equipo conserva, mientras que la culpa enseña a la gente a esconder el riesgo la próxima vez."
+        },
+        {
+          "q": "Un colaborador dice: «es que no soy de números». ¿Cuál es el replanteamiento con más mentalidad de crecimiento?",
+          "options": [
+            "Darle la razón y reasignar el trabajo numérico a otra persona",
+            "Añadir «todavía» —«no soy de números todavía»— y nombrar un primer paso concreto para desarrollarlo",
+            "Decirle que cualquiera puede con todo si se esfuerza lo suficiente",
+            "Tranquilizarlo diciendo que sus otras fortalezas lo compensan"
+          ],
+          "correct": 1,
+          "why": "El poder del «todavía» convierte una etiqueta fija en una etapa de la curva de aprendizaje; emparejarlo con una estrategia concreta —no solo «esfuérzate más»— es lo que lo hace real en lugar de un eslogan."
+        },
+        {
+          "q": "¿Cuál es un ejemplo de la «falsa mentalidad de crecimiento» de Dweck?",
+          "options": [
+            "Elogiar la estrategia más inteligente que alguien usó",
+            "Premiar el esfuerzo que repite una y otra vez el mismo enfoque fallido, y llamarlo mentalidad de crecimiento",
+            "Preguntar a un colega que lucha qué ayuda necesita",
+            "Compartir tu propio error y lo que cambiaste"
+          ],
+          "correct": 1,
+          "why": "La mentalidad de crecimiento real significa nuevas estrategias, feedback y pedir ayuda, no solo esfuerzo. Premiar el esfuerzo que no lleva a ninguna parte mientras ondeas la bandera de la «mentalidad de crecimiento» es exactamente la versión falsa que Dweck advierte."
+        }
+      ],
+      "practiceRubric": [
+        "Nombraste un reflejo de mentalidad fija concreto en ti mismo —un momento real, no un genérico «debería aprender más».",
+        "Añadiste «todavía» y elegiste un movimiento de aprendizaje concreto (una nueva estrategia, feedback o pedir ayuda), no solo «esfuérzate más».",
+        "Te centraste en tu propia conducta, no en diagnosticar la mentalidad de los demás."
+      ],
+      "practiceExemplar": "En la revisión esquivé presentar una métrica que no entendía del todo (reflejo fijo: esconderme para parecer competente). Replanteado: no entiendo esa métrica todavía. Mi movimiento de aprendizaje: pediré al responsable de datos que me la explique antes de la próxima revisión, y luego la presentaré yo mismo, con errores y todo."
     }
   ]
 }

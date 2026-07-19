@@ -51,11 +51,13 @@
   ],
   "conclusion": {
     "title": "Le Leader Adaptatif",
-    "summary": "Le leadership n'est pas une identité fixe mais une gamme pratiquée : lis-toi toi-même, lis la personne en face de toi, et adapte comment tu te présentes.",
+    "summary": "Le leadership n'est pas une identité figée mais une gamme qui se travaille, et ce guide est conçu pour vous aider à la développer, pas seulement à en lire. Vingt-deux chapitres en cinq parties vous mènent de la gestion de vous-même au développement des autres, associant chaque idée centrale à la recherche qui la fonde, au langage des quatre couleurs pour l'appliquer, à une histoire de leadership en action et à une pratique à essayer.",
     "synthesis": [
-      "La conscience de soi te donne la carte de tes defaults et déclencheurs.",
-      "L'intelligence émotionnelle te permet de te réguler et de bien rencontrer les autres.",
-      "Adaptation, systèmes d'équipe, décisions, coaching et culture étendent cette gamme au travail réel."
+      "Connaissez-vous : cartographiez votre style par défaut, vos déclencheurs et comment vous changez sous pression.",
+      "Maîtrisez vos émotions : lisez la salle et régulez-vous quand les enjeux sont les plus élevés.",
+      "Adaptez-vous aux autres : fléchissez votre style pour influencer, gérer le conflit et faire passer votre message.",
+      "Construisez l'équipe : posez la composition, la confiance, la sécurité, le rythme et la responsabilité où les gens performent de façon fiable.",
+      "Décidez et grandissez : choisissez bien dans l'ambiguïté, coachez vos gens, dirigez entre les cultures et continuez de progresser avec un état d'esprit d'« apprends-tout »."
     ]
   },
   "chapters": [
@@ -340,6 +342,96 @@
       ]
     },
     {
+      "number": 11,
+      "part": "IV",
+      "title": "Composition et fondations",
+      "summary": "Le plafond d'une équipe se fixe avant que le travail commence : par pourquoi elle existe, qui la compose, qui décide de quoi, et comment ses compétences et perspectives sont composées.",
+      "theme": "On ne peut pas diriger pour sortir d'une équipe mal composée.",
+      "theory": "Une charte d'équipe définit sa raison d'être et sa responsabilité ; des rôles et des droits de décision clairs (RACI) suppriment l'ambiguïté qui bloque le travail ; une cartographie des capacités révèle les lacunes de compétences et les points uniques de défaillance ; et recruter pour l'adaptabilité et la diversité cognitive construit une équipe capable d'apprendre et de changer.",
+      "theoryHtml": "<p>La plupart des problèmes d'équipe qui ressemblent à des problèmes de performance ou de personnalité sont en réalité des problèmes de <strong>composition</strong>, décidés bien avant la première réunion. Quatre fondations fixent le plafond.</p><ul><li><strong>Raison d'être et charte :</strong> une courte charte d'équipe nomme pourquoi l'équipe existe, de quoi elle répond, comment le succès se mesure et ce qui est hors périmètre. Sans elle, les équipes dérivent vers ce qui crie le plus fort ; avec elle, priorités et arbitrages ont un point de référence partagé par tous.</li><li><strong>Clarté des rôles et droits de décision :</strong> la plupart des blocages remontent à « je croyais que c'était toi qui t'en occupais ». Un <strong>RACI</strong> (Réalisateur, Approbateur, Consulté, Informé) ou une carte des niveaux de délégation rend la responsabilité explicite —un seul Approbateur par décision, pas un comité— pour que le travail avance sans demander la permission ni entrer en collision.</li><li><strong>Cartographie des capacités :</strong> une simple matrice de compétences (personnes × compétences, niveau actuel) expose deux risques à la fois : les <em>lacunes</em> que l'équipe ne couvre pas encore et les <em>points uniques de défaillance</em>, le « facteur bus » de un, où une compétence critique réside dans une seule tête. On ne peut pas planifier autour d'un risque qu'on n'a pas cartographié.</li><li><strong>Recruter pour l'adaptabilité et le potentiel :</strong> la compétence actuelle est la chose la plus facile à voir et la plus vite périmée. L'agilité d'apprentissage —la vitesse à laquelle quelqu'un donne du sens au nouveau et s'ajuste— prédit la contribution à long terme mieux que le pedigree, surtout dans les métiers qui changent vite.</li><li data-more=\"1\"><strong>Diversité cognitive et d'expérience :</strong> les travaux de Scott Page montrent qu'un groupe diversifié de résolveurs de problèmes peut surpasser un groupe de gens uniformément « capables », parce qu'une variété de modèles mentaux couvre davantage du problème. Mais la diversité ne paie qu'avec l'<em>inclusion</em> : la sécurité psychologique d'exprimer l'avis différent. La différence sans inclusion n'est que tension.</li></ul><p><strong>Un cas concret.</strong> Une dirigeante hérite d'une équipe affairée mais qui patauge. Avant de changer qui que ce soit, elle rédige une charte d'une page, cartographie un RACI et construit une matrice de compétences, et voit aussitôt le vrai problème : deux personnes possèdent en silence tous les systèmes critiques (facteur bus de un) et trois décisions n'ont pas de propriétaire clair. Corriger la composition, pas l'effort, libère l'équipe.</p><p data-depth=\"2\"><strong>L'essentiel de l'efficacité d'une équipe se décide avant qu'elle commence.</strong> Les recherches de Richard Hackman sur l'efficacité des équipes ont montré que les conditions habilitantes qu'un dirigeant met en place au départ —une <em>vraie</em> équipe aux membres stables, une direction motivante, une structure habilitante et un contexte de soutien— comptent bien plus que tout ce que le dirigeant fait dans l'instant. Sa règle approximative « 60-30-10 » le résume : environ 60 % de la variation de la performance d'une équipe est fixée par la façon dont l'équipe est <em>conçue</em>, 30 % par la façon dont elle est <em>lancée</em>, et seulement 10 % par le leadership quotidien et direct. La composition est un levier justement parce qu'elle est en amont de tout le reste.</p><ul><li><strong>Des rôles, pas seulement des compétences (Belbin) :</strong> les neuf rôles d'équipe de Belbin —du Concepteur (idées) et du Propulseur (élan) jusqu'au Finisseur et au Coordinateur— montrent qu'un mélange équilibré de rôles bat une brochette de stars semblables. Une équipe de cinq Propulseurs se bat ; une équipe sans Finisseur ne livre jamais. Cartographiez les rôles que vous avez et ceux qui vous manquent, pas seulement les compétences.</li><li><strong>Taille et coût de coordination :</strong> l'heuristique de l'« équipe de deux pizzas » d'Amazon et la découverte classique de Ringelmann sur la paresse sociale pointent dans le même sens : quand une équipe grandit, l'effort par personne tend à baisser et le coût de coordination monte, car le nombre de liens de communication croît en n(n-1)/2. Les petites équipes à responsabilité claire vont plus vite que les grandes à responsabilité diffuse.</li><li><strong>Lancez délibérément :</strong> comme une grande part de l'efficacité tient au lancement, un vrai coup d'envoi —aligner charte, rôles et accords de travail dès les premiers jours— se rembourse plusieurs fois. Les équipes qui « démarrent, point » passent le trimestre suivant à renégocier ce qui aurait dû être fixé la première semaine.</li></ul><p>Le changement pratique consiste à traiter la construction d'équipe comme un acte de <em>conception</em> mené tôt et revu à chaque changement de membres, et non comme l'espoir que les bonnes personnes s'organiseront d'elles-mêmes une fois le travail commencé.</p>",
+      "keyModels": [
+        {
+          "name": "Charte d'équipe",
+          "desc": "Un énoncé bref et partagé de raison d'être, de responsabilité, de mesures de succès et de périmètre. Il transforme un groupe de personnes en une équipe pointée dans la même direction et donne à chaque arbitrage ultérieur un point de référence."
+        },
+        {
+          "name": "RACI / droits de décision",
+          "desc": "Réalisateur, Approbateur, Consulté, Informé : un seul Approbateur par décision. La responsabilité ambiguë, pas la difficulté, est ce qui bloque l'essentiel du travail ; rendre les droits explicites est l'accélération la moins chère disponible."
+        },
+        {
+          "name": "Matrice de compétences et facteur bus",
+          "desc": "Une grille personnes-par-compétences qui révèle les lacunes de capacité et les points uniques de défaillance. Un « facteur bus de un » —une compétence critique aux mains d'une seule personne— est un risque qu'on ne peut gérer qu'une fois qu'on le voit."
+        },
+        {
+          "name": "Recruter pour l'agilité d'apprentissage (Lombardo et Eichinger)",
+          "desc": "Le potentiel et l'adaptabilité prédisent la performance à long terme mieux que la compétence actuelle ou le pedigree, surtout là où le travail change. Recrutez pour la pente, pas seulement pour le point de départ."
+        },
+        {
+          "name": "Diversité cognitive (Scott Page)",
+          "desc": "Une diversité de modèles mentaux peut battre la capacité uniforme sur les problèmes complexes, mais seulement associée à l'inclusion. Sans la sécurité d'exprimer l'avis différent, la diversité ajoute de la friction au lieu de la perspective."
+        }
+      ],
+      "colourAngle": {
+        "red": "Les rouges composent pour la vitesse et les résultats et définiront les droits de décision avec netteté, mais peuvent recruter à leur propre image rapide et directe et sous-estimer les profils plus posés ou analytiques qui empêchent une équipe de foncer dans le mur.",
+        "yellow": "Les jaunes construisent des équipes chaleureuses et énergiques et défendent la diversité des personnes, mais peuvent négliger les fondations peu spectaculaires (charte, RACI, matrice de compétences), laissant l'équipe inspirée mais floue sur qui possède quoi.",
+        "green": "Les verts soignent l'appartenance et l'adéquation, ce qui crée de la cohésion, mais leur confort avec l'harmonie peut conduire à recruter par ressemblance et à éviter l'audit honnête des capacités qui révèle un coéquipier en difficulté ou un point unique de défaillance.",
+        "blue": "Les bleus adorent la matrice de compétences et les rôles clairs et les cartographieront avec rigueur, mais peuvent surpondérer la compétence démontrée et les diplômes, écartant la recrue adaptable à fort potentiel qui ne coche pas encore toutes les cases."
+      },
+      "leaderInAction": "Une dirigeante fraîchement nommée résiste à l'envie de réorganiser les gens la première semaine. Elle exécute plutôt trois artefacts : une charte d'une page (raison d'être, ce dont nous répondons, ce dont nous ne répondons pas), un RACI pour les dix principales décisions récurrentes et une matrice de compétences. La matrice révèle un facteur bus de un sur le système de paiements et une lacune béante en compétences data ; le RACI révèle deux décisions que tout le monde croyait portées par un autre. Ses premiers gestes —former un second ingénieur paiements, recruter pour la data, assigner des propriétaires clairs— sortent directement de la carte, pas de suppositions.",
+      "practice": "Rédigez une charte d'une page pour votre équipe (raison d'être, responsabilités, mesures de succès, hors périmètre) et un RACI pour vos cinq décisions récurrentes les plus disputées. Puis construisez une matrice de compétences rapide et entourez chaque « facteur bus de un ».",
+      "watchOut": [
+        "Recruter des clones : composer une équipe de gens qui pensent comme vous est confortable et plafonne en silence l'éventail des problèmes que l'équipe sait résoudre.",
+        "Des droits de décision ambigus : « on décide ensemble » signifie d'ordinaire que personne n'est responsable et que les décisions dérivent ; nommez un seul Approbateur même pour le travail partagé.",
+        "La diversité sans inclusion : rassembler des perspectives différentes puis diriger l'équipe de sorte qu'on n'entende que les plus bruyants gaspille justement la différence que vous avez recrutée."
+      ],
+      "takeaways": [
+        "Le plafond d'une équipe se fixe à la composition —raison d'être, rôles, compétences et mélange— avant tout leadership.",
+        "Rendez la responsabilité explicite (RACI) et cartographiez vos compétences ; droits ambigus et points uniques de défaillance sont des tueurs silencieux.",
+        "Recrutez pour l'adaptabilité et la diversité cognitive, puis construisez l'inclusion qui fait vraiment payer cette diversité."
+      ],
+      "checks": [
+        {
+          "q": "Deux décisions de votre équipe se bloquent sans cesse parce que « chacun croyait qu'un autre s'en occupait ». Qu'est-ce qui corrige cela le plus vite ?",
+          "options": [
+            "Ajouter plus de gens à chaque décision pour ne rien manquer",
+            "Assigner un seul Approbateur par décision (un RACI), même là où le travail est partagé",
+            "Faire remonter les deux décisions à votre manager",
+            "Attendre que l'équipe bâtisse plus de confiance"
+          ],
+          "correct": 1,
+          "why": "La responsabilité ambiguë, pas la difficulté, bloque l'essentiel du travail ; nommer un seul Approbateur par décision est l'accélération la moins chère, et un RACI la rend explicite."
+        },
+        {
+          "q": "Un système critique n'est compris que par un seul ingénieur. En termes d'équipe, qu'est-ce que c'est ?",
+          "options": [
+            "Le signe d'un bon spécialiste à protéger",
+            "Un « facteur bus de un » : un point unique de défaillance à atténuer par la formation croisée",
+            "Un usage efficace de l'expertise",
+            "Un problème de recrutement à régler plus tard"
+          ],
+          "correct": 1,
+          "why": "Une compétence aux mains d'une seule personne est un point unique de défaillance (« facteur bus de un ») ; une matrice de compétences le révèle pour que vous puissiez former en croisé et réduire le risque avant qu'il ne morde."
+        },
+        {
+          "q": "Vous voulez les bénéfices d'une équipe cognitivement diverse. Qu'est-ce qui doit accompagner la diversité ?",
+          "options": [
+            "Un consensus plus rapide pour que les débats ne vous ralentissent pas",
+            "L'inclusion : la sécurité psychologique pour que les avis différents soient vraiment exprimés",
+            "Un unique style de pensée dominant pour aligner tout le monde",
+            "Plus d'ancienneté dans l'équipe"
+          ],
+          "correct": 1,
+          "why": "Les modèles mentaux divers ne paient que lorsque les gens se sentent en sécurité pour exprimer l'avis différent ; la diversité sans inclusion ajoute de la friction, pas de la perspective."
+        }
+      ],
+      "practiceRubric": [
+        "Votre charte nomme des responsabilités et ce qui est hors périmètre, pas seulement une phrase de mission inspirante.",
+        "Chaque décision disputée de votre RACI a exactement un Approbateur.",
+        "Votre matrice de compétences signale de vrais points uniques de défaillance, avec une action de formation croisée attachée à au moins un."
+      ],
+      "practiceExemplar": "Charte : « Nous répondons de la fiabilité et de la conversion du paiement ; nous ne répondons pas du catalogue. » Le RACI a révélé que « changements de tarifs » n'avait pas de propriétaire : assigné à Dana. La matrice de compétences a montré que seul Sam connaît le moteur antifraude (facteur bus 1) : Priya commence à travailler en binôme avec lui ce sprint."
+    },
+    {
       "number": 12,
       "part": "IV",
       "title": "Les quatre piliers d'une équipe haute performance",
@@ -422,6 +514,186 @@
         "Un mauvais rythme devient une surcharge de reunions.",
         "La responsabilite a besoin de cadence, pas seulement d intention."
       ]
+    },
+    {
+      "number": 15,
+      "part": "IV",
+      "title": "Croissance et intégration",
+      "summary": "Une équipe ne vaut que par la vitesse à laquelle ses nouveaux membres deviennent efficaces et le soin avec lequel les actuels continuent de grandir.",
+      "theme": "Le développement n'est pas un extra ; c'est ainsi qu'une équipe capitalise.",
+      "theory": "Une intégration structurée raccourcit le temps jusqu'à la productivité ; ajuster un style de coaching ou de direction à la maturité de chacun (leadership situationnel) fait grandir les gens sans les sur- ni sous-soutenir ; les plans de développement individuels et les parcours de carrière retiennent et étirent les gens ; et la polyvalence bâtit résilience et couverture.",
+      "theoryHtml": "<p>Les équipes ne restent pas fortes par hasard : elles capitalisent quand les gens montent en puissance vite et grandissent à dessein. Quatre disciplines le permettent.</p><ul><li><strong>Intégration structurée :</strong> la différence entre une montée en puissance de deux semaines et une de deux mois tient rarement au talent : c'est la conception. Un <strong>plan à 30/60/90 jours</strong>, un binôme ou mentor nommé, un accès et des premières victoires précoces, et la clarté sur « à quoi ressemble un bon travail » transforment un nouvel arrivant nerveux en contributeur tant que l'enthousiasme est haut.</li><li><strong>Coacher plutôt que diriger (leadership situationnel) :</strong> le modèle de Hersey et Blanchard ajuste votre style à la <em>compétence et à l'engagement de la personne sur la tâche précise</em> : diriger le nouveau et hésitant, coacher et soutenir à mesure qu'il grandit, déléguer une fois qu'il est capable et volontaire. L'erreur est un style unique par défaut : diriger un expert l'insulte ; déléguer à un novice l'abandonne.</li><li><strong>Développement et parcours de carrière :</strong> grandir, c'est retenir le talent. Des plans de développement individuels, des conversations de croissance honnêtes et des parcours visibles gardent les gens en tension sur place au lieu de partir pour grandir. La règle empirique <strong>70-20-10</strong> —l'essentiel du développement vient de l'expérience exigeante, un peu des autres, un peu de la formation formelle— vous oriente vers les missions qui étirent, pas seulement les cours.</li><li><strong>Mentorat et parrainage :</strong> les mentors conseillent ; les <em>parrains</em> dépensent leur propre crédibilité pour ouvrir des portes. Les deux comptent, et les dirigeants sur-fournissent souvent le premier et sous-fournissent le second.</li><li data-more=\"1\"><strong>Polyvalence pour la résilience :</strong> les personnes <strong>en T</strong> —profondes dans un domaine, capables dans plusieurs— donnent à l'équipe de la couverture quand quelqu'un manque et de la souplesse quand les priorités changent, tout en réduisant le risque de facteur bus. Le compromis est la profondeur, alors rendez polyvalent délibérément, pas partout.</li></ul><p><strong>Un cas concret.</strong> Deux responsables recrutent des diplômés identiques. L'un remet un ordinateur portable et un arriéré de tâches ; l'autre déroule un plan de 30/60/90 avec un binôme, trois premières victoires cadrées et un coaching hebdomadaire qui glisse vers la délégation à mesure que la compétence grandit. À trois mois, le second diplômé est autonome et le premier demande encore la permission avec timidité : l'écart tient à la conception de l'intégration, pas à la capacité.</p><p data-depth=\"2\"><strong>Une bonne intégration couvre quatre choses ; la plupart des organisations n'en font que la première.</strong> Les recherches de Talya Bauer cadrent l'intégration en « quatre C » : <em>Conformité</em> (règles et paperasse), <em>Clarification</em> (ce que le poste exige vraiment et à quoi ressemble un bon travail), <em>Culture</em> (les normes et le langage non écrits de l'équipe) et <em>Connexion</em> (les relations et réseaux dont on a besoin pour faire avancer les choses). La plupart des intégrations s'arrêtent aux deux premières et laissent au hasard les deux qui prédisent le mieux la rétention : Culture et Connexion.</p><ul><li><strong>Faire grandir au bord (Vygotski) :</strong> la <em>zone proximale de développement</em> est la bande juste au-delà de ce que quelqu'un peut faire seul mais atteint avec du soutien. Le développement efficace vit au centre du modèle confort-étirement-panique : des missions assez dures pour faire grandir mais assez étayées pour ne pas submerger, l'étayage se retirant à mesure que la compétence monte, exactement l'arc du diriger au déléguer.</li><li><strong>L'expérience n'enseigne qu'avec la réflexion (Kolb) :</strong> le cycle d'apprentissage de Kolb —expérience concrète, observation réfléchie, conceptualisation abstraite, expérimentation active— explique pourquoi le « 70 » du 70-20-10 échoue si souvent à produire. L'expérience sans réflexion structurée n'est que répétition ; une courte habitude de rétrospective est ce qui convertit les heures en compétence.</li><li><strong>Donnez à la croissance un chemin :</strong> qui ne voit pas de chemin s'en va. Les cadres à double échelle —voies parallèles technique et managériale— vous laissent faire grandir et retenir des experts pointus sans forcer tout le monde à passer par le management pour progresser, et rendent les conversations de développement concrètes plutôt que de vagues assurances.</li></ul><p>Intégration et développement sont la même discipline à deux échelles de temps : une conception délibérée qui mène une personne de la dépendance à l'autonomie et continue de la faire avancer bien après la première semaine.</p>",
+      "keyModels": [
+        {
+          "name": "Leadership situationnel (Hersey et Blanchard)",
+          "desc": "Ajustez votre style —diriger, coacher, soutenir, déléguer— à la compétence et à l'engagement de la personne sur la tâche précise. Aucun style unique ne convient à tous ; diagnostiquer la maturité précède le choix de la façon de diriger."
+        },
+        {
+          "name": "Le plan à 30/60/90 jours",
+          "desc": "Une rampe d'intégration par étapes —apprendre, contribuer, posséder— avec un binôme, des premières victoires et une image explicite de « à quoi ressemble un bon travail ». Le temps jusqu'à la productivité est un choix de conception, pas un trait de personnalité."
+        },
+        {
+          "name": "Développement 70-20-10",
+          "desc": "Environ 70 % de la croissance vient de l'expérience exigeante, 20 % des autres et 10 % de la formation formelle. Cela oriente les dirigeants vers les missions qui étirent et le coaching plutôt que d'envoyer les gens en cours."
+        },
+        {
+          "name": "Mentorat contre parrainage (Ibarra/Hewlett)",
+          "desc": "Les mentors conseillent ; les parrains plaident, dépensant leur propre crédibilité pour créer de l'opportunité. Le développement cale quand un dirigeant mentore généreusement mais ne parraine jamais."
+        },
+        {
+          "name": "Compétences en T / polyvalence",
+          "desc": "De la profondeur dans un domaine et de l'ampleur dans d'autres donnent à l'équipe couverture, souplesse et un facteur bus moindre. Sacrifiez la profondeur délibérément au lieu de rendre tout le monde polyvalent sur tout."
+        }
+      ],
+      "colourAngle": {
+        "red": "Les rouges font monter les gens en puissance vite et délèguent tôt : un cadeau pour les arrivants capables, une falaise pour les hésitants. Leur défi de croissance est la patience : coacher et soutenir avant de déléguer, et voir le développement comme un levier plutôt qu'un impôt sur la livraison.",
+        "yellow": "Les jaunes sont des intégrateurs naturels et encourageants qui font que les gens se sentent bienvenus, mais peuvent sauter la structure (plans, « à quoi ressemble un bon travail », feedback honnête), laissant les arrivants chaleureux mais sans cap et les conversations d'étirement vagues.",
+        "green": "Les verts sont des développeurs patients et attentifs qui bâtissent une vraie appartenance, mais leur attention peut basculer dans le sur-soutien, faisant la partie difficile à la place des gens et déléguant trop tard, ce qui plafonne en silence la croissance qu'ils veulent le plus nourrir.",
+        "blue": "Les bleus construisent des plans d'intégration minutieux et des échelles de compétences claires, mais peuvent trop formaliser le développement en listes de contrôle et cours, sous-pondérant les 70 % qui viennent de l'expérience réelle, brouillonne et qui étire."
+      },
+      "leaderInAction": "Un responsable remarque que les nouveaux mettent trois mois à contribuer et que les ingénieurs seniors s'ennuient en silence. Il construit un modèle de 30/60/90 avec un binôme et des premières victoires cadrées, et se met à ajuster son style à la maturité : diriger la diplômée sur ses premiers tickets, puis coacher, puis s'effacer, tout en confiant au senior qui s'ennuie un projet qui étire avec un parrainage vers un forum inter-équipes. Le temps de montée en puissance est divisé par deux, et la senior, de nouveau défiée, cesse de mettre à jour son CV.",
+      "practice": "Choisissez un nouvel arrivant ou récent et une personne qui a plafonné. Pour l'arrivant, rédigez un plan de 30/60/90 avec un binôme et une première victoire ; pour la personne qui plafonne, nommez une expérience qui étire (70-20-10) et si elle a besoin d'un mentor ou d'un parrain.",
+      "watchOut": [
+        "Un unique style de leadership pour tous : diriger un expert ou déléguer à un novice échouent tous deux ; diagnostiquez d'abord la maturité.",
+        "L'intégration par osmose : « il finira par comprendre » transforme une rampe de deux semaines en une de deux mois et brûle l'élan initial de l'arrivant.",
+        "Confondre mentorat et parrainage : beaucoup de conseils et aucun plaidoyer laissent des gens capables coincés et à chercher en silence ailleurs."
+      ],
+      "takeaways": [
+        "Le temps jusqu'à la productivité se conçoit, il n'est pas inné : une rampe structurée avec un binôme et des premières victoires paie pendant des mois.",
+        "Ajustez coacher plutôt que diriger à la maturité de chacun sur la tâche ; le piège du style par défaut sous- ou sur-soutient.",
+        "Faites grandir les gens par l'expérience qui étire et le parrainage, et rendez polyvalent pour la résilience : le développement est ainsi qu'une équipe capitalise."
+      ],
+      "checks": [
+        {
+          "q": "Un expert capable avec 10 ans d'expérience rejoint votre équipe. Quel style de leadership convient (leadership situationnel) ?",
+          "options": [
+            "Diriger : donner des instructions détaillées pas à pas",
+            "Déléguer (ou soutenir) : fixez le résultat et écartez-vous",
+            "Le même style que vous utilisez avec tout le monde, par cohérence",
+            "Totalement en retrait, sans aucun point"
+          ],
+          "correct": 1,
+          "why": "Le style doit s'ajuster à la compétence et à l'engagement sur la tâche ; un expert très compétent a besoin de délégation/soutien, pas de direction : sur-diriger un expert est démotivant."
+        },
+        {
+          "q": "Selon la règle 70-20-10, d'où vient l'essentiel du développement réel ?",
+          "options": [
+            "De la formation et des cours formels",
+            "De l'expérience exigeante sur le terrain et des missions qui étirent",
+            "De la lecture et de l'auto-formation",
+            "Des évaluations de performance annuelles"
+          ],
+          "correct": 1,
+          "why": "Environ 70 % de la croissance vient de l'expérience exigeante, 20 % des autres et seulement 10 % de la formation formelle, donc les dirigeants devraient se tourner vers les missions qui étirent avant les cours."
+        },
+        {
+          "q": "Quelle est la différence entre mentorat et parrainage ?",
+          "options": [
+            "Ce sont deux mots pour la même chose",
+            "Un mentor conseille ; un parrain dépense sa propre crédibilité pour ouvrir des portes",
+            "Le mentorat est formel ; le parrainage est informel",
+            "Le parrainage n'est que pour les seniors"
+          ],
+          "correct": 1,
+          "why": "Les mentors donnent de l'orientation ; les parrains plaident et créent de l'opportunité. Le développement cale quand un dirigeant mentore généreusement mais ne parraine jamais."
+        }
+      ],
+      "practiceRubric": [
+        "Le plan de 30/60/90 de l'arrivant a un binôme nommé, une première victoire concrète et un « à quoi ressemble un bon travail » explicite.",
+        "Votre style pour l'arrivant s'ajuste à sa maturité sur chaque tâche, pas à un unique style par défaut.",
+        "Le plan de la personne qui plafonne s'appuie sur une expérience qui étire (pas seulement un cours), avec mentor contre parrain rendu explicite."
+      ],
+      "practiceExemplar": "Arrivante (Aria) : jour 30 = livrer deux petites corrections avec Ben comme binôme ; jour 60 = posséder le service de notifications ; jour 90 = piloter une petite fonctionnalité. Je dirigerai, puis coacherai, puis déléguerai à mesure qu'elle monte en puissance. Plafonné (Marco) : étirement = piloter la migration (expérience 70-20-10) ; il a besoin d'un parrain, donc je proposerai son nom pour la guilde d'architecture."
+    },
+    {
+      "number": 16,
+      "part": "IV",
+      "title": "Équipes distribuées et hybrides",
+      "summary": "Quand une équipe est répartie entre sites, fuseaux horaires et types de contrat, la confiance, la clarté et le rythme cessent d'être automatiques : il faut les concevoir.",
+      "theme": "La distance punit ce qui était déjà fragile et récompense ce que vous rendez explicite.",
+      "theory": "La confiance et l'appartenance à distance doivent se construire à dessein ; la communication asynchrone par défaut et le contexte écrit remplacent l'osmose de couloir ; prestataires et sous-traitants s'intègrent comme des membres à part entière plutôt que comme une seconde catégorie ; l'intelligence culturelle vous porte au-delà des frontières ; et un rythme soutenable, protégé délibérément, prévient l'épuisement que la distance accélère en silence.",
+      "theoryHtml": "<p>La colocalisation cache beaucoup de processus faible derrière les conversations de couloir et le langage corporel partagé. La distance retire ce coussin, donc une équipe distribuée ou hybride doit <em>concevoir</em> ce qu'une équipe en présentiel reçoit gratuitement.</p><ul><li><strong>Confiance et appartenance, construites à dessein :</strong> les équipes à distance fonctionnent sur la <em>confiance rapide</em>, accordée d'emblée puis confirmée par la livraison fiable. Vous la construisez en sur-communiquant le contexte, en honorant les engagements de façon visible et en créant une connexion intentionnelle, car la machine à café ne le fera pas à votre place. L'<em>équité</em> des fuseaux compte aussi : faites tourner la douleur des réunions plutôt que de taxer toujours la même région.</li><li><strong>L'asynchrone d'abord et l'écrit par défaut :</strong> quand les gens ne peuvent pas être en ligne ensemble, la décision documentée, la démo enregistrée et le brief écrit et clair deviennent le système nerveux de l'équipe. L'asynchrone d'abord élargit qui peut contribuer (y compris les discrets et les non-natifs) et empêche l'avancement de dépendre d'heures qui se chevauchent.</li><li><strong>Intégrez prestataires et sous-traitants comme des membres à part entière :</strong> les équipes à deux niveaux —« nous » et « les prestataires »— fuient confiance et contexte. Donnez aux partenaires la mission, l'accès et l'inclusion de quiconque fait le travail ; les en priver garantit le désengagement que vous leur reprochez ensuite.</li><li><strong>Intelligence culturelle au-delà des frontières :</strong> distribué signifie souvent multiculturel. La <strong>IC</strong> —l'élan, la connaissance, la stratégie et l'action pour travailler entre cultures— et les échelles culturelles de Meyer transforment « ils sont difficiles » en « nous sommes loin sur le feedback et la hiérarchie », ce autour de quoi vous pouvez vraiment concevoir.</li><li data-more=\"1\"><strong>Rythme soutenable et prévention de l'épuisement :</strong> Christina Maslach cadre l'épuisement (burnout) comme fatigue, cynisme et sentiment d'inefficacité, poussé par des décalages chroniques en charge de travail, contrôle, récompense, communauté, équité et valeurs. Le travail à distance érode la frontière entre connecté et déconnecté, donc les dirigeants doivent la protéger : montrer l'exemple en se déconnectant, respecter les fuseaux et guetter le « démissionnaire silencieux » toujours disponible avant qu'il ne craque.</li></ul><p><strong>Un cas concret.</strong> Une équipe répartie sur trois continents rate sans cesse les passations et couve un ressentiment silencieux envers la région qui prend toujours l'appel de 6 h du matin. La responsable passe à l'asynchrone d'abord (décisions écrites, démos enregistrées), fait tourner les horaires de réunion pour que la douleur soit partagée, intègre les deux sous-traitants à part entière à la planification et pose une norme explicite : aucune attente de réponse en dehors de vos horaires. En un mois, les passations sont fiables, les sous-traitants proposent des idées et le risque d'épuisement à Manille a visiblement reculé.</p><p data-depth=\"2\"><strong>La distance change ce que la communication peut transporter.</strong> La théorie de la richesse des médias (Daft et Lengel) classe les canaux selon ce qu'ils transmettent : le présentiel et la vidéo sont « riches » (ton, expression, feedback instantané), tandis que le chat et les documents sont « pauvres ». La discipline est l'adéquation : utilisez des canaux riches pour les messages ambigus, émotionnels ou à fort enjeu (feedback, conflit, décisions qui exigent l'adhésion) et des canaux pauvres et asynchrones pour le simple et le factuel. Annoncer une mauvaise nouvelle par texte, ou débattre d'un fait déjà tranché en réunion en direct, est une inadéquation de canal qui coûte confiance et temps en silence.</p><ul><li><strong>Le problème du terrain commun (Cramton) :</strong> les équipes distribuées échouent moins par mauvaise intention que par le <em>problème de la connaissance mutuelle</em> : les membres supposent un contexte partagé qui n'existe pas, puis interprètent mal le silence ou le retard d'un collègue comme une attitude plutôt qu'une circonstance (une erreur fondamentale d'attribution amplifiée par la distance). Le remède est de sur-partager le contexte et d'expliciter la situation : « c'est férié ici », « je suis bloqué sur X ».</li><li><strong>Biais de proximité en hybride (le piège des deux niveaux) :</strong> quand certains sont colocalisés et d'autres à distance, ceux qui sont dans la salle tendent à avoir plus de temps de parole, de visibilité et —la recherche le confirme régulièrement— plus de promotions, indépendamment de la production. Les dirigeants doivent égaliser activement : mener les réunions hybrides comme si tout le monde était à distance, décider par écrit et juger la contribution aux résultats, pas à la présence.</li><li><strong>Provoquez les rencontres (la courbe d'Allen) :</strong> Thomas Allen a constaté que la probabilité que deux personnes communiquent chute fortement avec la distance qui les sépare ; le travail à distance porte cette distance à l'infini, donc l'échange spontané de couloir doit être délibérément reconçu : mises à jour écrites, rituels de « machine à café » virtuelle et rencontres en présentiel périodiques.</li></ul><p>Diriger à distance n'est pas le leadership en présentiel fait par vidéo ; c'est un métier distinct où contexte, équité et connexion doivent se construire à dessein, car la proximité ne les construira plus à votre place.</p>",
+      "keyModels": [
+        {
+          "name": "Confiance rapide",
+          "desc": "Les équipes temporaires et à distance ne peuvent pas attendre que la confiance s'accumule lentement, donc les membres l'accordent d'emblée puis la confirment par la livraison fiable. Sur-communiquer le contexte et honorer les engagements est la façon de la conserver."
+        },
+        {
+          "name": "Asynchrone d'abord / documentation",
+          "desc": "Des décisions écrites, des démos enregistrées et des briefs clairs permettent à une équipe d'avancer sans heures qui se chevauchent, et élargissent qui peut contribuer, y compris les membres plus discrets et les non-natifs."
+        },
+        {
+          "name": "Intelligence culturelle (IC — Earley et Ang)",
+          "desc": "La capacité de travailler entre cultures : l'élan à s'engager, la connaissance de la façon dont les cultures diffèrent, la stratégie pour planifier et vérifier ses lectures, et l'action pour fléchir. Avec les échelles culturelles de Meyer, elle transforme la friction en un écart ajustable."
+        },
+        {
+          "name": "Modèle d'épuisement de Maslach",
+          "desc": "L'épuisement est fatigue, cynisme et efficacité réduite, poussé par des décalages en charge de travail, contrôle, récompense, communauté, équité et valeurs. Il nomme quoi corriger au lieu de dire aux gens d'être plus résilients."
+        },
+        {
+          "name": "Équité des fuseaux horaires",
+          "desc": "Faites tourner le coût des réunions inopportunes et privilégiez l'asynchrone par défaut pour qu'aucune région ne paie toujours l'impôt de l'aube ou de la nuit. L'équité sur quand les gens travaillent fait partie de la confiance à distance."
+        }
+      ],
+      "colourAngle": {
+        "red": "Les rouges gardent les équipes distribuées décidées et rapides, mais leur penchant pour l'appel synchrone rapide peut taxer les fuseaux lointains et sauter la trace écrite, laissant de côté les membres asynchrones et les sous-traitants dans la décision qu'on leur demande ensuite d'exécuter.",
+        "yellow": "Les jaunes travaillent dur la connexion et l'appartenance à distance, dont la distance a grand besoin, mais leur énergie est faite pour la salle ; ils peuvent trop peu documenter et laisser les voix plus discrètes, hors caméra ou non natives s'éteindre sur une grille vidéo.",
+        "green": "Les verts sont attentifs à l'inclusion et à qui est surchargé, ce qui protège de l'épuisement, mais leur réticence à imposer peut laisser les normes (délais de réponse, rotation des réunions, limites hors horaires) non dites, si bien que l'équité qu'ils veulent n'est jamais conçue.",
+        "blue": "Les bleus excellent dans la documentation et le processus clair qu'exige l'asynchrone d'abord, mais peuvent trop s'appuyer sur les systèmes écrits et sous-investir dans la connexion humaine et la lecture culturelle qui font d'une équipe distribuée une équipe, et non un ensemble de tickets."
+      },
+      "leaderInAction": "Une dirigeante à la tête d'une équipe APAC-EMEA-Amériques remarque que les passations ratent et que l'équipe de Manille est silencieusement rancunière de prendre toujours l'appel tardif. Elle passe l'équipe à l'asynchrone d'abord —chaque décision écrite, chaque démo enregistrée—, fait tourner l'unique réunion partagée sur les trois fuseaux, intègre à part entière les deux sous-traitants de long terme à la planification et aux canaux, et publie une norme explicite : aucune attente de réponse en dehors de vos propres horaires. En un mois, les passations sont fiables, les sous-traitants proposent des idées et le risque d'épuisement à Manille a visiblement reculé.",
+      "practice": "Auditez votre équipe distribuée sur quatre fronts : (1) la douleur de l'horaire de réunion tourne-t-elle équitablement ?, (2) les décisions sont-elles écrites et retrouvables ?, (3) les sous-traitants sont-ils traités comme des membres à part entière ? et (4) y a-t-il une limite claire hors horaires ? Corrigez le plus faible cette semaine.",
+      "watchOut": [
+        "Recourir par défaut au synchrone : mener une équipe distribuée comme une équipe colocalisée taxe les fuseaux lointains et exclut en silence des décisions réelles les membres asynchrones et hors caméra.",
+        "Les équipes à deux niveaux : traiter prestataires et sous-traitants comme des étrangers leur refuse le contexte et l'appartenance qui les rendraient engagés, pour ensuite leur reprocher de se désengager.",
+        "Le piège du toujours connecté : le travail à distance érode la limite connecté/déconnecté, donc le silence peut cacher l'épuisement ; surveillez charge et communauté, et montrez l'exemple en vous déconnectant."
+      ],
+      "takeaways": [
+        "La distance retire le coussin de la colocalisation, donc confiance, clarté et appartenance doivent se concevoir, pas se présumer.",
+        "Passez à l'asynchrone d'abord et mettez les choses par écrit ; faites tourner la douleur des fuseaux et intégrez les sous-traitants à part entière.",
+        "Protégez un rythme soutenable : l'épuisement est un problème de charge et de limites à concevoir pour l'éviter, pas un défaut de résilience personnelle."
+      ],
+      "checks": [
+        {
+          "q": "Votre équipe couvre trois continents et une région prend toujours l'appel inopportun. Quel est le correctif le plus juste et durable ?",
+          "options": [
+            "Garder l'horaire : l'équipe devrait s'adapter au fuseau du dirigeant",
+            "Passer à l'asynchrone d'abord et faire tourner l'heure de la réunion partagée pour que la douleur soit partagée",
+            "Annuler toutes les réunions",
+            "Demander à la région fatiguée de simplement serrer les dents"
+          ],
+          "correct": 1,
+          "why": "L'équité des fuseaux —faire tourner la douleur des réunions et privilégier l'asynchrone— répartit le coût équitablement et garde les membres lointains dans les décisions, ce qui fait partie de la confiance à distance."
+        },
+        {
+          "q": "Comment les sous-traitants et prestataires de long terme devraient-ils être intégrés dans une équipe distribuée ?",
+          "options": [
+            "Tenus à distance, avec un accès limité au strict nécessaire",
+            "Avec la mission, l'accès et l'inclusion de tout autre membre qui fait le travail",
+            "Gérés entièrement via leur agence, jamais directement",
+            "Exclus de la planification pour protéger la confidentialité"
+          ],
+          "correct": 1,
+          "why": "Les équipes à deux niveaux « nous contre les sous-traitants » fuient confiance et contexte ; donner aux partenaires un contexte et une appartenance réels est ce qui en fait des contributeurs engagés."
+        },
+        {
+          "q": "Un collaborateur à distance s'est tu et sa production baisse. Sous l'angle de l'épuisement (Maslach), quel est le premier geste avisé ?",
+          "options": [
+            "Lui dire de développer plus de résilience",
+            "Regarder la charge de travail, le contrôle et les limites —et vérifier la ligne dedans/hors horaires— au lieu de présumer un problème de motivation",
+            "Ajouter plus de réunions de suivi pour le surveiller",
+            "Attendre de voir si cela se résout tout seul"
+          ],
+          "correct": 1,
+          "why": "L'épuisement est poussé par des décalages en charge de travail, contrôle, récompense, communauté, équité et valeurs, pas par une résilience faible ; le travail à distance érode les limites, alors vérifiez-les d'abord."
+        }
+      ],
+      "practiceRubric": [
+        "Vous avez jugé l'équité de l'horaire de réunion selon que la douleur tourne, pas selon ce qui vous arrange.",
+        "Les décisions de votre équipe sont écrites et retrouvables, si bien que l'avancement ne dépend pas d'heures qui se chevauchent.",
+        "Les sous-traitants et la limite hors horaires sont traités explicitement, pas laissés à la supposition."
+      ],
+      "practiceExemplar": "Audit : la douleur des réunions pesait entièrement sur Manille (échec). Correctif cette semaine : faire tourner la synchro hebdomadaire sur les trois fuseaux et déplacer les points d'avancement vers un fil écrit. Les sous-traitants sont dans un canal séparé (deux niveaux) ; je les fusionnerai dans les canaux principaux de l'équipe et la planification. Hors horaires : je publierai une norme « aucune réponse attendue en dehors de vos horaires » et je cesserai moi-même d'envoyer des messages tard le soir."
     },
     {
       "number": 17,
@@ -562,6 +834,92 @@
         "Le meme comportement peut sembler respectueux dans une culture et grossier dans une autre.",
         "Nommer l echelle transforme la friction invisible en une difference que vous pouvez discuter et resoudre."
       ]
+    },
+    {
+      "number": 22,
+      "part": "V",
+      "title": "L'état d'esprit de développement : devenir un « apprends-tout »",
+      "summary": "Satya Nadella a rebâti Microsoft sur une seule idée de Carol Dweck —que l'aptitude se cultive, elle n'est pas figée— transformant une entreprise de « sait-tout » en une de « apprends-tout ». Ce basculement est le moteur sous chaque compétence de ce livre.",
+      "theme": "Le talent fixe votre point de départ ; l'état d'esprit fixe votre trajectoire.",
+      "theory": "Les recherches de Carol Dweck séparent un état d'esprit fixe (l'aptitude est innée et statique) d'un état d'esprit de développement (l'aptitude grandit avec l'effort, la stratégie et le feedback). Satya Nadella en a fait la philosophie opérationnelle de Microsoft —l'« apprends-tout » bat le « sait-tout »— avec la curiosité et l'empathie comme moteurs de l'apprentissage.",
+      "theoryHtml": "<p><strong>Carol Dweck</strong> trace dans <em>Mindset</em> (2006) une ligne entre deux croyances sur l'aptitude. Dans un <strong>état d'esprit fixe</strong>, le talent est une quantité figée qu'on a ou qu'on n'a pas, alors on protège son image : on évite les défis difficiles, on cache ses erreurs, on rejette le feedback et on se sent menacé quand d'autres réussissent. Dans un <strong>état d'esprit de développement</strong>, l'aptitude est quelque chose qu'on <em>développe</em> par l'effort, une meilleure stratégie et le feedback, alors on cherche le défi, on traite l'échec comme de l'information, on apprend de la critique et on s'inspire au lieu de rapetisser devant le succès des autres.</p><ul><li><strong>Le pouvoir du « pas encore » :</strong> « je ne sais pas faire ça » devient « je ne sais pas <em>encore</em> faire ça » : un mot qui reformule un verdict en une étape.</li><li><strong>Le processus avant la personne :</strong> louez la stratégie, l'effort et le progrès (« tu as trouvé une approche plus maligne »), pas le trait (« tu es si doué »). Louer le talent apprend en silence aux gens à craindre le défi qui pourrait en exposer la limite.</li><li><strong>L'échec comme donnée :</strong> le dirigeant à l'état d'esprit de développement mène des expériences et lit les revers pour ce qu'ils enseignent, non comme un tableau de qui est assez bon.</li><li><strong>L'état d'esprit est contagieux :</strong> un dirigeant fixe l'état d'esprit de toute la salle par sa façon de réagir aux mauvaises nouvelles.</li><li data-more=\"1\"><strong>Le « faux » état d'esprit de développement (l'avertissement de Dweck) :</strong> proclamer l'état d'esprit tout en se comportant de façon figée : récompenser l'effort qui ne mène nulle part, ou utiliser « état d'esprit de développement » comme slogan. Le vrai état d'esprit de développement, c'est essayer de nouvelles stratégies et demander de l'aide, pas seulement s'efforcer davantage sur la même chose.</li></ul><p>Quand <strong>Satya Nadella</strong> est devenu PDG de Microsoft en 2014, il en a fait le cœur du renouveau de l'entreprise. Dans <em>Hit Refresh</em> (2017), il a posé l'ambition dans le langage même de Dweck : passer d'une culture de <strong>« sait-tout » à une culture d'« apprends-tout »</strong>. Le but n'était pas d'effacer le passé mais de le rafraîchir : la curiosité au-dessus de l'intelligence, apprendre des clients au-dessus de défendre de vieilles certitudes. Il l'a associé à l'<strong>empathie</strong>, qu'il traite non comme une gentillesse molle mais comme une source de perspicacité et d'innovation : on ne peut pas répondre à un besoin qu'on n'est pas capable de ressentir. La culture, selon lui, n'est pas une affiche au mur : c'est ce que les dirigeants incarnent dans les petits moments, surtout leur réaction quand quelque chose casse.</p><p><strong>Un cas concret.</strong> Une équipe livre une fonctionnalité qui échoue lamentablement. Sous un dirigeant à l'état d'esprit fixe, la réunion cherche quelqu'un à blâmer, et les gens apprennent en silence à cacher le risque la fois suivante. Sous un dirigeant « apprends-tout », la même réunion demande « que nous a appris ceci, et qu'essaierons-nous différemment ? » : l'échec est cher, mais il achète une leçon que l'équipe garde vraiment. Même événement, trajectoire opposée, décidée par l'état d'esprit dans le fauteuil.</p><p data-depth=\"2\"><strong>Ce qui fait vraiment grandir l'aptitude est un mécanisme, pas une humeur.</strong> Les recherches d'Anders Ericsson sur l'expertise montrent que le moteur est la <em>pratique délibérée</em> : travailler à la limite de son aptitude actuelle, avec des objectifs clairs, un feedback immédiat et un raffinement répété ; non des heures accumulées, mais des répétitions focalisées, exigeantes et riches en feedback. Un état d'esprit de développement est la croyance qui rend la pratique délibérée digne d'être commencée ; la pratique délibérée est ce qui transforme la croyance en résultats.</p><ul><li><strong>Effort plus stratégie plus aide :</strong> les travaux ultérieurs de Dweck soulignent qu'un vrai état d'esprit de développement n'est pas « efforce-toi plus » mais « essaie autrement » : de nouvelles stratégies, chercher du feedback et demander de l'aide. Louer l'effort qui continue d'échouer est le « faux état d'esprit de développement » avec un badge.</li><li><strong>Échec intelligent (Amy Edmondson) :</strong> tous les échecs ne se valent pas. L'échec blâmable (négligence) diffère des <em>échecs intelligents</em> des expériences bien conçues à la frontière, ceux qu'une culture d'apprentissage doit célébrer, car ils sont le prix de la découverte.</li><li><strong>L'organisation apprenante (Senge) :</strong> Nadella a mis la mentalité à l'échelle de la personne à l'entreprise —individu, équipe et organisation—, faisant écho à l'idée de Senge selon laquelle le seul avantage durable est d'apprendre plus vite que la concurrence. La curiosité, rendue systémique, devient stratégie.</li></ul>",
+      "keyModels": [
+        {
+          "name": "État d'esprit fixe contre état d'esprit de développement (Carol Dweck, 2006)",
+          "desc": "Un état d'esprit fixe traite l'aptitude comme innée et statique, alors les gens évitent le défi, cachent l'échec et se sentent menacés par le succès des autres. Un état d'esprit de développement traite l'aptitude comme développable par l'effort, la stratégie et le feedback, alors les gens cherchent le défi, apprennent des revers et grandissent. La croyance s'auto-réalise : elle guide les comportements qui semblent ensuite la confirmer."
+        },
+        {
+          "name": "« Apprends-tout », pas « sait-tout » (Satya Nadella, Hit Refresh, 2017)",
+          "desc": "PDG, Nadella a fait de l'état d'esprit de développement de Dweck le cœur du renouveau culturel de Microsoft, remplaçant une culture du prouver son intelligence par une de curiosité et d'apprentissage. Appliqué à trois niveaux —individu, équipe et organisation entière— et incarné par le haut plutôt qu'ordonné par circulaire."
+        },
+        {
+          "name": "Le pouvoir du « pas encore »",
+          "desc": "Reformuler « je ne peux pas » en « je ne peux pas encore » convertit un verdict figé en un point de la courbe d'apprentissage. Le même geste transforme un score d'évaluation ou une tentative ratée d'une étiquette en une ligne de départ, et c'est pourquoi le feedback à l'état d'esprit de développement suit le progrès dans le temps, pas seulement le niveau d'aujourd'hui."
+        },
+        {
+          "name": "L'empathie comme moteur d'innovation (Nadella)",
+          "desc": "Nadella traite l'empathie comme une capacité pratique plutôt que tendre : comprendre ce que les gens ressentent et ce dont ils ont vraiment besoin est là où commencent la perspicacité et l'innovation. Elle rend aussi une culture de développement sûre, car les gens prennent les risques que l'apprentissage exige seulement quand ils font confiance à la salle."
+        }
+      ],
+      "colourAngle": {
+        "red": "Les rouges apportent l'élan et l'appétit du défi dont un état d'esprit de développement a besoin, mais leur instinct de gagner et d'avoir raison peut virer au figé, traitant un revers comme une défaite à enterrer plutôt qu'une leçon à extraire. Leur défi de croissance est de se laisser voir apprendre à voix haute, surtout d'une erreur.",
+        "yellow": "Les jaunes aiment le neuf et rebondissent vite, ce qui est un carburant de croissance, mais leur optimisme peut sauter l'autopsie honnête, célébrant l'effort sans en extraire la leçon. Leur défi est d'associer l'enthousiasme à un « ce que je ferais autrement » concret.",
+        "green": "Les verts créent la sécurité où les gens osent être des apprenants, mais leur aversion à l'inconfort peut sauver une personne en difficulté de la lutte productive qui, justement, la fait grandir. Leur défi est de laisser les gens rester dans le « pas encore » au lieu de l'aplanir.",
+        "blue": "Les bleus valorisent la maîtrise et le feedback, ce qui sied à la pratique délibérée, mais leur peur de se tromper peut se durcir en perfectionnisme, évitant les tentatives visibles et imparfaites où se produit l'apprentissage. Leur défi est de livrer le brouillon grossier et de traiter la correction comme le but, pas comme l'échec."
+      },
+      "leaderInAction": "Une nouvelle responsable d'équipe hérite d'un groupe qui a appris à paraître infaillible : les problèmes surgissent tard et déguisés, car le manager précédent punissait les erreurs. Le premier mois, elle fait une chose en boucle : quand quelque chose casse, elle demande « qu'avons-nous appris ? » avant « qui l'a fait ? », et raconte ses propres ratés à voix haute (« j'ai mal jugé cette estimation ; voici ce que je changerai »). Elle échange la louange de l'intelligence contre la louange des stratégies malignes et des mises à jour honnêtes. En un trimestre, les risques arrivent tôt, quand ils sont encore bon marché à corriger, et l'équipe se met à proposer des expériences au lieu de défendre des positions. Rien n'a changé dans leur talent, seulement ce que la salle croyait de l'aptitude et, donc, ce qu'il semblait sûr de tenter.",
+      "practice": "Attrapez en vous un réflexe d'état d'esprit fixe cette semaine : un moment où vous avez esquivé un défi, caché une erreur ou vous êtes senti menacé par le succès d'un pair. Nommez-le, ajoutez le mot « pas encore » et choisissez le geste d'apprentissage concret que vous ferez à la place.",
+      "watchOut": [
+        "Le faux état d'esprit de développement : brandir le drapeau tout en se comportant de façon figée, récompensant l'effort qui ne mène nulle part ou disant « état d'esprit de développement » sans changer sa façon de traiter l'échec.",
+        "Louer l'effort au lieu de l'apprentissage : l'effort ne compte qu'associé à de nouvelles stratégies, du feedback et le fait de demander de l'aide ; s'acharner plus fort sur la même approche fausse n'est pas de la croissance.",
+        "En faire une autre étiquette figée : « c'est que je ne suis pas quelqu'un d'état d'esprit de développement » est l'état d'esprit fixe habillé de celui du développement."
+      ],
+      "takeaways": [
+        "L'aptitude se cultive, elle n'est pas figée, et le croire change ce que vous osez tenter.",
+        "Les dirigeants fixent l'état d'esprit de la salle par leur façon de réagir à l'échec : le blâme engendre la dissimulation, la curiosité engendre l'apprentissage.",
+        "L'« apprends-tout » bat le « sait-tout » : curiosité et empathie, pratiquées chaque jour, sont le moteur sous chaque autre compétence de ce livre."
+      ],
+      "checks": [
+        {
+          "q": "Un projet échoue en public. Quelle réponse modèle le mieux une culture d'« apprends-tout » ?",
+          "options": [
+            "Identifier qui était responsable pour que cela ne se reproduise pas",
+            "Demander ce que l'équipe a appris et ce qu'elle essaiera différemment, avant d'assigner des blâmes",
+            "Tourner la page vite sans s'y attarder",
+            "Rappeler à tous les standards qu'ils ont manqués"
+          ],
+          "correct": 1,
+          "why": "Les dirigeants fixent l'état d'esprit de la salle par leur façon de gérer l'échec : « qu'avons-nous appris ? » transforme un revers coûteux en une leçon que l'équipe garde, tandis que le blâme apprend aux gens à cacher le risque la fois suivante."
+        },
+        {
+          "q": "Un collaborateur dit : « c'est que je ne suis pas quelqu'un de chiffres ». Quelle est la reformulation la plus tournée vers le développement ?",
+          "options": [
+            "Lui donner raison et réassigner le travail chiffré à quelqu'un d'autre",
+            "Ajouter « pas encore » —« pas quelqu'un de chiffres pas encore »— et nommer un premier pas concret pour le développer",
+            "Lui dire que n'importe qui peut tout faire en s'efforçant assez",
+            "Le rassurer en disant que ses autres forces compensent"
+          ],
+          "correct": 1,
+          "why": "Le pouvoir du « pas encore » convertit une étiquette figée en une étape de la courbe d'apprentissage ; l'associer à une stratégie concrète —pas seulement « efforce-toi plus »— est ce qui le rend réel plutôt qu'un slogan."
+        },
+        {
+          "q": "Lequel est un exemple du « faux état d'esprit de développement » de Dweck ?",
+          "options": [
+            "Louer la stratégie plus maligne que quelqu'un a employée",
+            "Récompenser l'effort qui répète sans cesse la même approche défaillante, et l'appeler état d'esprit de développement",
+            "Demander à un collègue en difficulté de quelle aide il a besoin",
+            "Partager sa propre erreur et ce qu'on a changé"
+          ],
+          "correct": 1,
+          "why": "Le vrai état d'esprit de développement, c'est de nouvelles stratégies, du feedback et le fait de demander de l'aide, pas seulement l'effort. Récompenser l'effort qui ne mène nulle part tout en brandissant le drapeau de l'« état d'esprit de développement » est exactement la version fausse contre laquelle Dweck met en garde."
+        }
+      ],
+      "practiceRubric": [
+        "Vous avez nommé un réflexe d'état d'esprit fixe concret en vous —un moment réel, pas un générique « je devrais apprendre plus ».",
+        "Vous avez ajouté « pas encore » et choisi un geste d'apprentissage concret (une nouvelle stratégie, du feedback ou demander de l'aide), pas seulement « efforce-toi plus ».",
+        "Vous vous êtes concentré sur votre propre comportement, pas sur le diagnostic de l'état d'esprit des autres."
+      ],
+      "practiceExemplar": "En revue, j'ai esquivé la présentation d'une métrique que je ne comprenais pas tout à fait (réflexe figé : me cacher pour paraître compétent). Reformulé : je ne comprends pas encore cette métrique. Mon geste d'apprentissage : je demanderai au responsable data de me l'expliquer avant la prochaine revue, puis je la présenterai moi-même, erreurs comprises."
     }
   ]
 }
